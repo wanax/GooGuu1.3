@@ -134,6 +134,9 @@
 		AE2AC1A0180E6A9D00A93011 /* DailyStock2Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2AC19F180E6A9D00A93011 /* DailyStock2Cell.m */; };
 		AE2AC1A4180E748600A93011 /* read2.png in Resources */ = {isa = PBXBuildFile; fileRef = AE2AC1A2180E748600A93011 /* read2.png */; };
 		AE2AC1A5180E748600A93011 /* unread2.png in Resources */ = {isa = PBXBuildFile; fileRef = AE2AC1A3180E748600A93011 /* unread2.png */; };
+		AE2AC1A9180E786200A93011 /* GooGuuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2AC1A8180E786200A93011 /* GooGuuViewController.m */; };
+		AE2AC1AD180E82C500A93011 /* ValueViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE2AC1AC180E82C500A93011 /* ValueViewCell.xib */; };
+		AE2AC1B0180E830800A93011 /* ValueViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2AC1AF180E830800A93011 /* ValueViewCell.m */; };
 		AE2CFA4517A0B0A00082F292 /* colorconfigure.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE2CFA4417A0B0A00082F292 /* colorconfigure.plist */; };
 		AE2E458E17D6E36C00BB8CE0 /* googuuNewsBar.png in Resources */ = {isa = PBXBuildFile; fileRef = AE2E458D17D6E36C00BB8CE0 /* googuuNewsBar.png */; };
 		AE2E91A2179D061A0049B28E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2E91A1179D061A0049B28E /* UIKit.framework */; };
@@ -557,6 +560,11 @@
 		AE2AC19F180E6A9D00A93011 /* DailyStock2Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyStock2Cell.m; sourceTree = "<group>"; };
 		AE2AC1A2180E748600A93011 /* read2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = read2.png; sourceTree = "<group>"; };
 		AE2AC1A3180E748600A93011 /* unread2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unread2.png; sourceTree = "<group>"; };
+		AE2AC1A7180E786200A93011 /* GooGuuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooGuuViewController.h; sourceTree = "<group>"; };
+		AE2AC1A8180E786200A93011 /* GooGuuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooGuuViewController.m; sourceTree = "<group>"; };
+		AE2AC1AC180E82C500A93011 /* ValueViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ValueViewCell.xib; sourceTree = "<group>"; };
+		AE2AC1AE180E830800A93011 /* ValueViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValueViewCell.h; sourceTree = "<group>"; };
+		AE2AC1AF180E830800A93011 /* ValueViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValueViewCell.m; sourceTree = "<group>"; };
 		AE2CFA4417A0B0A00082F292 /* colorconfigure.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = colorconfigure.plist; sourceTree = "<group>"; };
 		AE2E458D17D6E36C00BB8CE0 /* googuuNewsBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = googuuNewsBar.png; sourceTree = "<group>"; };
 		AE2E919E179D061A0049B28E /* googuu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = googuu.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1640,6 +1648,15 @@
 			name = News;
 			sourceTree = "<group>";
 		};
+		AE2AC1A6180E777D00A93011 /* GooGuuView */ = {
+			isa = PBXGroup;
+			children = (
+				AE2AC1A7180E786200A93011 /* GooGuuViewController.h */,
+				AE2AC1A8180E786200A93011 /* GooGuuViewController.m */,
+			);
+			name = GooGuuView;
+			sourceTree = "<group>";
+		};
 		AE2E9195179D061A0049B28E = {
 			isa = PBXGroup;
 			children = (
@@ -1712,6 +1729,7 @@
 				AE2E93C3179D09C90049B28E /* Splash */,
 				AE2E93C2179D09C40049B28E /* News */,
 				AE7A446F18092C80009912D7 /* FinancialPic */,
+				AE2AC1A6180E777D00A93011 /* GooGuuView */,
 				AE2E93C1179D09B10049B28E /* FinancialTools */,
 				AE2E93C0179D09A60049B28E /* ClientCenter */,
 				AE2E93BF179D099D0049B28E /* DataModel */,
@@ -2181,6 +2199,8 @@
 				AEFB4C7417A89C830044176B /* LabelSwitchCell.m */,
 				AEF6412D17CEE73200E69F41 /* SearchStockCell.h */,
 				AEF6412E17CEE73200E69F41 /* SearchStockCell.m */,
+				AE2AC1AE180E830800A93011 /* ValueViewCell.h */,
+				AE2AC1AF180E830800A93011 /* ValueViewCell.m */,
 			);
 			name = CustomCell;
 			sourceTree = "<group>";
@@ -2380,6 +2400,7 @@
 				AEF6412B17CEE69600E69F41 /* SearchStockCell.xib */,
 				AE04C12417D5E66D006D311D /* ClientLoginView.xib */,
 				AE6B21C617F7F68C0046E9A7 /* ClientLoginView5.xib */,
+				AE2AC1AC180E82C500A93011 /* ValueViewCell.xib */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -3173,6 +3194,7 @@
 				AE13BE3C17D89371005A313B /* defaultIcon.png in Resources */,
 				AE276A9617D9DDB400C97BB6 /* help.png in Resources */,
 				AE20887F17DEAE2900B70778 /* checkBox.png in Resources */,
+				AE2AC1AD180E82C500A93011 /* ValueViewCell.xib in Resources */,
 				AE20888417DEB7D600B70778 /* addAttentionBt.png in Resources */,
 				AE20888517DEB7D600B70778 /* addCommentBt.png in Resources */,
 				AE20888617DEB7D600B70778 /* deleteAttentionBt.png in Resources */,
@@ -3292,6 +3314,7 @@
 				AE2E9262179D06890049B28E /* AFPropertyListRequestOperation.m in Sources */,
 				AE2E9263179D06890049B28E /* AFURLConnectionOperation.m in Sources */,
 				AE2E9264179D06890049B28E /* AFXMLRequestOperation.m in Sources */,
+				AE2AC1A9180E786200A93011 /* GooGuuViewController.m in Sources */,
 				AE2E9265179D06890049B28E /* UIImageView+AFNetworking.m in Sources */,
 				AE2E9266179D06890049B28E /* GCDiscreetNotificationView.m in Sources */,
 				AE2E9267179D06890049B28E /* JSONKit.m in Sources */,
@@ -3363,6 +3386,7 @@
 				AE1E7CE017D437AF00A13D63 /* ASIDataDecompressor.m in Sources */,
 				AE1E7CE117D437AF00A13D63 /* ASIDownloadCache.m in Sources */,
 				AE1E7CE217D437AF00A13D63 /* ASIFormDataRequest.m in Sources */,
+				AE2AC1B0180E830800A93011 /* ValueViewCell.m in Sources */,
 				AE1E7CE317D437AF00A13D63 /* ASIHTTPRequest.m in Sources */,
 				AE1E7CE417D437AF00A13D63 /* ASIInputStream.m in Sources */,
 				AE1E7CE517D437AF00A13D63 /* ASINetworkQueue.m in Sources */,

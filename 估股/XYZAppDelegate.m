@@ -31,6 +31,7 @@
 #import "FinanceToolsViewController.h"
 #import "BPush.h"
 #import "FinPicKeyWordListViewController.h"
+#import "GooGuuViewController.h"
 
 
 @implementation XYZAppDelegate
@@ -201,7 +202,7 @@ didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
         
         UITabBarItem *barItem=[[UITabBarItem alloc] initWithTitle:@"最新简报" image:[UIImage imageNamed:@"googuuNewsBar"] tag:1];
         UITabBarItem *barItem2=[[UITabBarItem alloc] initWithTitle:@"我的估股" image:[UIImage imageNamed:@"myGooGuuBar"] tag:2];
-        UITabBarItem *barItem3=[[UITabBarItem alloc] initWithTitle:@"金融工具" image:[UIImage imageNamed:@"finToolBar"] tag:3];
+        UITabBarItem *barItem3=[[UITabBarItem alloc] initWithTitle:@"估值观点" image:[UIImage imageNamed:@"finToolBar"] tag:3];
         UITabBarItem *barItem4=[[UITabBarItem alloc] initWithTitle:@"金融图汇" image:[UIImage imageNamed:@"graphExchangeBar"] tag:4];
         UITabBarItem *barItem5=[[UITabBarItem alloc] initWithTitle:@"估值模型" image:[UIImage imageNamed:@"companyListBar"] tag:5];
         
@@ -216,7 +217,7 @@ didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
         UINavigationController *picKeyWordNav=nil;
         
         //金融工具
-        FinanceToolsViewController *toolsViewController=[[FinanceToolsViewController alloc] init];
+        GooGuuViewController *toolsViewController=[[GooGuuViewController alloc] init];
         toolsViewController.tabBarItem=barItem3;
         UINavigationController *toolsNav=nil;
         

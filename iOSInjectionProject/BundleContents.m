@@ -3,7 +3,7 @@
 */
 
 #define INJECTION_NOIMPL
-#define INJECTION_BUNDLE InjectionBundle10
+#define INJECTION_BUNDLE InjectionBundle2
 
 #import "/Applications/Injection Plugin.app/Contents/Resources/BundleInjection.h"
 
@@ -18,17 +18,17 @@
 
 #import "BundleContents.h"
 
-#import "/Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsViewController.m"
+#import "/Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuViewController.m"
 
 
-@interface InjectionBundle10 : NSObject
+@interface InjectionBundle2 : NSObject
 @end
-@implementation InjectionBundle10
+@implementation InjectionBundle2
 
 + (void)load {
     Class bundleInjection = NSClassFromString(@"BundleInjection");
-    extern Class OBJC_CLASS_$_GooNewsViewController;
-	[bundleInjection loadedClass:INJECTION_BRIDGE(Class)(void *)&OBJC_CLASS_$_GooNewsViewController notify:4];
+    extern Class OBJC_CLASS_$_GooGuuViewController;
+	[bundleInjection loadedClass:INJECTION_BRIDGE(Class)(void *)&OBJC_CLASS_$_GooGuuViewController notify:4];
     [bundleInjection loadedNotify:4];
 }
 

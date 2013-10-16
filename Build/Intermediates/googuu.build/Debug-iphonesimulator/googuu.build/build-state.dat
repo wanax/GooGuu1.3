@@ -35,10 +35,10 @@ cCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Ob
 cCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/DailyStockCell.o /Users/xcode/wanax/oc/GooGuu1.2-master/估股/DailyStockCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/tipViewController.o /Users/xcode/wanax/oc/GooGuu1.2-master/估股/tipViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/PRPSplashScreen.o /Users/xcode/wanax/oc/GooGuu1.2-master/估股/PRPSplashScreen.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooNewsViewController.o /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooGuuArticleViewController.o /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/ArticleCommentViewController.o /Users/xcode/wanax/oc/GooGuu1.2-master/估股/ArticleCommentViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/AddCommentViewController.o /Users/xcode/wanax/oc/GooGuu1.2-master/估股/AddCommentViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooNewsViewController.o /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/FinanceToolsViewController.o /Users/xcode/wanax/oc/GooGuu1.2-master/估股/FinanceToolsViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/ClientCenterViewController.o /Users/xcode/wanax/oc/GooGuu1.2-master/估股/ClientCenterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/LoginView.o /Users/xcode/wanax/oc/GooGuu1.2-master/估股/LoginView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
@@ -65,6 +65,7 @@ cCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Ob
 cCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/JSONKit.o /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/JSONKit-master/JSONKit.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/PrettyCustomViewTableViewCell.o /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/PrettyKit/Cells/PrettyCustomViewTableViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/PrettyGridTableViewCell.o /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/PrettyKit/Cells/PrettyGridTableViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooGuuViewController.o /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/ChoseBetaFactorViewController.o /Users/xcode/wanax/oc/GooGuu1.2-master/估股/ChoseBetaFactorViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/PrettySegmentedControlTableViewCell.o /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/PrettyKit/Cells/PrettySegmentedControlTableViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/PrettyTableViewCell.o /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/PrettyKit/Cells/PrettyTableViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
@@ -181,6 +182,7 @@ cCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Ob
 cCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/CJSONSerializer.o /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/TouchJSON/JSON/CJSONSerializer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/ProAlertView.o /Users/xcode/wanax/oc/GooGuu1.2-master/估股/ProAlertView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/CounterBankViewController.o /Users/xcode/wanax/oc/GooGuu1.2-master/估股/CounterBankViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/ValueViewCell.o /Users/xcode/wanax/oc/GooGuu1.2-master/估股/ValueViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/googuu normal i386
 cGenerateDSYMFile /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app.dSYM /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/googuu
 cCpResource 估股/Images/FinToolsIcon/FUNDTIME.png Build/Products/Debug-iphonesimulator/googuu.app/FUNDTIME.png
@@ -188,27 +190,27 @@ cCopyStringsFile /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iph
 cCompileXIB /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/UserCell.xib
 cCompileXIB /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/MainWindow.xib
 cCompileXIB /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/CustomCell.xib
+cCompileXIB /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/GooNewsCell.xib
 cCompileXIB /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/StockCell.xib
 cCompileXIB /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/AddCommentView.xib
+cCpResource 估股/Images/read2.png Build/Products/Debug-iphonesimulator/googuu.app/read2.png
 cCompileXIB /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/DailyStockCell.xib
 cCpResource 估股/Images/FinToolsIcon/HSTOCK.png Build/Products/Debug-iphonesimulator/googuu.app/HSTOCK.png
 cCpResource 估股/Images/blackArrow.png Build/Products/Debug-iphonesimulator/googuu.app/blackArrow.png
 cCpResource 估股/Images/FinToolsIcon/BETA.png Build/Products/Debug-iphonesimulator/googuu.app/BETA.png
-cCompileXIB /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/GooNewsCell.xib
-cCpResource 估股/Images/read2.png Build/Products/Debug-iphonesimulator/googuu.app/read2.png
 cCpResource 估股/Images/blackArrow@2x.png Build/Products/Debug-iphonesimulator/googuu.app/blackArrow@2x.png
 cCpResource 估股/Images/blueArrow.png Build/Products/Debug-iphonesimulator/googuu.app/blueArrow.png
 cCpResource 估股/Default.png Build/Products/Debug-iphonesimulator/googuu.app/Default.png
 cCpResource 估股/Images/blueArrow@2x.png Build/Products/Debug-iphonesimulator/googuu.app/blueArrow@2x.png
 cCpResource 估股/Images/loginBack2.png Build/Products/Debug-iphonesimulator/googuu.app/loginBack2.png
 cCpResource 估股/Images/grayArrow.png Build/Products/Debug-iphonesimulator/googuu.app/grayArrow.png
+cCpResource 估股/Images/unread2.png Build/Products/Debug-iphonesimulator/googuu.app/unread2.png
 cCpResource 估股/Images/FinToolsIcon/PE.png Build/Products/Debug-iphonesimulator/googuu.app/PE.png
 cCpResource 估股/Images/grayArrow@2x.png Build/Products/Debug-iphonesimulator/googuu.app/grayArrow@2x.png
 cCpResource 估股/Images/MHTabBarActiveTab.png Build/Products/Debug-iphonesimulator/googuu.app/MHTabBarActiveTab.png
 cCpResource 估股/Images/FinToolsIcon/CASHCOUNT.png Build/Products/Debug-iphonesimulator/googuu.app/CASHCOUNT.png
 cCpResource 估股/Images/FinToolsIcon/EXCEL.png Build/Products/Debug-iphonesimulator/googuu.app/EXCEL.png
 cCpResource 估股/Images/shadowDown.png Build/Products/Debug-iphonesimulator/googuu.app/shadowDown.png
-cCpResource 估股/Images/unread2.png Build/Products/Debug-iphonesimulator/googuu.app/unread2.png
 cCompileXIB /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/DiscountRateView5.xib
 cCpResource 估股/PNG30x30-black/finToolBar.png Build/Products/Debug-iphonesimulator/googuu.app/finToolBar.png
 cCpResource 估股/Images/shadowUp.png Build/Products/Debug-iphonesimulator/googuu.app/shadowUp.png
@@ -331,6 +333,7 @@ cCpResource 估股/Images/goinBt.png Build/Products/Debug-iphonesimulator/googuu
 cCpResource 估股/Images/defaultIcon.png Build/Products/Debug-iphonesimulator/googuu.app/defaultIcon.png
 cCpResource 估股/Images/help.png Build/Products/Debug-iphonesimulator/googuu.app/help.png
 cCpResource 估股/Images/checkBox.png Build/Products/Debug-iphonesimulator/googuu.app/checkBox.png
+cCompileXIB /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/ValueViewCell.xib
 cCpResource 估股/Images/addAttentionBt.png Build/Products/Debug-iphonesimulator/googuu.app/addAttentionBt.png
 cCpResource 估股/Images/addCommentBt.png Build/Products/Debug-iphonesimulator/googuu.app/addCommentBt.png
 cCpResource 估股/Images/deleteAttentionBt.png Build/Products/Debug-iphonesimulator/googuu.app/deleteAttentionBt.png
@@ -5693,13 +5696,17 @@ N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-i
 t1381904939
 s60296
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooGuuViewController.o
+t1381915958
+s93032
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooNewsCell.o
 t1381906942
 s57704
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooNewsViewController.o
-t1381907776
-s158468
+t1381912778
+s158676
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GuestCommentViewController.o
 t1381904938
@@ -6029,14 +6036,18 @@ N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-i
 t1381904940
 s110216
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/ValueViewCell.o
+t1381911942
+s51224
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/XYZAppDelegate.o
-t1381904939
-s129780
+t1381914344
+s129824
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/googuu.LinkFileList
-c00000000525E348B0000000000006684
-t1381905547
-s26244
+c00000000525E4D8600000000000067A9
+t1381911942
+s26537
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/main.o
 t1381904939
@@ -6057,11 +6068,11 @@ t1381774542
 s47
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app
-t1381907787
-s5678
+t1381915960
+s5712
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app.dSYM
-t1381907399
+t1381914345
 s102
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/ASTOCK.png
@@ -6069,7 +6080,7 @@ t1381774542
 s4265
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/AboutUsAndCopyrightView.nib
-t1381774542
+t1381909524
 s136
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/AddCommentView.nib
@@ -6117,7 +6128,7 @@ t1381774542
 s136
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/ClientLoginView5.nib
-t1381774542
+t1381911947
 s136
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/CustomCell.nib
@@ -6229,7 +6240,7 @@ t1381774542
 s136
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/StockCell.nib
-t1381774542
+t1381911946
 s136
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/TradeList.plist
@@ -6239,6 +6250,10 @@ s2502
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/UserCell.nib
 t1381774542
 s2674
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/ValueViewCell.nib
+t1381914269
+s136
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/WACC.png
 t1381774542
@@ -6421,8 +6436,8 @@ t1381774542
 s4654
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/googuu
-t1381907777
-s5498432
+t1381915960
+s5519172
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/googuuNewsBar.png
 t1381774542
@@ -6537,8 +6552,8 @@ t1381774542
 s3171
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/netrequesturl.plist
-t1381774542
-s1365
+t1381909519
+s1396
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/newscellbackground.png
 t1381774542
@@ -7245,6 +7260,16 @@ c00000000525C34CE00000000000009AB
 t1381774542
 s2475
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuViewController.h
+c00000000525E429B00000000000002C8
+t1381909147
+s712
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuViewController.m
+c00000000525E5D300000000000001AF1
+t1381915952
+s6897
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsCell.h
 c00000000525E399500000000000002F8
 t1381906837
@@ -7261,9 +7286,9 @@ t1381774542
 s1125
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsViewController.m
-c00000000525E3D22000000000000471A
-t1381907746
-s18202
+c00000000525E5024000000000000470C
+t1381912612
+s18188
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/GuestCommentViewController.h
 c00000000525C34CE0000000000000425
@@ -7961,8 +7986,8 @@ t1381774542
 s1211
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/AboutUsAndCopyrightView.xib
-c00000000525C34CE0000000000001E4E
-t1381774542
+c00000000525E440A0000000000001E4E
+t1381909514
 s7758
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/AddCommentView.xib
@@ -7996,8 +8021,8 @@ t1381774542
 s22953
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/ClientLoginView5.xib
-c00000000525C34CE0000000000005854
-t1381774542
+c00000000525E4D850000000000005854
+t1381911941
 s22612
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/CustomCell.xib
@@ -8056,14 +8081,19 @@ t1381774542
 s9097
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/StockCell.xib
-c00000000525C34CE0000000000002C51
-t1381774542
+c00000000525E4D850000000000002C51
+t1381911941
 s11345
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/UserCell.xib
 c00000000525C34CE000000000005A153
 t1381774542
 s368979
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/ValueViewCell.xib
+c00000000525E569B0000000000001535
+t1381914267
+s5429
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/iPad/MainWindow-iPad.xib
 c00000000525C34CE0000000000001A6E
@@ -9650,15 +9680,25 @@ c00000000525C34CE0000000000004D0F
 t1381774542
 s19727
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/ValueViewCell.h
+c00000000525E4C2C00000000000001FF
+t1381911596
+s511
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/ValueViewCell.m
+c00000000525E4B880000000000000255
+t1381911432
+s597
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/XYZAppDelegate.h
 c00000000525C34CE00000000000003BD
 t1381774542
 s957
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/XYZAppDelegate.m
-c00000000525C34CE0000000000003BF6
-t1381774542
-s15350
+c00000000525E56E80000000000003C0B
+t1381914344
+s15371
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/agreement.txt
 c00000000525C34CE00000000000006A7
@@ -9711,9 +9751,9 @@ t1381774542
 s637
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/netrequesturl.plist
-c00000000525C34CE00000000000008EC
-t1381774542
-s2284
+c00000000525E440A0000000000000923
+t1381909514
+s2339
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/tipViewController.h
 c00000000525C34CE00000000000002B9
@@ -10557,6 +10597,9 @@ r0
 CBuild AST from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuContainerViewController.m
 r0
 
+CBuild AST from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuViewController.m
+r0
+
 CBuild AST from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsCell.m
 r0
 
@@ -10944,6 +10987,9 @@ r0
 CBuild AST from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Utiles.m
 r0
 
+CBuild AST from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/ValueViewCell.m
+r0
+
 CBuild AST from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/XYZAppDelegate.m
 r0
 
@@ -10955,7 +11001,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies19ff4abf740eb841^9c3603c0740eb841^---0#1#1#--18"Check dependencies36"A1A51B56-2A9E-437E-8623-E06C2EB946DA-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesee7af1b4940eb841^55340eb5940eb841^---0#1#1#--18"Check dependencies36"8BED47D1-A7D6-43D0-908F-B59A0DF1E65B-
 
 CCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/AFHTTPClient.o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/估股/Plugs/AFNetworking/AFHTTPClient.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s403517038.228195
@@ -15604,6 +15650,49 @@ d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/Vurig Calendar/UIColor+expa
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuContainerViewController.m235"CompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooGuuContainerViewController.o 估股/GooGuuContainerViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler9fe99dab690eb841^0135b9ab690eb841^---0#0#1#-19%DVTDocumentLocation2@105"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuContainerViewController.m0000000000000000^3837"CompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooGuuContainerViewController.o 估股/GooGuuContainerViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/include -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/HPLTagCloudGenerator -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/DerivedSources/i386 -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator -F/Users/xcode/wanax/oc/GooGuu1.2-master -include /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/googuu-Prefix-bxklmgyzzdoioufixdqqdawywiqv/googuu-Prefix.pch -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooGuuContainerViewController.d --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooGuuContainerViewController.dia -c /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuContainerViewController.m -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooGuuContainerViewContr36"7D5C8CB5-148B-4E86-B143-510CC66F8AA9-
 b562FA188-CFA2-4C55-8C70-3529356EF4DB
 
+CCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooGuuViewController.o /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403608757.743846
+e403608758.641478
+r1
+xCompileC
+xBuild/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooGuuViewController.o
+x/Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuViewController.m
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuViewController.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/EGORefreshTableHeaderView.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/ValueViewCell.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/SDWebImage/UIImageView+WebCache.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/SDWebImage/SDWebImageCompat.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/SDWebImage/SDWebImageManager.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/SDWebImage/SDWebImageOperation.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/SDWebImage/SDWebImageDownloader.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/SDWebImage/SDImageCache.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CXPhotoBrowser/CXPhotoBrowser.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CXPhotoBrowser/CXPhoto.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CXPhotoBrowser/CXPhotoProtocol.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CXPhotoBrowser/CXPhotoLoadingView.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CXPhotoBrowser/CXPhotoLoadingViewProtocol.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CXPhotoBrowser/CXBrowserNavBarView.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CXPhotoBrowser/CXBrowserToolBarView.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/DemoPhoto.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/ArticleCommentViewController.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/MHTabBarController.h
+o/Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuViewController.m:20:17: warning: method definition for 'reloadTableViewDataSource' not found [-Wincomplete-implementation]
+o@implementation GooGuuViewController
+o                ^
+oIn file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuViewController.m:9:
+o/Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuViewController.h:25:1: note: method 'reloadTableViewDataSource' declared here
+o- (void)reloadTableViewDataSource;
+o^
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuViewController.m217"CompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooGuuViewController.o 估股/GooGuuViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler9292beb5940eb841^c537a4b6940eb841^-512"/Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuViewController.m:20:17: warning: method definition for 'reloadTableViewDataSource' not found [-Wincomplete-implementation]@implementation GooGuuViewController                ^In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuViewController.m:9:/Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuViewController.h:25:1: note: method 'reloadTableViewDataSource' declared here- (void)reloadTableViewDataSource;^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@59"Method definition for 'reloadTableViewDataSource' not found-403608758#18446744073709551615#0#1(2@48"Method 'reloadTableViewDataSource' declared here-403608758#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@96"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuViewController.h0000000000000000^24#0#24#0#637#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@96"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuViewController.m0000000000000000^19#16#19#16#399#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@96"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuViewController.m0000000000000000^3783"CompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooGuuViewController.o 估股/GooGuuViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/include -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/HPLTagCloudGenerator -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/DerivedSources/i386 -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator -F/Users/xcode/wanax/oc/GooGuu1.2-master -include /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/googuu-Prefix-bxklmgyzzdoioufixdqqdawywiqv/googuu-Prefix.pch -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooGuuViewController.d --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooGuuViewController.dia -c /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuViewController.m -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooGuuViewContr36"3BBBA2C7-D2AB-4483-A7E5-CF62E275BEF6-
+b66C5C594-F0AD-4390-BD7F-6F70D780F38F
+
 CCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooNewsCell.o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/估股/GooNewsCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s403517037.210084
 e403517037.340271
@@ -15709,8 +15798,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compil
 b5529C46A-1BA6-4BAA-A9C8-9CFA9A3DAF02
 
 CCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooNewsViewController.o /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s403600576.374467
-e403600576.576628
+s403605578.732359
+e403605578.905734
 r1
 xCompileC
 xBuild/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooNewsViewController.o
@@ -15762,8 +15851,8 @@ o/Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsViewController.h:38:1: not
 o- (void)reloadTableViewDataSource;
 o^
 o3 warnings generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsViewController.m219"CompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooNewsViewController.o 估股/GooNewsViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler0c0160c0740eb841^c442b9c0740eb841^-1092"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsViewController.m:11:In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsCell.h:12:/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/RTLabel.h:66:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]@property (nonatomic) NSMutableDictionary *attributes;^/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/RTLabel.h:66:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]/Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsViewController.m:33:17: warning: method definition for 'reloadTableViewDataSource' not found [-Wincomplete-implementation]@implementation GooNewsViewController                ^In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsViewController.m:9:/Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsViewController.h:38:1: note: method 'reloadTableViewDataSource' declared here- (void)reloadTableViewDataSour3(36%IDEClangDiagnosticActivityLogMessage2@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed-403600576#18446744073709551615#0#2(2@95"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsViewController.m:11:-403600576#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@97"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooNewsViewController.m0000000000000000^10#8#10#8#206#0#21"Apple LLVM 5.0 Notice--2@85"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsCell.h:12:-403600576#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@87"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooNewsCell.h0000000000000000^11#8#11#8#233#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@89"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/Plugs/RTLabel.h0000000000000000^65#0#65#0#2124#0#14"Semantic Issue--2@69"Default property attribute 'assign' not appropriate for non-GC object-403600576#18446744073709551615#0#2(2@95"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsViewController.m:11:-403600576#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@97"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooNewsViewController.m0000000000000000^10#8#10#8#206#0#21"Apple LLVM 5.0 Notice--2@85"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsCell.h:12:-403600576#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@87"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooNewsCell.h0000000000000000^11#8#11#8#233#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@89"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/Plugs/RTLabel.h0000000000000000^65#0#65#0#2124#0#14"Semantic Issue--2@59"Method definition for 'reloadTableViewDataSource' not found-403600576#18446744073709551615#0#1(2@48"Method 'reloadTableViewDataSource' declared here-403600576#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@97"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooNewsViewController.h0000000000000000^37#0#37#0#1050#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@97"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooNewsViewController.m0000000000000000^32#16#32#16#738#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@97"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooNewsViewController.m0000000000000000^3789"CompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooNewsViewController.o 估股/GooNewsViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/include -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/HPLTagCloudGenerator -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/DerivedSources/i386 -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator -F/Users/xcode/wanax/oc/GooGuu1.2-master -include /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/googuu-Prefix-bxklmgyzzdoioufixdqqdawywiqv/googuu-Prefix.pch -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooNewsViewController.d --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooNewsViewController.dia -c /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsViewController.m -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooNewsViewContr36"353EBA32-5BFB-4109-B3A0-3AE3EE2F6FB8-
-b4AA80BD6-E0A8-4D11-BA9F-80D1F4A10E8B
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsViewController.m219"CompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooNewsViewController.o 估股/GooNewsViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilercf9ebb4a880eb841^33dde74a880eb841^-1092"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsViewController.m:11:In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsCell.h:12:/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/RTLabel.h:66:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]@property (nonatomic) NSMutableDictionary *attributes;^/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/RTLabel.h:66:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]/Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsViewController.m:33:17: warning: method definition for 'reloadTableViewDataSource' not found [-Wincomplete-implementation]@implementation GooNewsViewController                ^In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsViewController.m:9:/Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsViewController.h:38:1: note: method 'reloadTableViewDataSource' declared here- (void)reloadTableViewDataSour3(36%IDEClangDiagnosticActivityLogMessage2@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed-403605578#18446744073709551615#0#2(2@95"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsViewController.m:11:-403605578#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@97"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooNewsViewController.m0000000000000000^10#8#10#8#206#0#21"Apple LLVM 5.0 Notice--2@85"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsCell.h:12:-403605578#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@87"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooNewsCell.h0000000000000000^11#8#11#8#233#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@89"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/Plugs/RTLabel.h0000000000000000^65#0#65#0#2124#0#14"Semantic Issue--2@69"Default property attribute 'assign' not appropriate for non-GC object-403605578#18446744073709551615#0#2(2@95"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsViewController.m:11:-403605578#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@97"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooNewsViewController.m0000000000000000^10#8#10#8#206#0#21"Apple LLVM 5.0 Notice--2@85"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsCell.h:12:-403605578#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@87"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooNewsCell.h0000000000000000^11#8#11#8#233#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@89"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/Plugs/RTLabel.h0000000000000000^65#0#65#0#2124#0#14"Semantic Issue--2@59"Method definition for 'reloadTableViewDataSource' not found-403605578#18446744073709551615#0#1(2@48"Method 'reloadTableViewDataSource' declared here-403605578#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@97"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooNewsViewController.h0000000000000000^37#0#37#0#1050#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@97"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooNewsViewController.m0000000000000000^32#16#32#16#738#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@97"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooNewsViewController.m0000000000000000^3789"CompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooNewsViewController.o 估股/GooNewsViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/include -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/HPLTagCloudGenerator -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/DerivedSources/i386 -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator -F/Users/xcode/wanax/oc/GooGuu1.2-master -include /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/googuu-Prefix-bxklmgyzzdoioufixdqqdawywiqv/googuu-Prefix.pch -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooNewsViewController.d --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooNewsViewController.dia -c /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsViewController.m -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooNewsViewContr36"B4ABF15A-4D48-41EC-AC01-040B92BDE479-
+b4B8B3028-DB19-4397-8F1C-FE3ABE8FE13D
 
 CCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GuestCommentViewController.o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/估股/GuestCommentViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s403517036.131622
@@ -20258,6 +20347,22 @@ o9 warnings generated.
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/Vurig Calendar/VRGCalendarView.m229"CompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/VRGCalendarView.o 估股/Plugs/Vurig\ Calendar/VRGCalendarView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb858c1ac690eb841^bd1cf6ac690eb841^-14081"/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/Vurig Calendar/VRGCalendarView.m:331:141: warning: 'UILineBreakModeClip' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]        [weekdayValue drawInRect:CGRectMake(i*(kVRGCalendarViewDayWidth+2), 40, kVRGCalendarViewDayWidth+2, 20) withFont:font lineBreakMode:UILineBreakModeClip alignment:UITextAlignmentCenter];                                                                                                                                            ^In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/Vurig Calendar/VRGCalendarView.m:1:In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/googuu-Prefix.pch:13:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:10:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibility.h:13:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibilityAdditions.h:10:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIPickerView.h:11:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableView.h:12:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:11:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:33:5: note: 'UILineBreakModeClip' declared here    UILineBreakModeClip,                    // Simply clip when it hits the end of the rect    ^/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/Vurig Calendar/VRGCalendarView.m:331:171: warning: 'UITextAlignmentCenter' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]        [weekdayValue drawInRect:CGRectMake(i*(kVRGCalendarViewDayWidth+2), 40, kVRGCalendarViewDayWidth+2, 20) withFont:font lineBreakMode:UILineBreakModeClip alignment:UITextAlignmentCenter];                                                                                                                                                                          ^In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/Vurig Calendar/VRGCalendarView.m:1:In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/googuu-Prefix.pch:13:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:10:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibility.h:13:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibilityAdditions.h:10:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIPickerView.h:11:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableView.h:12:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:11:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:42:5: note: 'UITextAlignmentCenter' declared here    UITextAlignmentCenter,    ^/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/Vurig Calendar/VRGCalendarView.m:331:141: warning: implicit conversion from enumeration type 'enum UILineBreakMode' to different enumeration type 'NSLineBreakMode' (aka 'enum NSLineBreakMode') [-Wenum-conversion]        [weekdayValue drawInRect:CGRectMake(i*(kVRGCalendarViewDayWidth+2), 40, kVRGCalendarViewDayWidth+2, 20) withFont:font lineBreakMode:UILineBreakModeClip alignment:UITextAlignmentCenter];        ~                                                                                                                                   ^~~~~~~~~~~~~~~~~~~/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/Vurig Calendar/VRGCalendarView.m:331:171: warning: implicit conversion from enumeration type 'enum UITextAlignment' to different enumeration type 'NSTextAlignment' (aka 'enum NSTextAlignment') [-Wenum-conversion]        [weekdayValue drawInRect:CGRectMake(i*(kVRGCalendarViewDayWidth+2), 40, kVRGCalendarViewDayWidth+2, 20) withFont:font lineBreakMode:UILineBreakModeClip alignment:UITextAlignmentCenter];        ~                                                                                                                                                                 ^~~~~~~~~~~~~~~~~~~~~/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/Vurig Calendar/VRGCalendarView.m:478:188: warning: 'UILineBreakModeClip' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]        [date drawInRect:CGRectMake(targetX+2, targetY+10, kVRGCalendarViewDayWidth, kVRGCalendarViewDayHeight) withFont:[UIFont fontWithName:@"HelveticaNeue-Bold" size:17] lineBreakMode:UILineBreakModeClip alignment:UITextAlignmentCenter];                                                                                                                                                                                           ^In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/Vurig Calendar/VRGCalendarView.m:1:In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/googuu-Prefix.pch:13:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:10:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibility.h:13:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibilityAdditions.h:10:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIPickerView.h:11:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableView.h:12:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:11:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:33:5: note: 'UILineBreakModeClip' declared here    UILineBreakModeClip,                    // Simply clip when it hits the end of the rect    ^/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/Vurig Calendar/VRGCalendarView.m:478:218: warning: 'UITextAlignmentCenter' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]        [date drawInRect:CGRectMake(targetX+2, targetY+10, kVRGCalendarViewDayWidth, kVRGCalendarViewDayHeight) withFont:[UIFont fontWithName:@"HelveticaNeue-Bold" size:17] lineBreakMode:UILineBreakModeClip alignment:UITextAlignmentCenter];                                                                                                                                                                                                                         ^In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/Vurig Calendar/VRGCalendarView.m:1:In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/googuu-Prefix.pch:13:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:10:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibility.h:13:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibilityAdditions.h:10:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIPickerView.h:11:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableView.h:12:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:11:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:42:5: note: 'UITextAlignmentCenter' declared here    UITextAlignmentCenter,    ^/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/Vurig Calendar/VRGCalendarView.m:478:188: warning: implicit conversion from enumeration type 'enum UILineBreakMode' to different enumeration type 'NSLineBreakMode' (aka 'enum NSLineBreakMode') [-Wenum-conversion]        [date drawInRect:CGRectMake(targetX+2, targetY+10, kVRGCalendarViewDayWidth, kVRGCalendarViewDayHeight) withFont:[UIFont fontWithName:@"HelveticaNeue-Bold" size:17] lineBreakMode:UILineBreakModeClip alignment:UITextAlignmentCenter];        ~                                                                                                                                                                                  ^~~~~~~~~~~~~~~~~~~/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/Vurig Calendar/VRGCalendarView.m:478:218: warning: implicit conversion from enumeration type 'enum UITextAlignment' to different enumeration type 'NSTextAlignment' (aka 'enum NSTextAlignment') [-Wenum-conversion]        [date drawInRect:CGRectMake(targetX+2, targetY+10, kVRGCalendarViewDayWidth, kVRGCalendarViewDayHeight) withFont:[UIFont fontWithName:@"HelveticaNeue-Bold" size:17] lineBreakMode:UILineBreakModeClip alignment:UITextAlignmentCenter];        ~                                                                                                                                                                                                                ^~~~~~~~~~~~~~~~~~~~~/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/Vurig Calendar/VRGCalendarView.m:553:43: warning: 'UITextAlignmentCenter' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]        labelCurrentMonth.textAlignment = UITextAlignmentCenter;                                          ^In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/Vurig Calendar/VRGCalendarView.m:1:In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/googuu-Prefix.pch:13:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:10:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibility.h:13:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibilityAdditions.h:10:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIPickerView.h:11:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableView.h:12:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:11:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:42:5: note: 'UITextAlignmentC9(36%IDEClangDiagnosticActivityLogMessage2@64"'UILineBreakModeClip' is deprecated: first deprecated in iOS 6.0-403597740#18446744073709551615#0#1(2@35"'UILineBreakModeClip' declared here-403597740#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@199"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h0000000000000000^32#4#32#4#1857#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@114"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/Plugs/Vurig%20Calendar/VRGCalendarView.m0000000000000000^330#140#330#140#13629#0#12"Deprecations--2@66"'UITextAlignmentCenter' is deprecated: first deprecated in iOS 6.0-403597740#18446744073709551615#0#1(2@37"'UITextAlignmentCenter' declared here-403597740#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@199"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h0000000000000000^41#4#41#4#2493#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@114"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/Plugs/Vurig%20Calendar/VRGCalendarView.m0000000000000000^330#170#330#170#13659#0#12"Deprecations--2@141"Implicit conversion from enumeration type 'enum UILineBreakMode' to different enumeration type 'NSLineBreakMode' (aka 'enum NSLineBreakMode')-403597740#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@114"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/Plugs/Vurig%20Calendar/VRGCalendarView.m0000000000000000^330#140#330#140#13629#0#22"Value Conversion Issue2(3@114"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/Plugs/Vurig%20Calendar/VRGCalendarView.m0000000000000000^330#140#330#159#13629#0#3@114"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/Plugs/Vurig%20Calendar/VRGCalendarView.m0000000000000000^330#8#330#9#13497#0#-2@141"Implicit conversion from enumeration type 'enum UITextAlignment' to different enumeration type 'NSTextAlignment' (aka 'enum NSTextAlignment')-403597740#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@114"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/Plugs/Vurig%20Calendar/VRGCalendarView.m0000000000000000^330#170#330#170#13659#0#22"Value Conversion Issue2(3@114"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/Plugs/Vurig%20Calendar/VRGCalendarView.m0000000000000000^330#170#330#191#13659#0#3@114"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/Plugs/Vurig%20Calendar/VRGCalendarView.m0000000000000000^330#8#330#9#13497#0#-2@64"'UILineBreakModeClip' is deprecated: first deprecated in iOS 6.0-403597740#18446744073709551615#0#1(2@35"'UILineBreakModeClip' declared here-403597740#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@199"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h0000000000000000^32#4#32#4#1857#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@114"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/Plugs/Vurig%20Calendar/VRGCalendarView.m0000000000000000^477#187#477#187#21047#0#12"Deprecations--2@66"'UITextAlignmentCenter' is deprecated: first deprecated in iOS 6.0-403597740#18446744073709551615#0#1(2@37"'UITextAlignmentCenter' declared here-403597740#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@199"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h0000000000000000^41#4#41#4#2493#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@114"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/Plugs/Vurig%20Calendar/VRGCalendarView.m0000000000000000^477#217#477#217#21077#0#12"Deprecations--2@141"Implicit conversion from enumeration type 'enum UILineBreakMode' to different enumeration type 'NSLineBreakMode' (aka 'enum NSLineBreakMode')-403597740#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@114"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/Plugs/Vurig%20Calendar/VRGCalendarView.m0000000000000000^477#187#477#187#21047#0#22"Value Conversion Issue2(3@114"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/Plugs/Vurig%20Calendar/VRGCalendarView.m0000000000000000^477#187#477#206#21047#0#3@114"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/Plugs/Vurig%20Calendar/VRGCalendarView.m0000000000000000^477#8#477#9#20868#0#-2@141"Implicit conversion from enumeration type 'enum UITextAlignment' to different enumeration type 'NSTextAlignment' (aka 'enum NSTextAlignment')-403597740#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@114"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/Plugs/Vurig%20Calendar/VRGCalendarView.m0000000000000000^477#217#477#217#21077#0#22"Value Conversion Issue2(3@114"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/Plugs/Vurig%20Calendar/VRGCalendarView.m0000000000000000^477#217#477#238#21077#0#3@114"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/Plugs/Vurig%20Calendar/VRGCalendarView.m0000000000000000^477#8#477#9#20868#0#-2@66"'UITextAlignmentCenter' is deprecated: first deprecated in iOS 6.0-403597740#18446744073709551615#0#1(2@37"'UITextAlignmentCenter' declared here-403597740#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@199"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h0000000000000000^41#4#41#4#2493#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@114"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/Plugs/Vurig%20Calendar/VRGCalendarView.m0000000000000000^552#42#552#42#23949#0#12"Deprecations--0#0#1#-19%DVTDocumentLocation4@114"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/Plugs/Vurig%20Calendar/VRGCalendarView.m0000000000000000^3797"CompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/VRGCalendarView.o 估股/Plugs/Vurig\ Calendar/VRGCalendarView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/include -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/HPLTagCloudGenerator -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/DerivedSources/i386 -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator -F/Users/xcode/wanax/oc/GooGuu1.2-master -include /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/googuu-Prefix-bxklmgyzzdoioufixdqqdawywiqv/googuu-Prefix.pch -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/VRGCalendarView.d --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/VRGCalendarView.dia -c /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/Vurig\ Calendar/VRGCalendarView.m -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/VRGCalenda36"6A8EE09F-3B47-45ED-8D50-736B02461479-
 b562FA188-CFA2-4C55-8C70-3529356EF4DB
 
+CCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/ValueViewCell.o /Users/xcode/wanax/oc/GooGuu1.2-master/估股/ValueViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s403604742.368870
+e403604742.503461
+r1
+xCompileC
+xBuild/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/ValueViewCell.o
+x/Users/xcode/wanax/oc/GooGuu1.2-master/估股/ValueViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/ValueViewCell.m
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/ValueViewCell.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/xcode/wanax/oc/GooGuu1.2-master/估股/ValueViewCell.m203"CompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/ValueViewCell.o 估股/ValueViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb1875e06850eb841^7ae38006850eb841^---0#0#1#-19%DVTDocumentLocation2@89"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/ValueViewCell.m0000000000000000^3741"CompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/ValueViewCell.o 估股/ValueViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/include -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/HPLTagCloudGenerator -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/DerivedSources/i386 -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator -F/Users/xcode/wanax/oc/GooGuu1.2-master -include /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/googuu-Prefix-bxklmgyzzdoioufixdqqdawywiqv/googuu-Prefix.pch -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/ValueViewCell.d --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/ValueViewCell.dia -c /Users/xcode/wanax/oc/GooGuu1.2-master/估股/ValueViewCell.m -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/ValueVie36"76D830DE-8B41-4241-8DE0-C7B93D24D416-
+b7509688B-75CF-4454-94EB-C7C06416A1CC
+
 CCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/XYZAppDelegate.o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/估股/XYZAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s403517038.111570
 e403517038.484048
@@ -20373,8 +20478,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compil
 b5529C46A-1BA6-4BAA-A9C8-9CFA9A3DAF02
 
 CCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/XYZAppDelegate.o /Users/xcode/wanax/oc/GooGuu1.2-master/估股/XYZAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s403597739.723850
-e403597739.985694
+s403607144.682679
+e403607144.871112
 r1
 xCompileC
 xBuild/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/XYZAppDelegate.o
@@ -20479,12 +20584,13 @@ d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger/PDNetworkTypes
 d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger/PDObject.h
 d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger/PDNetworkDomain.h
 d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/FinPicKeyWordListViewController.h
-o/Users/xcode/wanax/oc/GooGuu1.2-master/估股/XYZAppDelegate.m:137:19: warning: unused variable 'res' [-Wunused-variable]
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuViewController.h
+o/Users/xcode/wanax/oc/GooGuu1.2-master/估股/XYZAppDelegate.m:138:19: warning: unused variable 'res' [-Wunused-variable]
 o    NSDictionary* res = [[NSDictionary alloc] initWithDictionary:data];
 o                  ^
 o1 warning generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/xcode/wanax/oc/GooGuu1.2-master/估股/XYZAppDelegate.m205"CompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/XYZAppDelegate.o 估股/XYZAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera67bb9ab690eb841^4d81fcab690eb841^-235"/Users/xcode/wanax/oc/GooGuu1.2-master/估股/XYZAppDelegate.m:137:19: warning: unused variable 'res' [-Wunused-variable]    NSDictionary* res = [[NSDictionary alloc] initWithDictionary:data];                  ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@21"Unused variable 'res'-403597739#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@90"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/XYZAppDelegate.m0000000000000000^136#18#136#18#4850#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@90"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/XYZAppDelegate.m0000000000000000^3747"CompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/XYZAppDelegate.o 估股/XYZAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/include -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/HPLTagCloudGenerator -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/DerivedSources/i386 -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator -F/Users/xcode/wanax/oc/GooGuu1.2-master -include /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/googuu-Prefix-bxklmgyzzdoioufixdqqdawywiqv/googuu-Prefix.pch -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/XYZAppDelegate.d --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/XYZAppDelegate.dia -c /Users/xcode/wanax/oc/GooGuu1.2-master/估股/XYZAppDelegate.m -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/XYZAppDel36"83342415-6921-4151-9B2A-208F6F5A317D-
-b562FA188-CFA2-4C55-8C70-3529356EF4DB
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/xcode/wanax/oc/GooGuu1.2-master/估股/XYZAppDelegate.m205"CompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/XYZAppDelegate.o 估股/XYZAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler19e4ae688e0eb841^4f02df688e0eb841^-235"/Users/xcode/wanax/oc/GooGuu1.2-master/估股/XYZAppDelegate.m:138:19: warning: unused variable 'res' [-Wunused-variable]    NSDictionary* res = [[NSDictionary alloc] initWithDictionary:data];                  ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@21"Unused variable 'res'-403607144#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@90"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/XYZAppDelegate.m0000000000000000^137#18#137#18#4883#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@90"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/XYZAppDelegate.m0000000000000000^3747"CompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/XYZAppDelegate.o 估股/XYZAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/googuu-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/include -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/HPLTagCloudGenerator -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/DerivedSources/i386 -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator -F/Users/xcode/wanax/oc/GooGuu1.2-master -include /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/googuu-Prefix-bxklmgyzzdoioufixdqqdawywiqv/googuu-Prefix.pch -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/XYZAppDelegate.d --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/XYZAppDelegate.dia -c /Users/xcode/wanax/oc/GooGuu1.2-master/估股/XYZAppDelegate.m -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/XYZAppDel36"D18FCE3B-EA67-4D87-8B95-5790E532BBC5-
+b86294798-3705-4D2E-8F34-74C2A2910F2A
 
 CCompileC Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/main.o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/估股/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s403517038.154219
@@ -20961,7 +21067,15 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compil
 bC48C2B4E-B8CA-4833-8C13-71776753A938
 
 CCompileXIB /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/AboutUsAndCopyrightView.xib
-r0
+s403602319.743689
+e403602324.268837
+r1
+xCompileXIB
+x/Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/AboutUsAndCopyrightView.xib
+o2013-10-16 15:45:23.453 Interface Builder Cocoa Touch Tool[3500:303] CFPreferences: user home directory at file:///Users/xcode/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+o2013-10-16 15:45:24.063 Interface Builder Cocoa Touch Tool[3501:303] CFPreferences: user home directory at file:///Users/xcode/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compiling /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/AboutUsAndCopyrightView.xib53"CompileXIB 估股/NibFile/AboutUsAndCopyrightView.xib4b78be8f7b0eb841^c4d244947b0eb841^-458"2013-10-16 15:45:23.453 Interface Builder Cocoa Touch Tool[3500:303] CFPreferences: user home directory at file:///Users/xcode/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.2013-10-16 15:45:24.063 Interface Builder Cocoa Touch Tool[3501:303] CFPreferences: user home directory at file:///Users/xcode/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@109"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/NibFile/AboutUsAndCopyrightView.xib0000000000000000^797"CompileXIB 估股/NibFile/AboutUsAndCopyrightView.xib    cd /Users/xcode/wanax/oc/GooGuu1.2-master    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 6.1 --output-format human-readable-text --compile /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/AboutUsAndCopyrightView.nib /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/AboutUsAndCopyrightView.xib36"87AF9035-C396-4719-847C-4FC36D55E564-
+b39439975-4BE6-423E-9EE8-990F65DFF740
 
 CCompileXIB /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/AddCommentView.xib
 r0
@@ -20982,7 +21096,19 @@ CCompileXIB /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/ClientLoginVie
 r0
 
 CCompileXIB /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/ClientLoginView5.xib
-r0
+s403604744.495339
+e403604747.768060
+r1
+xCompileXIB
+x/Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/ClientLoginView5.xib
+o2013-10-16 16:25:45.541 Interface Builder Cocoa Touch Tool[3934:303] CFPreferences: user home directory at file:///Users/xcode/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+o2013-10-16 16:25:47.294 Interface Builder Cocoa Touch Tool[3938:303] CFPreferences: user home directory at file:///Users/xcode/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+o/* com.apple.ibtool.document.warnings */
+o/Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/ClientLoginView5.xib:234: warning: Frame for "Image View" will be different at run time. [16]
+o/Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/ClientLoginView5.xib:543: warning: Frame for "Image View - checkBox.png" will be different at run time. [16]
+o/Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/ClientLoginView5.xib:163: warning: 5 views are horizontally ambiguous. [17]
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compiling /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/ClientLoginView5.xib46"CompileXIB 估股/NibFile/ClientLoginView5.xib04e57e08850eb841^d89fc40b850eb841^-925"2013-10-16 16:25:45.541 Interface Builder Cocoa Touch Tool[3934:303] CFPreferences: user home directory at file:///Users/xcode/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.2013-10-16 16:25:47.294 Interface Builder Cocoa Touch Tool[3938:303] CFPreferences: user home directory at file:///Users/xcode/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile./* com.apple.ibtool.document.warnings *//Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/ClientLoginView5.xib:234: warning: Frame for "Image View" will be different at run time./Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/ClientLoginView5.xib:543: warning: Frame for "Image View - checkBox.png" will be different at run time./Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/ClientLoginView5.xib:163: warning: 5 views are horizontally ambiguous.3(21%IDEActivityLogMessage2@53"Frame for "Image View" will be different at run time.-403604747#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@102"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/NibFile/ClientLoginView5.xib0000000000000000^233#18446744073709551615#233#18446744073709551615#18446744073709551615#0#14"Misplaced View--2@68"Frame for "Image View - checkBox.png" will be different at run time.-403604747#18446744073709551615#0#-1#-3@102"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/NibFile/ClientLoginView5.xib0000000000000000^542#18446744073709551615#542#18446744073709551615#18446744073709551615#0#14"Misplaced View--2@35"5 views are horizontally ambiguous.-403604747#18446744073709551615#0#-1#-3@102"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/NibFile/ClientLoginView5.xib0000000000000000^162#18446744073709551615#162#18446744073709551615#18446744073709551615#0#16"Ambiguous Layout--0#0#1#-19%DVTDocumentLocation4@102"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/NibFile/ClientLoginView5.xib0000000000000000^776"CompileXIB 估股/NibFile/ClientLoginView5.xib    cd /Users/xcode/wanax/oc/GooGuu1.2-master    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 6.1 --output-format human-readable-text --compile /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/ClientLoginView5.nib /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/ClientLoginView5.xib36"46BB2646-A61A-4C81-BFFF-6C02DAD92CA2-
+b7509688B-75CF-4454-94EB-C7C06416A1CC
 
 CCompileXIB /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/CustomCell.xib
 s403599744.107620
@@ -21026,6 +21152,9 @@ r0
 CCompileXIB /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/DoubleLabelCell.xib
 r0
 
+CCompileXIB /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/Empty.xib
+r0
+
 CCompileXIB /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/FeedBackView.xib
 r0
 
@@ -21050,10 +21179,27 @@ CCompileXIB /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/SearchStockCel
 r0
 
 CCompileXIB /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/StockCell.xib
-r0
+s403604744.481699
+e403604746.364883
+r1
+xCompileXIB
+x/Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/StockCell.xib
+o2013-10-16 16:25:45.517 Interface Builder Cocoa Touch Tool[3932:303] CFPreferences: user home directory at file:///Users/xcode/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+o2013-10-16 16:25:46.064 Interface Builder Cocoa Touch Tool[3936:303] CFPreferences: user home directory at file:///Users/xcode/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compiling /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/StockCell.xib39"CompileXIB 估股/NibFile/StockCell.xib41667b08850eb841^90695d0a850eb841^-458"2013-10-16 16:25:45.517 Interface Builder Cocoa Touch Tool[3932:303] CFPreferences: user home directory at file:///Users/xcode/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.2013-10-16 16:25:46.064 Interface Builder Cocoa Touch Tool[3936:303] CFPreferences: user home directory at file:///Users/xcode/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@95"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/NibFile/StockCell.xib0000000000000000^755"CompileXIB 估股/NibFile/StockCell.xib    cd /Users/xcode/wanax/oc/GooGuu1.2-master    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 6.1 --output-format human-readable-text --compile /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/StockCell.nib /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/StockCell.xib36"A88AE6EC-5F5D-4F9D-BEBA-5213AD853A65-
+b7509688B-75CF-4454-94EB-C7C06416A1CC
 
 CCompileXIB /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/UserCell.xib
 r0
+
+CCompileXIB /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/ValueViewCell.xib
+s403607069.768246
+e403607069.971482
+r1
+xCompileXIB
+x/Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/ValueViewCell.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compiling /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/ValueViewCell.xib43"CompileXIB 估股/NibFile/ValueViewCell.xibfeb9c41d8e0eb841^f4a8041e8e0eb841^---0#0#1#-19%DVTDocumentLocation2@99"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/NibFile/ValueViewCell.xib0000000000000000^767"CompileXIB 估股/NibFile/ValueViewCell.xib    cd /Users/xcode/wanax/oc/GooGuu1.2-master    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 6.1 --output-format human-readable-text --compile /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/ValueViewCell.nib /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/ValueViewCell.xib36"EB8D0AF0-21E6-4BCF-99F4-2B23C8279D33-
+bE85475BA-0AC1-4B1C-A96E-0778CEA99324
 
 CCompileXIB /Users/xcode/wanax/oc/GooGuu1.2-master/估股/NibFile/iPad/MainWindow-iPad.xib
 r0
@@ -21157,7 +21303,14 @@ CCopyPlistFile /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphon
 r0
 
 CCopyPlistFile /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/netrequesturl.plist 估股/netrequesturl.plist
-r0
+s403602319.742139
+e403602319.850985
+r1
+xCopyPlistFile
+x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/netrequesturl.plist
+x估股/netrequesturl.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Copy 估股/netrequesturl.plist108"CopyPlistFile Build/Products/Debug-iphonesimulator/googuu.app/netrequesturl.plist 估股/netrequesturl.plista915be8f7b0eb841^23dbd98f7b0eb841^---0#0#1#-19%DVTDocumentLocation2@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/netrequesturl.plist0000000000000000^516"CopyPlistFile Build/Products/Debug-iphonesimulator/googuu.app/netrequesturl.plist 估股/netrequesturl.plist    cd /Users/xcode/wanax/oc/GooGuu1.2-master    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app -- 估股/netrequesturl.plist36"20934D3B-CBDD-459E-9307-0D1E362E7851-
+b39439975-4BE6-423E-9EE8-990F65DFF740
 
 CCopyPlistFile /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/userconfigure.plist 估股/userconfigure.plist
 r0
@@ -22439,14 +22592,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Genera
 bDAEE86F6-5A90-4D2D-B3AB-B6BCD8FD4993
 
 CGenerateDSYMFile /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app.dSYM /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/googuu
-s403600577.643235
-e403600579.023322
+s403608760.982107
+e403608762.575642
 r1
 xGenerateDSYMFile
 x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app.dSYM
 x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/googuu
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Generate /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app.dSYM124"GenerateDSYMFile Build/Products/Debug-iphonesimulator/googuu.app.dSYM Build/Products/Debug-iphonesimulator/googuu.app/googuu52baa4c1740eb841^f4f805c3740eb841^---0#0#1#-19%DVTDocumentLocation2@108"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app.dSYM/0000000000000000^655"GenerateDSYMFile Build/Products/Debug-iphonesimulator/googuu.app.dSYM Build/Products/Debug-iphonesimulator/googuu.app/googuu    cd /Users/xcode/wanax/oc/GooGuu1.2-master    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/googuu -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app.dSYM36"0F4F93B7-F197-4B7D-A6B3-244F21B47E1E-
-b4AA80BD6-E0A8-4D11-BA9F-80D1F4A10E8B
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Generate /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app.dSYM124"GenerateDSYMFile Build/Products/Debug-iphonesimulator/googuu.app.dSYM Build/Products/Debug-iphonesimulator/googuu.app/googuu527dfbb8940eb841^cc5d93ba940eb841^---0#0#1#-19%DVTDocumentLocation2@108"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app.dSYM/0000000000000000^655"GenerateDSYMFile Build/Products/Debug-iphonesimulator/googuu.app.dSYM Build/Products/Debug-iphonesimulator/googuu.app/googuu    cd /Users/xcode/wanax/oc/GooGuu1.2-master    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/googuu -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app.dSYM36"49231926-D0F5-45EB-8B90-50E5474EDE40-
+b66C5C594-F0AD-4390-BD7F-6F70D780F38F
 
 CLd /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphonesimulator/googuu.app/googuu normal i386
 s403520834.043841
@@ -22716,8 +22869,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Link /
 bDAEE86F6-5A90-4D2D-B3AB-B6BCD8FD4993
 
 CLd /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/googuu normal i386
-s403600576.590919
-e403600577.632159
+s403608758.726539
+e403608760.971863
 r1
 xLd
 x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/googuu
@@ -22779,6 +22932,7 @@ d/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-i
 d/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/AFPropertyListRequestOperation.o
 d/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/AFURLConnectionOperation.o
 d/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/AFXMLRequestOperation.o
+d/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GooGuuViewController.o
 d/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/UIImageView+AFNetworking.o
 d/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/GCDiscreetNotificationView.o
 d/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/JSONKit.o
@@ -22850,6 +23004,7 @@ d/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-i
 d/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/ASIDataDecompressor.o
 d/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/ASIDownloadCache.o
 d/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/ASIFormDataRequest.o
+d/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/ValueViewCell.o
 d/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/ASIHTTPRequest.o
 d/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/ASIInputStream.o
 d/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/ASINetworkQueue.o
@@ -22930,8 +23085,8 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/D
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
 d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libc++abi.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
@@ -22980,8 +23135,8 @@ old: warning: directory not found for option '-L"/Users/xcode/wanax/oc/GooGuu1.2
 old: warning: directory not found for option '-L"/Users/xcode/wanax/oc/GooGuu1.2-master/Release-iphoneos"'
 old: warning: directory not found for option '-L"/Users/xcode/wanax/oc/GooGuu1.2-master/../../../Desktop/手机端/Products 2/ios_api/Release-iphoneos"'
 old: warning: ignoring file /Users/xcode/wanax/oc/GooGuu1.2-master/libBaiduMobStat1.a, missing required architecture i386 in file /Users/xcode/wanax/oc/GooGuu1.2-master/libBaiduMobStat1.a (2 slices)
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Link /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/googuu69"Ld Build/Products/Debug-iphonesimulator/googuu.app/googuu normal i386d45f97c0740eb841^23dba1c1740eb841^-862"ld: warning: directory not found for option '-L"/Users/xcode/wanax/oc/GooGuu1.2-master/../UIDemo"'ld: warning: directory not found for option '-L"/Users/xcode/wanax/oc/GooGuu1.2-master/../../../Desktop/手机端/Products/ios_api/Release-iphonesimulator"'ld: warning: directory not found for option '-L"/Users/xcode/wanax/oc/GooGuu1.2-master/../../../Desktop/手机端/Products/ios_api/Release-iphoneos"'ld: warning: directory not found for option '-L"/Users/xcode/wanax/oc/GooGuu1.2-master/Release-iphoneos"'ld: warning: directory not found for option '-L"/Users/xcode/wanax/oc/GooGuu1.2-master/../../../Desktop/手机端/Products 2/ios_api/Release-iphoneos"'ld: warning: ignoring file /Users/xcode/wanax/oc/GooGuu1.2-master/libBaiduMobStat1.a, missing required architecture i386 in file /Users/xcode/wanax/oc/GooGuu1.2-master/libBaiduMobStat1.a (2 slices)6(21%IDEActivityLogMessage2@85"Directory not found for option '-L"/Users/xcode/wanax/oc/GooGuu1.2-master/../UIDemo"'-403600576#0#99#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@143"Directory not found for option '-L"/Users/xcode/wanax/oc/GooGuu1.2-master/../../../Desktop/手机端/Products/ios_api/Release-iphonesimulator"'-403600576#99#151#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@136"Directory not found for option '-L"/Users/xcode/wanax/oc/GooGuu1.2-master/../../../Desktop/手机端/Products/ios_api/Release-iphoneos"'-403600576#250#144#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@92"Directory not found for option '-L"/Users/xcode/wanax/oc/GooGuu1.2-master/Release-iphoneos"'-403600576#394#106#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@138"Directory not found for option '-L"/Users/xcode/wanax/oc/GooGuu1.2-master/../../../Desktop/手机端/Products 2/ios_api/Release-iphoneos"'-403600576#500#146#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@184"Ignoring file /Users/xcode/wanax/oc/GooGuu1.2-master/libBaiduMobStat1.a, missing required architecture i386 in file /Users/xcode/wanax/oc/GooGuu1.2-master/libBaiduMobStat1.a (2 slices)-403600576#646#198#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--0#0#1#--2431"Ld Build/Products/Debug-iphonesimulator/googuu.app/googuu normal i386    cd /Users/xcode/wanax/oc/GooGuu1.2-master    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator -L\"/Users/xcode/wanax/oc/GooGuu1.2-master/../UIDemo\" -L/Users/xcode/wanax/oc/GooGuu1.2-master -L\"/Users/xcode/wanax/oc/GooGuu1.2-master/../../../Desktop/手机端/Products/ios_api/Release-iphonesimulator\" -L\"/Users/xcode/wanax/oc/GooGuu1.2-master/../../../Desktop/手机端/Products/ios_api/Release-iphoneos\" -L\"/Users/xcode/wanax/oc/GooGuu1.2-master/Release-iphoneos\" -L\"/Users/xcode/wanax/oc/GooGuu1.2-master/../../../Desktop/手机端/Products\ 2/ios_api/Release-iphoneos\" -L/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator -F/Users/xcode/wanax/oc/GooGuu1.2-master -filelist /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/googuu.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -all_load -ObjC -lBaiduMobStat -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.1 -framework CoreData -framework Security -lz.1.2.5 -framework CoreTelephony -framework MapKit -framework ImageIO -framework AssetsLibrary -framework CFNetwork -lBaiduMobStat -framework CoreLocation -framework CoreText -framework MessageUI -lBaiduMobStat1 -lsqlite3.0 -licucore -lstdc++ -lBPush -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -framework AddressBook -framework UIKit -framework Foundation -framework CoreGraphics -lCorePlot-CocoaTouch -framework Crashlytics -lPods -Xlinker -dependency_info -Xlinker /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/googuu_dependency_info.dat -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/36"58643227-44AD-4735-921D-D26C96CB32C7-
-b4AA80BD6-E0A8-4D11-BA9F-80D1F4A10E8B
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Link /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/googuu.app/googuu69"Ld Build/Products/Debug-iphonesimulator/googuu.app/googuu normal i386191bbab6940eb841^89d0f8b8940eb841^-862"ld: warning: directory not found for option '-L"/Users/xcode/wanax/oc/GooGuu1.2-master/../UIDemo"'ld: warning: directory not found for option '-L"/Users/xcode/wanax/oc/GooGuu1.2-master/../../../Desktop/手机端/Products/ios_api/Release-iphonesimulator"'ld: warning: directory not found for option '-L"/Users/xcode/wanax/oc/GooGuu1.2-master/../../../Desktop/手机端/Products/ios_api/Release-iphoneos"'ld: warning: directory not found for option '-L"/Users/xcode/wanax/oc/GooGuu1.2-master/Release-iphoneos"'ld: warning: directory not found for option '-L"/Users/xcode/wanax/oc/GooGuu1.2-master/../../../Desktop/手机端/Products 2/ios_api/Release-iphoneos"'ld: warning: ignoring file /Users/xcode/wanax/oc/GooGuu1.2-master/libBaiduMobStat1.a, missing required architecture i386 in file /Users/xcode/wanax/oc/GooGuu1.2-master/libBaiduMobStat1.a (2 slices)6(21%IDEActivityLogMessage2@85"Directory not found for option '-L"/Users/xcode/wanax/oc/GooGuu1.2-master/../UIDemo"'-403608758#0#99#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@143"Directory not found for option '-L"/Users/xcode/wanax/oc/GooGuu1.2-master/../../../Desktop/手机端/Products/ios_api/Release-iphonesimulator"'-403608758#99#151#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@136"Directory not found for option '-L"/Users/xcode/wanax/oc/GooGuu1.2-master/../../../Desktop/手机端/Products/ios_api/Release-iphoneos"'-403608758#250#144#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@92"Directory not found for option '-L"/Users/xcode/wanax/oc/GooGuu1.2-master/Release-iphoneos"'-403608758#394#106#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@138"Directory not found for option '-L"/Users/xcode/wanax/oc/GooGuu1.2-master/../../../Desktop/手机端/Products 2/ios_api/Release-iphoneos"'-403608758#500#146#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@184"Ignoring file /Users/xcode/wanax/oc/GooGuu1.2-master/libBaiduMobStat1.a, missing required architecture i386 in file /Users/xcode/wanax/oc/GooGuu1.2-master/libBaiduMobStat1.a (2 slices)-403608759#646#198#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--0#0#1#--2431"Ld Build/Products/Debug-iphonesimulator/googuu.app/googuu normal i386    cd /Users/xcode/wanax/oc/GooGuu1.2-master    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator -L\"/Users/xcode/wanax/oc/GooGuu1.2-master/../UIDemo\" -L/Users/xcode/wanax/oc/GooGuu1.2-master -L\"/Users/xcode/wanax/oc/GooGuu1.2-master/../../../Desktop/手机端/Products/ios_api/Release-iphonesimulator\" -L\"/Users/xcode/wanax/oc/GooGuu1.2-master/../../../Desktop/手机端/Products/ios_api/Release-iphoneos\" -L\"/Users/xcode/wanax/oc/GooGuu1.2-master/Release-iphoneos\" -L\"/Users/xcode/wanax/oc/GooGuu1.2-master/../../../Desktop/手机端/Products\ 2/ios_api/Release-iphoneos\" -L/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator -F/Users/xcode/wanax/oc/GooGuu1.2-master -filelist /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/googuu.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -all_load -ObjC -lBaiduMobStat -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.1 -framework CoreData -framework Security -lz.1.2.5 -framework CoreTelephony -framework MapKit -framework ImageIO -framework AssetsLibrary -framework CFNetwork -lBaiduMobStat -framework CoreLocation -framework CoreText -framework MessageUI -lBaiduMobStat1 -lsqlite3.0 -licucore -lstdc++ -lBPush -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -framework AddressBook -framework UIKit -framework Foundation -framework CoreGraphics -lCorePlot-CocoaTouch -framework Crashlytics -lPods -Xlinker -dependency_info -Xlinker /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Objects-normal/i386/googuu_dependency_info.dat -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphonesimulator/36"CDB1DCF5-606C-4935-822F-5860696D27C1-
+b66C5C594-F0AD-4390-BD7F-6F70D780F38F
 
 CPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Script-29568802ECB742A2894F5B6A.sh
 s403520833.106261
@@ -22994,14 +23149,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run cus
 bDAEE86F6-5A90-4D2D-B3AB-B6BCD8FD4993
 
 CPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Script-29568802ECB742A2894F5B6A.sh
-s403600576.017357
-e403600576.352151
+s403608757.058923
+e403608757.337735
 r1
 xPhaseScriptExecution
 xCheck Pods Manifest.lock
 x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Script-29568802ECB742A2894F5B6A.sh
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'150"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Script-29568802ECB742A2894F5B6A.sh96cd04c0740eb841^2c66b8c0740eb841^---0#0#1#--354"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Script-29568802ECB742A2894F5B6A.sh    cd /Users/xcode/wanax/oc/GooGuu1.2-master    /bin/sh -c /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Script-29568802ECB742A2894F5B6A.sh36"5E93F743-4AB4-470B-BE77-8E1CD2F3B061-
-b4AA80BD6-E0A8-4D11-BA9F-80D1F4A10E8B
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'150"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Script-29568802ECB742A2894F5B6A.sh41bb0fb5940eb841^a77656b5940eb841^---0#0#1#--354"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Script-29568802ECB742A2894F5B6A.sh    cd /Users/xcode/wanax/oc/GooGuu1.2-master    /bin/sh -c /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Script-29568802ECB742A2894F5B6A.sh36"0B4B6652-AB70-4F72-889F-DA67445EE4EB-
+b66C5C594-F0AD-4390-BD7F-6F70D780F38F
 
 CPhaseScriptExecution Copy\ Pods\ Resources /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Script-E43360A9F4CE493D97839E91.sh
 s403520838.245449
@@ -23018,8 +23173,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run cus
 bDAEE86F6-5A90-4D2D-B3AB-B6BCD8FD4993
 
 CPhaseScriptExecution Copy\ Pods\ Resources /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Script-E43360A9F4CE493D97839E91.sh
-s403600587.098283
-e403600587.397164
+s403608762.655910
+e403608762.879210
 r1
 xPhaseScriptExecution
 xCopy Pods Resources
@@ -23028,8 +23183,8 @@ obuilding file list ... done
 o
 osent 29 bytes  received 20 bytes  98.00 bytes/sec
 ototal size is 0  speedup is 0.00
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'145"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Script-E43360A9F4CE493D97839E91.shce8919cb740eb841^10ad65cb740eb841^-112"building file list ... donesent 29 bytes  received 20 bytes  98.00 bytes/sectotal size is 0  speedup is 0.003(21%IDEActivityLogMessage2@28"building file list ... done-403600587#0#28#-0#-----2@50"sent 29 bytes  received 20 bytes  98.00 bytes/sec-403600587#29#50#-0#-----2@33"total size is 0  speedup is 0.00-403600587#79#33#-0#-----0#0#1#--349"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Script-E43360A9F4CE493D97839E91.sh    cd /Users/xcode/wanax/oc/GooGuu1.2-master    /bin/sh -c /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Script-E43360A9F4CE493D97839E91.sh36"771DE45A-420A-49D6-B86D-BDFB615ADC0B-
-b4AA80BD6-E0A8-4D11-BA9F-80D1F4A10E8B
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'145"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Script-E43360A9F4CE493D97839E91.shb77ca8ba940eb841^f913e1ba940eb841^-112"building file list ... donesent 29 bytes  received 20 bytes  98.00 bytes/sectotal size is 0  speedup is 0.003(21%IDEActivityLogMessage2@28"building file list ... done-403608762#0#28#-0#-----2@50"sent 29 bytes  received 20 bytes  98.00 bytes/sec-403608762#29#50#-0#-----2@33"total size is 0  speedup is 0.00-403608762#79#33#-0#-----0#0#1#--349"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Script-E43360A9F4CE493D97839E91.sh    cd /Users/xcode/wanax/oc/GooGuu1.2-master    /bin/sh -c /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Script-E43360A9F4CE493D97839E91.sh36"C8B796BB-3F41-4190-9793-8AE815ED6C4B-
+b66C5C594-F0AD-4390-BD7F-6F70D780F38F
 
 CPhaseScriptExecution Run\ Script /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/googuu.build/Debug-iphonesimulator/googuu.build/Script-AE4F3FCB17BCD54200E24783.sh
 s403520836.741306

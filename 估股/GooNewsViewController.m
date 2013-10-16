@@ -96,8 +96,7 @@
     self.navigationController.navigationBar.tintColor=[Utiles colorWithHexString:@"#C86125"];
     self.title=@"最新简报";
     self.readingMarksDic=[Utiles getConfigureInfoFrom:@"readingmarks" andKey:nil inUserDomain:YES];
-    
-   	
+
     [self addTable];
     [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     [self getGooGuuNews];    
@@ -299,16 +298,15 @@
             cell = [array objectAtIndex:0];
         }
         if(self.imageUrl){
-            [cell.comImg setImageWithURLRequest:[[NSURLRequest alloc] initWithURL:[NSURL URLWithString:self.imageUrl]]
-                  placeholderImage:[UIImage imageNamed:@"defaultIcon"]
-                           success:^(NSURLRequest *request, NSHTTPURLResponse *response, UIImage *image){
-                               if(image){
-                                   cell.comImg.image=image;
-                               }           
-                           }
-                           failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error){
-                               
-                           }];
+            [cell.comImg setImageWithURLRequest:[[NSURLRequest alloc] initWithURL:[NSURL URLWithString:self.imageUrl]] placeholderImage:[UIImage imageNamed:@"defaultIcon"]
+                   success:^(NSURLRequest *request, NSHTTPURLResponse *response, UIImage *image){
+                       if(image){
+                           cell.comImg.image=image;
+                       }           
+                   }
+                   failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error){
+                       
+                   }];
         }
         static NSNumberFormatter *formatter;
         if(formatter==nil){
@@ -320,12 +318,15 @@
         [cell.indicatorLable setAlpha:0.6];
         [cell.indicatorLable setFont:[UIFont fontWithName:@"Heiti SC" size:13.0]];
         [cell.indicatorLable setTextColor:[UIColor whiteColor]];
-        
+  
         NSNumber *marketPrice=[self.companyInfo objectForKey:@"marketprice"];
         NSNumber *ggPrice=[self.companyInfo objectForKey:@"googuuprice"];
         float outLook=([ggPrice floatValue]-[marketPrice floatValue])/[marketPrice floatValue];
         
         cell.indicatorLable.text=[NSString stringWithFormat:@" %@(%@.%@) 潜在空间:%@",[self.companyInfo objectForKey:@"companyname"],[self.companyInfo objectForKey:@"stockcode"],[self.companyInfo objectForKey:@"marketname"],[NSString stringWithFormat:@"%.2f%%",outLook*100]];
+        if(!self.companyInfo){
+            cell.indicatorLable.text=@"";
+        }
         
         [cell.backLabel setBackgroundColor:[UIColor whiteColor]];
         cell.backLabel.layer.cornerRadius = 5;
