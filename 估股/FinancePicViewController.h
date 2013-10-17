@@ -11,6 +11,7 @@
 
 @interface FinancePicViewController : UICollectionViewController<CXPhotoBrowserDataSource,CXPhotoBrowserDelegate>{
     CXBrowserNavBarView *navBarView;
+    NSInteger page;
 }
 
 @property (nonatomic,retain) NSString *keyWord;

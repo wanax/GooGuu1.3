@@ -407,17 +407,14 @@ static NSString * COLUMNAR_DATALINE_IDENTIFIER =@"columnar_dataline_identifier";
     //NSLog(@"selectIndustry");
     sender.showsTouchWhenHighlighted=YES;
 	CQMFloatingController *floatingController = [CQMFloatingController sharedFloatingController];
-    floatingController.frameSize=CGSizeMake(280,280);
-    floatingController.frameColor=[Utiles colorWithHexString:@"#e26b17"];
+    //floatingController.frameSize=CGSizeMake(280,280);
+    //floatingController.frameColor=[Utiles colorWithHexString:@"#e26b17"];
     if(sender.tag==MainIncome){        
-        [floatingController presentWithContentViewController:modelMainViewController
-                                                    animated:YES];
+        [self presentViewController:modelMainViewController animated:YES completion:nil];
     }else if(sender.tag==OperaFee){
-        [floatingController presentWithContentViewController:modelFeeViewController
-                                                    animated:YES];
+        [self presentViewController:modelFeeViewController animated:YES completion:nil];
     }else if(sender.tag==OperaCap){
-        [floatingController presentWithContentViewController:modelCapViewController
-                                                    animated:YES];
+        [self presentViewController:modelCapViewController animated:YES completion:nil];
     }else if(sender.tag==DiscountRate){
         NSString *values=[Utiles getObjectDataFromJsFun:self.webView funName:@"getValues" byData:nil shouldTrans:NO];
         if (SCREEN_HEIGHT>500) {

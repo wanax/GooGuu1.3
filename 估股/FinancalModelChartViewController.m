@@ -17,6 +17,7 @@
 #import "DrawChartTool.h"
 #import "ModelClassViewController.h"
 #import "ModelClassGrade2ViewController.h"
+#import "MZFormSheetController.h"
 
 
 @interface FinancalModelChartViewController ()
@@ -169,17 +170,16 @@ static NSString * BAR_IDENTIFIER =@"bar_identifier";
     
     sender.showsTouchWhenHighlighted=YES;
 	CQMFloatingController *floatingController = [CQMFloatingController sharedFloatingController];
-    floatingController.frameSize=CGSizeMake(280,280);
+    //floatingController.frameSize=CGSizeMake(280,280);
+
+    
     floatingController.frameColor=[Utiles colorWithHexString:@"#e26b17"];
     if(sender.tag==FinancialRatio){
-        [floatingController presentWithContentViewController:modelRatioViewController
-                                                    animated:YES];
+        [self presentViewController:modelRatioViewController animated:YES completion:nil];
     }else if(sender.tag==FinancialChart){
-        [floatingController presentWithContentViewController:modelChartViewController
-                                                    animated:YES];
+        [self presentViewController:modelChartViewController animated:YES completion:nil];
     }else if(sender.tag==FinancialOther){
-        [floatingController presentWithContentViewController:modelOtherViewController
-                                                    animated:YES];
+        [self presentViewController:modelOtherViewController animated:YES completion:nil];
     }
     
 }

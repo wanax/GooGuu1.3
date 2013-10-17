@@ -27,13 +27,13 @@
 #import "CQMPathUtilities.h"
 
 
-#define kLightBorderWidth    0.0f
-#define kHighlightHeight     0.0f
-#define kHighlightMargin     0.0f
+#define kLightBorderWidth    1.0f
+#define kHighlightHeight     22.0f
+#define kHighlightMargin     1.0f
 #define kLightBorderColor    [UIColor colorWithWhite:1.00f alpha:0.10f]
 #define kStartHighlightColor [UIColor colorWithWhite:1.00f alpha:0.40f]
 #define kEndHighlightColor   [UIColor colorWithWhite:1.00f alpha:0.05f]
-#define kDefaultCornerRadius 6.0f
+#define kDefaultCornerRadius 8.0f
 
 
 @implementation CQMFloatingFrameView {
@@ -52,10 +52,6 @@
 }
 
 
-- (void)dealloc {
-	[baseColor_ release];
-	[super dealloc];
-}
 
 
 #pragma mark -
@@ -67,8 +63,7 @@
 }
 - (void)setBaseColor:(UIColor*)baseColor {
 	if (baseColor_ != baseColor) {
-		[baseColor_ release];
-		baseColor_ = [baseColor retain];
+		baseColor_ = baseColor;
 	}
 	[self setNeedsDisplay];
 }
@@ -126,7 +121,7 @@
 					   (id)[kEndHighlightColor CGColor],
 					   nil];
 	CGFloat locations[] = {0, 1.0f};
-	CGGradientRef gradient = CGGradientCreateWithColors(colorSpace, (CFArrayRef)colors, locations);
+	CGGradientRef gradient = CGGradientCreateWithColors(colorSpace, (__bridge CFArrayRef)colors, locations);
 	CGFloat highlightMargin = kLightBorderWidth + kHighlightMargin;
 	CGRect highlightRect = CGRectMake(highlightMargin, highlightMargin,
 									  viewSize.width - highlightMargin * 2,
@@ -142,7 +137,6 @@
 								CGPointMake(0, kHighlightHeight),
 								0);
 	CGGradientRelease(gradient);
-	[colors release];
 	CGColorSpaceRelease(colorSpace);
 	CGPathRelease(path);
 	CGContextRestoreGState(context);

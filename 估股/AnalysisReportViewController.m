@@ -15,6 +15,7 @@
 #import "MBProgressHUD.h"
 #import "GooNewsCell.h"
 #import "AnalyDetailViewController.h"
+#import "UIImageView+WebCache.h"
 
 
 
@@ -133,7 +134,7 @@
 
 -(CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
 
-    return 71.0;
+    return 120.0;
 
 }
 
@@ -167,13 +168,19 @@
     
     cell.title=[model objectForKey:@"title"];
     [self setReadingMark:cell andTitle:[model objectForKey:@"title"]];
-    cell.content=[model objectForKey:@"brief"];
+    cell.contentLabel.text=[model objectForKey:@"concise"];
     cell.timeDiferLabel.text=[Utiles intervalSinceNow:[model objectForKey:@"updatetime"]];
-    UIImageView *bgImgView = [[UIImageView alloc] initWithFrame:CGRectMake(0,0,SCREEN_WIDTH,71)];
-    [bgImgView setImage:[UIImage imageNamed:@"newscellbackground.png"]];
-    [cell setBackgroundView:bgImgView];
-    SAFE_RELEASE(bgImgView);
+    
+    if([model objectForKey:@"comanylogourl"]){
+        [cell.comIconImg setImageWithURL:[NSURL URLWithString:[model objectForKey:@"comanylogourl"]] placeholderImage:[UIImage imageNamed:@"defaultIcon"]];
+    }
+    
+    [cell.backLabel setBackgroundColor:[UIColor whiteColor]];
+    cell.backLabel.layer.cornerRadius = 5;
+    cell.backLabel.layer.borderColor = [UIColor grayColor].CGColor;
+    cell.backLabel.layer.borderWidth = 0;
  
+    [cell setBackgroundColor:[Utiles colorWithHexString:[Utiles getConfigureInfoFrom:@"colorconfigure" andKey:@"NormalCellColor" inUserDomain:NO]]];
     return cell;
 
     

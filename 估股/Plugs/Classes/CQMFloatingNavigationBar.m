@@ -31,7 +31,7 @@
 
 - (id)init {
 	if (self = [super init]) {
-		[self setBackgroundColor:[Utiles colorWithHexString:@"#D85513"]];
+		[self setBackgroundColor:[UIColor clearColor]];
 	}
 	return self;
 }
@@ -39,7 +39,7 @@
 
 - (id)initWithCoder:(NSCoder*)aDecoder {
 	if (self = [super initWithCoder:aDecoder]) {
-		[self setBackgroundColor:[Utiles colorWithHexString:@"#E27A24"]];
+		[self setBackgroundColor:[UIColor clearColor]];
 	}
 	return self;
 }

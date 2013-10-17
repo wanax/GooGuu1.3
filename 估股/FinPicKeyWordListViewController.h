@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AOTag.h"
 
-@interface FinPicKeyWordListViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@interface FinPicKeyWordListViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,AOTagDelegate>
 
 @property (nonatomic,retain) UITableView *cusTabView;
+@property (nonatomic,retain) AOTagList *tag;
 
 @property (nonatomic,retain) id keyWordData;
 @property (nonatomic,retain) NSArray *keyWordList;

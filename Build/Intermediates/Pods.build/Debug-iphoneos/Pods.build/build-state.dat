@@ -2,8 +2,8 @@ TPods
 v6
 r1
 cCheck dependencies
-cCompileC /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Pods-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos/libPods.a normal armv7
+cCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods.a normal armv7
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
 c00000000521BCCE10000000000000110
@@ -53,12 +53,53 @@ c000000005247D4BD0000000000000070
 t1380439229
 s112
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o
+t1381774542
+s3452
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/Pods.LinkFileList
+c00000000525F48A30000000000000082
+t1381976227
+s130
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods-HPLTagCloudGenerator.a
+c00000000525F489D0000000000010758
+t1381976221
+s67416
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods-KKProgressTimer.a
+c00000000525F489D00000000000114A0
+t1381976221
+s70816
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods-PonyDebugger.a
+c00000000525F48A200000000001F6498
+t1381976226
+s2057368
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods-SocketRocket.a
+c00000000525F489E0000000000034840
+t1381976222
+s215104
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods.a
+t1381774542
+s2284016
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m
+c00000000525C34CE0000000000000070
+t1381774542
+s112
+
 CBuild AST from /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Pods-dummy.m
+r0
+
+CBuild AST from /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m
 r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies47c8b896780bb841^8bfab896780bb841^---0#1#1#--18"Check dependencies36"285B833E-3AAA-411B-AABC-406472BCFC6F-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies535d0423800fb841^b56c2123800fb841^---0#1#1#--18"Check dependencies36"D5ABB81A-63A2-4FEA-8043-24588899A77E-
 
 CCompileC /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Pods-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s402994821.542678
@@ -76,6 +117,9 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile
 bAE8D6A60-F8FF-41FB-8194-E376CDDDCD8D
 
 CCompileC /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Pods-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 r0
 
 CCreateUniversalBinary /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos/libPods.a normal armv7\ armv7s
@@ -97,4 +141,15 @@ xnormal
 xarmv7
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Libtool /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos/libPods.a normal armv7130"Libtool /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos/libPods.a normal armv7b9faa9853605b841^e44ccf853605b841^---0#0#1#--1134"Libtool /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos/libPods.a normal armv7    cd /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos -filelist /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/Pods.LinkFileList -framework Foundation -lPods-PonyDebugger -lPods-SocketRocket -o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos/libPods.a36"66165BF7-DC6F-40BB-BD33-82033F7765D9-
 bAE8D6A60-F8FF-41FB-8194-E376CDDDCD8D
+
+CLibtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods.a normal armv7
+s403669027.134375
+e403669028.057251
+r1
+xLibtool
+x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods.a
+xnormal
+xarmv7
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Libtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods.a normal armv799"Libtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods.a normal armv74d832223800fb841^c5a90e24800fb841^---0#0#1#--1030"Libtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods.a normal armv7    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos -filelist /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/Pods.LinkFileList -framework Foundation -lPods-HPLTagCloudGenerator -lPods-KKProgressTimer -lPods-PonyDebugger -lPods-SocketRocket -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods.a36"18F88081-BA1A-47B8-B8DF-A9D40C5666A9-
+bCE5C7F6D-6673-4805-9A68-4584FD838F59
 

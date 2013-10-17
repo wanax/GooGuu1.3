@@ -202,11 +202,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/ChartViewController.m"
-            timestampString = "402141644.522094"
+            timestampString = "403672977.527541"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "626"
-            endingLineNumber = "626"
+            startingLineNumber = "623"
+            endingLineNumber = "623"
             landmarkName = "-viewPan:"
             landmarkType = "5">
          </BreakpointContent>
@@ -314,11 +314,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/ChartViewController.m"
-            timestampString = "402141644.522094"
+            timestampString = "403672977.527541"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "446"
-            endingLineNumber = "446"
+            startingLineNumber = "443"
+            endingLineNumber = "443"
             landmarkName = "-webViewDidFinishLoad:"
             landmarkType = "5">
          </BreakpointContent>
@@ -330,11 +330,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/ChartViewController.m"
-            timestampString = "402141644.522094"
+            timestampString = "403672977.527541"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "445"
-            endingLineNumber = "445"
+            startingLineNumber = "442"
+            endingLineNumber = "442"
             landmarkName = "-webViewDidFinishLoad:"
             landmarkType = "5">
          </BreakpointContent>
@@ -346,11 +346,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/ChartViewController.m"
-            timestampString = "402141644.522094"
+            timestampString = "403672977.527541"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "567"
-            endingLineNumber = "567"
+            startingLineNumber = "564"
+            endingLineNumber = "564"
             landmarkName = "-adjustChartDataForSaved:andToken:"
             landmarkType = "5">
          </BreakpointContent>
@@ -362,11 +362,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/ChartViewController.m"
-            timestampString = "402141644.522094"
+            timestampString = "403672977.527541"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "472"
-            endingLineNumber = "472"
+            startingLineNumber = "469"
+            endingLineNumber = "469"
             landmarkName = "-webViewDidFinishLoad:"
             landmarkType = "5">
          </BreakpointContent>
@@ -410,11 +410,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/FinancalModelChartViewController.m"
-            timestampString = "401966353.898289"
+            timestampString = "403674078.960388"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "207"
-            endingLineNumber = "207"
+            startingLineNumber = "204"
+            endingLineNumber = "204"
             landmarkName = "-modelClassChanged:"
             landmarkType = "5">
          </BreakpointContent>
@@ -426,11 +426,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/FinancalModelChartViewController.m"
-            timestampString = "401966353.898289"
+            timestampString = "403674078.960388"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "298"
-            endingLineNumber = "298"
+            startingLineNumber = "295"
+            endingLineNumber = "295"
             landmarkName = "-dataLabelForPlot:recordIndex:"
             landmarkType = "5">
          </BreakpointContent>
@@ -442,11 +442,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/FinancalModelChartViewController.m"
-            timestampString = "401966353.898289"
+            timestampString = "403674078.960388"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "299"
-            endingLineNumber = "299"
+            startingLineNumber = "296"
+            endingLineNumber = "296"
             landmarkName = "-dataLabelForPlot:recordIndex:"
             landmarkType = "5">
          </BreakpointContent>
@@ -474,11 +474,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/FinancalModelChartViewController.m"
-            timestampString = "401966353.898289"
+            timestampString = "403674078.960388"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "216"
-            endingLineNumber = "216"
+            startingLineNumber = "213"
+            endingLineNumber = "213"
             landmarkName = "-modelClassChanged:"
             landmarkType = "5">
          </BreakpointContent>
@@ -506,11 +506,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/FinancalModelChartViewController.m"
-            timestampString = "401966353.898289"
+            timestampString = "403674078.960388"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "215"
-            endingLineNumber = "215"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
             landmarkName = "-modelClassChanged:"
             landmarkType = "5">
          </BreakpointContent>
@@ -554,11 +554,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/FinancalModelChartViewController.m"
-            timestampString = "401966353.898289"
+            timestampString = "403674078.960388"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "294"
-            endingLineNumber = "294"
+            startingLineNumber = "291"
+            endingLineNumber = "291"
             landmarkName = "-dataLabelForPlot:recordIndex:"
             landmarkType = "5">
          </BreakpointContent>
@@ -666,11 +666,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/ChartViewController.m"
-            timestampString = "402141644.522094"
+            timestampString = "403672977.527541"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "489"
-            endingLineNumber = "489"
+            startingLineNumber = "486"
+            endingLineNumber = "486"
             landmarkName = "-webViewDidFinishLoad:"
             landmarkType = "5">
          </BreakpointContent>
@@ -682,11 +682,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/ChartViewController.m"
-            timestampString = "402141644.522094"
+            timestampString = "403672977.527541"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "577"
-            endingLineNumber = "577"
+            startingLineNumber = "574"
+            endingLineNumber = "574"
             landmarkName = "-adjustChartDataForSaved:andToken:"
             landmarkType = "5">
          </BreakpointContent>
@@ -810,11 +810,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/ChartViewController.m"
-            timestampString = "402141644.522094"
+            timestampString = "403672977.527541"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "628"
-            endingLineNumber = "628"
+            startingLineNumber = "625"
+            endingLineNumber = "625"
             landmarkName = "-viewPan:"
             landmarkType = "5">
          </BreakpointContent>
@@ -826,11 +826,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/ChartViewController.m"
-            timestampString = "402141644.522094"
+            timestampString = "403672977.527541"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "634"
-            endingLineNumber = "634"
+            startingLineNumber = "631"
+            endingLineNumber = "631"
             landmarkName = "-viewPan:"
             landmarkType = "5">
          </BreakpointContent>
@@ -842,11 +842,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/ChartViewController.m"
-            timestampString = "402141644.522094"
+            timestampString = "403672977.527541"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "630"
-            endingLineNumber = "630"
+            startingLineNumber = "627"
+            endingLineNumber = "627"
             landmarkName = "-viewPan:"
             landmarkType = "5">
          </BreakpointContent>
@@ -970,11 +970,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/FinancalModelChartViewController.m"
-            timestampString = "401966353.898289"
+            timestampString = "403674078.960388"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "240"
-            endingLineNumber = "240"
+            startingLineNumber = "237"
+            endingLineNumber = "237"
             landmarkName = "-webViewDidFinishLoad:"
             landmarkType = "5">
          </BreakpointContent>
@@ -986,11 +986,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/ChartViewController.m"
-            timestampString = "402141644.522094"
+            timestampString = "403672977.527541"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "454"
-            endingLineNumber = "454"
+            startingLineNumber = "451"
+            endingLineNumber = "451"
             landmarkName = "-webViewDidFinishLoad:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1018,11 +1018,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/ChartViewController.m"
-            timestampString = "402141644.522094"
+            timestampString = "403672977.527541"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "523"
-            endingLineNumber = "523"
+            startingLineNumber = "520"
+            endingLineNumber = "520"
             landmarkName = "-divideData:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1034,11 +1034,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/ChartViewController.m"
-            timestampString = "402141644.522094"
+            timestampString = "403672977.527541"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "506"
-            endingLineNumber = "506"
+            startingLineNumber = "503"
+            endingLineNumber = "503"
             landmarkName = "-modelClassChanged:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1050,11 +1050,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/ChartViewController.m"
-            timestampString = "402141644.522094"
+            timestampString = "403672977.527541"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "568"
-            endingLineNumber = "568"
+            startingLineNumber = "565"
+            endingLineNumber = "565"
             landmarkName = "-adjustChartDataForSaved:andToken:"
             landmarkType = "5">
          </BreakpointContent>

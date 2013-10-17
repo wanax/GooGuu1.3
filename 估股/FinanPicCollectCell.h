@@ -12,6 +12,7 @@
 
 -(void)setImage:(UIImage *)image;
 
-@property (nonatomic, strong) UIImageView *imageView;
+@property (nonatomic,retain) IBOutlet UILabel *titleLabel;
+@property (nonatomic, strong) IBOutlet UIImageView *imageView;
 
 @end

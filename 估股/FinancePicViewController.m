@@ -9,6 +9,7 @@
 #import "FinancePicViewController.h"
 #import "FinanPicCollectCell.h"
 #import "UIImageView+WebCache.h"
+#import "UIScrollView+SVInfiniteScrolling.h"
 #import "DemoPhoto.h"
 
 @interface FinancePicViewController ()
@@ -16,7 +17,6 @@
 @end
 
 static NSString *ItemIdentifier = @"ItemIdentifier";
-static float imageSize = 90.0f;
 
 #define BROWSER_TITLE_LBL_TAG 12731
 #define BROWSER_DESCRIP_LBL_TAG 178273
@@ -29,7 +29,7 @@ static float imageSize = 90.0f;
 -(void)loadView
 {
     UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
-    [flowLayout setItemSize:CGSizeMake(90, 160)];
+    [flowLayout setItemSize:CGSizeMake(90, 262)];
     flowLayout.sectionInset = UIEdgeInsetsMake(10, 10, 10, 10);
     [flowLayout setScrollDirection:UICollectionViewScrollDirectionVertical];
     self.collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:flowLayout];
@@ -37,6 +37,9 @@ static float imageSize = 90.0f;
     [self.collectionView setBackgroundColor:[Utiles colorWithHexString:@"#FDFBE4"]];
     self.collectionView.delegate = self;
     self.collectionView.dataSource = self;
+    [self.collectionView addInfiniteScrollingWithActionHandler:^{
+        [self addPics];
+    }];
     
     self.collectionView.indicatorStyle = UIScrollViewIndicatorStyleWhite;
 }
@@ -44,21 +47,26 @@ static float imageSize = 90.0f;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    page=1;
     self.photoDataSource=[[NSMutableArray alloc] init];
     self.browser = [[CXPhotoBrowser alloc] initWithDataSource:self delegate:self];
-    self.browser.wantsFullScreenLayout = NO;
+    //self.browser.wantsFullScreenLayout = NO;
     [self.view setBackgroundColor:[Utiles colorWithHexString:@"#FDFBE4"]];
     self.images=[[NSArray alloc] init];
-    [self getPics];
+    [self addPics];
 }
 
--(void)getPics{
-    
-    NSDictionary *params=[NSDictionary dictionaryWithObjectsAndKeys:self.keyWord,@"keyword",@"1",@"offset", nil];
-    
+-(void)addPics{
+    if([self.keyWord isEqualToString:@"全部"]){
+        self.keyWord=@"";
+    }
+    NSDictionary *params=[NSDictionary dictionaryWithObjectsAndKeys:self.keyWord,@"keyword",[NSString stringWithFormat:@"%d",page],@"offset", nil];
     [Utiles getNetInfoWithPath:@"Fchart" andParams:params besidesBlock:^(id obj) {
         
         NSMutableArray *temp=[[[NSMutableArray alloc] init] autorelease];
+        for(id t in self.images){
+            [temp addObject:t];
+        }
         for(id t in obj){
             [temp addObject:[t objectForKey:@"url"]];
         }
@@ -70,6 +78,8 @@ static float imageSize = 90.0f;
         }
         self.images=temp;
         [self.collectionView reloadData];
+        [self.collectionView.infiniteScrollingView stopAnimating];
+        page++;
         
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         
@@ -90,6 +100,7 @@ static float imageSize = 90.0f;
     
     [cell.imageView setImageWithURL:[NSURL URLWithString:[self.images objectAtIndex:indexPath.row]]
                    placeholderImage:[UIImage imageNamed:@"icon.png"]];
+    cell.titleLabel=@"here";
     
     return cell;
 }

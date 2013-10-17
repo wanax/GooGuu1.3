@@ -10,7 +10,9 @@
 #import "FinancePicViewController.h"
 #import "HPLTagCloudGenerator.h"
 
+
 @interface FinPicKeyWordListViewController ()
+
 
 @end
 
@@ -24,32 +26,26 @@
     }
     return self;
 }
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self.view setBackgroundColor:[UIColor purpleColor]];
+    [self.view setBackgroundColor:[Utiles colorWithHexString:@"#FDFBE4"]];
     self.title=@"金融图汇";
-    
-    NSDictionary *tagDict = @{@"tag1": @3,
-                              @"tag2": @5,
-                              @"tag3": @7,
-                              @"tag3": @6,
-                              @"tag3": @4,
-                              @"tag3": @9,
-                              @"tag3": @1,
-                              @"tag4": @2};
-    
-    HPLTagCloudGenerator *tagGenerator = [[HPLTagCloudGenerator alloc] init];
-    tagGenerator.size = CGSizeMake(self.view.frame.size.width, self.view.frame.size.height);
-    tagGenerator.tagDict = tagDict;
-    
-    NSArray *views = [tagGenerator generateTagViews];
-    
-    for(UIView *v in views) {
-        [self.view addSubview:v];
-    }
+    [self initComponents];
+    [self getKeyWordList];
 
 }
+
+-(void)initComponents{
+    
+    self.cusTabView=[[UITableView alloc] initWithFrame:CGRectMake(0,0,SCREEN_WIDTH,SCREEN_HEIGHT-40)];
+    self.cusTabView.delegate=self;
+    self.cusTabView.dataSource=self;
+    [self.view addSubview:self.cusTabView];
+    
+}
+
 
 -(void)getKeyWordList{
     [Utiles getNetInfoWithPath:@"FchartKeyWord" andParams:nil besidesBlock:^(id obj) {
@@ -59,6 +55,7 @@
         for (id obj in self.keyWordData) {
             [temp addObject:[obj objectForKey:@"keyword"]];
         }
+        [temp insertObject:@"全部" atIndex:0];
         self.keyWordList=temp;
         [self.cusTabView reloadData];
         
@@ -91,6 +88,8 @@
                 initWithStyle:UITableViewCellStyleValue1
                 reuseIdentifier:KeyWordCellIdentifier];
     }
+    
+    cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
     
     [cell.textLabel setText:[self.keyWordList objectAtIndex:indexPath.row]];
     [cell.textLabel setFont:[UIFont fontWithName:@"Heiti SC" size:14.0]];

@@ -24,20 +24,22 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CQMFloatingMaskControlDelegate.h"
 
 
 @class CQMFloatingFrameView;
 @class CQMFloatingNavigationBar;
 
 
-@interface CQMFloatingController : UIViewController
+@interface CQMFloatingController : UIViewController<CQMFloatingMaskControlDelegate>
 
-@property (nonatomic) CGSize frameSize;
-@property (nonatomic, retain) UIColor *frameColor;
+@property (nonatomic) CGSize landscapeFrameSize;
+@property (nonatomic) CGSize portraitFrameSize;
+@property (nonatomic, strong) UIColor *frameColor;
 
 + (CQMFloatingController*)sharedFloatingController;
 
-- (void)presentWithContentViewController:(UIViewController*)contentViewController animated:(BOOL)animated;
+- (void)showInView:(UIView*)view withContentViewController:(UIViewController*)contentViewController animated:(BOOL)animated;
 - (void)dismissAnimated:(BOOL)animated;
 
 @end

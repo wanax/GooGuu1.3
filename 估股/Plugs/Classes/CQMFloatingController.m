@@ -27,31 +27,32 @@
 #import "CQMFloatingController.h"
 #import "CQMFloatingContentOverlayView.h"
 #import "CQMFloatingFrameView.h"
+#import "CQMFloatingMaskControl.h"
 #import "CQMFloatingNavigationBar.h"
 #import "CQMPathUtilities.h"
-#import "PrettyNavigationController.h"
 
 
 #define kDefaultMaskColor  [UIColor colorWithWhite:0 alpha:0.5]
 #define kDefaultFrameColor [UIColor colorWithRed:0.10f green:0.12f blue:0.16f alpha:1.00f]
-#define kDefaultFrameSize  CGSizeMake(320 - 66, 460 - 66)
+#define kDefaultPortraitFrameSize  CGSizeMake(320 - 66, 460 - 66)
+#define kDefaultLandscapeFrameSize CGSizeMake(480 - 66, 300 - 66)
 #define kFramePadding      5.0f
 #define kRootKey           @"root"
 #define kShadowColor       [UIColor blackColor]
-#define kShadowOffset      CGSizeMake(0, 0.0f)
+#define kShadowOffset      CGSizeMake(0, 2.0f)
 #define kShadowOpacity     0.70f
-#define kShadowRadius      0.0f
+#define kShadowRadius      10.0f
 #define kAnimationDuration 0.3f
 
 
 @interface CQMFloatingController()
 
-@property (nonatomic, readonly, retain) UIControl *maskControl;
-@property (nonatomic, readonly, retain) CQMFloatingFrameView *frameView;
-@property (nonatomic, readonly, retain) UIView *contentView;
-@property (nonatomic, readonly, retain) CQMFloatingContentOverlayView *contentOverlayView;
-@property (nonatomic, readonly, retain) UINavigationController *navigationController;
-@property (nonatomic, retain) UIImageView *shadowView;
+@property (nonatomic, readonly, strong) UIControl *maskControl;
+@property (nonatomic, readonly, strong) CQMFloatingFrameView *frameView;
+@property (nonatomic, readonly, strong) UIView *contentView;
+@property (nonatomic, readonly, strong) CQMFloatingContentOverlayView *contentOverlayView;
+@property (nonatomic, readonly, strong) UINavigationController *navigationController;
+@property (nonatomic, strong) UIImageView *shadowView;
 
 - (void)layoutFrameView;
 // Actions
@@ -63,8 +64,10 @@
 @implementation CQMFloatingController {
 @private
 	BOOL presented_;
+	CGSize landscapeFrameSize_;
+	CGSize portraitFrameSize_;
 	// View
-	UIControl *maskControl_;
+	CQMFloatingMaskControl *maskControl_;
 	CQMFloatingFrameView *frameView_;
 	UIView *contentView_;
 	CQMFloatingContentOverlayView *contentOverlayView_;
@@ -75,39 +78,35 @@
 
 - (id)init {
 	if (self = [super init]) {
-		[self setFrameSize:kDefaultFrameSize];
+		[self setPortraitFrameSize:kDefaultPortraitFrameSize];
+		[self setLandscapeFrameSize:kDefaultLandscapeFrameSize];
 		[self setFrameColor:kDefaultFrameColor];
 	}
 	return self;
 }
 
 
-- (void)dealloc {
-	[contentViewController_ release];
-	[maskControl_ release];
-	[frameView_ release];
-	[contentView_ release];
-	[contentOverlayView_ release];
-	[navController_ release];
-	[self setShadowView:nil];
-	[super dealloc];
-}
 
 
 #pragma mark -
 #pragma mark Property
 
 
-- (CGSize)frameSize {
-	return [self.frameView frame].size;
+- (CGSize)portraitFrameSize {
+	return portraitFrameSize_;
 }
-- (void)setFrameSize:(CGSize)frameSize {
-	CGRect frame = [self.frameView frame];
-	frame.size = frameSize;
-	[self.frameView setFrame:frame];
-    CGAffineTransform transform = self.frameView.transform;
-    transform = CGAffineTransformMakeRotation(M_PI/2);
-    self.frameView.transform = transform;
+- (void)setPortraitFrameSize:(CGSize)portraitFrameSize {
+	portraitFrameSize_ = portraitFrameSize;
+	[self layoutFrameView];
+}
+
+
+- (CGSize)landscapeFrameSize {
+	return landscapeFrameSize_;
+}
+- (void)setLandscapeFrameSize:(CGSize)landscapeFrameSize {
+	landscapeFrameSize_ = landscapeFrameSize;
+	[self layoutFrameView];
 }
 
 
@@ -121,10 +120,11 @@
 }
 
 
-- (UIControl*)maskControl {
+- (CQMFloatingMaskControl*)maskControl {
 	if (maskControl_ == nil) {
-		maskControl_ = [[UIControl alloc] init];
+		maskControl_ = [[CQMFloatingMaskControl alloc] init];
 		[maskControl_ setBackgroundColor:kDefaultMaskColor];
+		[maskControl_ setResizeDelegate:self];
 		[maskControl_ addTarget:self
 						 action:@selector(maskControlDidTouchUpInside:)
 			   forControlEvents:UIControlEventTouchUpInside];
@@ -141,7 +141,6 @@
 		[frameView_.layer setShadowOpacity:kShadowOpacity];
 		[frameView_.layer setShadowRadius:kShadowRadius];
 	}
-    
 	return frameView_;
 }
 
@@ -168,7 +167,6 @@
 	if (navController_ == nil) {
 		UIViewController *dummy = [[UIViewController alloc] init];
 		UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:dummy];
-		[dummy release];
 		
 		// Archive navigation controller for changing navigationbar class
 		[navController navigationBar];
@@ -176,17 +174,13 @@
 		NSKeyedArchiver *archiver = [[NSKeyedArchiver alloc] initForWritingWithMutableData:data];
 		[archiver encodeObject:navController forKey:kRootKey];
 		[archiver finishEncoding];
-		[archiver release];
-		[navController release];
 		
 		// Unarchive it with changing navigationbar class
 		NSKeyedUnarchiver *unarchiver = [[NSKeyedUnarchiver alloc] initForReadingWithData:data];
 		[unarchiver setClass:[CQMFloatingNavigationBar class]
 				forClassName:NSStringFromClass([UINavigationBar class])];
-		navController_ = [[unarchiver decodeObjectForKey:kRootKey] retain];
-		[unarchiver release];
+		navController_ = [unarchiver decodeObjectForKey:kRootKey];
 		
-		[data release];
 	}
 	return navController_;
 }
@@ -212,7 +206,7 @@
 #pragma mark -
 
 
-- (void)presentWithContentViewController:(UIViewController*)viewController animated:(BOOL)animated {
+- (void)showInView:(UIView*)view withContentViewController:(UIViewController*)viewController animated:(BOOL)animated {
 	@synchronized(self) {
 		if (presented_) {
 			return;
@@ -224,17 +218,14 @@
 	
 	if (contentViewController_ != viewController) {
 		[[contentViewController_ view] removeFromSuperview];
-		[contentViewController_ release];
-		contentViewController_ = [viewController retain];
+		contentViewController_ = viewController;
 
 		NSArray *viewControllers = [NSArray arrayWithObject:contentViewController_];
 		[self.navigationController setViewControllers:viewControllers];
 	}
 	
-	UIWindow *window = [[UIApplication sharedApplication] keyWindow];
-	CGRect appFrame = [[UIScreen mainScreen] applicationFrame];
-	[self.view setFrame:[window convertRect:appFrame fromView:nil]];
-	[window addSubview:[self view]];
+	[self.view setFrame:[view bounds]];
+	[view addSubview:[self view]];
 	
 	[self layoutFrameView];
 	
@@ -248,31 +239,41 @@
 
 
 - (void)dismissAnimated:(BOOL)animated {
-	__block CQMFloatingController *me = self;
-	[UIView animateWithDuration:(animated ? kAnimationDuration : 0)
-					 animations:
-	 ^(void) {
-		[me.view setAlpha:0];
-	 }
-					 completion:
-	 ^(BOOL finished) {
-		 if (finished) {
-			 [me.view removeFromSuperview];
-			 presented_ = NO;
-		 }
-	 }];
+    if (animated) {
+        __block CQMFloatingController *me = self;
+        [UIView animateWithDuration: kAnimationDuration
+                         animations:
+         ^(void) {
+             [me.view setAlpha:0];
+         }
+                         completion:
+         ^(BOOL finished) {
+             if (finished) {
+                 [me.view removeFromSuperview];
+                 presented_ = NO;
+             }
+         }];
+        
+    } else {
+        [self.view removeFromSuperview];
+        presented_ = NO;
+    }
 }
 
 
 - (void)layoutFrameView {
 	// Frame
-	UIView *frameView = [self frameView];
+	CGSize maskSize = [self.maskControl frame].size;
+	BOOL isPortrait = (maskSize.width <= maskSize.height);
+	CGSize frameSize = isPortrait ? [self portraitFrameSize] : [self landscapeFrameSize];
 	CGSize viewSize = [self.view frame].size;
-	CGSize frameSize = [frameView frame].size;
-	[frameView setFrame:CGRectMake(ceil((viewSize.width - frameSize.width) / 2),
-								   ceil((viewSize.height - frameSize.height) / 2),
+	UIView *frameView = [self frameView];
+	[frameView setAutoresizingMask:(UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight)];
+	[frameView setFrame:CGRectMake(round((viewSize.width - frameSize.width) / 2),
+								   round((viewSize.height - frameSize.height) / 2),
 								   frameSize.width,
 								   frameSize.height)];
+	[frameView setNeedsDisplay];
 	
 	// Content
 	UIView *contentView = [self contentView];
@@ -284,7 +285,7 @@
 	
 	// Navigation
 	UIView *navView = [self.navigationController view];
-	CGFloat navBarHeight = [self.navigationController.navigationBar frame].size.height;
+	CGFloat navBarHeight = [self.navigationController.navigationBar sizeThatFits:[contentView bounds].size].height;
 	[navView setFrame:CGRectMake(0, 0,
 								 contentSize.width, contentSize.height)];
 	[self.navigationController.navigationBar setFrame:CGRectMake(0, 0,
@@ -297,6 +298,7 @@
 										contentFrame.origin.y + navBarHeight - contentFrameWidth,
 										contentSize.width  + contentFrameWidth * 2,
 										contentSize.height - navBarHeight + contentFrameWidth * 2)];
+	[contentOverlay setNeedsDisplay];
 	[contentOverlay.superview bringSubviewToFront:contentOverlay];
 	
 	// Shadow
@@ -315,6 +317,15 @@
 
 - (void)maskControlDidTouchUpInside:(id)sender {
 	[self dismissAnimated:YES];
+}
+
+
+#pragma mark -
+#pragma mark Delegates
+
+
+- (void)floatingMaskControlDidResize:(CQMFloatingMaskControl*)maskControl {
+	[self layoutFrameView];
 }
 
 
@@ -338,6 +349,11 @@
 	[self.frameView addSubview:[self contentView]];
 	[self.contentView addSubview:[self.navigationController view]];
 	[self.frameView addSubview:[self contentOverlayView]];
+}
+
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
+	return YES;
 }
 
 

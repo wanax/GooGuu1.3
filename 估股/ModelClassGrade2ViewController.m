@@ -51,6 +51,7 @@
 {
     [super viewDidLoad];
     [self.navigationItem setTitle:classTitle];
+
     self.indicatorClass=[jsonData objectForKey:indicator];
     NSMutableArray *tmpName=[[NSMutableArray alloc] init];
     if(savedData){
@@ -107,13 +108,21 @@
 	
     [delegate modelClassChanged:[[self.indicatorClass objectAtIndex:indexPath.row] objectForKey:@"id"]];
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    CQMFloatingController *floatingController = [CQMFloatingController sharedFloatingController];
-    [floatingController dismissAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:nil];
     
     
 }
 
 
+-(NSUInteger)supportedInterfaceOrientations{
+    
+    return UIInterfaceOrientationLandscapeLeft;
+}
+
+
+-(BOOL)shouldAutorotate{
+    return NO;
+}
 
 
 
