@@ -95,4 +95,8 @@ dependencies: \
   /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger/PDObject.h \
   /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger/PDNetworkDomain.h \
   /Users/xcode/wanax/oc/GooGuu1.2-master/估股/FinPicKeyWordListViewController.h \
-  /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuViewController.h
+  /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/src/AOTag.h \
+  /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuViewController.h \
+  /Users/xcode/wanax/oc/GooGuu1.2-master/估股/FinPic2ViewController.h \
+  /Users/xcode/wanax/oc/GooGuu1.2-master/估股/FinanceDataViewController.h \
+  /Users/xcode/wanax/oc/GooGuu1.2-master/估股/DrawChartTool.h

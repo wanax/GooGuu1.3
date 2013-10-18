@@ -73,4 +73,5 @@ dependencies: \
   /Users/xcode/wanax/oc/GooGuu1.2-master/估股/FinancalModelChartViewController.h \
   /Users/xcode/wanax/oc/GooGuu1.2-master/估股/DrawChartTool.h \
   /Users/xcode/wanax/oc/GooGuu1.2-master/估股/DahonValuationViewController.h \
-  /Users/xcode/wanax/oc/GooGuu1.2-master/估股/DiscountRateViewController.h
+  /Users/xcode/wanax/oc/GooGuu1.2-master/估股/DiscountRateViewController.h \
+  /Users/xcode/wanax/oc/GooGuu1.2-master/估股/FinanceDataViewController.h

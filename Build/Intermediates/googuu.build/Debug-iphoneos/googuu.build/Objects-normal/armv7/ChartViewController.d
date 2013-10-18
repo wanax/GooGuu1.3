@@ -71,6 +71,7 @@ dependencies: \
   /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/MHTabBarController.h \
   /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/PrettyNavigationController.h \
   /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/Classes/CQMFloatingController.h \
+  /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/Classes/CQMFloatingMaskControlDelegate.h \
   /Users/xcode/wanax/oc/GooGuu1.2-master/估股/DrawChartTool.h \
   /Users/xcode/wanax/oc/GooGuu1.2-master/估股/DiscountRateViewController.h \
   /Users/xcode/wanax/oc/GooGuu1.2-master/估股/UIButton+BGColor.h \

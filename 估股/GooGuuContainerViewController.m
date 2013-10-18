@@ -53,7 +53,7 @@
     saveModelViewControler.browseType=MySavedType;
     calendarViewController=[[CalendarViewController alloc] init];
     calendarViewController.view.frame=CGRectMake(0,100,SCREEN_WIDTH,600);
-    concernedViewController.title=@"我的关注";
+    concernedViewController.title=@"自选股";
     saveModelViewControler.title=@"我的模型";
     calendarViewController.title=@"投资日历";
 

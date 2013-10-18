@@ -44,6 +44,7 @@
 @property (nonatomic, weak) id <AOTagDelegate> delegate;
 
 @property (nonatomic, strong) NSMutableArray *tags;
+@property (nonatomic,retain) NSArray *colorArr;
 
 /**************************
  * Methods to load tags with bundle images
@@ -56,6 +57,7 @@
  * @param tImage the NSString tag image named
  */
 - (void)addTag:(NSString *)tTitle withImage:(NSString *)tImage;
+- (void)addTag:(NSString *)tTitle withColor:(UIColor *)color;
 
 /**
  * Create a new tag object with custom colors

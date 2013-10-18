@@ -50,8 +50,13 @@ t1381976219
 s5274768
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods-KKProgressTimer.a
-t2
-s0
+t1381976221
+s70816
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/KKProgressTimer/KKProgressTimer/KKProgressTimer.h
+c00000000525C34CE0000000000000849
+t1381774542
+s2121
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/KKProgressTimer/KKProgressTimer/KKProgressTimer.m
 c00000000525C34CE0000000000001405
@@ -68,6 +73,11 @@ c00000000525C34CE000000000000004D
 t1381774542
 s77
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-environment.h
+c00000000525C34CE0000000000000446
+t1381774542
+s1094
+
 CBuild AST from /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/KKProgressTimer/KKProgressTimer/KKProgressTimer.m
 r0
 
@@ -76,7 +86,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies30f27e15800fb841^aa601416800fb841^---0#1#1#--18"Check dependencies36"B4678ABC-9D41-4D29-901B-6F4B806A059A-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies8db57fe13411b841^0a12b3e13411b841^---0#1#1#--18"Check dependencies36"F83CAEB0-1F52-4B9D-9A0A-2784CF734DFA-
 
 CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-KKProgressTimer.build/Objects-normal/armv7/KKProgressTimer.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/KKProgressTimer/KKProgressTimer/KKProgressTimer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s403669020.502710

@@ -50,6 +50,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [Utiles iOS7StatusBar:self];
     [self.navigationItem setTitle:classTitle];
 
     self.indicatorClass=[jsonData objectForKey:indicator];

@@ -19,7 +19,6 @@
     self = [super initWithCoder:aDecoder];
     if (self)
     {
-        // change to our custom selected background view
         CustomCellBackground *backgroundView = [[CustomCellBackground alloc] initWithFrame:CGRectZero];
         self.selectedBackgroundView = backgroundView;
     }
@@ -29,13 +28,9 @@
 - (id)initWithFrame:(CGRect)frame
 {
     if (!(self = [super initWithFrame:frame])) return nil;
-    
-    self.imageView = [[UIImageView alloc] initWithFrame:CGRectInset(CGRectMake(0, 0, CGRectGetWidth(frame), CGRectGetHeight(frame)), 5, 5)];
-    self.imageView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
-    [self.contentView addSubview:self.imageView];
-    
-    self.backgroundColor = [UIColor whiteColor];
-    
+    CustomCellBackground *backgroundView = [[CustomCellBackground alloc] initWithFrame:CGRectZero];
+    self.selectedBackgroundView = backgroundView;
+
     return self;
 }
 

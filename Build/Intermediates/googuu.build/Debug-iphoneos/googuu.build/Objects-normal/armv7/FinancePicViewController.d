@@ -15,4 +15,5 @@ dependencies: \
   /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/SDWebImage/SDWebImageOperation.h \
   /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/SDWebImage/SDWebImageDownloader.h \
   /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/SDWebImage/SDImageCache.h \
+  /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/SVPullToRefresh/UIScrollView+SVInfiniteScrolling.h \
   /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/DemoPhoto.h

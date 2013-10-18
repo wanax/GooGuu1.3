@@ -16,6 +16,7 @@
 #import "DahonValuationViewController.h"
 #import "DiscountRateViewController.h"
 #import "MHTabBarController.h"
+#import "FinanceDataViewController.h"
 
 @interface ModelViewController ()
 
@@ -173,8 +174,7 @@
             [self addNewButton:@"查看财务数据" Tag:1 frame:CGRectMake(163, 15, 150, 26)];
             [self addNewButton:@"调整模型参数" Tag:2 frame:CGRectMake(84, 78, 150, 26)];
         }else{
-            UIButton *fBt=[self addNewButton:@"查看财务数据" Tag:1 frame:CGRectMake(163, 15, 150, 26)];
-            [fBt setEnabled:NO];
+            [self addNewButton:@"查看财务数据" Tag:4 frame:CGRectMake(163, 15, 150, 26)];
             UIButton *reqBt=[UIButton buttonWithType:UIButtonTypeCustom];
             [reqBt setFrame:CGRectMake(120, 78, 80, 26)];
             reqBt.titleLabel.font=[UIFont fontWithName:@"Heiti SC" size:14.0f];
@@ -382,6 +382,9 @@
     }else if(bt.tag==3){
         DahonValuationViewController *dahon=[[DahonValuationViewController alloc] init];
         [self presentViewController:dahon animated:YES completion:nil];
+    }else if(bt.tag==4){
+        FinanceDataViewController *finData=[[FinanceDataViewController alloc] init];
+        [self presentViewController:finData animated:YES completion:nil];
     }else if(bt.tag==AttentionAction){
         
         if ([Utiles isLogin]) {

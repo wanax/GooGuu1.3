@@ -1361,8 +1361,228 @@ t1381976222
 s5284700
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods-PonyDebugger.a
+t1381976226
+s2057368
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDApplicationCacheDomain.h
+c00000000525C34CE0000000000000ABB
 t1381774542
-s2065000
+s2747
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDApplicationCacheTypes.h
+c00000000525C34CE00000000000006D5
+t1381774542
+s1749
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDCSSDomain.h
+c00000000525C34CE000000000000241E
+t1381774542
+s9246
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDCSSTypes.h
+c00000000525C34CE0000000000002866
+t1381774542
+s10342
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDConsoleDomain.h
+c00000000525C34CE0000000000000C4A
+t1381774542
+s3146
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDConsoleTypes.h
+c00000000525C34CE00000000000007EA
+t1381774542
+s2026
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDDOMDebuggerDomain.h
+c00000000525C34CE0000000000000C40
+t1381774542
+s3136
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDDOMDomain.h
+c00000000525C34CE00000000000037DB
+t1381774542
+s14299
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDDOMStorageDomain.h
+c00000000525C34CE000000000000074B
+t1381774542
+s1867
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDDOMStorageTypes.h
+c00000000525C34CE00000000000002FF
+t1381774542
+s767
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDDOMTypes.h
+c00000000525C34CE00000000000012BD
+t1381774542
+s4797
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDDatabaseDomain.h
+c00000000525C34CE0000000000000742
+t1381774542
+s1858
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDDatabaseTypes.h
+c00000000525C34CE000000000000032C
+t1381774542
+s812
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDDebugger.h
+c00000000525C34CE00000000000009C4
+t1381774542
+s2500
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDDebuggerDomain.h
+c00000000525C34CE000000000000355B
+t1381774542
+s13659
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDDebuggerTypes.h
+c00000000525C34CE0000000000000A93
+t1381774542
+s2707
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDDefinitions.h
+c00000000525C34CE000000000000046B
+t1381774542
+s1131
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDDomainController.h
+c00000000525C34CE000000000000027A
+t1381774542
+s634
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDDynamicDebuggerDomain.h
+c00000000525C34CE000000000000047B
+t1381774542
+s1147
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDFileSystemDomain.h
+c00000000525C34CE0000000000001811
+t1381774542
+s6161
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDFileSystemTypes.h
+c00000000525C34CE00000000000005C3
+t1381774542
+s1475
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDIndexedDBDomain.h
+c00000000525C34CE0000000000000EB8
+t1381774542
+s3768
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDIndexedDBTypes.h
+c00000000525C34CE0000000000000DC5
+t1381774542
+s3525
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDInspectorDomain.h
+c00000000525C34CE000000000000051C
+t1381774542
+s1308
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDMemoryDomain.h
+c00000000525C34CE00000000000004D1
+t1381774542
+s1233
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDMemoryTypes.h
+c00000000525C34CE0000000000000760
+t1381774542
+s1888
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDNetworkDomain.h
+c00000000525C34CE00000000000020F3
+t1381774542
+s8435
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDNetworkDomainController.h
+c00000000525C34CE00000000000007BF
+t1381774542
+s1983
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDNetworkTypes.h
+c00000000525C34CE0000000000001632
+t1381774542
+s5682
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDObject.h
+c00000000525C34CE0000000000000325
+t1381774542
+s805
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDPageDomain.h
+c00000000525C34CE00000000000024B5
+t1381774542
+s9397
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDPageTypes.h
+c00000000525C34CE0000000000000C29
+t1381774542
+s3113
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDProfilerDomain.h
+c00000000525C34CE0000000000000D47
+t1381774542
+s3399
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDProfilerTypes.h
+c00000000525C34CE0000000000000429
+t1381774542
+s1065
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDRuntimeDomain.h
+c00000000525C34CE00000000000015F1
+t1381774542
+s5617
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDRuntimeDomainController.h
+c00000000525C34CE00000000000002B9
+t1381774542
+s697
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDRuntimeTypes.h
+c00000000525C34CE0000000000001282
+t1381774542
+s4738
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDTimelineDomain.h
+c00000000525C34CE00000000000008D8
+t1381774542
+s2264
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDTimelineTypes.h
+c00000000525C34CE0000000000000314
+t1381774542
+s788
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDWebGLDomain.h
+c00000000525C34CE0000000000000655
+t1381774542
+s1621
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDWebGLTypes.h
+c00000000525C34CE00000000000002B4
+t1381774542
+s692
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PDWorkerDomain.h
+c00000000525C34CE0000000000000736
+t1381774542
+s1846
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger/PonyDebugger.h
+c00000000525C34CE000000000000019E
+t1381774542
+s414
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/SocketRocket/SRWebSocket.h
+c00000000525C34CE0000000000000D87
+t1381774542
+s3463
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-PonyDebugger-dummy.m
 c00000000525C34CE000000000000008A
@@ -1374,10 +1594,20 @@ c00000000525C34CE000000000000004D
 t1381774542
 s77
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-environment.h
+c00000000525C34CE0000000000000446
+t1381774542
+s1094
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDApplicationCacheDomain.m
 c00000000525C34CE0000000000001045
 t1381774542
 s4165
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDApplicationCacheTypes.h
+c00000000525C34CE00000000000006D5
+t1381774542
+s1749
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDApplicationCacheTypes.m
 c00000000525C34CE00000000000007E3
@@ -1389,6 +1619,11 @@ c00000000525C34CE00000000000034B6
 t1381774542
 s13494
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDCSSTypes.h
+c00000000525C34CE0000000000002866
+t1381774542
+s10342
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDCSSTypes.m
 c00000000525C34CE0000000000002949
 t1381774542
@@ -1398,6 +1633,11 @@ N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PD
 c00000000525C34CE0000000000000F4D
 t1381774542
 s3917
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDConsoleTypes.h
+c00000000525C34CE00000000000007EA
+t1381774542
+s2026
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDConsoleTypes.m
 c00000000525C34CE0000000000000732
@@ -1419,10 +1659,20 @@ c00000000525C34CE000000000000100C
 t1381774542
 s4108
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDDOMStorageTypes.h
+c00000000525C34CE00000000000002FF
+t1381774542
+s767
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDDOMStorageTypes.m
 c00000000525C34CE0000000000000348
 t1381774542
 s840
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDDOMTypes.h
+c00000000525C34CE00000000000012BD
+t1381774542
+s4797
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDDOMTypes.m
 c00000000525C34CE0000000000000E2D
@@ -1434,6 +1684,11 @@ c00000000525C34CE000000000000113F
 t1381774542
 s4415
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDDatabaseTypes.h
+c00000000525C34CE000000000000032C
+t1381774542
+s812
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDDatabaseTypes.m
 c00000000525C34CE0000000000000364
 t1381774542
@@ -1443,6 +1698,11 @@ N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PD
 c00000000525C34CE000000000000479A
 t1381774542
 s18330
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDDebuggerTypes.h
+c00000000525C34CE0000000000000A93
+t1381774542
+s2707
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDDebuggerTypes.m
 c00000000525C34CE0000000000000A0C
@@ -1454,6 +1714,11 @@ c00000000525C34CE0000000000001F68
 t1381774542
 s8040
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDFileSystemTypes.h
+c00000000525C34CE00000000000005C3
+t1381774542
+s1475
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDFileSystemTypes.m
 c00000000525C34CE00000000000005C6
 t1381774542
@@ -1463,6 +1728,11 @@ N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PD
 c00000000525C34CE0000000000001674
 t1381774542
 s5748
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDIndexedDBTypes.h
+c00000000525C34CE0000000000000DC5
+t1381774542
+s3525
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDIndexedDBTypes.m
 c00000000525C34CE00000000000011EE
@@ -1479,15 +1749,30 @@ c00000000525C34CE00000000000008B6
 t1381774542
 s2230
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDMemoryTypes.h
+c00000000525C34CE0000000000000760
+t1381774542
+s1888
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDMemoryTypes.m
 c00000000525C34CE0000000000000ACF
 t1381774542
 s2767
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDNetworkDomain.h
+c00000000525C34CE00000000000020F3
+t1381774542
+s8435
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDNetworkDomain.m
 c00000000525C34CE0000000000003E42
 t1381774542
 s15938
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDNetworkTypes.h
+c00000000525C34CE0000000000001632
+t1381774542
+s5682
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDNetworkTypes.m
 c00000000525C34CE00000000000016C1
@@ -1499,6 +1784,11 @@ c00000000525C34CE0000000000003703
 t1381774542
 s14083
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDPageTypes.h
+c00000000525C34CE0000000000000C29
+t1381774542
+s3113
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDPageTypes.m
 c00000000525C34CE0000000000000D14
 t1381774542
@@ -1508,6 +1798,11 @@ N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PD
 c00000000525C34CE0000000000002412
 t1381774542
 s9234
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDProfilerTypes.h
+c00000000525C34CE0000000000000429
+t1381774542
+s1065
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDProfilerTypes.m
 c00000000525C34CE000000000000052A
@@ -1519,6 +1814,11 @@ c00000000525C34CE0000000000001591
 t1381774542
 s5521
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDRuntimeTypes.h
+c00000000525C34CE0000000000001282
+t1381774542
+s4738
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDRuntimeTypes.m
 c00000000525C34CE0000000000000F88
 t1381774542
@@ -1528,6 +1828,11 @@ N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PD
 c00000000525C34CE0000000000000B68
 t1381774542
 s2920
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDTimelineTypes.h
+c00000000525C34CE0000000000000314
+t1381774542
+s788
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDTimelineTypes.m
 c00000000525C34CE0000000000000328
@@ -1539,6 +1844,11 @@ c00000000525C34CE0000000000000DDF
 t1381774542
 s3551
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDWebGLTypes.h
+c00000000525C34CE00000000000002B4
+t1381774542
+s692
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDWebGLTypes.m
 c00000000525C34CE0000000000000466
 t1381774542
@@ -1549,125 +1859,250 @@ c00000000525C34CE00000000000011AA
 t1381774542
 s4522
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSArray+PDRuntimePropertyDescriptor.h
+c00000000525C34CE0000000000000291
+t1381774542
+s657
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSArray+PDRuntimePropertyDescriptor.m
 c00000000525C34CE0000000000000D2F
 t1381774542
 s3375
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSArray+PD_JSONObject.h
+c00000000525C34CE0000000000000192
+t1381774542
+s402
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSArray+PD_JSONObject.m
 c00000000525C34CE0000000000000253
 t1381774542
 s595
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSData+PDB64Additions.h
+c00000000525C34CE00000000000002DD
+t1381774542
+s733
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSData+PDB64Additions.m
 c00000000525C34CE00000000000021CE
 t1381774542
 s8654
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSDate+PDDebugger.h
+c00000000525C34CE00000000000000C5
+t1381774542
+s197
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSDate+PDDebugger.m
 c00000000525C34CE0000000000000118
 t1381774542
 s280
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSDate+PD_JSONObject.h
+c00000000525C34CE0000000000000191
+t1381774542
+s401
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSDate+PD_JSONObject.m
 c00000000525C34CE00000000000001B6
 t1381774542
 s438
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSDictionary+PDRuntimePropertyDescriptor.h
+c00000000525C34CE0000000000000273
+t1381774542
+s627
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSDictionary+PDRuntimePropertyDescriptor.m
 c00000000525C34CE0000000000000B2A
 t1381774542
 s2858
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSError+PD_JSONObject.h
+c00000000525C34CE0000000000000193
+t1381774542
+s403
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSError+PD_JSONObject.m
 c00000000525C34CE00000000000001B9
 t1381774542
 s441
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSManagedObject+PDRuntimePropertyDescriptor.h
+c00000000525C34CE0000000000000354
+t1381774542
+s852
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSManagedObject+PDRuntimePropertyDescriptor.m
 c00000000525C34CE0000000000001014
 t1381774542
 s4116
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSObject+PDRuntimePropertyDescriptor.h
+c00000000525C34CE00000000000004AD
+t1381774542
+s1197
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSObject+PDRuntimePropertyDescriptor.m
 c00000000525C34CE0000000000001E88
 t1381774542
 s7816
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSOrderedSet+PDRuntimePropertyDescriptor.h
+c00000000525C34CE00000000000002A0
+t1381774542
+s672
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSOrderedSet+PDRuntimePropertyDescriptor.m
 c00000000525C34CE0000000000000DDB
 t1381774542
 s3547
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSSet+PDRuntimePropertyDescriptor.h
+c00000000525C34CE00000000000002BF
+t1381774542
+s703
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSSet+PDRuntimePropertyDescriptor.m
 c00000000525C34CE0000000000000F88
 t1381774542
 s3976
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDConsoleDomainController.h
+c00000000525C34CE0000000000000282
+t1381774542
+s642
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDConsoleDomainController.m
 c00000000525C34CE0000000000000D6C
 t1381774542
 s3436
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDContainerIndex.h
+c00000000525C34CE0000000000000234
+t1381774542
+s564
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDContainerIndex.m
 c00000000525C34CE000000000000028A
 t1381774542
 s650
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDDOMDomainController.h
+c00000000525C34CE0000000000000434
+t1381774542
+s1076
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDDOMDomainController.m
 c00000000525C34CE0000000000008105
 t1381774542
 s33029
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDDebugger.h
+c00000000525C34CE00000000000009C4
+t1381774542
+s2500
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDDebugger.m
 c00000000525C34CE0000000000003A42
 t1381774542
 s14914
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDDefinitions.h
+c00000000525C34CE000000000000046B
+t1381774542
+s1131
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDDefinitions.m
 c00000000525C34CE000000000000179E
 t1381774542
 s6046
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDDomainController.h
+c00000000525C34CE000000000000027A
+t1381774542
+s634
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDDomainController.m
 c00000000525C34CE00000000000003C6
 t1381774542
 s966
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDDynamicDebuggerDomain.h
+c00000000525C34CE000000000000047B
+t1381774542
+s1147
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDDynamicDebuggerDomain.m
 c00000000525C34CE00000000000008EA
 t1381774542
 s2282
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDIndexedDBDomainController.h
+c00000000525C34CE0000000000000384
+t1381774542
+s900
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDIndexedDBDomainController.m
 c00000000525C34CE00000000000024FF
 t1381774542
 s9471
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDInspectorDomainController.h
+c00000000525C34CE0000000000000222
+t1381774542
+s546
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDInspectorDomainController.m
 c00000000525C34CE0000000000000320
 t1381774542
 s800
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDNetworkDomainController.h
+c00000000525C34CE00000000000007BF
+t1381774542
+s1983
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDNetworkDomainController.m
 c00000000525C34CE0000000000006F12
 t1381774542
 s28434
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDObject.h
+c00000000525C34CE0000000000000325
+t1381774542
+s805
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDObject.m
 c00000000525C34CE0000000000000BC7
 t1381774542
 s3015
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDPageDomainController.h
+c00000000525C34CE0000000000000218
+t1381774542
+s536
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDPageDomainController.m
 c00000000525C34CE00000000000006A5
 t1381774542
 s1701
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDPrettyStringPrinter.h
+c00000000525C34CE0000000000000433
+t1381774542
+s1075
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDPrettyStringPrinter.m
 c00000000525C34CE0000000000000F90
 t1381774542
 s3984
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDRuntimeDomainController.h
+c00000000525C34CE00000000000002B9
+t1381774542
+s697
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDRuntimeDomainController.m
 c00000000525C34CE0000000000001234
@@ -2042,7 +2477,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesea97481e800fb841^172a7b1e800fb841^---0#1#1#--18"Check dependencies36"634139E7-47C4-4176-AF8F-EB0D25D917F2-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesb308bde13411b841^f015d9e13411b841^---0#1#1#--18"Check dependencies36"C9D47514-2A10-4ED1-AA2C-AF90878C1571-
 
 CCompileC /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7/NSArray+PDRuntimePropertyDescriptor.o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/PonyDebugger/ObjC/PonyDebugger/NSArray+PDRuntimePropertyDescriptor.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s402994819.723176
@@ -4706,6 +5141,192 @@ d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-PonyDebugger-dummy.m
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-PonyDebugger-dummy.m259"CompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7/Pods-PonyDebugger-dummy.o Pods-PonyDebugger-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler787c8322800fb841^18429222800fb841^---0#0#1#-19%DVTDocumentLocation2@85"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-PonyDebugger-dummy.m0000000000000000^3927"CompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7/Pods-PonyDebugger-dummy.o Pods-PonyDebugger-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Pods-PonyDebugger-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Pods-PonyDebugger-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Pods-PonyDebugger-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Pods-PonyDebugger-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/include -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/HPLTagCloudGenerator -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/DerivedSources/armv7 -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos -include /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-PonyDebugger-prefix-afcinlfpvphtvqarmsbovykxhzxk/Pods-PonyDebugger-prefix.pch -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7/Pods-PonyDebugger-dummy.d --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7/Pods-PonyDebugger-dummy.dia -c /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-PonyDebugger-dummy.m -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7/Pods-PonyDebugger-dummy.o36"2112E1F2-D84D-4537-A681-C6DE883E7368-
 b47B19558-0B00-47A1-A7EB-5E25A7700138
 
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/NSArray+PDRuntimePropertyDescriptor.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSArray+PDRuntimePropertyDescriptor.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/NSArray+PD_JSONObject.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSArray+PD_JSONObject.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/NSData+PDB64Additions.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSData+PDB64Additions.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/NSDate+PDDebugger.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSDate+PDDebugger.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/NSDate+PD_JSONObject.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSDate+PD_JSONObject.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/NSDictionary+PDRuntimePropertyDescriptor.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSDictionary+PDRuntimePropertyDescriptor.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/NSError+PD_JSONObject.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSError+PD_JSONObject.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/NSManagedObject+PDRuntimePropertyDescriptor.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSManagedObject+PDRuntimePropertyDescriptor.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/NSObject+PDRuntimePropertyDescriptor.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSObject+PDRuntimePropertyDescriptor.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/NSOrderedSet+PDRuntimePropertyDescriptor.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSOrderedSet+PDRuntimePropertyDescriptor.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/NSSet+PDRuntimePropertyDescriptor.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/NSSet+PDRuntimePropertyDescriptor.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDApplicationCacheDomain.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDApplicationCacheDomain.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDApplicationCacheTypes.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDApplicationCacheTypes.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDCSSDomain.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDCSSDomain.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDCSSTypes.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDCSSTypes.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDConsoleDomain.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDConsoleDomain.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDConsoleDomainController.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDConsoleDomainController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDConsoleTypes.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDConsoleTypes.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDContainerIndex.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDContainerIndex.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDDOMDebuggerDomain.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDDOMDebuggerDomain.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDDOMDomain.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDDOMDomain.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDDOMDomainController.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDDOMDomainController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDDOMStorageDomain.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDDOMStorageDomain.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDDOMStorageTypes.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDDOMStorageTypes.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDDOMTypes.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDDOMTypes.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDDatabaseDomain.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDDatabaseDomain.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDDatabaseTypes.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDDatabaseTypes.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDDebugger.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDDebugger.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDDebuggerDomain.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDDebuggerDomain.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDDebuggerTypes.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDDebuggerTypes.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDDefinitions.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDDefinitions.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDDomainController.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDDomainController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDDynamicDebuggerDomain.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDDynamicDebuggerDomain.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDFileSystemDomain.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDFileSystemDomain.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDFileSystemTypes.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDFileSystemTypes.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDIndexedDBDomain.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDIndexedDBDomain.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDIndexedDBDomainController.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDIndexedDBDomainController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDIndexedDBTypes.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDIndexedDBTypes.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDInspectorDomain.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDInspectorDomain.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDInspectorDomainController.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDInspectorDomainController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDMemoryDomain.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDMemoryDomain.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDMemoryTypes.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDMemoryTypes.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDNetworkDomain.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDNetworkDomain.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDNetworkDomainController.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDNetworkDomainController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDNetworkTypes.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDNetworkTypes.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDObject.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDObject.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDPageDomain.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDPageDomain.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDPageDomainController.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDPageDomainController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDPageTypes.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDPageTypes.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDPrettyStringPrinter.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDPrettyStringPrinter.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDProfilerDomain.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDProfilerDomain.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDProfilerTypes.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDProfilerTypes.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDRuntimeDomain.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDRuntimeDomain.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDRuntimeDomainController.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/PonyDebugger/PDRuntimeDomainController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDRuntimeTypes.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDRuntimeTypes.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDTimelineDomain.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDTimelineDomain.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDTimelineTypes.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDTimelineTypes.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDWebGLDomain.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDWebGLDomain.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDWebGLTypes.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDWebGLTypes.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/PDWorkerDomain.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/PonyDebugger/ObjC/DerivedSources/PDWorkerDomain.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/Pods-PonyDebugger-dummy.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-PonyDebugger-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCreateUniversalBinary /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods-PonyDebugger.a normal armv7\ armv7s
+r0
+
 CLibtool /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos/libPods-PonyDebugger.a normal armv7
 s402994821.480077
 e402994821.509738
@@ -4717,6 +5338,12 @@ xarmv7
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection143"Libtool /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos/libPods-PonyDebugger.a normal armv7143"Libtool /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos/libPods-PonyDebugger.a normal armv7caf97a853605b841^527e82853605b841^---0#0#1#--1190"Libtool /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos/libPods-PonyDebugger.a normal armv7    cd /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos -filelist /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7/Pods-PonyDebugger.LinkFileList -framework CoreData -framework CoreGraphics -framework Foundation -o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos/libPods-PonyDebugger.a36"3F4FC5B9-68C3-4F93-AC58-8EF49EFE1A80-
 bEFFF070F-FAA1-4609-AF3F-04BCE5FC07B7
 
+CLibtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7/libPods-PonyDebugger.a normal armv7
+r0
+
+CLibtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7s/libPods-PonyDebugger.a normal armv7s
+r0
+
 CLibtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods-PonyDebugger.a normal armv7
 s403669026.587887
 e403669026.971133
@@ -4727,6 +5354,12 @@ xnormal
 xarmv7
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Libtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods-PonyDebugger.a normal armv7112"Libtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods-PonyDebugger.a normal armv763999622800fb841^5a9df822800fb841^---0#0#1#--1035"Libtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods-PonyDebugger.a normal armv7    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos -filelist /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Objects-normal/armv7/Pods-PonyDebugger.LinkFileList -framework CoreData -framework CoreGraphics -framework Foundation -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods-PonyDebugger.a36"4B4B86DA-07C0-4E86-9FF0-9B437EFBA324-
 b47B19558-0B00-47A1-A7EB-5E25A7700138
+
+CProcessPCH /Users/xcode/Library/Developer/Xcode/DerivedData/googuu-amitkvaqxcylyoamxyheiolpbhrg/Index/PrecompiledHeaders/Pods-PonyDebugger-prefix-aznvhzjbnlbpqdftrrzarwruotiq_ast/Pods-PonyDebugger-prefix.pch.pch Pods-PonyDebugger-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/xcode/Library/Developer/Xcode/DerivedData/googuu-amitkvaqxcylyoamxyheiolpbhrg/Index/PrecompiledHeaders/Pods-PonyDebugger-prefix-eincgaytjyqdbzeltiirjlkfifwv_ast/Pods-PonyDebugger-prefix.pch.pch Pods-PonyDebugger-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
 
 CProcessPCH /Users/xcode/Library/Developer/Xcode/DerivedData/googuu-amitkvaqxcylyoamxyheiolpbhrg/Index/PrecompiledHeaders/Pods-PonyDebugger-prefix-geeztcxzbjzbpgdblzmhhzpderib_ast/Pods-PonyDebugger-prefix.pch.pch Pods-PonyDebugger-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
@@ -4787,6 +5420,12 @@ d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-PonyDebugger-prefix.pch
 d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-environment.h
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Pods-PonyDebugger-prefix.pch273"ProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-PonyDebugger-prefix-afcinlfpvphtvqarmsbovykxhzxk/Pods-PonyDebugger-prefix.pch.pch Pods-PonyDebugger-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler71af7c1e800fb841^e6e8411f800fb841^---0#0#1#-19%DVTDocumentLocation2@88"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-PonyDebugger-prefix.pch0000000000000000^3804"ProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-PonyDebugger-prefix-afcinlfpvphtvqarmsbovykxhzxk/Pods-PonyDebugger-prefix.pch.pch Pods-PonyDebugger-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Pods-PonyDebugger-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Pods-PonyDebugger-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Pods-PonyDebugger-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/Pods-PonyDebugger-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/include -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/HPLTagCloudGenerator -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/DerivedSources/armv7 -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PonyDebugger.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-PonyDebugger-prefix-afcinlfpvphtvqarmsbovykxhzxk/Pods-PonyDebugger-prefix.pch.dia -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-PonyDebugger-prefix-afcinlfpvphtvqarmsbovykxhzxk/Pods-PonyDebugger-prefix.pch.d -c /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-PonyDebugger-prefix.pch -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-PonyDebugger-prefix-afcinlfpvphtvqarmsbovykxhzxk/Pods-PonyDebugger-prefix.pch.pch36"23D64A5A-5FBB-4330-B03D-40B90D859B25-
 b47B19558-0B00-47A1-A7EB-5E25A7700138
+
+CProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-PonyDebugger-prefix-ajzupureokqrgbgibrdsulamdfvc/Pods-PonyDebugger-prefix.pch.pch Pods-PonyDebugger-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-PonyDebugger-prefix-bqvghxonxvdxnrcprsnlgusslhzg/Pods-PonyDebugger-prefix.pch.pch Pods-PonyDebugger-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
 
 CProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-PonyDebugger-prefix-fzdetgdcyzfklncccyypyzrcrqon/Pods-PonyDebugger-prefix.pch.pch Pods-PonyDebugger-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s403669022.484795

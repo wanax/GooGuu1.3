@@ -32,6 +32,8 @@
 #import "BPush.h"
 #import "FinPicKeyWordListViewController.h"
 #import "GooGuuViewController.h"
+#import "FinPic2ViewController.h"
+#import "FinanceDataViewController.h"
 
 
 @implementation XYZAppDelegate
@@ -216,7 +218,7 @@ didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
         picView.tabBarItem=barItem4;
         UINavigationController *picKeyWordNav=nil;
         
-        //金融工具
+        //估值观点
         GooGuuViewController *toolsViewController=[[GooGuuViewController alloc] init];
         toolsViewController.tabBarItem=barItem3;
         UINavigationController *toolsNav=nil;
@@ -252,7 +254,7 @@ didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
         
         
         self.tabBarController.viewControllers = [NSArray arrayWithObjects:gooNewsNavController,universeNav,toolsNav,picKeyWordNav, myGooGuuNavController,nil];
-        
+
         self.window.backgroundColor=[UIColor clearColor];
         self.window.rootViewController = self.tabBarController;
         

@@ -28,12 +28,29 @@ static NSString *ItemIdentifier = @"ItemIdentifier";
 
 -(void)loadView
 {
+    
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    [self initComponents];
+    page=1;
+    self.photoDataSource=[[NSMutableArray alloc] init];
+    self.browser = [[CXPhotoBrowser alloc] initWithDataSource:self delegate:self];
+    //self.browser.wantsFullScreenLayout = NO;
+    [self.view setBackgroundColor:[Utiles colorWithHexString:@"#FDFBE4"]];
+    self.images=[[NSArray alloc] init];
+    [self addPics];
+}
+
+-(void)initComponents{
     UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
-    [flowLayout setItemSize:CGSizeMake(90, 262)];
+    [flowLayout setItemSize:CGSizeMake(90, 162)];
     flowLayout.sectionInset = UIEdgeInsetsMake(10, 10, 10, 10);
     [flowLayout setScrollDirection:UICollectionViewScrollDirectionVertical];
     self.collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:flowLayout];
-    [self.collectionView registerClass:[FinanPicCollectCell class] forCellWithReuseIdentifier:ItemIdentifier];
+    [self.collectionView registerNib:[UINib nibWithNibName:@"PicCollectionCell" bundle:nil] forCellWithReuseIdentifier:ItemIdentifier];
     [self.collectionView setBackgroundColor:[Utiles colorWithHexString:@"#FDFBE4"]];
     self.collectionView.delegate = self;
     self.collectionView.dataSource = self;
@@ -42,18 +59,6 @@ static NSString *ItemIdentifier = @"ItemIdentifier";
     }];
     
     self.collectionView.indicatorStyle = UIScrollViewIndicatorStyleWhite;
-}
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    page=1;
-    self.photoDataSource=[[NSMutableArray alloc] init];
-    self.browser = [[CXPhotoBrowser alloc] initWithDataSource:self delegate:self];
-    //self.browser.wantsFullScreenLayout = NO;
-    [self.view setBackgroundColor:[Utiles colorWithHexString:@"#FDFBE4"]];
-    self.images=[[NSArray alloc] init];
-    [self addPics];
 }
 
 -(void)addPics{
@@ -68,12 +73,12 @@ static NSString *ItemIdentifier = @"ItemIdentifier";
             [temp addObject:t];
         }
         for(id t in obj){
-            [temp addObject:[t objectForKey:@"url"]];
+            [temp addObject:t];
         }
         
         for (id obj in temp) {
             DemoPhoto *photo = nil;
-            photo = [[DemoPhoto alloc] initWithURL:[NSURL URLWithString:obj]];
+            photo = [[DemoPhoto alloc] initWithURL:[NSURL URLWithString:[obj objectForKey:@"url"]]];
             [self.photoDataSource addObject:photo];
         }
         self.images=temp;
@@ -97,10 +102,14 @@ static NSString *ItemIdentifier = @"ItemIdentifier";
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     FinanPicCollectCell *cell = (FinanPicCollectCell *)[collectionView dequeueReusableCellWithReuseIdentifier:ItemIdentifier forIndexPath:indexPath];
-    
-    [cell.imageView setImageWithURL:[NSURL URLWithString:[self.images objectAtIndex:indexPath.row]]
+    id model=[self.images objectAtIndex:indexPath.row];
+    [cell.imageView setImageWithURL:[NSURL URLWithString:[model objectForKey:@"smallImage"]]
                    placeholderImage:[UIImage imageNamed:@"icon.png"]];
-    cell.titleLabel=@"here";
+    cell.titleLabel.text=[model objectForKey:@"title"];
+    cell.titleLabel.alpha=0.6;
+    cell.titleLabel.lineBreakMode=NSLineBreakByWordWrapping;
+    cell.titleLabel.numberOfLines=0;
+    cell.titleLabel.backgroundColor=[UIColor blackColor];
     
     return cell;
 }

@@ -25,7 +25,7 @@
 
 #import "AOTag.h"
 
-#define tagFontSize         12.0f
+#define tagFontSize         14.0f
 #define tagFontType         @"Heiti SC"
 #define tagMargin           15.0f
 #define tagHeight           30.0f
@@ -98,9 +98,10 @@
     return tag;
 }
 
-- (void)addTag:(NSString *)tTitle withImage:(NSString *)tImage
+- (void)addTag:(NSString *)tTitle withColor:(UIColor *)color
 {
-    [self generateTagWithLabel:(tTitle ? tTitle : @"") withImage:(tImage ? tImage : @"")];
+    AOTag *tag=[self generateTagWithLabel:(tTitle ? tTitle : @"") withImage:@""];
+    [tag setBackgroundColor:color];
     
     [self setNeedsDisplay];
 }
