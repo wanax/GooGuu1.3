@@ -46,7 +46,7 @@ static NSString *ItemIdentifier = @"ItemIdentifier";
 
 -(void)initComponents{
     UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
-    [flowLayout setItemSize:CGSizeMake(90, 162)];
+    [flowLayout setItemSize:CGSizeMake(145, 254)];
     flowLayout.sectionInset = UIEdgeInsetsMake(10, 10, 10, 10);
     [flowLayout setScrollDirection:UICollectionViewScrollDirectionVertical];
     self.collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:flowLayout];
@@ -104,7 +104,7 @@ static NSString *ItemIdentifier = @"ItemIdentifier";
     FinanPicCollectCell *cell = (FinanPicCollectCell *)[collectionView dequeueReusableCellWithReuseIdentifier:ItemIdentifier forIndexPath:indexPath];
     id model=[self.images objectAtIndex:indexPath.row];
     [cell.imageView setImageWithURL:[NSURL URLWithString:[model objectForKey:@"smallImage"]]
-                   placeholderImage:[UIImage imageNamed:@"icon.png"]];
+                   placeholderImage:[UIImage imageNamed:@"LOADING.png"]];
     cell.titleLabel.text=[model objectForKey:@"title"];
     cell.titleLabel.alpha=0.6;
     cell.titleLabel.lineBreakMode=NSLineBreakByWordWrapping;
@@ -114,7 +114,7 @@ static NSString *ItemIdentifier = @"ItemIdentifier";
     return cell;
 }
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
-    self.browser.currentPageIndex=indexPath.row;
+    [self.browser setInitialPageIndex:indexPath.row];
     [self presentViewController:self.browser animated:YES completion:^{
         
     }];
@@ -150,16 +150,16 @@ static NSString *ItemIdentifier = @"ItemIdentifier";
         
         [navBarView setBackgroundColor:[UIColor clearColor]];
         
-        UIView *bkgView = [[UIView alloc] initWithFrame:CGRectMake( 0, 0, size.width, size.height)];
+        UIView *bkgView = [[UIView alloc] initWithFrame:CGRectMake( 0, 20, size.width, size.height)];
         [bkgView setBackgroundColor:[UIColor blackColor]];
         bkgView.alpha = 0.2;
         bkgView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
         [navBarView addSubview:bkgView];
         
         UIButton *doneButton = [UIButton buttonWithType:UIButtonTypeCustom];
-        [doneButton.titleLabel setFont:[UIFont boldSystemFontOfSize:12.]];
+        [doneButton.titleLabel setFont:[UIFont boldSystemFontOfSize:12.0]];
         [doneButton setTitle:NSLocalizedString(@"返回",@"Dismiss button title") forState:UIControlStateNormal];
-        [doneButton setFrame:CGRectMake(size.width - 60, 10, 50, 30)];
+        [doneButton setFrame:CGRectMake(size.width - 60, 20, 50, 30)];
         [doneButton addTarget:self action:@selector(photoBrowserDidTapDoneButton:) forControlEvents:UIControlEventTouchUpInside];
         [doneButton.layer setMasksToBounds:YES];
         [doneButton.layer setCornerRadius:4.0];
@@ -171,14 +171,14 @@ static NSString *ItemIdentifier = @"ItemIdentifier";
         [navBarView addSubview:doneButton];
         
         self.imageTitleLabel = [[UILabel alloc] init];
-        [self.imageTitleLabel setFrame:CGRectMake((size.width - 60)/2, 10, 60, 40)];
-        [self.imageTitleLabel setCenter:navBarView.center];
+        [self.imageTitleLabel setFrame:CGRectMake((size.width - 60)/2,20, 60, 40)];
+        //[self.imageTitleLabel setCenter:navBarView.center];
         [self.imageTitleLabel setTextAlignment:NSTextAlignmentCenter];
         [self.imageTitleLabel setFont:[UIFont boldSystemFontOfSize:20.]];
         [self.imageTitleLabel setTextColor:[UIColor whiteColor]];
         [self.imageTitleLabel setBackgroundColor:[UIColor clearColor]];
         [self.imageTitleLabel setText:@""];
-        self.imageTitleLabel.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
+        self.imageTitleLabel.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleRightMargin;
         [self.imageTitleLabel setTag:BROWSER_TITLE_LBL_TAG];
         [navBarView addSubview:self.imageTitleLabel];
     }

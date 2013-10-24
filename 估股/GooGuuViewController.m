@@ -12,6 +12,7 @@
 #import "GooGuuArticleViewController.h"
 #import "ArticleCommentViewController.h"
 #import "MHTabBarController.h"
+#import "UIImageView+AFNetworking.h"
 
 @interface GooGuuViewController ()
 
@@ -28,18 +29,28 @@
     return self;
 }
 
+-(void)viewDidDisappear:(BOOL)animated{
+    [[BaiduMobStat defaultStat] pageviewEndWithName:[NSString stringWithUTF8String:object_getClassName(self)]];
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+    [self.cusTable reloadData];
+    [[BaiduMobStat defaultStat] pageviewStartWithName:[NSString stringWithUTF8String:object_getClassName(self)]];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     [self setTitle:@"估值观点"];
     [Utiles iOS7StatusBar:self];
 	[self initComponents];
+    self.readingMarksDic=[Utiles getConfigureInfoFrom:@"googuuviewreadingmarks" andKey:nil inUserDomain:YES];
     [self getValueViewData:@"" code:@""];
 }
 
 -(void)initComponents{
     
-    [self.view setBackgroundColor:[Utiles colorWithHexString:@"#FDFBE4"]];
+    [self.view setBackgroundColor:[Utiles colorWithHexString:[Utiles getConfigureInfoFrom:@"colorconfigure" andKey:@"NormalCellColor" inUserDomain:NO]]];
     self.cusTable=[[UITableView alloc] initWithFrame:CGRectMake(0,0,SCREEN_WIDTH,SCREEN_HEIGHT-120)];
     self.cusTable.delegate=self;
     self.cusTable.dataSource=self;
@@ -79,7 +90,7 @@
 #pragma mark Table DataSource
 
 -(CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 120.0;
+    return 145.0;
 }
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
@@ -104,29 +115,66 @@
     id model=[self.viewDataArr objectAtIndex:indexPath.row];
 
     if([model objectForKey:@"titleimgurl"]){
-        [cell.titleImgView setImageWithURL:[NSURL URLWithString:[[model objectForKey:@"titleimgurl"] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]] placeholderImage:[UIImage imageNamed:@"defaultIcon"]];
+        [cell.titleImgView setImageWithURLRequest:[[NSURLRequest alloc] initWithURL:[NSURL URLWithString:[model objectForKey:@"titleimgurl"]]] placeholderImage:[UIImage imageNamed:@"defaultIcon"]
+                success:^(NSURLRequest *request, NSHTTPURLResponse *response, UIImage *image){
+                    if(image){
+                        cell.titleImgView.image=image;
+                    }
+                }
+                failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error){
+                    
+                }];
     }
     
     [cell.titleLabel setText:[model objectForKey:@"title"]];
-    [cell.conciseLabel setText:[model objectForKey:@"concise"]];
-    cell.conciseLabel.lineBreakMode = NSLineBreakByWordWrapping;
-    cell.conciseLabel.numberOfLines = 0;
-    [cell.updateTimeLabel setText:[model objectForKey:@"updatetime"]];
+    cell.titleLabel.lineBreakMode=NSLineBreakByWordWrapping;
+    cell.titleLabel.numberOfLines=0;
+    [self setReadingMark:cell andTitle:[model objectForKey:@"title"]];
     
+    cell.conciseWebView.backgroundColor = [UIColor clearColor];
+    cell.conciseWebView.opaque = NO;
+    cell.conciseWebView.dataDetectorTypes = UIDataDetectorTypeNone;
+    [(UIScrollView *)[[cell.conciseWebView subviews] objectAtIndex:0] setBounces:NO];
+    
+    NSString *webviewText = @"<style>body{margin:0px;background-color:transparent;font:14px/18px Custom-Font-Name}</style>";
+    
+    NSString *temp=[model objectForKey:@"concise"];
+    if([temp length]>56){
+        temp=[temp substringToIndex:56];
+    }
+    NSString *htmlString = [webviewText stringByAppendingFormat:@"%@......", temp];
+    
+    [cell.conciseWebView loadHTMLString:htmlString baseURL:nil];
+    
+    
+    [cell.updateTimeLabel setText:[model objectForKey:@"updatetime"]];
     [cell.backLabel setBackgroundColor:[UIColor whiteColor]];
     cell.backLabel.layer.cornerRadius = 5;
     cell.backLabel.layer.borderColor = [UIColor grayColor].CGColor;
-    cell.backLabel.layer.borderWidth = 0.5;
+    cell.backLabel.layer.borderWidth = 0;
     
-    [cell setBackgroundColor:[Utiles colorWithHexString:@"#FDFBE4"]];
+    [cell setBackgroundColor:[Utiles colorWithHexString:[Utiles getConfigureInfoFrom:@"colorconfigure" andKey:@"NormalCellColor" inUserDomain:NO]]];
     
     return cell;
     
 }
 
+#pragma mark -
+#pragma mark General Methods
 
-
-
+-(void)setReadingMark:(ValueViewCell *)cell andTitle:(NSString *)title{
+    
+    if(self.readingMarksDic){
+        if ([[self.readingMarksDic allKeys] containsObject:title]) {
+            cell.readMarkImg.image=[UIImage imageNamed:@"read2"];
+        }else{
+            cell.readMarkImg.image=[UIImage imageNamed:@"unread2"];
+        }
+    }else{
+        cell.readMarkImg.image=[UIImage imageNamed:@"unread2"];
+    }
+    
+}
 
 #pragma mark -
 #pragma mark Table Delegate Methods
@@ -137,6 +185,7 @@
     GooGuuArticleViewController *articleViewController=[[GooGuuArticleViewController alloc] init];
     articleViewController.articleTitle=[[self.viewDataArr objectAtIndex:indexPath.row] objectForKey:@"title"];
     articleViewController.articleId=artId;
+    articleViewController.sourceType=GooGuuView;
     articleViewController.title=@"研究报告";
     ArticleCommentViewController *articleCommentViewController=[[ArticleCommentViewController alloc] init];
     articleCommentViewController.articleId=artId;
@@ -145,6 +194,9 @@
     MHTabBarController *container=[[MHTabBarController alloc] init];
     NSArray *controllers=[NSArray arrayWithObjects:articleViewController,articleCommentViewController, nil];
     container.viewControllers=controllers;
+    
+    [Utiles setConfigureInfoTo:@"googuuviewreadingmarks" forKey:[[self.viewDataArr objectAtIndex:indexPath.row] objectForKey:@"title"] andContent:@"1"];
+    self.readingMarksDic=[Utiles getConfigureInfoFrom:@"googuuviewreadingmarks" andKey:nil inUserDomain:YES];
     
     container.hidesBottomBarWhenPushed=YES;
     [self.navigationController pushViewController:container animated:YES];

@@ -40,7 +40,7 @@
 
 - (void)displayLoading
 {
-    [reloadButton removeFromSuperview];
+    /*[reloadButton removeFromSuperview];
     [failureLabel removeFromSuperview];
     if (!self.indicator)
     {
@@ -48,7 +48,7 @@
         [self.indicator setCenter:self.center];
         [self.indicator setHidesWhenStopped:YES];
         [self addSubview:self.indicator];
-    }
+    }*/
     [self.indicator startAnimating];
 }
 
@@ -56,7 +56,7 @@
 {
     [self.indicator stopAnimating];
     
-    [reloadButton.titleLabel setFont:[UIFont boldSystemFontOfSize:12.0]];
+    /*[reloadButton.titleLabel setFont:[UIFont boldSystemFontOfSize:12.0]];
     [reloadButton setTitle:NSLocalizedString(@"Reload",@"Reload") forState:UIControlStateNormal];
     [reloadButton setFrame:CGRectMake(20, 10, 100, 30)];
     [reloadButton setCenter:self.center];
@@ -80,6 +80,6 @@
     [failureLabel setTextColor:[UIColor whiteColor]];
     [failureLabel setBackgroundColor:[UIColor clearColor]];
     failureLabel.autoresizingMask = UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
-    [self addSubview:failureLabel];
+    [self addSubview:failureLabel];*/
 }
 @end

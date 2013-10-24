@@ -23,6 +23,7 @@
 @property (nonatomic,retain) UIWebView *articleWeb;
 @property (nonatomic,retain) NSArray *imageUrlList;
 @property (nonatomic,retain) id comInfo;
+@property BrowseSourceType sourceType;
 
 @property (nonatomic,retain) UILabel *imageTitleLabel;
 @property (nonatomic, strong) CXPhotoBrowser *browser;

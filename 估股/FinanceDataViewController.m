@@ -118,7 +118,7 @@ static NSString * BAR_IDENTIFIER =@"bar_identifier";
     if (IOS7_OR_LATER) {
         iOS7Height=25;
         topBar.frame=CGRectMake(0,20,SCREEN_HEIGHT,40);
-        financalTitleLabel=[tool addLabelToView:self.view withTitle:@"" Tag:11 frame:CGRectMake(0,60,SCREEN_HEIGHT,30) fontSize:12.0 color:nil textColor:@"#63573d" location:NSTextAlignmentCenter];
+        financalTitleLabel=[tool addLabelToView:self.view withTitle:@"" Tag:11 frame:CGRectMake(0,60,SCREEN_HEIGHT,30) fontSize:12.0 color:nil textColor:@"#63573d" location:NSTextAlignmentLeft];
     } else {
         iOS7Height=5;
         topBar.frame=CGRectMake(0,0,SCREEN_HEIGHT,40);
@@ -214,6 +214,10 @@ static NSString * BAR_IDENTIFIER =@"bar_identifier";
     [self.view addSubview:bt];
     [self.grade2BtList addObject:bt];
     
+}
+
+-(void)modelClassChanged:(NSString *)driverId isShowDisView:(BOOL)isShow{
+    [self modelClassChanged:driverId];
 }
 
 -(void)modelClassChanged:(NSString *)driverId{

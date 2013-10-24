@@ -18,7 +18,7 @@
 
 #import "BundleContents.h"
 
-#import "/Users/xcode/wanax/oc/GooGuu1.2-master/估股/FinanceDataViewController.m"
+#import "/Users/xcode/wanax/oc/GooGuu1.2-master/估股/FinPicKeyWordListViewController.m"
 
 
 @interface InjectionBundle2 : NSObject
@@ -27,8 +27,8 @@
 
 + (void)load {
     Class bundleInjection = NSClassFromString(@"BundleInjection");
-    extern Class OBJC_CLASS_$_FinanceDataViewController;
-	[bundleInjection loadedClass:INJECTION_BRIDGE(Class)(void *)&OBJC_CLASS_$_FinanceDataViewController notify:4];
+    extern Class OBJC_CLASS_$_FinPicKeyWordListViewController;
+	[bundleInjection loadedClass:INJECTION_BRIDGE(Class)(void *)&OBJC_CLASS_$_FinPicKeyWordListViewController notify:4];
     [bundleInjection loadedNotify:4];
 }
 

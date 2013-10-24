@@ -409,11 +409,14 @@ static NSString * COLUMNAR_DATALINE_IDENTIFIER =@"columnar_dataline_identifier";
 	CQMFloatingController *floatingController = [CQMFloatingController sharedFloatingController];
     //floatingController.frameSize=CGSizeMake(280,280);
     //floatingController.frameColor=[Utiles colorWithHexString:@"#e26b17"];
-    if(sender.tag==MainIncome){        
+    if(sender.tag==MainIncome){
+        modelMainViewController.isShowDiscountView=self.isShowDiscountView;
         [self presentViewController:modelMainViewController animated:YES completion:nil];
     }else if(sender.tag==OperaFee){
+        modelFeeViewController.isShowDiscountView=self.isShowDiscountView;
         [self presentViewController:modelFeeViewController animated:YES completion:nil];
     }else if(sender.tag==OperaCap){
+        modelCapViewController.isShowDiscountView=self.isShowDiscountView;
         [self presentViewController:modelCapViewController animated:YES completion:nil];
     }else if(sender.tag==DiscountRate){
         NSString *values=[Utiles getObjectDataFromJsFun:self.webView funName:@"getValues" byData:nil shouldTrans:NO];
@@ -495,6 +498,10 @@ static NSString * COLUMNAR_DATALINE_IDENTIFIER =@"columnar_dataline_identifier";
 
 #pragma mark -
 #pragma mark ModelClass Methods Delegate
+-(void)modelClassChanged:(NSString *)driverId isShowDisView:(BOOL)isShow{
+    self.isShowDiscountView=isShow;
+    [self modelClassChanged:driverId];
+}
 -(void)modelClassChanged:(NSString *)driverId{
     //NSLog(@"modelClassChanged");
     id chartData=[Utiles getObjectDataFromJsFun:self.webView funName:@"returnChartData" byData:driverId shouldTrans:YES];

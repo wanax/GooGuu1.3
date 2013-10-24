@@ -111,13 +111,13 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     if(section==0){
-        return 3;
+        return 4;
     }else if(section==1){
         return 2;
     }else if(section==2){
         return 1;
     }else if(section==3){
-        return 5;
+        return 6;
     }
     return 0;
 }
@@ -192,11 +192,13 @@
             cell.detailTextLabel.text=@"";
         } else if(row==2){
             cell.textLabel.textAlignment=NSTextAlignmentCenter;
-            if ([Utiles isLogin]) {
-                cell.textLabel.text=@"                           密码重置";
-            } else {
-                cell.textLabel.text=@"                           找回密码";
-            }
+            cell.textLabel.text=@"                           找回密码";
+            
+            cell.detailTextLabel.text=@"";
+        }
+        else if(row==3){
+            cell.textLabel.textAlignment=NSTextAlignmentCenter;
+            cell.textLabel.text=@"                           修改密码";
             
             cell.detailTextLabel.text=@"";
         }
@@ -289,24 +291,29 @@
             cell.textLabel.text = @"免责声明";
             cell.detailTextLabel.text=@"";
             return cell;
-        }else if(row==1){
+        }else if(row==2){
             cell.textLabel.text = @"应用打分";
             cell.detailTextLabel.text=@"请多多支持";
             return cell;
-        }else if(row==2){
+        }else if(row==3){
             
             cell.textLabel.text = @"帮助说明";
             cell.detailTextLabel.text=@"";
             return cell;
-        }else if(row==3){
+        }else if(row==4){
 
             cell.textLabel.text = @"意见反馈";
             cell.detailTextLabel.text=@"用户意见反馈";
             return cell;
-        }else if(row==4){
+        }else if(row==5){
             
             cell.textLabel.text = @"关于我们";
             cell.detailTextLabel.text=@"关于我们，版权信息";            
+            return cell;
+        }else if(row==1){
+            
+            cell.textLabel.text = @"金融工具";
+            cell.detailTextLabel.text=@"";
             return cell;
         }
         
@@ -353,14 +360,24 @@
                     loginViewController.sourceType=SettingBar;
                     [self presentViewController:loginViewController animated:YES completion:nil];
                 }
-            }else if(row==2){
-                UserRegisterViewController *regVC=[[[UserRegisterViewController alloc] init] autorelease];
+            }else if(row==2){//找回密码
                 if ([Utiles isLogin]) {
-                    regVC.actionType=UserResetPwd;
+                    [Utiles showToastView:self.view withTitle:nil andContent:@"您已登录" duration:1.5];
                 } else {
+                    UserRegisterViewController *regVC=[[[UserRegisterViewController alloc] init] autorelease];
                     regVC.actionType=UserFindPwd;
+                    [self presentViewController:regVC animated:YES completion:nil];
                 }
-                [self presentViewController:regVC animated:YES completion:nil];
+                
+            }else if(row==3){//修改密码
+                if (![Utiles isLogin]) {
+                    [Utiles showToastView:self.view withTitle:nil andContent:@"您尚未登录" duration:1.5];
+                } else {
+                    UserRegisterViewController *regVC=[[[UserRegisterViewController alloc] init] autorelease];
+                    regVC.actionType=UserFindPwd;
+                    [self presentViewController:regVC animated:YES completion:nil];
+                }
+                
             }
         } else {
             [Utiles showToastView:self.view withTitle:nil andContent:@"网络异常" duration:1.5];
@@ -379,21 +396,23 @@
     }else if(section==3){
         if(row==0){
             [self pushViewController:@"DisclaimersViewController"];
-        }else if (row==1){
+        }else if (row==2){
             
             NSString *str = [NSString stringWithFormat:@"itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=%d",703282718];
             [[UIApplication sharedApplication] openURL:[NSURL URLWithString:str]];
             
-        }else if(row==2){
+        }else if(row==3){
             [self pushViewController:@"HelpViewController"];
         }else if(row==4){
-            [self pushViewController:@"AboutUsAndCopyrightViewController"];
-        }else if(row==3){
+            [self pushViewController:@"FeedBackViewController"];
+        }else if(row==5){
             if ([Utiles isNetConnected]) {
-                [self pushViewController:@"FeedBackViewController"];
+                [self pushViewController:@"AboutUsAndCopyrightViewController"];
             } else {
                 [Utiles showToastView:self.view withTitle:nil andContent:@"网络异常" duration:1.5];
             }        
+        }else if(row==1){
+            [self pushViewController:@"FinanceToolsViewController"];
         }
     }
 

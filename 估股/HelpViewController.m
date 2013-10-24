@@ -28,8 +28,13 @@
     [super viewDidLoad];
     self.title=@"帮助文档";
     [self.view setBackgroundColor:[Utiles colorWithHexString:@"#EFDCC9"]];
-	self.imageView=[[UIImageView alloc] initWithFrame:CGRectMake(0,0,320,1900)];
-    [self.imageView setImage:[UIImage imageNamed:@"help"]];
+	if (self.type==UserHelp) {
+        self.imageView=[[UIImageView alloc] initWithFrame:CGRectMake(0,0,320,1900)];
+        [self.imageView setImage:[UIImage imageNamed:@"help"]];
+    } else {
+        self.imageView=[[UIImageView alloc] initWithFrame:CGRectMake(0,20,320,1264)];
+        [self.imageView setImage:[UIImage imageNamed:@"excelShortcuts"]];
+    }
     [self.view addSubview:self.imageView];
     
     UIPanGestureRecognizer *pan=[[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panAction:)];
@@ -44,7 +49,11 @@
     
     if(pan.state==UIGestureRecognizerStateChanged){
         
-        self.imageView.frame=CGRectMake(0,MAX(MIN(standard.y+change.y,0),-1520),SCREEN_WIDTH,1900);
+        if (self.type==UserHelp) {
+            self.imageView.frame=CGRectMake(0,MAX(MIN(standard.y+change.y,20),-1520),SCREEN_WIDTH,1900);
+        } else {
+            self.imageView.frame=CGRectMake(0,MAX(MIN(standard.y+change.y,20),-1520),SCREEN_WIDTH,1264);
+        }
         
     }else if(pan.state==UIGestureRecognizerStateEnded){
         standard=self.imageView.frame.origin;

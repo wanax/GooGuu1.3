@@ -29,6 +29,7 @@
 {
     [super viewDidLoad];
     self.stockCodeInput.returnKeyType=UIReturnKeyGo;
+    self.stockCodeInput.keyboardType=UIKeyboardAppearanceDefault;
 }
 
 -(IBAction)getBetaFactorBtClicked:(id)sender{

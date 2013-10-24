@@ -28,7 +28,7 @@
 
 -(id)initWithTarget:(id)target previousSelector:(SEL)pSelector nextSelector:(SEL)nSelector
 {
-    self = [super initWithItems:[NSArray arrayWithObjects:@"Previous",@"Next",nil]];
+    self = [super initWithItems:[NSArray arrayWithObjects:@"前一个",@"后一个",nil]];
 
     if (self)
     {

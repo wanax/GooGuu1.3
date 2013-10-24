@@ -12,6 +12,7 @@
     CGPoint standard;
 }
 
+@property HelpType type;
 @property (nonatomic,retain) UIImageView *imageView;
 
 @end

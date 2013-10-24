@@ -13,7 +13,7 @@
 #import "MHTabBarController.h"
 #import "CustomTableView.h"
 #import "MBProgressHUD.h"
-#import "GooNewsCell.h"
+#import "ReportCell.h"
 #import "AnalyDetailViewController.h"
 #import "UIImageView+WebCache.h"
 
@@ -134,7 +134,7 @@
 
 -(CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
 
-    return 120.0;
+    return 135.0;
 
 }
 
@@ -150,30 +150,42 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
 
-    static NSString *GooNewsCellIdentifier = @"GooNewsCellIdentifier";
+    static NSString *ReportCellIdentifier = @"ReportCellIdentifier";
     if (!nibsRegistered) {
-        UINib *nib = [UINib nibWithNibName:@"GooNewsCell" bundle:nil];
-        [tableView registerNib:nib forCellReuseIdentifier:GooNewsCellIdentifier];
+        UINib *nib = [UINib nibWithNibName:@"ReportCell" bundle:nil];
+        [tableView registerNib:nib forCellReuseIdentifier:ReportCellIdentifier];
         nibsRegistered = YES;
     }
     
-    GooNewsCell *cell = [tableView dequeueReusableCellWithIdentifier:GooNewsCellIdentifier];
+    ReportCell *cell = [tableView dequeueReusableCellWithIdentifier:ReportCellIdentifier];
     if (cell == nil) {
-        cell = [[[GooNewsCell alloc] initWithStyle:UITableViewCellStyleValue1
-                                   reuseIdentifier: GooNewsCellIdentifier] autorelease];
+        cell = [[[ReportCell alloc] initWithStyle:UITableViewCellStyleValue1
+                                   reuseIdentifier: ReportCellIdentifier] autorelease];
     }
     
     int row=[indexPath row];
     id model=[analyReportList objectAtIndex:row];
-    
-    cell.title=[model objectForKey:@"title"];
+    cell.titleLabel.lineBreakMode=NSLineBreakByWordWrapping;
+    cell.titleLabel.numberOfLines=0;
+    cell.titleLabel.text=[model objectForKey:@"title"];
     [self setReadingMark:cell andTitle:[model objectForKey:@"title"]];
-    cell.contentLabel.text=[model objectForKey:@"concise"];
-    cell.timeDiferLabel.text=[Utiles intervalSinceNow:[model objectForKey:@"updatetime"]];
+   
+    cell.contentWebView.backgroundColor = [UIColor clearColor];
+    cell.contentWebView.opaque = NO;
+    cell.contentWebView.dataDetectorTypes = UIDataDetectorTypeNone;
+    [(UIScrollView *)[[cell.contentWebView subviews] objectAtIndex:0] setBounces:NO];
     
-    if([model objectForKey:@"comanylogourl"]){
-        [cell.comIconImg setImageWithURL:[NSURL URLWithString:[model objectForKey:@"comanylogourl"]] placeholderImage:[UIImage imageNamed:@"defaultIcon"]];
+    NSString *webviewText = @"<style>body{margin:0px;background-color:transparent;font:14px/18px Custom-Font-Name}</style>";
+    
+    NSString *temp=[model objectForKey:@"brief"];
+    if([temp length]>56){
+        temp=[temp substringToIndex:56];
     }
+    NSString *htmlString = [webviewText stringByAppendingFormat:@"%@......", temp];
+    [cell.contentWebView loadHTMLString:htmlString baseURL:nil];
+
+    
+    cell.timeDiferLabel.text=[Utiles intervalSinceNow:[model objectForKey:@"updatetime"]];
     
     [cell.backLabel setBackgroundColor:[UIColor whiteColor]];
     cell.backLabel.layer.cornerRadius = 5;
@@ -189,16 +201,16 @@
 #pragma mark -
 #pragma mark General Methods
 
--(void)setReadingMark:(GooNewsCell *)cell andTitle:(NSString *)title{
+-(void)setReadingMark:(ReportCell *)cell andTitle:(NSString *)title{
     
     if(readingMarksDic){
         if ([[readingMarksDic allKeys] containsObject:title]) {
-            cell.readMarkImg.image=[UIImage imageNamed:@"readed"];
+            cell.readMarkImg.image=[UIImage imageNamed:@"read2"];
         }else{
-            cell.readMarkImg.image=[UIImage imageNamed:@"unread"];
+            cell.readMarkImg.image=[UIImage imageNamed:@"unread2"];
         }
     }else{
-        cell.readMarkImg.image=[UIImage imageNamed:@"unread"];
+        cell.readMarkImg.image=[UIImage imageNamed:@"unread2"];
     }
     
 }

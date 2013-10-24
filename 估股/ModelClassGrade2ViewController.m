@@ -52,7 +52,8 @@
     [super viewDidLoad];
     [Utiles iOS7StatusBar:self];
     [self.navigationItem setTitle:classTitle];
-
+    [self.view setBackgroundColor:[UIColor whiteColor]];
+    [self addTabel];
     self.indicatorClass=[jsonData objectForKey:indicator];
     NSMutableArray *tmpName=[[NSMutableArray alloc] init];
     if(savedData){
@@ -66,7 +67,12 @@
 }
 
 
-
+-(void)addTabel{
+    self.cusTable=[[UITableView alloc] initWithFrame:CGRectMake(0,20,SCREEN_HEIGHT,SCREEN_HEIGHT)];
+    self.cusTable.delegate=self;
+    self.cusTable.dataSource=self;
+    [self.view addSubview:self.cusTable];
+}
 
 
 #pragma mark -
@@ -107,11 +113,10 @@
 
 - (void)tableView:(UITableView*)tableView didSelectRowAtIndexPath:(NSIndexPath*)indexPath {
 	
-    [delegate modelClassChanged:[[self.indicatorClass objectAtIndex:indexPath.row] objectForKey:@"id"]];
+    [delegate modelClassChanged:[[self.indicatorClass objectAtIndex:indexPath.row] objectForKey:@"id"] isShowDisView:self.isShowDiscountView];
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     [self dismissViewControllerAnimated:YES completion:nil];
-    
-    
+
 }
 
 

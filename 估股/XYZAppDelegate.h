@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "TSPopoverController.h"
 #import "BPush.h"
+#import "WXApi.h"
+#import <ShareSDK/ShareSDK.h>
+#import "AGViewDelegate.h"
 
 @class ConcernedViewController;
 @class Company;
@@ -17,17 +20,19 @@
 @interface XYZAppDelegate : NSObject <UIApplicationDelegate>{
     IBOutlet UIWindow *window;
     NSString *_stockCode;
+    enum WXScene _scene;
 }
 
-@property NSString *appId;
-@property NSString *channelId;
-@property NSString *userId;
+@property (nonatomic,assign) NSString *appId;
+@property (nonatomic,assign) NSString *channelId;
+@property (nonatomic,assign) NSString *userId;
 
 @property BOOL isReachable;
 @property (nonatomic,retain) TSPopoverController *popoverController;
 @property (nonatomic,retain) UIScrollView *scrollView;
 @property (strong, nonatomic) UIWindow *window;
 @property(nonatomic,retain)  UITabBarController *tabBarController;
+@property (nonatomic,readonly) AGViewDelegate *viewDelegate;
 
 @property (retain,nonatomic) UIPageControl * pageControl;
 @property (nonatomic,strong) id comInfo;

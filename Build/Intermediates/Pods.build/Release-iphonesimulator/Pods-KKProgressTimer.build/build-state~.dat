@@ -1,0 +1,160 @@
+TPods-KKProgressTimer
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-KKProgressTimer-prefix-fpcteiiqsfbyabbqhfiobvmrbxzh/Pods-KKProgressTimer-prefix.pch.pch Pods-KKProgressTimer-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-KKProgressTimer-prefix-bigjfsrakvvijaavwqsxcvkubixn/Pods-KKProgressTimer-prefix.pch.pch Pods-KKProgressTimer-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Objects-normal/i386/KKProgressTimer.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/KKProgressTimer/KKProgressTimer/KKProgressTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Objects-normal/i386/Pods-KKProgressTimer-dummy.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-KKProgressTimer-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator/libPods-KKProgressTimer.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c00000000521BCCE50000000000000176
+t1377553637
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c000000005244EEDD00000000000003B5
+t1380249309
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005244EEE9000000000000019E
+t1380249321
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005244EEED000000000088B570
+t1380249325
+s8959344
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Objects-normal/i386/KKProgressTimer.o
+t1382489709
+s63924
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Objects-normal/i386/Pods-KKProgressTimer-dummy.o
+t1382489709
+s3308
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Objects-normal/i386/Pods-KKProgressTimer.LinkFileList
+c0000000052671E6A0000000000000149
+t1382489706
+s329
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-KKProgressTimer-prefix-bigjfsrakvvijaavwqsxcvkubixn/Pods-KKProgressTimer-prefix.pch.pch
+t1382489708
+s5335988
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-KKProgressTimer-prefix-fpcteiiqsfbyabbqhfiobvmrbxzh/Pods-KKProgressTimer-prefix.pch.pch
+t1382489708
+s5346200
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator/libPods-KKProgressTimer.a
+t2
+s0
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/KKProgressTimer/KKProgressTimer/KKProgressTimer.m
+c00000000525C34CE0000000000001405
+t1381774542
+s5125
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-KKProgressTimer-dummy.m
+c00000000525C34CE0000000000000090
+t1381774542
+s144
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-KKProgressTimer-prefix.pch
+c00000000525C34CE000000000000004D
+t1381774542
+s77
+
+CBuild AST from /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/KKProgressTimer/KKProgressTimer/KKProgressTimer.m
+r0
+
+CBuild AST from /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-KKProgressTimer-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies560cf7e95517b841^5b441cea5517b841^---0#1#1#--18"Check dependencies36"CFB1ED60-3AA2-48FE-B00F-5B643307FE02-
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Objects-normal/i386/KKProgressTimer.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/KKProgressTimer/KKProgressTimer/KKProgressTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404182508.624292
+e404182509.370770
+r1
+xCompileC
+x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Objects-normal/i386/KKProgressTimer.o
+x/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/KKProgressTimer/KKProgressTimer/KKProgressTimer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/KKProgressTimer/KKProgressTimer/KKProgressTimer.m
+d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/KKProgressTimer/KKProgressTimer/KKProgressTimer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/KKProgressTimer/KKProgressTimer/KKProgressTimer.m285"CompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Objects-normal/i386/KKProgressTimer.o KKProgressTimer/KKProgressTimer/KKProgressTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler01f89fec5517b841^2deb5eed5517b841^---0#0#1#-19%DVTDocumentLocation2@109"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/KKProgressTimer/KKProgressTimer/KKProgressTimer.m0000000000000000^4239"CompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Objects-normal/i386/KKProgressTimer.o KKProgressTimer/KKProgressTimer/KKProgressTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Pods-KKProgressTimer-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Pods-KKProgressTimer-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Pods-KKProgressTimer-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Pods-KKProgressTimer-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator/include -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/HPLTagCloudGenerator -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/DerivedSources/i386 -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator -DNS_BLOCK_ASSERTIONS=1 -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-KKProgressTimer-prefix-fpcteiiqsfbyabbqhfiobvmrbxzh/Pods-KKProgressTimer-prefix.pch -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Objects-normal/i386/KKProgressTimer.d --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Objects-normal/i386/KKProgressTimer.dia -c /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/KKProgressTimer/KKProgressTimer/KKProgressTimer.m -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Objects-normal/i386/KKProgressTimer.o36"A278593E-3C1C-4F3C-BCED-09A16599D377-
+b7993FACE-8AB6-45E2-A132-440631DA2AC7
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Objects-normal/i386/Pods-KKProgressTimer-dummy.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-KKProgressTimer-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404182509.161229
+e404182509.300826
+r1
+xCompileC
+x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Objects-normal/i386/Pods-KKProgressTimer-dummy.o
+x/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-KKProgressTimer-dummy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-KKProgressTimer-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-KKProgressTimer-dummy.m275"CompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Objects-normal/i386/Pods-KKProgressTimer-dummy.o Pods-KKProgressTimer-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler847f29ed5517b841^221a4ded5517b841^---0#0#1#-19%DVTDocumentLocation2@88"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-KKProgressTimer-dummy.m0000000000000000^4207"CompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Objects-normal/i386/Pods-KKProgressTimer-dummy.o Pods-KKProgressTimer-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Pods-KKProgressTimer-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Pods-KKProgressTimer-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Pods-KKProgressTimer-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Pods-KKProgressTimer-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator/include -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/HPLTagCloudGenerator -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/DerivedSources/i386 -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator -DNS_BLOCK_ASSERTIONS=1 -include /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-KKProgressTimer-prefix-bigjfsrakvvijaavwqsxcvkubixn/Pods-KKProgressTimer-prefix.pch -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Objects-normal/i386/Pods-KKProgressTimer-dummy.d --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Objects-normal/i386/Pods-KKProgressTimer-dummy.dia -c /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-KKProgressTimer-dummy.m -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Objects-normal/i386/Pods-KKProgressTimer-dummy.o36"B0E08957-68CC-4401-A029-D5FFA0775593-
+b7993FACE-8AB6-45E2-A132-440631DA2AC7
+
+CLibtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator/libPods-KKProgressTimer.a normal i386
+s404182509.379512
+e404182509.405713
+r1
+xLibtool
+x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator/libPods-KKProgressTimer.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Libtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator/libPods-KKProgressTimer.a normal i386123"Libtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator/libPods-KKProgressTimer.a normal i386104161ed5517b841^61de67ed5517b841^---0#0#1#--1057"Libtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator/libPods-KKProgressTimer.a normal i386    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator -filelist /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Objects-normal/i386/Pods-KKProgressTimer.LinkFileList -framework Foundation -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator/libPods-KKProgressTimer.a36"F77596CC-0297-4E92-9D35-9841D36F465F-
+b7993FACE-8AB6-45E2-A132-440631DA2AC7
+
+CProcessPCH /Users/xcode/Library/Developer/Xcode/DerivedData/googuu-amitkvaqxcylyoamxyheiolpbhrg/Index/PrecompiledHeaders/Pods-KKProgressTimer-prefix-bquwpdrvcpblhkfkjldiyhqsnnee_ast/Pods-KKProgressTimer-prefix.pch.pch Pods-KKProgressTimer-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/xcode/Library/Developer/Xcode/DerivedData/googuu-amitkvaqxcylyoamxyheiolpbhrg/Index/PrecompiledHeaders/Pods-KKProgressTimer-prefix-dmdsqttomlqqgudluwcmfuesqnkd_ast/Pods-KKProgressTimer-prefix.pch.pch Pods-KKProgressTimer-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-KKProgressTimer-prefix-bigjfsrakvvijaavwqsxcvkubixn/Pods-KKProgressTimer-prefix.pch.pch Pods-KKProgressTimer-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404182506.121616
+e404182508.541332
+r1
+xProcessPCH
+x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-KKProgressTimer-prefix-bigjfsrakvvijaavwqsxcvkubixn/Pods-KKProgressTimer-prefix.pch.pch
+xPods-KKProgressTimer-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-KKProgressTimer-prefix.pch
+d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Precompile Pods-KKProgressTimer-prefix.pch281"ProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-KKProgressTimer-prefix-bigjfsrakvvijaavwqsxcvkubixn/Pods-KKProgressTimer-prefix.pch.pch Pods-KKProgressTimer-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler9e451fea5517b841^f5a28aec5517b841^---0#0#1#-19%DVTDocumentLocation2@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-KKProgressTimer-prefix.pch0000000000000000^4046"ProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-KKProgressTimer-prefix-bigjfsrakvvijaavwqsxcvkubixn/Pods-KKProgressTimer-prefix.pch.pch Pods-KKProgressTimer-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Pods-KKProgressTimer-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Pods-KKProgressTimer-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Pods-KKProgressTimer-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Pods-KKProgressTimer-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator/include -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/HPLTagCloudGenerator -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/DerivedSources/i386 -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-KKProgressTimer-prefix-bigjfsrakvvijaavwqsxcvkubixn/Pods-KKProgressTimer-prefix.pch.dia -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-KKProgressTimer-prefix-bigjfsrakvvijaavwqsxcvkubixn/Pods-KKProgressTimer-prefix.pch.d -c /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-KKProgressTimer-prefix.pch -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-KKProgressTimer-prefix-bigjfsrakvvijaavwqsxcvkubixn/Pods-KKProgressTimer-prefix.pch.pch36"38D28AB5-B957-45BA-9DDE-2F2C41E6A34B-
+b7993FACE-8AB6-45E2-A132-440631DA2AC7
+
+CProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-KKProgressTimer-prefix-fpcteiiqsfbyabbqhfiobvmrbxzh/Pods-KKProgressTimer-prefix.pch.pch Pods-KKProgressTimer-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404182506.119588
+e404182508.614900
+r1
+xProcessPCH
+x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-KKProgressTimer-prefix-fpcteiiqsfbyabbqhfiobvmrbxzh/Pods-KKProgressTimer-prefix.pch.pch
+xPods-KKProgressTimer-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-KKProgressTimer-prefix.pch
+d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Precompile Pods-KKProgressTimer-prefix.pch281"ProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-KKProgressTimer-prefix-fpcteiiqsfbyabbqhfiobvmrbxzh/Pods-KKProgressTimer-prefix.pch.pch Pods-KKProgressTimer-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf0c21eea5517b841^b56c9dec5517b841^---0#0#1#-19%DVTDocumentLocation2@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-KKProgressTimer-prefix.pch0000000000000000^4080"ProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-KKProgressTimer-prefix-fpcteiiqsfbyabbqhfiobvmrbxzh/Pods-KKProgressTimer-prefix.pch.pch Pods-KKProgressTimer-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Pods-KKProgressTimer-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Pods-KKProgressTimer-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Pods-KKProgressTimer-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/Pods-KKProgressTimer-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator/include -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/HPLTagCloudGenerator -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/DerivedSources/i386 -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods-KKProgressTimer.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator -DNS_BLOCK_ASSERTIONS=1 -fobjc-arc -DOS_OBJECT_USE_OBJC=0 --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-KKProgressTimer-prefix-fpcteiiqsfbyabbqhfiobvmrbxzh/Pods-KKProgressTimer-prefix.pch.dia -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-KKProgressTimer-prefix-fpcteiiqsfbyabbqhfiobvmrbxzh/Pods-KKProgressTimer-prefix.pch.d -c /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-KKProgressTimer-prefix.pch -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-KKProgressTimer-prefix-fpcteiiqsfbyabbqhfiobvmrbxzh/Pods-KKProgressTimer-prefix.pch.pch36"94942A52-B4A9-4FB0-B120-6741761A4972-
+b7993FACE-8AB6-45E2-A132-440631DA2AC7
+

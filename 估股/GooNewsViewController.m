@@ -72,6 +72,7 @@
 -(void)helpAction:(id)sender{
     
     HelpViewController *help=[[HelpViewController alloc] init];
+    help.type=UserHelp;
     help.hidesBottomBarWhenPushed=YES;
     [self.navigationController pushViewController:help animated:YES];
     SAFE_RELEASE(help);
@@ -265,7 +266,7 @@
     if(indexPath.section==0){
         return 164.0;
     }else{
-        return 116.0;
+        return 135.0;
     }
 }
 
@@ -353,10 +354,24 @@
         
         int row=[indexPath row];
         id model=[arrList objectAtIndex:row];
-        
+
         cell.title=[model objectForKey:@"title"];
+        cell.titleLabel.lineBreakMode=NSLineBreakByWordWrapping;
+        cell.titleLabel.numberOfLines=0;
         [self setReadingMark:cell andTitle:[model objectForKey:@"title"]];
-        cell.contentLabel.text=[model objectForKey:@"concise"];
+        cell.contentWebView.backgroundColor = [UIColor clearColor];
+        cell.contentWebView.opaque = NO;
+        cell.contentWebView.dataDetectorTypes = UIDataDetectorTypeNone;
+        [(UIScrollView *)[[cell.contentWebView subviews] objectAtIndex:0] setBounces:NO];
+        
+        NSString *webviewText = @"<style>body{margin:0px;background-color:transparent;font:14px/18px Custom-Font-Name}</style>";
+        
+        NSString *temp=[model objectForKey:@"concise"];
+        if([temp length]>56){
+            temp=[temp substringToIndex:56];
+        }
+        NSString *htmlString = [webviewText stringByAppendingFormat:@"%@......", temp];
+        [cell.contentWebView loadHTMLString:htmlString baseURL:nil];
         cell.timeDiferLabel.text=[Utiles intervalSinceNow:[model objectForKey:@"updatetime"]];
         
         if([model objectForKey:@"comanylogourl"]){

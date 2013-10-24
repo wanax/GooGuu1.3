@@ -11,6 +11,7 @@
 #import "ClientLoginViewController.h"
 #import "CounterViewController.h"
 #import "FinanceToolsGrade2ViewController.h"
+#import "HelpViewController.h"
 
 @interface FinanceToolsViewController ()
 
@@ -33,7 +34,7 @@
 -(void)initComponents{
     
     self.title=@"金融工具";
-    self.customTabel=[[UITableView alloc] initWithFrame:CGRectMake(0,0,SCREEN_WIDTH,SCREEN_HEIGHT-36) style:UITableViewStyleGrouped];
+    self.customTabel=[[UITableView alloc] initWithFrame:CGRectMake(0,0,SCREEN_WIDTH,SCREEN_HEIGHT) style:UITableViewStyleGrouped];
     
     self.customTabel.dataSource=self;
     self.customTabel.delegate=self;
@@ -270,11 +271,11 @@
             
         }else if(indexPath.row==2){
             //汇丰银行
-            NSDictionary *params=[NSDictionary dictionaryWithObjectsAndKeys:@"卓越理财客户,一般客户",@"b1Name",@"网上理财电话交易",@"b2Name",@"买入价格,卖出价格,每手股数,手数",@"pName",@"2,2,股,手",@"pUnit",@"股票净价,经济佣金,交易费,证监会徵费,印花税,结算费,手续费,仓存费,合计买入手续费,实际支出金额",@"r1Name",@"2,最低港币100元,2,2,2,2,2,最低30最高200每单位5,2,2",@"r1Unit",@"股票净价,经济佣金,交易费,证监会缴费,印花税,结算费,手续费,合计买入手续费,实际支出金额",@"r2Name",@"2,最低港币100,2,2,2,2,2,2,2",@"r2Unit",@"买卖总手续费,总盈利/亏损,盈亏率",@"r3Name",@"2,2,%",@"r3Unit", nil];
+            NSDictionary *params=[NSDictionary dictionaryWithObjectsAndKeys:@"卓越理财客户,一般客户",@"b1Name",@"网上理财电话交易",@"b2Name",@"买入价格,卖出价格,每手股数,手数",@"pName",@"2,2,股,手",@"pUnit",@"股票净价,经纪佣金,交易费,证监会徵费,印花税,结算费,手续费,仓存费,合计买入手续费,实际支出金额",@"r1Name",@"2,最低港币100元,2,2,2,2,2,最低30最高200每单位5,2,2",@"r1Unit",@"股票净价,经济佣金,交易费,证监会缴费,印花税,结算费,手续费,合计买入手续费,实际支出金额",@"r2Name",@"2,最低港币100,2,2,2,2,2,2,2",@"r2Unit",@"买卖总手续费,总盈利/亏损,盈亏率",@"r3Name",@"2,2,%",@"r3Unit", nil];
             //中银香港
-            NSDictionary *params1=[NSDictionary dictionaryWithObjectsAndKeys:@"晋星,银星",@"b1Name",@"网上理财/手机银行",@"b2Name",@"买入价格,卖出价格,每手股数,手数",@"pName",@"2,2,股,手",@"pUnit",@"股票净价,经济佣金,交易费,证监会徵费,印花税,结算费,手续费,仓存费,合计买入手续费,实际支出金额",@"r1Name",@"2,最低港币100元,2,2,2,2,2,最低30最高200每单位5,2,2",@"r1Unit",@"股票净价,经济佣金,交易费,证监会缴费,印花税,结算费,手续费,合计买入手续费,实际支出金额",@"r2Name",@"2,最低港币100,2,2,2,2,2,2,2",@"r2Unit",@"买卖总手续费,总盈利/亏损,盈亏率",@"r3Name",@"2,2,%",@"r3Unit", nil];
+            NSDictionary *params1=[NSDictionary dictionaryWithObjectsAndKeys:@"晋星,银星",@"b1Name",@"网上理财/手机银行",@"b2Name",@"买入价格,卖出价格,每手股数,手数",@"pName",@"2,2,股,手",@"pUnit",@"股票净价,经纪佣金,交易费,证监会徵费,印花税,结算费,手续费,仓存费,合计买入手续费,实际支出金额",@"r1Name",@"2,最低港币100元,2,2,2,2,2,最低30最高200每单位5,2,2",@"r1Unit",@"股票净价,经济佣金,交易费,证监会缴费,印花税,结算费,手续费,合计买入手续费,实际支出金额",@"r2Name",@"2,最低港币100,2,2,2,2,2,2,2",@"r2Unit",@"买卖总手续费,总盈利/亏损,盈亏率",@"r3Name",@"2,2,%",@"r3Unit", nil];
             //渣打银行
-            NSDictionary *params2=[NSDictionary dictionaryWithObjectsAndKeys:@"默认",@"b1Name",@"网上银行,股票热线",@"b2Name",@"买入价格,卖出价格,每手股数,手数",@"pName",@"2,2,股,手",@"pUnit",@"股票净价,经济佣金,交易费,证监会徵费,印花税,结算费,手续费,仓存费,合计买入手续费,实际支出金额",@"r1Name",@"2,最低港币100元,2,2,2,2,2,最低30最高200每单位5,2,2",@"r1Unit",@"股票净价,经济佣金,交易费,证监会缴费,印花税,结算费,手续费,合计买入手续费,实际支出金额",@"r2Name",@"2,最低港币100,2,2,2,2,2,2,2",@"r2Unit",@"买卖总手续费,总盈利/亏损,盈亏率",@"r3Name",@"2,2,%",@"r3Unit", nil];
+            NSDictionary *params2=[NSDictionary dictionaryWithObjectsAndKeys:@"默认",@"b1Name",@"网上银行,股票热线",@"b2Name",@"买入价格,卖出价格,每手股数,手数",@"pName",@"2,2,股,手",@"pUnit",@"股票净价,经纪佣金,交易费,证监会徵费,印花税,结算费,手续费,仓存费,合计买入手续费,实际支出金额",@"r1Name",@"2,最低港币100元,2,2,2,2,2,最低30最高200每单位5,2,2",@"r1Unit",@"股票净价,经济佣金,交易费,证监会缴费,印花税,结算费,手续费,合计买入手续费,实际支出金额",@"r2Name",@"2,最低港币100,2,2,2,2,2,2,2",@"r2Unit",@"买卖总手续费,总盈利/亏损,盈亏率",@"r3Name",@"2,2,%",@"r3Unit", nil];
             NSArray *arr=[NSArray arrayWithObjects:params,params1,params2,nil];
             NSArray *arr2=[NSArray arrayWithObjects:@"汇丰银行",@"中银香港",@"渣打银行", nil];
             NSArray *arr3=[NSArray arrayWithObjects:[NSNumber numberWithInt:HSBC],[NSNumber numberWithInt:BOC],[NSNumber numberWithInt:SC], nil];
@@ -282,11 +283,13 @@
         }
     }else if(indexPath.section==3) {
         if (indexPath.row==0) {
-            //Excel快捷键
-            combinePush(@"",@"",@"",@"",ExcelShortcuts);
+            HelpViewController *help=[[HelpViewController alloc] init];
+            help.type=ExcelShortcutsHelp;
+            [self.navigationController pushViewController:help animated:YES];
+            SAFE_RELEASE(help);
         }
     }
-    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 - (void)didReceiveMemoryWarning

@@ -201,6 +201,9 @@ static NSString * BAR_IDENTIFIER =@"bar_identifier";
 
 #pragma mark -
 #pragma mark ModelClass Methods Delegate
+-(void)modelClassChanged:(NSString *)driverId isShowDisView:(BOOL)isShow{
+    [self modelClassChanged:driverId];
+}
 -(void)modelClassChanged:(NSString *)driverId{
     
     id temp=[self getObjectDataFromJsFun:@"returnChartData" byData:driverId];

@@ -18,7 +18,15 @@
 #import "AddCommentViewController.h"
 #import "XYZAppDelegate.h"
 #import "ComFieldViewController.h"
+#import <ShareSDK/ShareSDK.h>
 
+#define BUNDLE_NAME @"Resource"
+
+#define IMAGE_NAME @"sharesdk_img"
+#define IMAGE_EXT @"jpg"
+
+#define CONTENT @"ShareSDK不仅集成简单、支持如QQ好友、微信、新浪微博、腾讯微博等所有社交平台，而且还有强大的统计分析管理后台，实时了解用户、信息流、回流率、传播效应等数据，详情见官网http://sharesdk.cn @ShareSDK"
+#define SHARE_URL @"http://www.sharesdk.cn"
 
 @interface GooGuuArticleViewController ()
 
@@ -85,12 +93,18 @@
     [self.view addSubview:titleLabel];
     SAFE_RELEASE(titleLabel);
     
+    if (self.sourceType!=GooGuuView) {
+        [self addButtons];
+    }
+    
+}
+-(void)addButtons{
     UIButton *comeIntoComBt=[UIButton buttonWithType:UIButtonTypeCustom];
     
     [comeIntoComBt.titleLabel setFont:[UIFont fontWithName:@"Heiti SC" size:15.0]];
     [comeIntoComBt setBackgroundImage:[UIImage imageNamed:@"enterCompanyBt"] forState:UIControlStateNormal];
     //[comeIntoComBt setTitle:@"进入公司" forState:UIControlStateNormal];
-    [comeIntoComBt addTarget:self action:@selector(comeIntoComBtClicked) forControlEvents:UIControlEventTouchUpInside];
+    [comeIntoComBt addTarget:self action:@selector(comeIntoComBtClicked:) forControlEvents:UIControlEventTouchUpInside];
     
     UIButton *addCommentBt=[UIButton buttonWithType:UIButtonTypeCustom];
     [addCommentBt.titleLabel setFont:[UIFont fontWithName:@"Heiti SC" size:15.0]];
@@ -106,7 +120,6 @@
     }
     [self.view addSubview:addCommentBt];
     [self.view addSubview:comeIntoComBt];
-    
 }
 #pragma mark -
 #pragma mark Buttons Clicks
@@ -120,11 +133,72 @@
         [Utiles showToastView:self.view withTitle:nil andContent:@"请先登录" duration:1.5];
     }
 }
--(void)comeIntoComBtClicked{
-    ComFieldViewController *com=[[ComFieldViewController alloc] init];
+-(void)comeIntoComBtClicked:(UIButton *)sender{
+    /*ComFieldViewController *com=[[ComFieldViewController alloc] init];
     com.browseType=SearchStockList;
     com.view.frame=CGRectMake(0,20,SCREEN_WIDTH,SCREEN_HEIGHT);
-    [self presentViewController:com animated:YES completion:nil];
+    [self presentViewController:com animated:YES completion:nil];*/
+    //构造分享内容
+    //TODO: 1.构造一个Container（iPhone可省略）
+    id<ISSContainer> container = [ShareSDK container];
+    
+    if ([[UIDevice currentDevice] isPad])
+        [container setIPadContainerWithView:sender
+                                arrowDirect:UIPopoverArrowDirectionUp];
+    else
+        [container setIPhoneContainerWithViewController:self];
+    
+    //TODO: 2.构造自定义的分享菜单按钮项，包括标题、图标、行为
+    id<ISSShareActionSheetItem> myItem =
+    [ShareSDK shareActionSheetItemWithTitle:@"自定义平台"
+                                       icon:[UIImage imageNamed:@"myIcon.png"]
+                               clickHandler:^{
+                                   UIAlertView *alertView = nil;
+                                   alertView = [[UIAlertView alloc] initWithTitle:@"分了个享"
+                                                                          message:@"这里换成分享到自定义平台的代码, 我只是假装分享一下，人艰不拆！"
+                                                                         delegate:nil
+                                                                cancelButtonTitle:@"知道了"
+                                                                otherButtonTitles:nil];
+                                   [alertView show];
+                               }
+     ];
+    
+    //TODO: 3.使用customShareList构造shareList，项目的顺序也会反映在菜单顺序之中
+    NSArray *shareList = [ShareSDK customShareListWithType:
+                          SHARE_TYPE_NUMBER(ShareTypeWeixiSession),
+                          SHARE_TYPE_NUMBER(ShareTypeSinaWeibo),
+                          myItem,
+                          SHARE_TYPE_NUMBER(ShareTypeTencentWeibo),
+                          SHARE_TYPE_NUMBER(ShareTypeQQ),
+                          nil];
+    
+    id<ISSContent> publishContent = nil;
+    
+    NSString *contentString = @"This is a sample";
+    NSString *titleString   = @"title";
+    NSString *urlString     = @"http://www.ShareSDK.cn";
+    NSString *description   = @"Sample";
+    
+    publishContent = [ShareSDK content:contentString
+                        defaultContent:@""
+                                 image:nil
+                                 title:titleString
+                                   url:urlString
+                           description:description
+                             mediaType:SSPublishContentMediaTypeText];
+    
+    id<ISSShareOptions> shareOptions =
+    [ShareSDK simpleShareOptionsWithTitle:@"分享内容"
+                        shareViewDelegate:nil];
+    
+    //TODO: 4.将container（iPhone上可为nil）和shareList传入 showShareActionSheet 方法
+    [ShareSDK showShareActionSheet:container
+                         shareList:shareList
+                           content:publishContent
+                     statusBarTips:NO
+                       authOptions:nil
+                      shareOptions:shareOptions
+                            result:nil];
 }
 
 
@@ -132,7 +206,11 @@
     NSDictionary *params=[NSDictionary dictionaryWithObjectsAndKeys:articleId,@"articleid", nil];
     [Utiles getNetInfoWithPath:@"ArticleURL" andParams:params besidesBlock:^(id article){
         
-        articleWeb=[[UIWebView alloc] initWithFrame:CGRectMake(0,40,self.view.bounds.size.width, self.view.bounds.size.height-70)];
+        if (self.sourceType==GooGuuView) {
+            articleWeb=[[UIWebView alloc] initWithFrame:CGRectMake(0,40,self.view.bounds.size.width, self.view.bounds.size.height-38)];
+        } else {
+            articleWeb=[[UIWebView alloc] initWithFrame:CGRectMake(0,40,self.view.bounds.size.width, self.view.bounds.size.height-68)];
+        }
         articleWeb.delegate=self;
         [articleWeb loadHTMLString:[article objectForKey:@"content"] baseURL:nil];
         
@@ -150,7 +228,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [Utiles iOS7StatusBar:self];
     self.view.backgroundColor=[Utiles colorWithHexString:@"#9C6C1E"];
     self.parentViewController.title=@"公司简报";
     [[SDImageCache sharedImageCache] clearDisk];
@@ -302,6 +379,7 @@
 #pragma mark - PhotBrower Actions
 - (void)photoBrowserDidTapDoneButton:(UIButton *)sender
 {
+    [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationNone];
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 

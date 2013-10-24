@@ -76,12 +76,22 @@
 #pragma mark -
 #pragma mark Calendar Delegate Methods
 
+-(NSString *)dateFormatter:(NSString *)date{
+    NSString *returnData=@"";
+    if ([date length]==1) {
+        returnData=[NSString stringWithFormat:@"0%@",date];
+    }else{
+        returnData=date;
+    }
+    return returnData;
+}
+
 -(void)calendarView:(VRGCalendarView *)calendarView switchedToMonth:(int)month targetHeight:(float)targetHeight animated:(BOOL)animated {
     id dateNow=[NSDate date];
     
     NSDictionary *params = [NSDictionary dictionaryWithObjectsAndKeys:
                             [Utiles getUserToken], @"token",
-                            [NSString stringWithFormat:@"%d",[dateNow year]],@"year",[NSString stringWithFormat:@"0%d",[dateNow month]],@"month",@"googuu",@"from",
+                            [NSString stringWithFormat:@"%d",[dateNow year]],@"year",[NSString stringWithFormat:@"%d",month],@"month",@"googuu",@"from",
                             nil];
     [Utiles postNetInfoWithPath:@"UserStockCalendar" andParams:params besidesBlock:^(id resObj){
         if(![[resObj objectForKey:@"status"] isEqualToString:@"0"]){
@@ -94,7 +104,7 @@
             [calendarView markDates:dates];
             self.dateDic=[[NSMutableDictionary alloc] init];
             for(id key in self.eventArr){
-                [self.dateDic setObject:[key objectForKey:@"data"] forKey:[key objectForKey:@"day"]];
+                [self.dateDic setObject:[key objectForKey:@"data"] forKey:[self dateFormatter:[key objectForKey:@"day"]]];
             }
             SAFE_RELEASE(dates);
             SAFE_RELEASE(f);

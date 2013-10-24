@@ -20,6 +20,7 @@
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/FinPic2ViewController.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/AnalysisReportViewController.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/ContainerViewController.o
+/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/CXBrowserToolBarView.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/StockCell.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/UserCell.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/CustomCell.o
@@ -41,6 +42,7 @@
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/ClientCenterViewController.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/LoginView.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/ClientLoginViewController.o
+/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/CXPhotoBrowser.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/SettingCenterViewController.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/Company.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/ArticleCommentModel.o
@@ -68,10 +70,12 @@
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/ChoseBetaFactorViewController.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/CustomCellBackground.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/PrettySegmentedControlTableViewCell.o
+/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/CXPhoto.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/PrettyTableViewCell.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/PrettyDrawing.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/PrettyNavigationBar.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/PrettyShadowPlainTableview.o
+/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/CXTapDetectingImageView.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/PrettyTabBar.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/PrettyToolbar.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/Reachability.o
@@ -105,6 +109,7 @@
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/UIBarButtonItem+WEPopover.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/IQSegmentedNextPrevious.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/ModelClassViewController.o
+/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/CXPhotoLoadingView.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/CQMFloatingController.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/FinancalModelChartViewController.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/FinancePicViewController.o
@@ -121,6 +126,7 @@
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/Indicator2View.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/StockSearchListViewController.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/GzipCompressor.o
+/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/CXZoomingScrollView.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/FinanceToolsGrade2ViewController.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/Toast+UIView.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/RTLabel.o
@@ -145,6 +151,7 @@
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/SDWebImageDecoder.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/SDWebImageDownloader.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/SDWebImageDownloaderOperation.o
+/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/CXBrowserNavBarView.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/SDWebImageManager.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/SDWebImagePrefetcher.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/UIButton+WebCache.o
@@ -153,15 +160,7 @@
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/UIImage+WebP.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/UIImageView+WebCache.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/GGFullScreenImageViewController.o
-/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/CXBrowserNavBarView.o
-/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/CXBrowserToolBarView.o
-/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/CXPhoto.o
-/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/CXPhotoBrowser.o
-/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/CXPhotoLoadingView.o
-/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/CXTapDetectingImageView.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/MZFormSheetBackgroundWindow.o
-/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/CXTapDetectingView.o
-/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/CXZoomingScrollView.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/DemoPhoto.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/DemoPhotoLoadingView.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/HelpViewController.o
@@ -175,6 +174,7 @@
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/CFilteringJSONSerializer.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/CJSONDeserializer_BlocksExtensions.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/CJSONSerialization.o
+/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/CXTapDetectingView.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/CQMFloatingFrameView.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/FinPicKeyWordListViewController.o
 /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/googuu.build/Debug-iphoneos/googuu.build/Objects-normal/armv7/CJSONSerializedData.o

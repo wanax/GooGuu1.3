@@ -86,7 +86,7 @@
     [self initViewComponents];
     [self addTableHeader];
     
-    if ([Utiles isNetConnected]) {
+    if ([Utiles isNetConnected]&&[Utiles isLogin]) {
         [MBProgressHUD showHUDAddedTo:self.view animated:YES];
         [self getComList];
     } else {
@@ -184,6 +184,8 @@
             [MBProgressHUD hideHUDForView:self.view animated:YES];
             [Utiles showToastView:self.view withTitle:nil andContent:@"网络异常" duration:1.5];
         }];
+    }else{
+        [Utiles showToastView:self.view withTitle:nil andContent:@"请先登录" duration:1.5];
     }
     
 }

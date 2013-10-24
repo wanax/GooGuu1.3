@@ -49,7 +49,7 @@
 
 -(BOOL)textFieldShouldReturn:(UITextField *)textField{
 
-    NSDictionary *params=[NSDictionary dictionaryWithObjectsAndKeys:textField.text,@"content",nil];
+    NSDictionary *params=[NSDictionary dictionaryWithObjectsAndKeys:[NSString stringWithFormat:@"iphone:%@",textField.text],@"content",nil];
     [Utiles postNetInfoWithPath:@"FeedBack" andParams:params besidesBlock:^(id obj){
         if([[obj objectForKey:@"status"] isEqualToString:@"1"]){
             [self.navigationController popViewControllerAnimated:YES];

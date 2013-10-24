@@ -47,14 +47,27 @@
     [self.tag addTag:title withColor:[Utiles colorWithHexString:[self.colorArr objectAtIndex:arc4random()%7]]];
 }
 
-
+-(void)allBtClicked:(UIButton *)bt{
+    FinancePicViewController *picVC=[[[FinancePicViewController alloc] init] autorelease];
+    picVC.keyWord=bt.titleLabel.text;
+    picVC.hidesBottomBarWhenPushed=YES;
+    [self.navigationController pushViewController:picVC animated:YES];
+}
 
 -(void)getKeyWordList{
+    
+    UIButton *allBt=[UIButton buttonWithType:UIButtonTypeCustom];
+    [allBt setFrame:CGRectMake(30,100,260,25)];
+    [allBt setTitle:@"全部" forState:UIControlStateNormal];
+    [allBt setBackgroundColor:[UIColor orangeColor]];
+    [allBt addTarget:self action:@selector(allBtClicked:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:allBt];
+    
     [Utiles getNetInfoWithPath:@"FchartKeyWord" andParams:nil besidesBlock:^(id obj) {
         
         self.keyWordData=obj;
         NSMutableArray *temp=[[[NSMutableArray alloc] init] autorelease];
-        [self addTagLabel:@"全部"];
+        
         for (id obj in self.keyWordData) {
             [temp addObject:[obj objectForKey:@"keyword"]];
             [self addTagLabel:[obj objectForKey:@"keyword"]];
@@ -66,10 +79,6 @@
         
     }];
 }
-
-
-
-
 
 - (void)tagDidSelectTag:(AOTag *)tag
 {
@@ -84,8 +93,6 @@
 {
     return NO;
 }
-
-
 
 - (void)didReceiveMemoryWarning
 {

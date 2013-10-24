@@ -11,6 +11,11 @@
 @interface EnumSummary : NSObject
 
 typedef enum{
+    UserHelp,
+    ExcelShortcutsHelp
+}HelpType;
+
+typedef enum{
     
     BetaFactor=0,//beta系数
     Discountrate=1,//折现率
@@ -72,13 +77,14 @@ typedef enum {
     FinancalModelChart,
     ChartSaved,
     DiscountSaved,
-    SearchStockList
+    SearchStockList,
+    GooGuuView
 } BrowseSourceType;
 
 typedef enum {
     NewsBar=0,
     ValuationModelBar=1,
-    MyGooGuuBar=2,
+    MyGooGuuBar=4,
     SettingBar=3
 } TabBarType;
 

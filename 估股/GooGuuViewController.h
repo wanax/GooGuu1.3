@@ -21,6 +21,7 @@
 @property (nonatomic,retain) UITableView *cusTable;
 
 @property (nonatomic,retain) NSArray *viewDataArr;
+@property (nonatomic,retain) NSDictionary *readingMarksDic;
 
 - (void)reloadTableViewDataSource;
 - (void)doneLoadingTableViewData;

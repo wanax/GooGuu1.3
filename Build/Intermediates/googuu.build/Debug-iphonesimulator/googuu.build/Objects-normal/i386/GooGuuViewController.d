@@ -19,4 +19,6 @@ dependencies: \
   /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CXPhotoBrowser/CXBrowserToolBarView.h \
   /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/DemoPhoto.h \
   /Users/xcode/wanax/oc/GooGuu1.2-master/估股/ArticleCommentViewController.h \
-  /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/MHTabBarController.h
+  /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/MHTabBarController.h \
+  /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/AFNetworking/UIImageView+AFNetworking.h \
+  /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/AFNetworking/AFImageRequestOperation.h

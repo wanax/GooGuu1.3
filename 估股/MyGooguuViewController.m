@@ -76,18 +76,26 @@
     return self;
 }
 
+-(void)loginBtClicked:(id)sender{
+    ClientLoginViewController *loginViewController=nil;
+    if (SCREEN_HEIGHT>500) {
+        loginViewController = [[ClientLoginViewController alloc] initWithNibName:@"ClientLoginView5" bundle:nil];
+    } else {
+        loginViewController = [[ClientLoginViewController alloc] initWithNibName:@"ClientLoginView" bundle:nil];
+    }
+    
+    loginViewController.sourceType=MyGooGuuBar;
+    [self presentViewController:loginViewController animated:YES completion:nil];
+}
+
 - (void)viewDidAppear:(BOOL)animated{
     
     if(![Utiles isLogin]){
-        ClientLoginViewController *loginViewController=nil;
-        if (SCREEN_HEIGHT>500) {
-           loginViewController = [[ClientLoginViewController alloc] initWithNibName:@"ClientLoginView5" bundle:nil];
-        } else {
-            loginViewController = [[ClientLoginViewController alloc] initWithNibName:@"ClientLoginView" bundle:nil]; 
-        }
-
-        loginViewController.sourceType=MyGooGuuBar;
-        [self presentViewController:loginViewController animated:YES completion:nil];
+        UIBarButtonItem *settingButton = [[[UIBarButtonItem alloc] initWithTitle:@"登录" style:UIBarButtonItemStylePlain
+                                                                         target:self action:@selector(loginBtClicked:)] autorelease];
+        self.navigationItem.leftBarButtonItem = settingButton;
+    }else{
+        self.navigationItem.leftBarButtonItem = nil;
     }
  
 }

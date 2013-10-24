@@ -10,13 +10,15 @@
 
 @protocol ModelClassGrade2Delegate <NSObject>
 @optional
--(void)modelClassChanged:(NSString *)driverId;
+-(void)modelClassChanged:(NSString *)driverId isShowDisView:(BOOL)isShow;
 @end
 
-@interface ModelClassGrade2ViewController : UITableViewController
+@interface ModelClassGrade2ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 
+@property BOOL isShowDiscountView;
 @property (nonatomic,retain) id<ModelClassGrade2Delegate> delegate;
 
+@property (nonatomic,retain) UITableView *cusTable;
 @property (nonatomic,retain) id savedData;
 @property (nonatomic,retain) NSString *classTitle;
 @property (nonatomic,retain) id jsonData;
