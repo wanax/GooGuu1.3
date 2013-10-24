@@ -54,5 +54,4 @@ dependencies: \
   /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/ShareSDK.framework/Headers/ISSCredential.h \
   /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/ShareSDK.framework/Headers/ISSOAuthCredential.h \
   /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/ShareSDK.framework/Headers/ISSUserField.h \
-  /Users/xcode/wanax/oc/GooGuu1.2-master/AGViewDelegate.h \
   /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/MBProgressHUD.h

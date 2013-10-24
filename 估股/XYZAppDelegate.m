@@ -65,7 +65,6 @@
     if(self = [super init])
     {
         _scene = WXSceneSession;
-        _viewDelegate = [[AGViewDelegate alloc] init];
     }
     return self;
 }
@@ -82,7 +81,7 @@
     [debugger connectToURL:[NSURL URLWithString:@"ws://localhost:9000/device"]];
 }
 
--(void)beginStatistics{
+-(void)beginBaiDuStatistics{
     
     BaiduMobStat* statTracker = [BaiduMobStat defaultStat];
     statTracker.enableExceptionLog = YES;
@@ -124,10 +123,9 @@
     }];
 
 }
--(void)beginPush:(UIApplication *)application{
+-(void)beginBaiDuPush:(UIApplication *)application{
     
     [BPush setupChannel:[Utiles getConfigureInfoFrom:@"BPushConfig" andKey:nil inUserDomain:NO]]; // 必须
-    
     [BPush setDelegate:self]; // 必须。参数对象必须实现onMethod: response:方法，本示例中为self
     [application registerForRemoteNotificationTypes:
      UIRemoteNotificationTypeAlert
@@ -135,33 +133,20 @@
      | UIRemoteNotificationTypeSound];
 }
 
-- (void)application:(UIApplication *)application
-didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
 {
-    
-    [BPush registerDeviceToken:deviceToken]; // 必须
-    
+    [BPush registerDeviceToken:deviceToken];
     [BPush bindChannel];
 }
 - (void) onMethod:(NSString*)method response:(NSDictionary*)data {
     NSLog(@"On method:%@", method);
     NSLog(@"data:%@", [data description]);
-    NSDictionary* res = [[NSDictionary alloc] initWithDictionary:data];
-    if ([BPushRequestMethod_Bind isEqualToString:method]) {
-        /*NSString *appid = [res valueForKey:BPushRequestAppIdKey];
-        NSString *userid = [res valueForKey:BPushRequestUserIdKey];
-        NSString *channelid = [res valueForKey:BPushRequestChannelIdKey];
-        NSString *requestid = [res valueForKey:BPushRequestRequestIdKey];
-        int returnCode = [[res valueForKey:BPushRequestErrorCodeKey] intValue];*/
-        
-    }
 }
 
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
     NSLog(@"Receive Notify: %@", [userInfo JSONString]);
     NSString *alert = [[userInfo objectForKey:@"aps"] objectForKey:@"alert"];
     if (application.applicationState == UIApplicationStateActive) {
-        // Nothing to do if applicationState is Inactive, the iOS already displayed an alert view.
         UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Did receive a Remote Notification"
                                                             message:[NSString stringWithFormat:@"The application received this remote notification while it was running:\n%@", alert]
                                                            delegate:self
@@ -176,23 +161,29 @@ didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [self netChecked];
+    [self beginBaiDuStatistics];
+    [self beginBaiDuPush:application];
+    //[self setPonyDebugger];
     [self.window setBackgroundColor:[Utiles colorWithHexString:@"#DCDCD6"]];
     
     [[UIApplication sharedApplication] registerForRemoteNotificationTypes: UIRemoteNotificationTypeBadge |UIRemoteNotificationTypeSound | UIRemoteNotificationTypeAlert];
-    
-    //[self setPonyDebugger];
-    
+
     [Utiles setConfigureInfoTo:@"userconfigure" forKey:@"stockColorSetting" andContent:[NSString stringWithFormat:@"%d",0]];
 
     [[NSUserDefaults standardUserDefaults] setObject:@"1.0.1" forKey:@"version"];
 
-    [self beginStatistics];
+    
     
     
     [Crashlytics startWithAPIKey:@"c59317990c405b2f42582cacbe9f4fa9abe1fefb"];
     
     [ShareSDK registerApp:@"8c37a484287"];
     [ShareSDK connectWeChatWithAppId:@"wx68cacf0b8972c879" wechatCls:[WXApi class]];
+    [ShareSDK connectSinaWeiboWithAppKey:@"1486252908"
+                               appSecret:@"9991fbc725c5f5cf6b565b9a00a5584a"
+                             redirectUri:@"http://appgo.cn"];
+
     
     if ([[NSUserDefaults standardUserDefaults] objectForKey:@"firstLaunch"]==nil) {
         //用户初次使用进入使用引导界面
@@ -213,124 +204,29 @@ didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
                 [self checkUpdate];
             }
         }
-        
-        UITabBarItem *barItem=[[[UITabBarItem alloc] initWithTitle:@"最新简报" image:[UIImage imageNamed:@"googuuNewsBar"] tag:1] autorelease];
-        UITabBarItem *barItem2=[[[UITabBarItem alloc] initWithTitle:@"我的估股" image:[UIImage imageNamed:@"myGooGuuBar"] tag:2] autorelease];
-        UITabBarItem *barItem3=[[[UITabBarItem alloc] initWithTitle:@"估值观点" image:[UIImage imageNamed:@"googuuViewBar"] tag:3] autorelease];
-        UITabBarItem *barItem4=[[[UITabBarItem alloc] initWithTitle:@"金融图汇" image:[UIImage imageNamed:@"graphExchangeBar"] tag:4] autorelease];
-        UITabBarItem *barItem5=[[[UITabBarItem alloc] initWithTitle:@"估值模型" image:[UIImage imageNamed:@"companyListBar"] tag:5] autorelease];
-        
-        //股票关注
-        MyGooguuViewController *myGooGuu=[[[MyGooguuViewController alloc] init] autorelease];
-        myGooGuu.tabBarItem=barItem2;
-        UINavigationController *myGooGuuNavController=nil;
-    
-        //金融图汇
-        FinPicKeyWordListViewController *picView=[[[FinPicKeyWordListViewController alloc] init] autorelease];
-        picView.tabBarItem=barItem4;
-        UINavigationController *picKeyWordNav=nil;
-        
-        //估值观点
-        GooGuuViewController *toolsViewController=[[[GooGuuViewController alloc] init] autorelease];
-        toolsViewController.tabBarItem=barItem3;
-        UINavigationController *toolsNav=nil;
-        
-        
-        //估股新闻
-        GooNewsViewController *gooNewsViewController=[[[GooNewsViewController alloc] init] autorelease];
-        gooNewsViewController.tabBarItem=barItem;
-        UINavigationController *gooNewsNavController=nil;
-        
-        
-        //股票列表
-        UniverseViewController *universeViewController=[[[UniverseViewController alloc] init] autorelease];
-        universeViewController.tabBarItem=barItem5;
-        UINavigationController *universeNav=nil;
-        
-        if (IOS7_OR_LATER) {
-            myGooGuuNavController=[[UINavigationController alloc] initWithRootViewController:myGooGuu];
-            gooNewsNavController=[[UINavigationController alloc] initWithRootViewController:gooNewsViewController];
-            universeNav=[[UINavigationController alloc] initWithRootViewController:universeViewController];
-            toolsNav=[[UINavigationController alloc] initWithRootViewController:toolsViewController];
-            picKeyWordNav=[[UINavigationController alloc] initWithRootViewController:picView];
-            self.tabBarController = [[UITabBarController alloc] init];
-        } else {
-            myGooGuuNavController=[[PrettyNavigationController alloc] initWithRootViewController:myGooGuu];
-            gooNewsNavController=[[PrettyNavigationController alloc] initWithRootViewController:gooNewsViewController];
-            universeNav=[[PrettyNavigationController alloc] initWithRootViewController:universeViewController];
-            toolsNav=[[PrettyNavigationController alloc] initWithRootViewController:toolsViewController];
-            picKeyWordNav=[[PrettyNavigationController alloc] initWithRootViewController:picView];
-            self.tabBarController = [[PrettyTabBarViewController alloc] init];
-        }
-        self.tabBarController.viewControllers = [NSArray arrayWithObjects:gooNewsNavController,toolsNav,universeNav,picKeyWordNav, myGooGuuNavController,nil];
-
-        self.window.backgroundColor=[UIColor clearColor];
-        self.window.rootViewController = self.tabBarController;
-        
-        
-        SAFE_RELEASE(barItem);
-        SAFE_RELEASE(barItem2);
-        SAFE_RELEASE(barItem3);
-        SAFE_RELEASE(barItem4);
-        SAFE_RELEASE(barItem5);
-        
-        SAFE_RELEASE(myGooGuu);
-        SAFE_RELEASE(picView);
-        SAFE_RELEASE(gooNewsNavController);
-        SAFE_RELEASE(universeViewController);
-        SAFE_RELEASE(toolsViewController);
-        
-        SAFE_RELEASE(toolsNav);
-        SAFE_RELEASE(myGooGuuNavController);
-        SAFE_RELEASE(gooNewsNavController);
-        SAFE_RELEASE(universeNav);
-        
+        [self initComponents];
     }
     
     if([Utiles isLogin]){
-        
         [self handleTimer:nil];
         [[NSNotificationCenter defaultCenter] postNotificationName:@"LoginKeeping" object:nil];
-        loginTimer = [NSTimer scheduledTimerWithTimeInterval: 7000// 当函数正在调用时，及时间隔时间到了 也会忽略此次调用
-                                                      target: self
-                                                    selector: @selector(handleTimer:)
-                                                    userInfo: nil
-                                                     repeats: YES];
+        [self loginKeeping:nil];
     }
-    Reachability* reach = [Reachability reachabilityWithHostname:@"www.baidu.com"];
-    
-    reach.reachableOnWWAN = NO;
-    
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(reachabilityChanged:)
-                                                 name:kReachabilityChangedNotification
-                                               object:nil];
-    
-    [reach startNotifier];
-    
+
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(loginKeeping:) name:@"LoginKeeping" object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(cancelLoginKeeping:) name:@"LogOut" object:nil];
     
-    [self beginPush:application];
     
     return YES;
 }
 
-- (BOOL)application:(UIApplication *)application  handleOpenURL:(NSURL *)url
-{
-    return [ShareSDK handleOpenURL:url
-                        wxDelegate:self];
-}
-
-- (BOOL)application:(UIApplication *)application
-            openURL:(NSURL *)url
-  sourceApplication:(NSString *)sourceApplication
-         annotation:(id)annotation
-{
-    return [ShareSDK handleOpenURL:url
-                 sourceApplication:sourceApplication
-                        annotation:annotation
-                        wxDelegate:self];
+#pragma mark -
+#pragma mark Net Reachable
+-(void)netChecked{
+    Reachability* reach = [Reachability reachabilityWithHostname:@"www.baidu.com"];
+    reach.reachableOnWWAN = NO;
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:) name:kReachabilityChangedNotification object:nil];
+    [reach startNotifier];
 }
 
 -(void)reachabilityChanged:(NSNotification*)note
@@ -346,18 +242,28 @@ didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
     }
 }
 
+#pragma mark -
+#pragma mark Share SDK
+
+- (BOOL)application:(UIApplication *)application  handleOpenURL:(NSURL *)url
+{
+    return [ShareSDK handleOpenURL:url wxDelegate:self];
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    return [ShareSDK handleOpenURL:url sourceApplication:sourceApplication annotation:annotation wxDelegate:self];
+}
+
+#pragma mark -
+#pragma mark Keep Login
+
 -(void)loginKeeping:(NSNotification*)notification{
-    
-    loginTimer = [NSTimer scheduledTimerWithTimeInterval: 7000// 当函数正在调用时，及时间隔时间到了 也会忽略此次调用
-                                                  target: self
-                                                selector: @selector(handleTimer:)
-                                                userInfo: nil
-                                                 repeats: YES];
+    loginTimer = [NSTimer scheduledTimerWithTimeInterval: 7000 target: self selector: @selector(handleTimer:) userInfo: nil repeats: YES];
 }
 -(void)cancelLoginKeeping:(NSNotification*)notification{
     [loginTimer invalidate];
 }
-
 
 - (void) handleTimer: (NSTimer *) timer{
     
@@ -379,10 +285,60 @@ didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         
     }];
-    
-    
 }
 
+
+#pragma mark -
+#pragma mark Generate Components
+
+-(void)initComponents{
+    UITabBarItem *barItem=[[[UITabBarItem alloc] initWithTitle:@"最新简报" image:[UIImage imageNamed:@"googuuNewsBar"] tag:1] autorelease];
+    UITabBarItem *barItem2=[[[UITabBarItem alloc] initWithTitle:@"我的估股" image:[UIImage imageNamed:@"myGooGuuBar"] tag:2] autorelease];
+    UITabBarItem *barItem3=[[[UITabBarItem alloc] initWithTitle:@"估值观点" image:[UIImage imageNamed:@"googuuViewBar"] tag:3] autorelease];
+    UITabBarItem *barItem4=[[[UITabBarItem alloc] initWithTitle:@"金融图汇" image:[UIImage imageNamed:@"graphExchangeBar"] tag:4] autorelease];
+    UITabBarItem *barItem5=[[[UITabBarItem alloc] initWithTitle:@"估值模型" image:[UIImage imageNamed:@"companyListBar"] tag:5] autorelease];
+    //股票关注
+    MyGooguuViewController *myGooGuu=[[[MyGooguuViewController alloc] init] autorelease];
+    myGooGuu.tabBarItem=barItem2;
+    UINavigationController *myGooGuuNavController=nil;
+    //金融图汇
+    FinPicKeyWordListViewController *picView=[[[FinPicKeyWordListViewController alloc] init] autorelease];
+    picView.tabBarItem=barItem4;
+    UINavigationController *picKeyWordNav=nil;
+    //估值观点
+    GooGuuViewController *toolsViewController=[[[GooGuuViewController alloc] init] autorelease];
+    toolsViewController.tabBarItem=barItem3;
+    UINavigationController *toolsNav=nil;
+    //估股新闻
+    GooNewsViewController *gooNewsViewController=[[[GooNewsViewController alloc] init] autorelease];
+    gooNewsViewController.tabBarItem=barItem;
+    UINavigationController *gooNewsNavController=nil;
+    //股票列表
+    UniverseViewController *universeViewController=[[[UniverseViewController alloc] init] autorelease];
+    universeViewController.tabBarItem=barItem5;
+    UINavigationController *universeNav=nil;
+    
+    if (IOS7_OR_LATER) {
+        myGooGuuNavController=[[[UINavigationController alloc] initWithRootViewController:myGooGuu] autorelease];
+        gooNewsNavController=[[[UINavigationController alloc] initWithRootViewController:gooNewsViewController] autorelease];
+        universeNav=[[[UINavigationController alloc] initWithRootViewController:universeViewController] autorelease];
+        toolsNav=[[[[UINavigationController alloc] initWithRootViewController:toolsViewController] autorelease] autorelease];
+        picKeyWordNav=[[[UINavigationController alloc] initWithRootViewController:picView] autorelease];
+        self.tabBarController = [[[UITabBarController alloc] init] autorelease];
+    } else {
+        myGooGuuNavController=[[[PrettyNavigationController alloc] initWithRootViewController:myGooGuu] autorelease];
+        gooNewsNavController=[[[PrettyNavigationController alloc] initWithRootViewController:gooNewsViewController] autorelease];
+        universeNav=[[[PrettyNavigationController alloc] initWithRootViewController:universeViewController] autorelease];
+        toolsNav=[[[PrettyNavigationController alloc] initWithRootViewController:toolsViewController] autorelease];
+        picKeyWordNav=[[[PrettyNavigationController alloc] initWithRootViewController:picView] autorelease];
+        self.tabBarController = [[[PrettyTabBarViewController alloc] init] autorelease];
+    }
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:gooNewsNavController,toolsNav,universeNav,picKeyWordNav, myGooGuuNavController,nil];
+    
+    self.window.backgroundColor=[UIColor clearColor];
+    self.window.rootViewController = self.tabBarController;
+    [self.window makeKeyAndVisible];
+}
 
 
 

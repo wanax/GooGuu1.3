@@ -11,7 +11,6 @@
 #import "BPush.h"
 #import "WXApi.h"
 #import <ShareSDK/ShareSDK.h>
-#import "AGViewDelegate.h"
 
 @class ConcernedViewController;
 @class Company;
@@ -32,7 +31,6 @@
 @property (nonatomic,retain) UIScrollView *scrollView;
 @property (strong, nonatomic) UIWindow *window;
 @property(nonatomic,retain)  UITabBarController *tabBarController;
-@property (nonatomic,readonly) AGViewDelegate *viewDelegate;
 
 @property (retain,nonatomic) UIPageControl * pageControl;
 @property (nonatomic,strong) id comInfo;

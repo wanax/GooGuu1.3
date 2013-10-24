@@ -142,11 +142,7 @@
     //TODO: 1.构造一个Container（iPhone可省略）
     id<ISSContainer> container = [ShareSDK container];
     
-    if ([[UIDevice currentDevice] isPad])
-        [container setIPadContainerWithView:sender
-                                arrowDirect:UIPopoverArrowDirectionUp];
-    else
-        [container setIPhoneContainerWithViewController:self];
+    [container setIPhoneContainerWithViewController:self];
     
     //TODO: 2.构造自定义的分享菜单按钮项，包括标题、图标、行为
     id<ISSShareActionSheetItem> myItem =
@@ -167,9 +163,6 @@
     NSArray *shareList = [ShareSDK customShareListWithType:
                           SHARE_TYPE_NUMBER(ShareTypeWeixiSession),
                           SHARE_TYPE_NUMBER(ShareTypeSinaWeibo),
-                          myItem,
-                          SHARE_TYPE_NUMBER(ShareTypeTencentWeibo),
-                          SHARE_TYPE_NUMBER(ShareTypeQQ),
                           nil];
     
     id<ISSContent> publishContent = nil;

@@ -308,7 +308,6 @@
 		AE7D97C71805388700234417 /* PE.png in Resources */ = {isa = PBXBuildFile; fileRef = AE7D97BC1805388700234417 /* PE.png */; };
 		AE7D97C81805388700234417 /* WACC.png in Resources */ = {isa = PBXBuildFile; fileRef = AE7D97BD1805388700234417 /* WACC.png */; };
 		AE7D97CB180541F800234417 /* CounterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7D97CA180541F800234417 /* CounterViewController.m */; };
-		AEAA04601817C76100262DFD /* AGViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEAA045F1817C76100262DFD /* AGViewDelegate.m */; };
 		AEB3997F1817565A0081BD05 /* libBaiduMobStat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB3997E1817565A0081BD05 /* libBaiduMobStat.a */; };
 		AEB399C9181770760081BD05 /* DouBanConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB39982181770760081BD05 /* DouBanConnection.framework */; };
 		AEB399CA181770760081BD05 /* DropboxConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB39983181770760081BD05 /* DropboxConnection.framework */; };
@@ -1289,8 +1288,6 @@
 		AE7D97BD1805388700234417 /* WACC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WACC.png; sourceTree = "<group>"; };
 		AE7D97C9180541F800234417 /* CounterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterViewController.h; sourceTree = "<group>"; };
 		AE7D97CA180541F800234417 /* CounterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterViewController.m; sourceTree = "<group>"; };
-		AEAA045E1817C76100262DFD /* AGViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGViewDelegate.h; sourceTree = "<group>"; };
-		AEAA045F1817C76100262DFD /* AGViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGViewDelegate.m; sourceTree = "<group>"; };
 		AEB3997E1817565A0081BD05 /* libBaiduMobStat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBaiduMobStat.a; sourceTree = "<group>"; };
 		AEB39982181770760081BD05 /* DouBanConnection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DouBanConnection.framework; sourceTree = "<group>"; };
 		AEB39983181770760081BD05 /* DropboxConnection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxConnection.framework; sourceTree = "<group>"; };
@@ -1883,8 +1880,6 @@
 				AE2E91A7179D061A0049B28E /* googuu */,
 				AE2E9422179D0AE20049B28E /* XYZAppDelegate.h */,
 				AE2E9423179D0AE20049B28E /* XYZAppDelegate.m */,
-				AEAA045E1817C76100262DFD /* AGViewDelegate.h */,
-				AEAA045F1817C76100262DFD /* AGViewDelegate.m */,
 				AE75B91917A217690046901F /* Test */,
 				AE2E91A0179D061A0049B28E /* Frameworks */,
 				AE2E919F179D061A0049B28E /* Products */,
@@ -3744,7 +3739,6 @@
 				AEDBB85E180CD89A0040B48E /* UserRegisterViewController.m in Sources */,
 				AE2E9457179D15540049B28E /* StockContainerViewController.m in Sources */,
 				AE2E9459179D15540049B28E /* UniverseViewController.m in Sources */,
-				AEAA04601817C76100262DFD /* AGViewDelegate.m in Sources */,
 				AE2E945B179D15540049B28E /* NSDictionary+MutableDeepCopy.m in Sources */,
 				AE2E945D179D15540049B28E /* DBLite.m in Sources */,
 				AED837CF180F900E00DB0A52 /* MZAppearance.m in Sources */,
