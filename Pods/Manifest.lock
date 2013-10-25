@@ -1,4 +1,5 @@
 PODS:
+  - FlatUIKit (1.2)
   - HPLTagCloudGenerator (0.0.3)
   - KKProgressTimer (0.0.1)
   - PonyDebugger (0.3.0):
@@ -6,6 +7,7 @@ PODS:
   - SocketRocket (0.3.1-beta2)
 
 DEPENDENCIES:
+  - FlatUIKit
   - HPLTagCloudGenerator (~> 0.0.3)
   - KKProgressTimer (from `http://github.com/gin0606/KKProgressTimer.git`)
   - PonyDebugger (~> 0.3.0)
@@ -15,6 +17,7 @@ EXTERNAL SOURCES:
     :git: http://github.com/gin0606/KKProgressTimer.git
 
 SPEC CHECKSUMS:
+  FlatUIKit: 43b2acaa6f4ef57539b51b00e4ce62d506e33e11
   HPLTagCloudGenerator: fd8f932b6e058d0af0abaf2765889f08a33d96b8
   KKProgressTimer: 87a1001670f911a827cab5d8afb776c5db259953
   PonyDebugger: b8b504d18c6fe8cfe904295d8e908b076bdfa291

@@ -19,6 +19,7 @@
 #import "XYZAppDelegate.h"
 #import "ComFieldViewController.h"
 #import <ShareSDK/ShareSDK.h>
+#import "FlatUIKit.h"
 
 #define BUNDLE_NAME @"Resource"
 
@@ -86,7 +87,7 @@
 -(void)addComponents{
     
     UILabel *titleLabel=[[UILabel alloc] initWithFrame:CGRectMake(0,0,SCREEN_WIDTH,40)];
-    [titleLabel setBackgroundColor:[Utiles colorWithHexString:@"#FDFBE4"]];
+    [titleLabel setBackgroundColor:[UIColor whiteColor]];
     [titleLabel setFont:[UIFont fontWithName:@"Heiti SC" size:16.0]];
     [titleLabel setTextAlignment:NSTextAlignmentCenter];
     [titleLabel setText:articleTitle];
@@ -94,32 +95,27 @@
     SAFE_RELEASE(titleLabel);
     
     if (self.sourceType!=GooGuuView) {
-        [self addButtons];
+        [self addButtons:@"进入公司" fun:@selector(comeIntoComBtClicked:) frame:CGRectMake(0,SCREEN_HEIGHT-123, 106, 30)];
+        [self addButtons:@"添加评论" fun:@selector(addCommentBtClicked) frame:CGRectMake(106,SCREEN_HEIGHT-123, 106, 30)];
+        [self addButtons:@"分享" fun:@selector(addShare:) frame:CGRectMake(212,SCREEN_HEIGHT-123, 108, 30)];
     }
     
 }
--(void)addButtons{
-    UIButton *comeIntoComBt=[UIButton buttonWithType:UIButtonTypeCustom];
+-(void)addButtons:(NSString *)title fun:(SEL)fun frame:(CGRect)rect{
     
-    [comeIntoComBt.titleLabel setFont:[UIFont fontWithName:@"Heiti SC" size:15.0]];
-    [comeIntoComBt setBackgroundImage:[UIImage imageNamed:@"enterCompanyBt"] forState:UIControlStateNormal];
-    //[comeIntoComBt setTitle:@"进入公司" forState:UIControlStateNormal];
-    [comeIntoComBt addTarget:self action:@selector(comeIntoComBtClicked:) forControlEvents:UIControlEventTouchUpInside];
-    
-    UIButton *addCommentBt=[UIButton buttonWithType:UIButtonTypeCustom];
-    [addCommentBt.titleLabel setFont:[UIFont fontWithName:@"Heiti SC" size:15.0]];
-    [addCommentBt setBackgroundImage:[UIImage imageNamed:@"addCommentBt"] forState:UIControlStateNormal];
-    //[addCommentBt setTitle:@"添加评论" forState:UIControlStateNormal];
-    [addCommentBt addTarget:self action:@selector(addCommentBtClicked) forControlEvents:UIControlEventTouchUpInside];
-    if (IOS7_OR_LATER) {
-        [comeIntoComBt setFrame:CGRectMake(0,SCREEN_HEIGHT-123, 160, 30)];
-        [addCommentBt setFrame:CGRectMake(160,SCREEN_HEIGHT-123, 160, 30)];
-    } else {
-        [comeIntoComBt setFrame:CGRectMake(0,SCREEN_HEIGHT-123, 160, 30)];
-        [addCommentBt setFrame:CGRectMake(160,SCREEN_HEIGHT-123, 160, 30)];
-    }
-    [self.view addSubview:addCommentBt];
-    [self.view addSubview:comeIntoComBt];
+    FUIButton *bt=[FUIButton buttonWithType:UIButtonTypeCustom];
+    [bt.titleLabel setFont:[UIFont fontWithName:@"Heiti SC" size:15.0]];
+    [bt setTitle:title forState:UIControlStateNormal];
+    [bt setFrame:rect];
+    bt.buttonColor = [UIColor turquoiseColor];
+    bt.shadowColor = [UIColor greenSeaColor];
+    bt.shadowHeight = 3.0f;
+    bt.cornerRadius = 6.0f;
+    bt.titleLabel.font = [UIFont boldFlatFontOfSize:16];
+    [bt setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
+    [bt setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
+    [bt addTarget:self action:fun forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:bt];
 }
 #pragma mark -
 #pragma mark Buttons Clicks
@@ -133,31 +129,10 @@
         [Utiles showToastView:self.view withTitle:nil andContent:@"请先登录" duration:1.5];
     }
 }
--(void)comeIntoComBtClicked:(UIButton *)sender{
-    /*ComFieldViewController *com=[[ComFieldViewController alloc] init];
-    com.browseType=SearchStockList;
-    com.view.frame=CGRectMake(0,20,SCREEN_WIDTH,SCREEN_HEIGHT);
-    [self presentViewController:com animated:YES completion:nil];*/
-    //构造分享内容
-    //TODO: 1.构造一个Container（iPhone可省略）
+-(void)addShare:(UIButton *)bt{
     id<ISSContainer> container = [ShareSDK container];
     
     [container setIPhoneContainerWithViewController:self];
-    
-    //TODO: 2.构造自定义的分享菜单按钮项，包括标题、图标、行为
-    id<ISSShareActionSheetItem> myItem =
-    [ShareSDK shareActionSheetItemWithTitle:@"自定义平台"
-                                       icon:[UIImage imageNamed:@"myIcon.png"]
-                               clickHandler:^{
-                                   UIAlertView *alertView = nil;
-                                   alertView = [[UIAlertView alloc] initWithTitle:@"分了个享"
-                                                                          message:@"这里换成分享到自定义平台的代码, 我只是假装分享一下，人艰不拆！"
-                                                                         delegate:nil
-                                                                cancelButtonTitle:@"知道了"
-                                                                otherButtonTitles:nil];
-                                   [alertView show];
-                               }
-     ];
     
     //TODO: 3.使用customShareList构造shareList，项目的顺序也会反映在菜单顺序之中
     NSArray *shareList = [ShareSDK customShareListWithType:
@@ -165,33 +140,81 @@
                           SHARE_TYPE_NUMBER(ShareTypeSinaWeibo),
                           nil];
     
-    id<ISSContent> publishContent = nil;
-    
+
     NSString *contentString = @"This is a sample";
     NSString *titleString   = @"title";
-    NSString *urlString     = @"http://www.ShareSDK.cn";
+    NSString *urlString     = [NSString stringWithFormat:@"http://www.googuu.net/pages/content/view/%@.htm",articleId];
     NSString *description   = @"Sample";
     
-    publishContent = [ShareSDK content:contentString
-                        defaultContent:@""
-                                 image:nil
-                                 title:titleString
-                                   url:urlString
-                           description:description
-                             mediaType:SSPublishContentMediaTypeText];
+    NSString *imagePath = [[NSBundle mainBundle] pathForResource:@"icon" ofType:@"png"];
+    //构造分享内容
+    id<ISSContent> publishContent = [ShareSDK content:@"欢迎来到估股网1"
+                                       defaultContent:@""
+                                                image:[ShareSDK imageWithPath:imagePath]
+                                                title:@"ShareSDK"
+                                                  url:urlString
+                                          description:@"这是一条测试信息"
+                                            mediaType:SSPublishContentMediaTypeNews];
+    //定制微信好友信息
+    [publishContent addWeixinSessionUnitWithType:INHERIT_VALUE
+                                         content:INHERIT_VALUE
+                                           title:@"欢迎来到估股网2"
+                                             url:INHERIT_VALUE
+                                           image:INHERIT_VALUE
+                                    musicFileUrl:nil
+                                         extInfo:nil
+                                        fileData:nil
+                                    emoticonData:nil];
     
-    id<ISSShareOptions> shareOptions =
-    [ShareSDK simpleShareOptionsWithTitle:@"分享内容"
-                        shareViewDelegate:nil];
+    XYZAppDelegate *delegate=Delegate;
+
     
-    //TODO: 4.将container（iPhone上可为nil）和shareList传入 showShareActionSheet 方法
+    id<ISSAuthOptions> authOptions = [ShareSDK authOptionsWithAutoAuth:YES
+                                                         allowCallback:NO
+                                                         authViewStyle:SSAuthViewStyleFullScreenPopup
+                                                          viewDelegate:nil
+                                               authManagerViewDelegate:delegate.viewDelegate];
+    //在授权页面中添加关注官方微博
+    [authOptions setFollowAccounts:[NSDictionary dictionaryWithObjectsAndKeys:
+                                    [ShareSDK userFieldWithType:SSUserFieldTypeName value:@"ShareSDK"],
+                                    SHARE_TYPE_NUMBER(ShareTypeSinaWeibo),
+                                    [ShareSDK userFieldWithType:SSUserFieldTypeName value:@"ShareSDK"],
+                                    SHARE_TYPE_NUMBER(ShareTypeTencentWeibo),
+                                    nil]];
+    
+    id<ISSShareOptions> shareOptions = [ShareSDK defaultShareOptionsWithTitle:@"内容分享"
+                                                              oneKeyShareList:[NSArray defaultOneKeyShareList]
+                                                               qqButtonHidden:YES
+                                                        wxSessionButtonHidden:YES
+                                                       wxTimelineButtonHidden:YES
+                                                         showKeyboardOnAppear:NO
+                                                            shareViewDelegate:delegate.viewDelegate
+                                                          friendsViewDelegate:delegate.viewDelegate
+                                                        picViewerViewDelegate:nil];
+    
+    //弹出分享菜单
     [ShareSDK showShareActionSheet:container
                          shareList:shareList
                            content:publishContent
-                     statusBarTips:NO
-                       authOptions:nil
+                     statusBarTips:YES
+                       authOptions:authOptions
                       shareOptions:shareOptions
-                            result:nil];
+                            result:^(ShareType type, SSPublishContentState state, id<ISSStatusInfo> statusInfo, id<ICMErrorInfo> error, BOOL end) {
+                                if (state == SSPublishContentStateSuccess)
+                                {
+                                    NSLog(@"分享成功");
+                                }
+                                else if (state == SSPublishContentStateFail)
+                                {
+                                    NSLog(@"分享失败,错误码:%d,错误描述:%@", [error errorCode], [error errorDescription]);
+                                }
+                            }];
+}
+-(void)comeIntoComBtClicked:(UIButton *)sender{
+    ComFieldViewController *com=[[ComFieldViewController alloc] init];
+    com.browseType=SearchStockList;
+    com.view.frame=CGRectMake(0,20,SCREEN_WIDTH,SCREEN_HEIGHT);
+    [self presentViewController:com animated:YES completion:nil];
 }
 
 
@@ -199,6 +222,7 @@
     NSDictionary *params=[NSDictionary dictionaryWithObjectsAndKeys:articleId,@"articleid", nil];
     [Utiles getNetInfoWithPath:@"ArticleURL" andParams:params besidesBlock:^(id article){
         
+        self.artcleData=article;
         if (self.sourceType==GooGuuView) {
             articleWeb=[[UIWebView alloc] initWithFrame:CGRectMake(0,40,self.view.bounds.size.width, self.view.bounds.size.height-38)];
         } else {
@@ -221,20 +245,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.view.backgroundColor=[Utiles colorWithHexString:@"#9C6C1E"];
+    self.view.backgroundColor=[UIColor greenSeaColor];
     self.parentViewController.title=@"公司简报";
     [[SDImageCache sharedImageCache] clearDisk];
     [[SDImageCache sharedImageCache] clearMemory];
     self.browser = [[CXPhotoBrowser alloc] initWithDataSource:self delegate:self];
-    self.browser.wantsFullScreenLayout = NO;
+    //self.browser.wantsFullScreenLayout = NO;
     XYZAppDelegate *delegate=[[UIApplication sharedApplication] delegate];
     self.comInfo=delegate.comInfo;
     
     [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     [self initWebView];
-    
     [self addComponents];
-
     UIPanGestureRecognizer *pan=[[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panView:)];
     [self.view addGestureRecognizer:pan];
     [pan release];

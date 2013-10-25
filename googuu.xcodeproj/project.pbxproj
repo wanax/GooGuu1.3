@@ -394,6 +394,7 @@
 		AEC6FF8518167DA5003BD8F0 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEC6FF8318167DA5003BD8F0 /* icon@2x.png */; };
 		AEC6FF8718167E48003BD8F0 /* libBaiduMobStat1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC6FF8618167E48003BD8F0 /* libBaiduMobStat1.a */; };
 		AEC6FF89181692D7003BD8F0 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AEC6FF88181692D7003BD8F0 /* icon.png */; };
+		AED228E31818F4B4002FC2BF /* FrameParamConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = AED228E21818F4B4002FC2BF /* FrameParamConfig.plist */; };
 		AED837B5180F89FE00DB0A52 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6B21CE17F80D560046E9A7 /* CoreData.framework */; };
 		AED837CF180F900E00DB0A52 /* MZAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = AED837CC180F900E00DB0A52 /* MZAppearance.m */; };
 		AED837D0180F900E00DB0A52 /* NSInvocation+Copy.m in Sources */ = {isa = PBXBuildFile; fileRef = AED837CE180F900E00DB0A52 /* NSInvocation+Copy.m */; };
@@ -403,6 +404,7 @@
 		AED837DD180F901F00DB0A52 /* UIImage+Additional.m in Sources */ = {isa = PBXBuildFile; fileRef = AED837D9180F901F00DB0A52 /* UIImage+Additional.m */; };
 		AED837DF180F908B00DB0A52 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AED837DE180F908B00DB0A52 /* Accelerate.framework */; };
 		AEDBB85E180CD89A0040B48E /* UserRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDBB85D180CD89A0040B48E /* UserRegisterViewController.m */; };
+		AEE8A2EA1819218C00F48E3F /* AGViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE8A2E81819218C00F48E3F /* AGViewDelegate.m */; };
 		AEEA3CC4180F82E800BEAC48 /* CQMFloatingContentOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEA3CB8180F82E800BEAC48 /* CQMFloatingContentOverlayView.m */; };
 		AEEA3CC5180F82E800BEAC48 /* CQMFloatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEA3CBA180F82E800BEAC48 /* CQMFloatingController.m */; };
 		AEEA3CC6180F82E800BEAC48 /* CQMFloatingFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEA3CBC180F82E800BEAC48 /* CQMFloatingFrameView.m */; };
@@ -1392,6 +1394,7 @@
 		AEC6FF8318167DA5003BD8F0 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		AEC6FF8618167E48003BD8F0 /* libBaiduMobStat1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBaiduMobStat1.a; sourceTree = "<group>"; };
 		AEC6FF88181692D7003BD8F0 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		AED228E21818F4B4002FC2BF /* FrameParamConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FrameParamConfig.plist; sourceTree = "<group>"; };
 		AED837CB180F900E00DB0A52 /* MZAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZAppearance.h; sourceTree = "<group>"; };
 		AED837CC180F900E00DB0A52 /* MZAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZAppearance.m; sourceTree = "<group>"; };
 		AED837CD180F900E00DB0A52 /* NSInvocation+Copy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+Copy.h"; sourceTree = "<group>"; };
@@ -1407,6 +1410,8 @@
 		AED837DE180F908B00DB0A52 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		AEDBB85C180CD89A0040B48E /* UserRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserRegisterViewController.h; sourceTree = "<group>"; };
 		AEDBB85D180CD89A0040B48E /* UserRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserRegisterViewController.m; sourceTree = "<group>"; };
+		AEE8A2E71819218C00F48E3F /* AGViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGViewDelegate.h; sourceTree = "<group>"; };
+		AEE8A2E81819218C00F48E3F /* AGViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGViewDelegate.m; sourceTree = "<group>"; };
 		AEEA3CB7180F82E800BEAC48 /* CQMFloatingContentOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQMFloatingContentOverlayView.h; sourceTree = "<group>"; };
 		AEEA3CB8180F82E800BEAC48 /* CQMFloatingContentOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQMFloatingContentOverlayView.m; sourceTree = "<group>"; };
 		AEEA3CB9180F82E800BEAC48 /* CQMFloatingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQMFloatingController.h; sourceTree = "<group>"; };
@@ -1880,6 +1885,8 @@
 				AE2E91A7179D061A0049B28E /* googuu */,
 				AE2E9422179D0AE20049B28E /* XYZAppDelegate.h */,
 				AE2E9423179D0AE20049B28E /* XYZAppDelegate.m */,
+				AEE8A2E71819218C00F48E3F /* AGViewDelegate.h */,
+				AEE8A2E81819218C00F48E3F /* AGViewDelegate.m */,
 				AE75B91917A217690046901F /* Test */,
 				AE2E91A0179D061A0049B28E /* Frameworks */,
 				AE2E919F179D061A0049B28E /* Products */,
@@ -2614,6 +2621,7 @@
 				AE75B90F17A211B30046901F /* userconfigure.plist */,
 				AE616E27180681B900681D93 /* BenchmarkIndex.plist */,
 				AEFF3354180786C6003C4D78 /* BPushConfig.plist */,
+				AED228E21818F4B4002FC2BF /* FrameParamConfig.plist */,
 			);
 			name = PlistFile;
 			sourceTree = "<group>";
@@ -3610,6 +3618,7 @@
 				AEF6413B17CEF08300E69F41 /* hasModelSymbol.png in Resources */,
 				AEF6413C17CEF08300E69F41 /* hasnoBriefSymbol.png in Resources */,
 				AE4ADA4218064BEE0007047D /* BetaFactorCountView.xib in Resources */,
+				AED228E31818F4B4002FC2BF /* FrameParamConfig.plist in Resources */,
 				AEF6413D17CEF08300E69F41 /* hasnoModelSymbol.png in Resources */,
 				AEF6413E17CEF08300E69F41 /* requestValuationBt.png in Resources */,
 				AE7D97BE1805388700234417 /* ASTOCK.png in Resources */,
@@ -3734,6 +3743,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEE8A2EA1819218C00F48E3F /* AGViewDelegate.m in Sources */,
 				AE11E63F17B4902500FE0190 /* DahonValuationViewController.m in Sources */,
 				AE2E9455179D15540049B28E /* CompanyListViewController.m in Sources */,
 				AEDBB85E180CD89A0040B48E /* UserRegisterViewController.m in Sources */,

@@ -11,6 +11,7 @@
 #import "BPush.h"
 #import "WXApi.h"
 #import <ShareSDK/ShareSDK.h>
+#import "AGViewDelegate.h"
 
 @class ConcernedViewController;
 @class Company;
@@ -25,6 +26,7 @@
 @property (nonatomic,assign) NSString *appId;
 @property (nonatomic,assign) NSString *channelId;
 @property (nonatomic,assign) NSString *userId;
+@property (nonatomic,readonly) AGViewDelegate *viewDelegate;
 
 @property BOOL isReachable;
 @property (nonatomic,retain) TSPopoverController *popoverController;

@@ -65,72 +65,108 @@
     if(self = [super init])
     {
         _scene = WXSceneSession;
+        _viewDelegate = [[AGViewDelegate alloc] init];
     }
     return self;
 }
 
--(void)setPonyDebugger{
-    PDDebugger *debugger = [PDDebugger defaultInstance];
-    [debugger enableNetworkTrafficDebugging];
-    [debugger forwardAllNetworkTraffic];
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    [self netChecked];
+    [self beginBaiDuStatistics];
+    [self beginBaiDuPush:application];
+    [self addLoginEventListen];
+    [self setShareSDK];
+    [self startCrashlytics];
+    [self shouldKeepLogin];
+    //[self setPonyDebugger];
     
-    [debugger enableViewHierarchyDebugging];
-    [debugger setDisplayedViewAttributeKeyPaths:@[@"frame", @"hidden", @"alpha", @"opaque"]];
+    SetConfigure(@"userconfigure",@"stockColorSetting",([NSString stringWithFormat:@"%d",0]));
+    SetUserDefaults(@"1.0.1", @"version");
     
-    [debugger enableRemoteLogging];
-    [debugger connectToURL:[NSURL URLWithString:@"ws://localhost:9000/device"]];
+    [self startProcess];
+    
+    [self.window setBackgroundColor:[Utiles colorWithHexString:@"#DCDCD6"]];
+    [self.window makeKeyAndVisible];
+    return YES;
 }
 
--(void)beginBaiDuStatistics{
-    
-    BaiduMobStat* statTracker = [BaiduMobStat defaultStat];
-    statTracker.enableExceptionLog = YES;
-    statTracker.logSendWifiOnly = YES;
-    [statTracker startWithAppId:@"0737a8b0ff"];
-    
+#pragma mark -
+#pragma mark Start Process
+-(void)startProcess{
+    if (GetUserDefaults(@"firstLaunch")==nil) {
+        SetConfigure(@"userconfigure", @"checkUpdate", @"0");
+        tipViewController * startView = [[tipViewController alloc]init];
+        self.window.rootViewController = startView;
+        [startView release];
+    }else if([[NSUserDefaults standardUserDefaults] objectForKey:@"agreement"]==nil){
+        
+        AgreementViewController * agreement = [[AgreementViewController alloc]init];
+        self.window.rootViewController = agreement;
+        [agreement release];
+        
+    }else {
+        if(GetConfigure(@"userconfigure", @"checkUpdate", YES)){
+            BOOL isOn=[Utiles stringToBool:GetConfigure(@"userconfigure", @"checkUpdate", YES)];
+            if(isOn){
+                [self checkUpdate];
+            }
+        }
+        [self initComponents];
+    }
 }
 
+#pragma mark -
+#pragma mark Update Checked
 - (void)alertView:(UIAlertView *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
-    if (buttonIndex == 1)
-    {
-        NSString *iTunesLink = @"itms-apps://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftwareUpdate?id=703282718&mt=8";
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:iTunesLink]]; 
+    if (buttonIndex == 1){
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:GetConfigure(@"FrameParamConfig", @"AppDownLoadURL", NO)]];
     }
 }
 -(void)checkUpdate{
-    AFHTTPClient *getAction=[[AFHTTPClient alloc] initWithBaseURL:[NSURL URLWithString:@"http://itunes.apple.com"]];
-    NSDictionary *params=[NSDictionary dictionaryWithObjectsAndKeys:@"703282718",@"id",nil];
+    AFHTTPClient *getAction=[[AFHTTPClient alloc] initWithBaseURL:[NSURL URLWithString:GetConfigure(@"FrameParamConfig", @"iTunesURL", NO)]];
+    NSDictionary *params=[NSDictionary dictionaryWithObjectsAndKeys:GetConfigure(@"FrameParamConfig", @"GooguuAPPID", NO),@"id",nil];
     
     [getAction getPath:@"/lookup" parameters:params success:^(AFHTTPRequestOperation *operation,id responseObject){
-
-        NSString *version = @"";      
+        
+        NSString *version = @"";
         NSArray *configData = [[operation.responseString objectFromJSONString] valueForKey:@"results"];
         
-        for (id config in configData)
-        {
+        for (id config in configData){
             version = [config valueForKey:@"version"];
         }
-        //Check your version with the version in app store
-        if (![version isEqualToString:[[NSUserDefaults standardUserDefaults] objectForKey:@"version"]])
-        {
+        if (![version isEqualToString:[[NSUserDefaults standardUserDefaults] objectForKey:@"version"]]){
             ProAlertView *createUserResponseAlert = [[ProAlertView alloc] initWithTitle:@"新版本" message: @"下载新的版本" delegate:self cancelButtonTitle:@"取消" otherButtonTitles: @"下载", nil];
             [createUserResponseAlert show];
-            [createUserResponseAlert release];  
+            [createUserResponseAlert release];
         }
-        
     }failure:^(AFHTTPRequestOperation *operation,NSError *error){
-        
     }];
-
 }
+
+#pragma mark -
+#pragma mark Share SDK Setting
+-(void)setShareSDK{
+    [ShareSDK registerApp:GetConfigure(@"FrameParamConfig", @"ShareSDKRegisterApp", NO)];
+    [ShareSDK connectWeChatWithAppId:GetConfigure(@"FrameParamConfig", @"ShareSDKWeChatAppId", NO) wechatCls:[WXApi class]];
+    [ShareSDK connectSinaWeiboWithAppKey:GetConfigure(@"FrameParamConfig", @"ShareSDKSinaWeiboAppKey", NO) appSecret:GetConfigure(@"FrameParamConfig", @"ShareSDKSinaWeiboAppSecret", NO) redirectUri:GetConfigure(@"FrameParamConfig", @"ShareSDKSinaWeiboRedirectUri", NO)];
+}
+
+#pragma mark -
+#pragma mark BaiDu Statistics
+-(void)beginBaiDuStatistics{
+    BaiduMobStat* statTracker = [BaiduMobStat defaultStat];
+    statTracker.enableExceptionLog = YES;
+    statTracker.logSendWifiOnly = YES;
+    [statTracker startWithAppId:GetConfigure(@"FrameParamConfig", @"BaiDuStatisticsAppID", NO)];
+}
+
+#pragma mark -
+#pragma mark BaiDu Push
 -(void)beginBaiDuPush:(UIApplication *)application{
-    
     [BPush setupChannel:[Utiles getConfigureInfoFrom:@"BPushConfig" andKey:nil inUserDomain:NO]]; // 必须
-    [BPush setDelegate:self]; // 必须。参数对象必须实现onMethod: response:方法，本示例中为self
-    [application registerForRemoteNotificationTypes:
-     UIRemoteNotificationTypeAlert
-     | UIRemoteNotificationTypeBadge
-     | UIRemoteNotificationTypeSound];
+    [BPush setDelegate:self];
+    [application registerForRemoteNotificationTypes: UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound];
 }
 
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
@@ -142,88 +178,21 @@
     NSLog(@"On method:%@", method);
     NSLog(@"data:%@", [data description]);
 }
-
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
     NSLog(@"Receive Notify: %@", [userInfo JSONString]);
     NSString *alert = [[userInfo objectForKey:@"aps"] objectForKey:@"alert"];
     if (application.applicationState == UIApplicationStateActive) {
-        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Did receive a Remote Notification"
-                                                            message:[NSString stringWithFormat:@"The application received this remote notification while it was running:\n%@", alert]
-                                                           delegate:self
-                                                  cancelButtonTitle:@"OK"
-                                                  otherButtonTitles:nil];
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Did receive a Remote Notification" message:[NSString stringWithFormat:@"The application received this remote notification while it was running:\n%@", alert] delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
         [alertView show];
     }
     [application setApplicationIconBadgeNumber:0];
-    
     [BPush handleNotification:userInfo];
-}
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    [self netChecked];
-    [self beginBaiDuStatistics];
-    [self beginBaiDuPush:application];
-    //[self setPonyDebugger];
-    [self.window setBackgroundColor:[Utiles colorWithHexString:@"#DCDCD6"]];
-    
-    [[UIApplication sharedApplication] registerForRemoteNotificationTypes: UIRemoteNotificationTypeBadge |UIRemoteNotificationTypeSound | UIRemoteNotificationTypeAlert];
-
-    [Utiles setConfigureInfoTo:@"userconfigure" forKey:@"stockColorSetting" andContent:[NSString stringWithFormat:@"%d",0]];
-
-    [[NSUserDefaults standardUserDefaults] setObject:@"1.0.1" forKey:@"version"];
-
-    
-    
-    
-    [Crashlytics startWithAPIKey:@"c59317990c405b2f42582cacbe9f4fa9abe1fefb"];
-    
-    [ShareSDK registerApp:@"8c37a484287"];
-    [ShareSDK connectWeChatWithAppId:@"wx68cacf0b8972c879" wechatCls:[WXApi class]];
-    [ShareSDK connectSinaWeiboWithAppKey:@"1486252908"
-                               appSecret:@"9991fbc725c5f5cf6b565b9a00a5584a"
-                             redirectUri:@"http://appgo.cn"];
-
-    
-    if ([[NSUserDefaults standardUserDefaults] objectForKey:@"firstLaunch"]==nil) {
-        //用户初次使用进入使用引导界面
-        [Utiles setConfigureInfoTo:@"userconfigure" forKey:@"checkUpdate" andContent:@"0"];
-        tipViewController * startView = [[tipViewController alloc]init];
-        self.window.rootViewController = startView;
-        [startView release];
-    }else if([[NSUserDefaults standardUserDefaults] objectForKey:@"agreement"]==nil){
-        
-        AgreementViewController * agreement = [[AgreementViewController alloc]init];
-        self.window.rootViewController = agreement;
-        [agreement release];
-        
-    }else {
-        if([Utiles getConfigureInfoFrom:@"userconfigure" andKey:@"checkUpdate" inUserDomain:YES]){
-            BOOL isOn=[Utiles stringToBool:[Utiles getConfigureInfoFrom:@"userconfigure" andKey:@"checkUpdate" inUserDomain:YES]];
-            if(isOn){
-                [self checkUpdate];
-            }
-        }
-        [self initComponents];
-    }
-    
-    if([Utiles isLogin]){
-        [self handleTimer:nil];
-        [[NSNotificationCenter defaultCenter] postNotificationName:@"LoginKeeping" object:nil];
-        [self loginKeeping:nil];
-    }
-
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(loginKeeping:) name:@"LoginKeeping" object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(cancelLoginKeeping:) name:@"LogOut" object:nil];
-    
-    
-    return YES;
 }
 
 #pragma mark -
 #pragma mark Net Reachable
 -(void)netChecked{
-    Reachability* reach = [Reachability reachabilityWithHostname:@"www.baidu.com"];
+    Reachability* reach = [Reachability reachabilityWithHostname:GetConfigure(@"FrameParamConfig", @"NetCheckURL", NO)];
     reach.reachableOnWWAN = NO;
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:) name:kReachabilityChangedNotification object:nil];
     [reach startNotifier];
@@ -257,6 +226,17 @@
 
 #pragma mark -
 #pragma mark Keep Login
+-(void)shouldKeepLogin{
+    if([Utiles isLogin]){
+        [self handleTimer:nil];
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"LoginKeeping" object:nil];
+        [self loginKeeping:nil];
+    }
+}
+-(void)addLoginEventListen{
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(loginKeeping:) name:@"LoginKeeping" object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(cancelLoginKeeping:) name:@"LogOut" object:nil];
+}
 
 -(void)loginKeeping:(NSNotification*)notification{
     loginTimer = [NSTimer scheduledTimerWithTimeInterval: 7000 target: self selector: @selector(handleTimer:) userInfo: nil repeats: YES];
@@ -287,6 +267,24 @@
     }];
 }
 
+#pragma mark -
+#pragma mark PonyDebugger
+-(void)setPonyDebugger{
+    PDDebugger *debugger = [PDDebugger defaultInstance];
+    [debugger enableNetworkTrafficDebugging];
+    [debugger forwardAllNetworkTraffic];
+    
+    [debugger enableViewHierarchyDebugging];
+    [debugger setDisplayedViewAttributeKeyPaths:@[@"frame", @"hidden", @"alpha", @"opaque"]];
+    
+    [debugger enableRemoteLogging];
+    [debugger connectToURL:[NSURL URLWithString:GetConfigure(@"FrameParamConfig", @"PonyDebuggerURL", NO)]];
+}
+#pragma mark -
+#pragma mark Start Crashlytics
+-(void)startCrashlytics{
+    [Crashlytics startWithAPIKey:GetConfigure(@"FrameParamConfig", @"CrashlyticsAPIKey", NO)];
+}
 
 #pragma mark -
 #pragma mark Generate Components
@@ -337,7 +335,6 @@
     
     self.window.backgroundColor=[UIColor clearColor];
     self.window.rootViewController = self.tabBarController;
-    [self.window makeKeyAndVisible];
 }
 
 

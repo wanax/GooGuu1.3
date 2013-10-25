@@ -21,6 +21,7 @@
 @property (nonatomic,retain) NSString *articleTitle;
 @property (nonatomic,retain) NSString *articleId;
 @property (nonatomic,retain) UIWebView *articleWeb;
+@property (nonatomic,retain) id artcleData;
 @property (nonatomic,retain) NSArray *imageUrlList;
 @property (nonatomic,retain) id comInfo;
 @property BrowseSourceType sourceType;

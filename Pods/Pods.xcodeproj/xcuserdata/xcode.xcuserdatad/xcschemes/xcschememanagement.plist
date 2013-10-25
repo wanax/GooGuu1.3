@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-FlatUIKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>Pods-HPLTagCloudGenerator.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -32,12 +37,37 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0E8B59286FE14AAD8E1B62E4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1C04D53B6D03473FBA6758D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>22316C99CC6345E7AA8297F0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2F106972A9D046A7967752E6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>3366F8DDB562474DA5E30C51</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>5A1419C269C2472790B69A26</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5FA13114E66742E39DE0C541</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -83,6 +113,11 @@
 			<true/>
 		</dict>
 		<key>CDEBF078932A40AAB8CD01FB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D897C43ECC184D3BAFA7E86C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

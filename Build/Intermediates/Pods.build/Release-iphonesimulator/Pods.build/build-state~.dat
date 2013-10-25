@@ -1,0 +1,98 @@
+TPods
+v6
+r1
+cCheck dependencies
+cCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator/libPods.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c00000000521BCCE50000000000000176
+t1377553637
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c000000005244EEDD00000000000003B5
+t1380249309
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005244EEE9000000000000019E
+t1380249321
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005244EEED000000000088B570
+t1380249325
+s8959344
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o
+t1382594292
+s3180
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods.LinkFileList
+c000000005268B6F4000000000000008A
+t1382594292
+s138
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator/libPods-HPLTagCloudGenerator.a
+c000000005268B6F00000000000010140
+t1382594288
+s65856
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator/libPods-KKProgressTimer.a
+c000000005268B6F00000000000010A18
+t1382594288
+s68120
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator/libPods-PonyDebugger.a
+c000000005268B6F400000000001BFDF0
+t1382594292
+s1834480
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator/libPods-SocketRocket.a
+c000000005268B6F0000000000002DA78
+t1382594288
+s187000
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator/libPods.a
+t2
+s0
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m
+c00000000525C34CE0000000000000070
+t1381774542
+s112
+
+CBuild AST from /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesfcc73674ee18b841^89973774ee18b841^---0#1#1#--18"Check dependencies36"8D72DA1B-F6E7-4421-B3DD-82A7D0D87872-
+
+CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s404287092.219164
+e404287092.335889
+r1
+xCompileC
+x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o
+x/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m227"CompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler3f373874ee18b841^59fd5574ee18b841^---0#0#1#-19%DVTDocumentLocation2@72"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m0000000000000000^3602"CompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator/include -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods/Headers/HPLTagCloudGenerator -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods/Headers/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator -DNS_BLOCK_ASSERTIONS=1 -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.d --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.dia -c /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o36"38502124-7772-4044-B24F-A8AC68CBEC82-
+b57A11CF0-5607-4910-A725-BB08E032F4E8
+
+CLibtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator/libPods.a normal i386
+s404287092.344518
+e404287092.386881
+r1
+xLibtool
+x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator/libPods.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Libtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator/libPods.a normal i386107"Libtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator/libPods.a normal i38688495874ee18b841^8d0b6374ee18b841^---0#0#1#--1084"Libtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator/libPods.a normal i386    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator -filelist /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Release-iphonesimulator/Pods.build/Objects-normal/i386/Pods.LinkFileList -framework Foundation -lPods-HPLTagCloudGenerator -lPods-KKProgressTimer -lPods-PonyDebugger -lPods-SocketRocket -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Release-iphonesimulator/libPods.a36"44815654-CE6F-45B4-8A08-D1E8E09501C2-
+b57A11CF0-5607-4910-A725-BB08E032F4E8
+

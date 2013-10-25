@@ -20,4 +20,20 @@ dependencies: \
   /Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/GGFullScreenImageViewController.h \
   /Users/xcode/wanax/oc/GooGuu1.2-master/估股/UIButton+BGColor.h \
   /Users/xcode/wanax/oc/GooGuu1.2-master/估股/AddCommentViewController.h \
-  /Users/xcode/wanax/oc/GooGuu1.2-master/估股/ComFieldViewController.h
+  /Users/xcode/wanax/oc/GooGuu1.2-master/估股/ComFieldViewController.h \
+  /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/FlatUIKit/FlatUIKit.h \
+  /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/FlatUIKit/FUIAlertView.h \
+  /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/FlatUIKit/FUIButton.h \
+  /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/FlatUIKit/FUICellBackgroundView.h \
+  /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/FlatUIKit/FUISegmentedControl.h \
+  /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/FlatUIKit/FUISwitch.h \
+  /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/FlatUIKit/UIBarButtonItem+FlatUI.h \
+  /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/FlatUIKit/UIColor+FlatUI.h \
+  /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/FlatUIKit/UIFont+FlatUI.h \
+  /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/FlatUIKit/UIImage+FlatUI.h \
+  /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/FlatUIKit/UINavigationBar+FlatUI.h \
+  /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/FlatUIKit/UIProgressView+FlatUI.h \
+  /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/FlatUIKit/UIStepper+FlatUI.h \
+  /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/FlatUIKit/UISlider+FlatUI.h \
+  /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/FlatUIKit/UITabBar+FlatUI.h \
+  /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/FlatUIKit/UITableViewCell+FlatUI.h

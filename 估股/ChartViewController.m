@@ -206,9 +206,9 @@ static NSString * COLUMNAR_DATALINE_IDENTIFIER =@"columnar_dataline_identifier";
     linkage=YES;
     _isSaved=YES;
     webIsLoaded=NO;
-    self.modelMainViewController=[[ModelClassGrade2ViewController alloc] init];
-    self.modelFeeViewController=[[ModelClassGrade2ViewController alloc] init];
-    self.modelCapViewController=[[ModelClassGrade2ViewController alloc] init];
+    self.modelMainViewController=[[[ModelClassGrade2ViewController alloc] init] autorelease];
+    self.modelFeeViewController=[[[ModelClassGrade2ViewController alloc] init] autorelease];
+    self.modelCapViewController=[[[ModelClassGrade2ViewController alloc] init] autorelease];
     self.modelMainViewController.delegate=self;
     self.modelFeeViewController.delegate=self;
     self.modelCapViewController.delegate=self;
@@ -292,7 +292,7 @@ static NSString * COLUMNAR_DATALINE_IDENTIFIER =@"columnar_dataline_identifier";
     //公司名称label
     CGSize labelsize1 = [tool getLabelSizeFromString:netComInfo[@"CompanyName"] font:@"Heiti SC" fontSize:14.0];
     //公司股票行业label
-    CGSize labelsize2 = [tool getLabelSizeFromString:[NSString stringWithFormat:@"(%@.%@)",netComInfo[@"StockCode"],netComInfo[@"Market"]] font:@"Heiti SC" fontSize:11.0];
+    //CGSize labelsize2 = [tool getLabelSizeFromString:[NSString stringWithFormat:@"(%@.%@)",netComInfo[@"StockCode"],netComInfo[@"Market"]] font:@"Heiti SC" fontSize:11.0];
 //    float maxWidthLenght=MAX(labelsize1.width,labelsize2.width);
     
     UILabel *comNameLabel=[tool addLabelToView:self.view withTitle:[NSString stringWithFormat:@"%@",netComInfo[@"CompanyName"]] Tag:0 frame:CGRectMake(0,40+iOSHeightStatusBar,SCREEN_HEIGHT-320,35) fontSize:14.0 color:nil textColor:@"#63573d" location:NSTextAlignmentCenter];
@@ -406,7 +406,7 @@ static NSString * COLUMNAR_DATALINE_IDENTIFIER =@"columnar_dataline_identifier";
 -(void)selectIndustry:(UIButton *)sender forEvent:(UIEvent*)event{
     //NSLog(@"selectIndustry");
     sender.showsTouchWhenHighlighted=YES;
-	CQMFloatingController *floatingController = [CQMFloatingController sharedFloatingController];
+	//CQMFloatingController *floatingController = [CQMFloatingController sharedFloatingController];
     //floatingController.frameSize=CGSizeMake(280,280);
     //floatingController.frameColor=[Utiles colorWithHexString:@"#e26b17"];
     if(sender.tag==MainIncome){
@@ -700,7 +700,7 @@ static NSString * COLUMNAR_DATALINE_IDENTIFIER =@"columnar_dataline_identifier";
     }else if([identifier isEqualToString : HISTORY_DATALINE_IDENTIFIER]){
         newLayer=[[CPTTextLayer alloc] initWithText:[self formatTrans:index from:self.hisPoints] style:whiteText];
     }
-    return newLayer;
+    return [newLayer autorelease];
 }
 
 -(NSString *)formatTrans:(NSUInteger)index from:(NSMutableArray *)arr{

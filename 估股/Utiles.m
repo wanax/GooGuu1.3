@@ -145,9 +145,9 @@ static NSDateFormatter *formatter;
     }
     
     if(key!=nil){
-        return [dictionary objectForKey:key];
+        return [[dictionary objectForKey:key] autorelease];
     }else{
-        return dictionary;
+        return [dictionary autorelease];
     }
     
   
