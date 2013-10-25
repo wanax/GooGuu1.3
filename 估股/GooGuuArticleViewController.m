@@ -141,24 +141,24 @@
                           nil];
     
 
-    NSString *contentString = @"This is a sample";
-    NSString *titleString   = @"title";
+    NSString *contentString = @"欢迎来到估股网";
+    NSString *titleString   = @"估股";
     NSString *urlString     = [NSString stringWithFormat:@"http://www.googuu.net/pages/content/view/%@.htm",articleId];
-    NSString *description   = @"Sample";
+    NSString *description   = @"估股-致力于向您推荐最优秀的股票信息";
     
     NSString *imagePath = [[NSBundle mainBundle] pathForResource:@"icon" ofType:@"png"];
     //构造分享内容
-    id<ISSContent> publishContent = [ShareSDK content:@"欢迎来到估股网1"
+    id<ISSContent> publishContent = [ShareSDK content:contentString
                                        defaultContent:@""
                                                 image:[ShareSDK imageWithPath:imagePath]
-                                                title:@"ShareSDK"
+                                                title:titleString
                                                   url:urlString
-                                          description:@"这是一条测试信息"
+                                          description:description
                                             mediaType:SSPublishContentMediaTypeNews];
     //定制微信好友信息
     [publishContent addWeixinSessionUnitWithType:INHERIT_VALUE
                                          content:INHERIT_VALUE
-                                           title:@"欢迎来到估股网2"
+                                           title:@"欢迎来到估股网"
                                              url:INHERIT_VALUE
                                            image:INHERIT_VALUE
                                     musicFileUrl:nil
@@ -167,8 +167,6 @@
                                     emoticonData:nil];
     
     XYZAppDelegate *delegate=Delegate;
-
-    
     id<ISSAuthOptions> authOptions = [ShareSDK authOptionsWithAutoAuth:YES
                                                          allowCallback:NO
                                                          authViewStyle:SSAuthViewStyleFullScreenPopup
@@ -183,13 +181,13 @@
                                     nil]];
     
     id<ISSShareOptions> shareOptions = [ShareSDK defaultShareOptionsWithTitle:@"内容分享"
-                                                              oneKeyShareList:[NSArray defaultOneKeyShareList]
+                                                              oneKeyShareList:nil
                                                                qqButtonHidden:YES
                                                         wxSessionButtonHidden:YES
                                                        wxTimelineButtonHidden:YES
                                                          showKeyboardOnAppear:NO
-                                                            shareViewDelegate:delegate.viewDelegate
-                                                          friendsViewDelegate:delegate.viewDelegate
+                                                            shareViewDelegate:nil
+                                                          friendsViewDelegate:nil
                                                         picViewerViewDelegate:nil];
     
     //弹出分享菜单

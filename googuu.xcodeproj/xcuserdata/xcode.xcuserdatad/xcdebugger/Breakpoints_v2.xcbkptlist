@@ -922,11 +922,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/GooGuuArticleViewController.m"
-            timestampString = "404300686.894825"
+            timestampString = "404358388.667782"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "258"
-            endingLineNumber = "258"
+            startingLineNumber = "256"
+            endingLineNumber = "256"
             landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>

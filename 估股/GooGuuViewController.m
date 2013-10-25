@@ -13,6 +13,7 @@
 #import "ArticleCommentViewController.h"
 #import "MHTabBarController.h"
 #import "UIImageView+AFNetworking.h"
+#import "SVPullToRefresh.h"
 
 @interface GooGuuViewController ()
 
@@ -55,6 +56,9 @@
     self.cusTable.delegate=self;
     self.cusTable.dataSource=self;
     self.cusTable.separatorStyle=UITableViewCellSeparatorStyleNone;
+    [self.cusTable addInfiniteScrollingWithActionHandler:^{
+        [self getValueViewData:self.articleId code:@""];
+    }];
     if(_refreshHeaderView == nil)
     {
         EGORefreshTableHeaderView *view = [[EGORefreshTableHeaderView alloc] initWithFrame:CGRectMake(0.0f, 0.0f - self.cusTable.bounds.size.height, self.view.frame.size.width, self.cusTable.bounds.size.height)];
@@ -73,13 +77,18 @@
     NSDictionary *params=[NSDictionary dictionaryWithObjectsAndKeys:articleID,@"articleid",stockCode,@"stockcode", nil];
     [Utiles getNetInfoWithPath:@"GooGuuView" andParams:params besidesBlock:^(id obj) {
         
-        NSMutableArray *temp=[[[NSMutableArray alloc] init] autorelease];        
+        NSMutableArray *temp=[[[NSMutableArray alloc] init] autorelease];
+        for(id obj in self.viewDataArr){
+            [temp addObject:obj];
+        }
         for (id data in obj) {
             [temp addObject:data];
         }
         self.viewDataArr=temp;
+        self.articleId=[[temp lastObject] objectForKey:@"articleid"];
         [self.cusTable reloadData];
         [_refreshHeaderView egoRefreshScrollViewDataSourceDidFinishedLoading:self.cusTable];
+        
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         
     }];
@@ -115,7 +124,7 @@
     id model=[self.viewDataArr objectAtIndex:indexPath.row];
 
     if([model objectForKey:@"titleimgurl"]){
-        [cell.titleImgView setImageWithURLRequest:[[NSURLRequest alloc] initWithURL:[NSURL URLWithString:[model objectForKey:@"titleimgurl"]]] placeholderImage:[UIImage imageNamed:@"defaultIcon"]
+        [cell.titleImgView setImageWithURLRequest:[[NSURLRequest alloc] initWithURL:[NSURL URLWithString:[[model objectForKey:@"titleimgurl"] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]]] placeholderImage:[UIImage imageNamed:@"defaultIcon"]
                 success:^(NSURLRequest *request, NSHTTPURLResponse *response, UIImage *image){
                     if(image){
                         cell.titleImgView.image=image;
