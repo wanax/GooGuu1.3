@@ -14,7 +14,8 @@
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        // Initialization code
+        self.imageView.frame=CGRectMake(10,10,200,150);
+        self.indicatorLable.frame=CGRectMake(10,122,200,37);
     }
     return self;
 }

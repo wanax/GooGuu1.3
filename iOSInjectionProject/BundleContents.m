@@ -18,7 +18,7 @@
 
 #import "BundleContents.h"
 
-#import "/Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m"
+#import "/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/src/AOTag.m"
 
 
 @interface InjectionBundle2 : NSObject
@@ -27,8 +27,12 @@
 
 + (void)load {
     Class bundleInjection = NSClassFromString(@"BundleInjection");
-    extern Class OBJC_CLASS_$_GooGuuArticleViewController;
-	[bundleInjection loadedClass:INJECTION_BRIDGE(Class)(void *)&OBJC_CLASS_$_GooGuuArticleViewController notify:4];
+    extern Class OBJC_CLASS_$_AOTag;
+	[bundleInjection loadedClass:INJECTION_BRIDGE(Class)(void *)&OBJC_CLASS_$_AOTag notify:4];
+    extern Class OBJC_CLASS_$_AOTagCloseButton;
+	[bundleInjection loadedClass:INJECTION_BRIDGE(Class)(void *)&OBJC_CLASS_$_AOTagCloseButton notify:4];
+    extern Class OBJC_CLASS_$_AOTagList;
+	[bundleInjection loadedClass:INJECTION_BRIDGE(Class)(void *)&OBJC_CLASS_$_AOTagList notify:4];
     [bundleInjection loadedNotify:4];
 }
 

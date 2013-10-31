@@ -19,6 +19,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *gPriceLabel;
 @property (strong, nonatomic) IBOutlet UILabel *priceLabel;
 
+@property (nonatomic,retain) IBOutlet UILabel *backLabel;
 @property (nonatomic,retain) IBOutlet UILabel *outLookLabel;
 @property (nonatomic,retain) IBOutlet UILabel *percentLabel;
 

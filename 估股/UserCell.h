@@ -18,6 +18,7 @@
 @property (strong, nonatomic) IBOutlet UIImageView *imageView;
 @property (strong, nonatomic) IBOutlet UILabel *nameLabel;
 @property (strong, nonatomic) IBOutlet UILabel *decLabel;
+@property (nonatomic,retain) IBOutlet UITextView *decTextView;
 @property (strong, nonatomic) IBOutlet UILabel *locLabel;
 
 @property (copy, nonatomic) UIImage *image;

@@ -10,6 +10,7 @@
 
 @interface SearchStockCell : UITableViewCell
 
+@property (nonatomic,retain) IBOutlet UILabel *backLabel;
 @property (nonatomic,retain) IBOutlet UILabel *companyNameLabel;
 @property (nonatomic,retain) IBOutlet UILabel *stockCodeLabel;
 @property (nonatomic,retain) IBOutlet UIImageView *comBriefImg;

@@ -82,7 +82,7 @@
     //[self setPonyDebugger];
     
     SetConfigure(@"userconfigure",@"stockColorSetting",([NSString stringWithFormat:@"%d",0]));
-    SetUserDefaults(@"1.0.1", @"version");
+    SetUserDefaults(@"1.0.3", @"version");
     
     [self startProcess];
     

@@ -4,8 +4,6 @@
 <dict>
 	<key>application-identifier</key>
 	<string>S245TY654T.com.ponyfinance.googuu</string>
-	<key>aps-environment</key>
-	<string>production</string>
 	<key>com.apple.developer.default-data-protection</key>
 	<string>NSFileProtectionComplete</string>
 	<key>get-task-allow</key>

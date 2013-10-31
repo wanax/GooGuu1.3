@@ -292,6 +292,9 @@
 		AE6B973C17A119C800DBE0C6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6B973B17A119C800DBE0C6 /* CoreLocation.framework */; };
 		AE6C5EAB17B223560080988E /* DiscountRateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6C5EAA17B223560080988E /* DiscountRateViewController.m */; };
 		AE6C5EAD17B23A7E0080988E /* DiscountRateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE6C5EAC17B23A7E0080988E /* DiscountRateView.xib */; };
+		AE739A9C1822391200CF82C5 /* libBaiduMobStat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE739A9B1822391200CF82C5 /* libBaiduMobStat.a */; };
+		AE739A9F18223D8300CF82C5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AE739A9D18223D8200CF82C5 /* icon.png */; };
+		AE739AA018223D8300CF82C5 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE739A9E18223D8200CF82C5 /* icon@2x.png */; };
 		AE75B91017A211B30046901F /* userconfigure.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE75B90F17A211B30046901F /* userconfigure.plist */; };
 		AE77440617F7C4C5003643EA /* DiscountRateView5.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE77440517F7C4C5003643EA /* DiscountRateView5.xib */; };
 		AE7A44AE18094766009912D7 /* FinanPicCollectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7A44AD18094766009912D7 /* FinanPicCollectCell.m */; };
@@ -308,7 +311,6 @@
 		AE7D97C71805388700234417 /* PE.png in Resources */ = {isa = PBXBuildFile; fileRef = AE7D97BC1805388700234417 /* PE.png */; };
 		AE7D97C81805388700234417 /* WACC.png in Resources */ = {isa = PBXBuildFile; fileRef = AE7D97BD1805388700234417 /* WACC.png */; };
 		AE7D97CB180541F800234417 /* CounterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7D97CA180541F800234417 /* CounterViewController.m */; };
-		AEB3997F1817565A0081BD05 /* libBaiduMobStat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB3997E1817565A0081BD05 /* libBaiduMobStat.a */; };
 		AEB399C9181770760081BD05 /* DouBanConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB39982181770760081BD05 /* DouBanConnection.framework */; };
 		AEB399CA181770760081BD05 /* DropboxConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB39983181770760081BD05 /* DropboxConnection.framework */; };
 		AEB399CB181770760081BD05 /* EverNoteConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB39984181770760081BD05 /* EverNoteConnection.framework */; };
@@ -391,9 +393,6 @@
 		AEC6FF7E18167B69003BD8F0 /* ReportCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEC6FF7D18167B69003BD8F0 /* ReportCell.xib */; };
 		AEC6FF8118167BE4003BD8F0 /* ReportCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC6FF8018167BE4003BD8F0 /* ReportCell.m */; };
 		AEC6FF8418167DA5003BD8F0 /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = AEC6FF8218167DA5003BD8F0 /* icon1.png */; };
-		AEC6FF8518167DA5003BD8F0 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEC6FF8318167DA5003BD8F0 /* icon@2x.png */; };
-		AEC6FF8718167E48003BD8F0 /* libBaiduMobStat1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC6FF8618167E48003BD8F0 /* libBaiduMobStat1.a */; };
-		AEC6FF89181692D7003BD8F0 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AEC6FF88181692D7003BD8F0 /* icon.png */; };
 		AED228E31818F4B4002FC2BF /* FrameParamConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = AED228E21818F4B4002FC2BF /* FrameParamConfig.plist */; };
 		AED837B5180F89FE00DB0A52 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6B21CE17F80D560046E9A7 /* CoreData.framework */; };
 		AED837CF180F900E00DB0A52 /* MZAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = AED837CC180F900E00DB0A52 /* MZAppearance.m */; };
@@ -984,6 +983,9 @@
 		AE6C5EA917B223560080988E /* DiscountRateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscountRateViewController.h; sourceTree = "<group>"; };
 		AE6C5EAA17B223560080988E /* DiscountRateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscountRateViewController.m; sourceTree = "<group>"; };
 		AE6C5EAC17B23A7E0080988E /* DiscountRateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscountRateView.xib; sourceTree = "<group>"; };
+		AE739A9B1822391200CF82C5 /* libBaiduMobStat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBaiduMobStat.a; sourceTree = "<group>"; };
+		AE739A9D18223D8200CF82C5 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		AE739A9E18223D8200CF82C5 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		AE75B90F17A211B30046901F /* userconfigure.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = userconfigure.plist; sourceTree = "<group>"; };
 		AE75B91B17A217690046901F /* Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test-Info.plist"; sourceTree = "<group>"; };
 		AE75B91D17A217690046901F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -1290,7 +1292,6 @@
 		AE7D97BD1805388700234417 /* WACC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WACC.png; sourceTree = "<group>"; };
 		AE7D97C9180541F800234417 /* CounterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterViewController.h; sourceTree = "<group>"; };
 		AE7D97CA180541F800234417 /* CounterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterViewController.m; sourceTree = "<group>"; };
-		AEB3997E1817565A0081BD05 /* libBaiduMobStat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBaiduMobStat.a; sourceTree = "<group>"; };
 		AEB39982181770760081BD05 /* DouBanConnection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DouBanConnection.framework; sourceTree = "<group>"; };
 		AEB39983181770760081BD05 /* DropboxConnection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxConnection.framework; sourceTree = "<group>"; };
 		AEB39984181770760081BD05 /* EverNoteConnection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EverNoteConnection.framework; sourceTree = "<group>"; };
@@ -1391,9 +1392,6 @@
 		AEC6FF7F18167BE4003BD8F0 /* ReportCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportCell.h; sourceTree = "<group>"; };
 		AEC6FF8018167BE4003BD8F0 /* ReportCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportCell.m; sourceTree = "<group>"; };
 		AEC6FF8218167DA5003BD8F0 /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = "<group>"; };
-		AEC6FF8318167DA5003BD8F0 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
-		AEC6FF8618167E48003BD8F0 /* libBaiduMobStat1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBaiduMobStat1.a; sourceTree = "<group>"; };
-		AEC6FF88181692D7003BD8F0 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		AED228E21818F4B4002FC2BF /* FrameParamConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FrameParamConfig.plist; sourceTree = "<group>"; };
 		AED837CB180F900E00DB0A52 /* MZAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZAppearance.h; sourceTree = "<group>"; };
 		AED837CC180F900E00DB0A52 /* MZAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZAppearance.m; sourceTree = "<group>"; };
@@ -1500,6 +1498,7 @@
 				AE13BE3417D87188005A313B /* libz.1.2.5.dylib in Frameworks */,
 				AE2E92D8179D07B30049B28E /* libicucore.dylib in Frameworks */,
 				AE13BE3217D8717C005A313B /* CoreTelephony.framework in Frameworks */,
+				AE739A9C1822391200CF82C5 /* libBaiduMobStat.a in Frameworks */,
 				AED837DF180F908B00DB0A52 /* Accelerate.framework in Frameworks */,
 				AEB399E0181770760081BD05 /* TumblrConnection.framework in Frameworks */,
 				AEB399E1181770760081BD05 /* TwitterConnection.framework in Frameworks */,
@@ -1512,9 +1511,7 @@
 				AE13BE3817D87370005A313B /* Security.framework in Frameworks */,
 				AEB399EB181770760081BD05 /* libSinaWeiboSDK.a in Frameworks */,
 				AEB399FC181770770081BD05 /* ShareSDKiPhoneDefaultShareViewUI.framework in Frameworks */,
-				AEB3997F1817565A0081BD05 /* libBaiduMobStat.a in Frameworks */,
 				AEB399D6181770760081BD05 /* PrintConnection.framework in Frameworks */,
-				AEC6FF8718167E48003BD8F0 /* libBaiduMobStat1.a in Frameworks */,
 				AE1E7D3217D43B9700A13D63 /* MapKit.framework in Frameworks */,
 				AEB399DA181770760081BD05 /* SinaWeiboConnection.framework in Frameworks */,
 				AEB399F1181770760081BD05 /* libWeChatSDK.a in Frameworks */,
@@ -1905,9 +1902,8 @@
 		AE2E91A0179D061A0049B28E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AE739A9B1822391200CF82C5 /* libBaiduMobStat.a */,
 				AEB399FF181771210081BD05 /* libsqlite3.dylib */,
-				AEB3997E1817565A0081BD05 /* libBaiduMobStat.a */,
-				AEC6FF8618167E48003BD8F0 /* libBaiduMobStat1.a */,
 				AED837DE180F908B00DB0A52 /* Accelerate.framework */,
 				AEEA3CDE180F87B700BEAC48 /* XCTest.framework */,
 				AEFF335118078691003C4D78 /* BPush.h */,
@@ -2262,10 +2258,10 @@
 		AE2E9354179D09490049B28E /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				AEC6FF88181692D7003BD8F0 /* icon.png */,
+				AE739A9D18223D8200CF82C5 /* icon.png */,
+				AE739A9E18223D8200CF82C5 /* icon@2x.png */,
 				AEC6FF5A181659BC003BD8F0 /* LOADING.png */,
 				AEC6FF8218167DA5003BD8F0 /* icon1.png */,
-				AEC6FF8318167DA5003BD8F0 /* icon@2x.png */,
 				AE2AC1A1180E747B00A93011 /* News */,
 				AE7D97B21805387700234417 /* FinToolsIcon */,
 				AE28AEA117DEFA280001EFA7 /* theIcon.png */,
@@ -3508,7 +3504,6 @@
 				AEB399FD181770770081BD05 /* ShareSDKiPhoneSimpleShareViewUI.bundle in Resources */,
 				AE7D97C41805388700234417 /* FUNDTIME.png in Resources */,
 				AE2E91AC179D061A0049B28E /* InfoPlist.strings in Resources */,
-				AEC6FF8518167DA5003BD8F0 /* icon@2x.png in Resources */,
 				AEB399F8181770770081BD05 /* ShareSDKiPadSimpleShareViewUI.bundle in Resources */,
 				AE2E92E5179D08B30049B28E /* UserCell.xib in Resources */,
 				AE2E92E6179D08B30049B28E /* MainWindow.xib in Resources */,
@@ -3529,6 +3524,7 @@
 				AE7D97C71805388700234417 /* PE.png in Resources */,
 				AE2E9386179D09490049B28E /* grayArrow@2x.png in Resources */,
 				AE2E9388179D09490049B28E /* MHTabBarActiveTab.png in Resources */,
+				AE739AA018223D8300CF82C5 /* icon@2x.png in Resources */,
 				AE7D97C01805388700234417 /* CASHCOUNT.png in Resources */,
 				AE7D97C21805388700234417 /* EXCEL.png in Resources */,
 				AE2E9391179D09490049B28E /* shadowDown.png in Resources */,
@@ -3544,6 +3540,7 @@
 				AEC6FF5118164CAC003BD8F0 /* myGooGuuBar@2x.png in Resources */,
 				AE75B91017A211B30046901F /* userconfigure.plist in Resources */,
 				AEC6FF4C18164CAC003BD8F0 /* googuuViewBar.png in Resources */,
+				AE739A9F18223D8300CF82C5 /* icon.png in Resources */,
 				AE31AB9D17A6000A007E903F /* calu.html in Resources */,
 				AE15103817A7968E007B9E66 /* readed.png in Resources */,
 				AE15103E17A79C52007B9E66 /* unread.png in Resources */,
@@ -3603,7 +3600,6 @@
 				AE261DAA17CDE88200AFCFA4 /* selectedOtherBt.png in Resources */,
 				AE261DAB17CDE88200AFCFA4 /* selectedRatioBt.png in Resources */,
 				AEB399EF181770760081BD05 /* RennSDK.bundle in Resources */,
-				AEC6FF89181692D7003BD8F0 /* icon.png in Resources */,
 				AE261DB017CE000B00AFCFA4 /* userAtten.png in Resources */,
 				AE261DB117CE000B00AFCFA4 /* userInfoBack.png in Resources */,
 				AE6B21C717F7F68C0046E9A7 /* ClientLoginView5.xib in Resources */,
@@ -4030,8 +4026,8 @@
 			baseConfigurationReference = 46B94172B51941CD82B02D2E /* Pods.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Developer: XIAOJU WANG (49TDX2PQGF)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: XIAOJU WANG (49TDX2PQGF)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: XIAOJU WANG (S245TY654T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: XIAOJU WANG (S245TY654T)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
@@ -4048,7 +4044,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "估股/googuu-Prefix.pch";
 				INFOPLIST_FILE = "估股/googuu-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\\\\\\\\\\\\\\\"$(SRCROOT)/../UIDemo\\\\\\\\\\\\\\\"",
@@ -4069,8 +4065,8 @@
 					"-lBaiduMobStat",
 				);
 				PRODUCT_NAME = googuu;
-				PROVISIONING_PROFILE = "FB42EDB1-880A-4446-B3EC-B2CDBFB48CE6";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FB42EDB1-880A-4446-B3EC-B2CDBFB48CE6";
+				PROVISIONING_PROFILE = "0F290EA8-F069-4FEE-88A8-13919D6DD5F8";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0F290EA8-F069-4FEE-88A8-13919D6DD5F8";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -4081,8 +4077,8 @@
 			baseConfigurationReference = 46B94172B51941CD82B02D2E /* Pods.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Developer: XIAOJU WANG (49TDX2PQGF)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: XIAOJU WANG (49TDX2PQGF)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: XIAOJU WANG (S245TY654T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: XIAOJU WANG (S245TY654T)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
@@ -4099,7 +4095,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "估股/googuu-Prefix.pch";
 				INFOPLIST_FILE = "估股/googuu-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\\\\\\\\\\\\\\\"$(SRCROOT)/../UIDemo\\\\\\\\\\\\\\\"",
@@ -4120,8 +4116,8 @@
 					"-lBaiduMobStat",
 				);
 				PRODUCT_NAME = googuu;
-				PROVISIONING_PROFILE = "FB42EDB1-880A-4446-B3EC-B2CDBFB48CE6";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FB42EDB1-880A-4446-B3EC-B2CDBFB48CE6";
+				PROVISIONING_PROFILE = "0F290EA8-F069-4FEE-88A8-13919D6DD5F8";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0F290EA8-F069-4FEE-88A8-13919D6DD5F8";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

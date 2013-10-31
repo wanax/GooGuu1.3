@@ -128,7 +128,7 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 46.0;
+    return 90.0;
 }
 
 
@@ -154,6 +154,8 @@
     row = [indexPath row];
     @try{
         id comInfo=[comList objectAtIndex:row];
+        cell.companyNameLabel.lineBreakMode=NSLineBreakByCharWrapping;
+        cell.companyNameLabel.numberOfLines=0;
         [cell.companyNameLabel setText:[comInfo objectForKey:@"companyname"]==nil?@"":[comInfo objectForKey:@"companyname"]];
         [cell.stockCodeLabel setText:[NSString stringWithFormat:@"%@.%@",[comInfo objectForKey:@"stockcode"],[comInfo objectForKey:@"market"]]];
         [cell.requestValuationsBt setTag:row+1];
@@ -173,7 +175,12 @@
         }else{
             [cell.comBriefImg setImage:[UIImage imageNamed:@"hasnoBriefSymbol"]];
         }
- 
+        
+        cell.backLabel.layer.cornerRadius=5.0;
+        cell.backLabel.layer.borderWidth=0;
+        cell.backLabel.backgroundColor=[UIColor whiteColor];
+        [cell.contentView setBackgroundColor:[Utiles colorWithHexString:[Utiles getConfigureInfoFrom:@"colorconfigure" andKey:@"NormalCellColor" inUserDomain:NO]]];
+        
     }@catch (NSException *e) {
         NSLog(@"%@",e);
     }

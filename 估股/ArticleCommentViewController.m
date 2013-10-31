@@ -14,6 +14,7 @@
 #import "AddCommentViewController.h"
 #import "PrettyKit.h"
 #import "AnalyDetailViewController.h"
+#import "DrawChartTool.h"
 
 @interface ArticleCommentViewController ()
 
@@ -120,7 +121,7 @@
     nibsRegistered=NO;
 
     
-    self.cusTable=[[UITableView alloc] initWithFrame:CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height) style:UITableViewStylePlain];
+    self.cusTable=[[UITableView alloc] initWithFrame:CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height-80) style:UITableViewStylePlain];
     [self.cusTable setBackgroundColor:[Utiles colorWithHexString:[Utiles getConfigureInfoFrom:@"colorconfigure" andKey:@"NormalCellColor" inUserDomain:NO]]];
     self.cusTable.dataSource=self;
     self.cusTable.delegate=self;
@@ -172,6 +173,7 @@
     [cell setBackgroundColor:[Utiles colorWithHexString:[Utiles getConfigureInfoFrom:@"colorconfigure" andKey:@"NormalCellColor" inUserDomain:NO]]];
 }
 
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return [self.commentArr count];
 }
@@ -201,8 +203,15 @@
     id model=[self.commentArr objectAtIndex:row];
     
     cell.name = [model objectForKey:@"author"];
-    cell.dec = [model objectForKey:@"content"];
+    cell.decLabel.text = [model objectForKey:@"content"];
     cell.loc = [model objectForKey:@"updatetime"];
+    
+    DrawChartTool *tool=[[[DrawChartTool alloc] init] autorelease];
+    CGSize size =[tool getLabelSizeFromString:[[self.commentArr objectAtIndex:indexPath.row] objectForKey:@"content"] font:@"Heiti SC" fontSize:12.0];
+
+    cell.decLabel.lineBreakMode=NSLineBreakByCharWrapping;
+    cell.decLabel.numberOfLines=0;
+    [cell.decLabel setFrame:CGRectMake(73, 27, 235, size.height+50)];
     
     @try {
         if([[NSString stringWithFormat:@"%@",[model objectForKey:@"headerpicurl"]] length]>7){
@@ -229,12 +238,15 @@
 #pragma mark -
 #pragma mark Table Methods Delegate
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 58.0;
+    UIFont *font =[UIFont fontWithName:@"Heiti SC" size:12.0];
+    DrawChartTool *tool=[[[DrawChartTool alloc] init] autorelease];
+    CGSize size =[tool getLabelSizeFromString:[[self.commentArr objectAtIndex:indexPath.row] objectForKey:@"content"] font:@"Heiti SC" fontSize:12.0];
+    return size.height+80;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
 
-    [Utiles showToastView:self.view withTitle:@"用户评论" andContent:[[self.commentArr objectAtIndex:indexPath.row] objectForKey:@"content"] duration:2.0];
+    //[Utiles showToastView:self.view withTitle:@"用户评论" andContent:[[self.commentArr objectAtIndex:indexPath.row] objectForKey:@"content"] duration:2.0];
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 

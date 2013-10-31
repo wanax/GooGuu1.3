@@ -90,11 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/ArticleCommentViewController.m"
-            timestampString = "401963827.715104"
+            timestampString = "404884113.213522"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "238"
-            endingLineNumber = "238"
+            startingLineNumber = "247"
+            endingLineNumber = "247"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -634,11 +634,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/GooNewsViewController.m"
-            timestampString = "404118638.284494"
+            timestampString = "404892661.492357"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "467"
-            endingLineNumber = "467"
+            startingLineNumber = "504"
+            endingLineNumber = "504"
             landmarkName = "-doneLoadingTableViewData"
             landmarkType = "5">
          </BreakpointContent>
@@ -714,11 +714,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/StockSearchListViewController.m"
-            timestampString = "401958504.463775"
+            timestampString = "404895249.365506"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "198"
-            endingLineNumber = "198"
+            startingLineNumber = "205"
+            endingLineNumber = "205"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -730,11 +730,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/CompanyListViewController.m"
-            timestampString = "401958321.51501"
+            timestampString = "404894174.309466"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "385"
-            endingLineNumber = "385"
+            startingLineNumber = "390"
+            endingLineNumber = "390"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -746,11 +746,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/StockSearchListViewController.m"
-            timestampString = "401958504.463775"
+            timestampString = "404895249.365506"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "201"
-            endingLineNumber = "201"
+            startingLineNumber = "208"
+            endingLineNumber = "208"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -938,11 +938,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#20272;&#32929;/GooNewsViewController.m"
-            timestampString = "404118638.284494"
+            timestampString = "404892661.492357"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "423"
-            endingLineNumber = "423"
+            startingLineNumber = "460"
+            endingLineNumber = "460"
             landmarkName = "@implementation GooNewsViewController"
             landmarkType = "3">
          </BreakpointContent>

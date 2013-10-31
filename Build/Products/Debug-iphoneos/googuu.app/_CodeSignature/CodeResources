@@ -8,9 +8,13 @@
 		<data>
 		p0hwzqGTt3FpaY+P3ioQCoJMpko=
 		</data>
-		<key>AboutUsAndCopyrightView.nib</key>
+		<key>AboutUsAndCopyrightView.nib/objects.nib</key>
 		<data>
-		aiJVwyC/GNkM5rf6ap3yxroQ2I0=
+		LgCCOuHfKm5htExgs2CS3BvFZ7g=
+		</data>
+		<key>AboutUsAndCopyrightView.nib/runtime.nib</key>
+		<data>
+		yobcpyMDy0fwJe8Z7cQNx/DkZGA=
 		</data>
 		<key>AddCommentView.nib/objects.nib</key>
 		<data>
@@ -20,9 +24,13 @@
 		<data>
 		HGc7NEBRc60XYYnGtD0GjI/bq1Q=
 		</data>
-		<key>AgreementView.nib</key>
+		<key>AgreementView.nib/objects.nib</key>
 		<data>
-		8FyAWTPxGjGtLCULWU4Qtw//BOE=
+		A5k+Ay6vVQN1d2wdZTjs5dxTkgQ=
+		</data>
+		<key>AgreementView.nib/runtime.nib</key>
+		<data>
+		KO9JCW8oF3hJHR1H7IYKE/+POg8=
 		</data>
 		<key>BETA.png</key>
 		<data>
@@ -76,21 +84,37 @@
 		<data>
 		b6aUDaUb8pUAcxhGWgEqZSSC5Dg=
 		</data>
-		<key>ClientLoginView5.nib</key>
+		<key>ClientLoginView5.nib/objects.nib</key>
 		<data>
-		i7aiaVjflS92q6Q5ULih6wACJLw=
+		D2xI8mu84yX59HFxMqmf7B96T9A=
 		</data>
-		<key>CustomCell.nib</key>
+		<key>ClientLoginView5.nib/runtime.nib</key>
 		<data>
-		T+awf+KnS/KGw8dMHhiDPbvWlJQ=
+		VITJMk88SOZ4cwyAgLs66vn+f2g=
 		</data>
-		<key>DailyStock2Cell.nib</key>
+		<key>CustomCell.nib/objects.nib</key>
 		<data>
-		6tukGM1mUnfFw7WkzM39HpXeH2o=
+		7AeBq/IprSjk0Iby0ZxrlCmKoHM=
 		</data>
-		<key>DailyStockCell.nib</key>
+		<key>CustomCell.nib/runtime.nib</key>
 		<data>
-		keQHTzqexgRY4sXyntObCJXlgk8=
+		uyyKlCKd9IAvHMPk2cQSda/49LE=
+		</data>
+		<key>DailyStock2Cell.nib/objects.nib</key>
+		<data>
+		h1s19mQwuy5qq0sjfixxI3v6iEU=
+		</data>
+		<key>DailyStock2Cell.nib/runtime.nib</key>
+		<data>
+		+yPKkyYfT5AqigTXgmFl6f2GIyo=
+		</data>
+		<key>DailyStockCell.nib/objects.nib</key>
+		<data>
+		Z/Dq4WZkezZCnI9oEvS9mPu4aBk=
+		</data>
+		<key>DailyStockCell.nib/runtime.nib</key>
+		<data>
+		e8TpR70Fcr2M8D+wz33dQQ8PiZM=
 		</data>
 		<key>Default-568h@2x.png</key>
 		<data>
@@ -144,9 +168,13 @@
 		<data>
 		gG9ilykdQQ8MSgj2iweBv5NyItE=
 		</data>
-		<key>GooNewsCell.nib</key>
+		<key>GooNewsCell.nib/objects.nib</key>
 		<data>
-		1Yx0Xc8ju6fgOi/6zxgzdbpneqA=
+		AI2JobKoxLM8bgQgKIod/RLDfTk=
+		</data>
+		<key>GooNewsCell.nib/runtime.nib</key>
+		<data>
+		D/9qEVYxOoJp3EQl4xVYGDfupc4=
 		</data>
 		<key>GooglePlus.bundle/GooglePlus</key>
 		<data>
@@ -692,9 +720,13 @@
 		<data>
 		prPq8BGMLME+tRGTzNpfXd8VfP0=
 		</data>
-		<key>PicCollectionCell.nib</key>
+		<key>PicCollectionCell.nib/objects.nib</key>
 		<data>
-		Kn/Tykz358V0cgsSB8+Srs6aaI4=
+		3S3QrzVJBCNThmJHy7mUf6G6KR0=
+		</data>
+		<key>PicCollectionCell.nib/runtime.nib</key>
+		<data>
+		AVQd/Fv73Fs3bcsdvA7rRw56UAM=
 		</data>
 		<key>PinterestSDKResources.bundle/Btn_PinIt_Disabled.png</key>
 		<data>
@@ -732,9 +764,13 @@
 		<data>
 		I5RdmaMGlmjXWytA78QLQHComZM=
 		</data>
-		<key>ReportCell.nib</key>
+		<key>ReportCell.nib/objects.nib</key>
 		<data>
-		Oo3ujcutTmdonwNnFkoWm/Nq4BU=
+		H2BTdvY71gfjGJVlJih8VwIACg0=
+		</data>
+		<key>ReportCell.nib/runtime.nib</key>
+		<data>
+		Jud9bW9C8bdPI6eJ23/yAiyc7TU=
 		</data>
 		<key>Resource.bundle/ActionSheet/ActionSheetBG.png</key>
 		<data>
@@ -1234,11 +1270,11 @@
 		</data>
 		<key>SearchStockCell.nib/objects.nib</key>
 		<data>
-		x/lozAyBSylhg2knbXTH3amh5Pk=
+		xk9qhM0+9vKJJ/+4G70SE6p1WTM=
 		</data>
 		<key>SearchStockCell.nib/runtime.nib</key>
 		<data>
-		yj7QWk4DvNLqTXAicw6f1FZKtGU=
+		AllaKvJXROZ6AYQ3UF8m8Wt17BA=
 		</data>
 		<key>ShareSDKiPadDefaultShareViewUI.bundle/PublishEx_iPad/ClearButtonBG.png</key>
 		<data>
@@ -1672,9 +1708,13 @@
 		<data>
 		b34VHMrkOGi7GYLH9+xuim8Ao/Q=
 		</data>
-		<key>StockCell.nib</key>
+		<key>StockCell.nib/objects.nib</key>
 		<data>
-		LMB9s/w43x1pGYB6X03dIF4Iims=
+		8xjCQe3KoBj0YMY6vxRDGBiXQQQ=
+		</data>
+		<key>StockCell.nib/runtime.nib</key>
+		<data>
+		p8mR6YFaLKwbV/9QfkMeNaLT+uc=
 		</data>
 		<key>TencentOpenApi_IOS_Bundle.bundle/error.png</key>
 		<data>
@@ -1692,13 +1732,21 @@
 		<data>
 		Z6QS+riFaBBT0KPB9nUXPmcTygk=
 		</data>
-		<key>UserCell.nib</key>
+		<key>UserCell.nib/objects.nib</key>
 		<data>
-		waf65gPMSfZL4qVfX46hv6aurLo=
+		yqBnuu3AGvDtSxfqBxkhMEs8vLE=
 		</data>
-		<key>ValueViewCell.nib</key>
+		<key>UserCell.nib/runtime.nib</key>
 		<data>
-		2z3Lc03P0WRwumyBE6SegSdyKA4=
+		yXZ3dVsAFywVmdoDlht1hjOBtgs=
+		</data>
+		<key>ValueViewCell.nib/objects.nib</key>
+		<data>
+		CnJM+mdDFopaXTq7Vnvq+jL7Elo=
+		</data>
+		<key>ValueViewCell.nib/runtime.nib</key>
+		<data>
+		Cw4lHbeCY1fv9NUNVU9k52yIUD0=
 		</data>
 		<key>WACC.png</key>
 		<data>

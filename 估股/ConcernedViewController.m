@@ -261,10 +261,14 @@
     @catch (NSException *exception) {
         NSLog(@"%@",exception);
     }
-    
+    cell.backLabel.layer.cornerRadius=5.0;
+    cell.backLabel.layer.borderWidth=0;
+    cell.backLabel.backgroundColor=[UIColor whiteColor];
     
     UILongPressGestureRecognizer *longP=[[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(longAction:andCellIndex:)];
     [cell addGestureRecognizer:longP];
+    
+    [cell.contentView setBackgroundColor:[Utiles colorWithHexString:[Utiles getConfigureInfoFrom:@"colorconfigure" andKey:@"NormalCellColor" inUserDomain:NO]]];
     
     SAFE_RELEASE(longP);
     return cell;
@@ -348,7 +352,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    return 40.0;
+    return 80.0;
     
 }
 #pragma mark Table Delegate Methods

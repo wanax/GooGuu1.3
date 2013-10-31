@@ -107,7 +107,7 @@
 
 -(void)addTable{
     
-    customTableView=[[UITableView alloc] initWithFrame:CGRectMake(0,0,SCREEN_WIDTH,SCREEN_HEIGHT-110) style:UITableViewStyleGrouped];
+    customTableView=[[UITableView alloc] initWithFrame:CGRectMake(0,0,SCREEN_WIDTH,SCREEN_HEIGHT-110) style:UITableViewStylePlain];
     [self.customTableView setBackgroundColor:[Utiles colorWithHexString:[Utiles getConfigureInfoFrom:@"colorconfigure" andKey:@"NormalCellColor" inUserDomain:NO]]];
     customTableView.separatorStyle=UITableViewCellSeparatorStyleNone;
     customTableView.dataSource=self;
@@ -233,19 +233,20 @@
     if (sectionTitle == nil) {
         return nil;
     }
+    UILabel *backLabel=[[[UILabel alloc] initWithFrame:CGRectMake(0, 2, 320, 20)] autorelease];
     
     // Create label with section title
     UILabel *label = [[[UILabel alloc] init] autorelease];
     UILabel *mark=nil;
 
     if (section==0) {
-        label.frame = CGRectMake(20, 5, 300, 20);
-        mark=[[[UILabel alloc] initWithFrame:CGRectMake(10,6,6,20)] autorelease];
+        label.frame = CGRectMake(20, 2, 300, 20);
+        mark=[[[UILabel alloc] initWithFrame:CGRectMake(10,2,6,20)] autorelease];
     } else {
-        label.frame = CGRectMake(20, -1, 300, 20);
-        mark=[[[UILabel alloc] initWithFrame:CGRectMake(8,0,6,20)] autorelease];
+        label.frame = CGRectMake(20, 2, 300, 20);
+        mark=[[[UILabel alloc] initWithFrame:CGRectMake(10,2,6,20)] autorelease];
     }
-    label.backgroundColor = [UIColor clearColor];
+    label.backgroundColor = [UIColor whiteColor];
     label.textColor = [UIColor blackColor];
     label.shadowColor = [UIColor whiteColor];
     label.shadowOffset = CGSizeMake(0.0, 1.0);
@@ -256,6 +257,7 @@
     
     // Create header view and add label as a subview
     UIView *view = [[[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 44)] autorelease];
+    [view addSubview:backLabel];
     [view addSubview:label];
     [view addSubview:mark];
     
@@ -266,7 +268,7 @@
     if(indexPath.section==0){
         return 164.0;
     }else{
-        return 135.0;
+        return 195.0;
     }
 }
 
@@ -295,7 +297,7 @@
         DailyStock2Cell *cell = (DailyStock2Cell*)[tableView dequeueReusableCellWithIdentifier:DailyStockCellIdentifier];//复用cell
         
         if (cell == nil) {
-            NSArray *array = [[NSBundle mainBundle] loadNibNamed:@"DailyStock2Cell" owner:self options:nil];//加载自定义cell的xib文件
+            NSArray *array = [[NSBundle mainBundle] loadNibNamed:@"DailyStock2Cell" owner:self options:nil];
             cell = [array objectAtIndex:0];
         }
         if(self.imageUrl){
@@ -358,17 +360,26 @@
         cell.title=[model objectForKey:@"title"];
         cell.titleLabel.lineBreakMode=NSLineBreakByWordWrapping;
         cell.titleLabel.numberOfLines=0;
+        cell.titleLabel.font = [UIFont boldSystemFontOfSize:19];
         [self setReadingMark:cell andTitle:[model objectForKey:@"title"]];
         cell.contentWebView.backgroundColor = [UIColor clearColor];
         cell.contentWebView.opaque = NO;
         cell.contentWebView.dataDetectorTypes = UIDataDetectorTypeNone;
+        cell.contentWebView.tag=indexPath.row;
+        cell.contentWebView.userInteractionEnabled=YES;
+        
         [(UIScrollView *)[[cell.contentWebView subviews] objectAtIndex:0] setBounces:NO];
         
-        NSString *webviewText = @"<style>body{margin:0px;background-color:transparent;font:14px/18px Custom-Font-Name}</style>";
+        UIButton *cellBt=[[[UIButton alloc] initWithFrame:CGRectMake(0,0,320,135)] autorelease];
+        cellBt.tag=indexPath.row;
+        [cellBt addTarget:self action:@selector(cellBtClicked:) forControlEvents:UIControlEventTouchUpInside];
+        [cell.contentView addSubview:cellBt];
+        
+        NSString *webviewText = @"<style>body{margin:0px;background-color:transparent;font:16px/22px Custom-Font-Name}</style>";
         
         NSString *temp=[model objectForKey:@"concise"];
-        if([temp length]>56){
-            temp=[temp substringToIndex:56];
+        if([temp length]>95){
+            temp=[temp substringToIndex:95];
         }
         NSString *htmlString = [webviewText stringByAppendingFormat:@"%@......", temp];
         [cell.contentWebView loadHTMLString:htmlString baseURL:nil];
@@ -401,6 +412,32 @@
 
 #pragma mark -
 #pragma mark General Methods
+
+-(void)cellBtClicked:(UIButton *)bt{
+    NSInteger row=bt.tag;
+    XYZAppDelegate *delegate=[[UIApplication sharedApplication] delegate];
+    delegate.comInfo=[self.arrList objectAtIndex:row];
+    NSString *artId=[NSString stringWithFormat:@"%@",[[self.arrList objectAtIndex:row] objectForKey:@"articleid"]];
+    GooGuuArticleViewController *articleViewController=[[GooGuuArticleViewController alloc] init];
+    articleViewController.articleTitle=[[arrList objectAtIndex:row] objectForKey:@"title"];
+    articleViewController.articleId=artId;
+    articleViewController.title=@"研究报告";
+    ArticleCommentViewController *articleCommentViewController=[[ArticleCommentViewController alloc] init];
+    articleCommentViewController.articleId=artId;
+    articleCommentViewController.title=@"评论";
+    articleCommentViewController.type=News;
+    container=[[MHTabBarController alloc] init];
+    NSArray *controllers=[NSArray arrayWithObjects:articleViewController,articleCommentViewController, nil];
+    container.viewControllers=controllers;
+    
+    [Utiles setConfigureInfoTo:@"readingmarks" forKey:[[self.arrList objectAtIndex:row] objectForKey:@"title"] andContent:@"1"];
+    self.readingMarksDic=[Utiles getConfigureInfoFrom:@"readingmarks" andKey:nil inUserDomain:YES];
+    container.hidesBottomBarWhenPushed=YES;
+    [self.navigationController pushViewController:container animated:YES];
+    
+    SAFE_RELEASE(articleViewController);
+    SAFE_RELEASE(articleCommentViewController);
+}
 
 -(void)setReadingMark:(GooNewsCell *)cell andTitle:(NSString *)title{
     

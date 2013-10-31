@@ -50,9 +50,9 @@
 }
 
 -(void)initComponents{
-    
+
+    self.cusTable=[[UITableView alloc] initWithFrame:CGRectMake(0,0,SCREEN_WIDTH,SCREEN_HEIGHT-120) style:UITableViewStylePlain];
     [self.view setBackgroundColor:[Utiles colorWithHexString:[Utiles getConfigureInfoFrom:@"colorconfigure" andKey:@"NormalCellColor" inUserDomain:NO]]];
-    self.cusTable=[[UITableView alloc] initWithFrame:CGRectMake(0,0,SCREEN_WIDTH,SCREEN_HEIGHT-120)];
     self.cusTable.delegate=self;
     self.cusTable.dataSource=self;
     self.cusTable.separatorStyle=UITableViewCellSeparatorStyleNone;
@@ -99,7 +99,7 @@
 #pragma mark Table DataSource
 
 -(CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 145.0;
+    return 216.0;
 }
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
@@ -138,6 +138,7 @@
     [cell.titleLabel setText:[model objectForKey:@"title"]];
     cell.titleLabel.lineBreakMode=NSLineBreakByWordWrapping;
     cell.titleLabel.numberOfLines=0;
+    cell.titleLabel.font = [UIFont boldSystemFontOfSize:19];
     [self setReadingMark:cell andTitle:[model objectForKey:@"title"]];
     
     cell.conciseWebView.backgroundColor = [UIColor clearColor];
@@ -145,11 +146,11 @@
     cell.conciseWebView.dataDetectorTypes = UIDataDetectorTypeNone;
     [(UIScrollView *)[[cell.conciseWebView subviews] objectAtIndex:0] setBounces:NO];
     
-    NSString *webviewText = @"<style>body{margin:0px;background-color:transparent;font:14px/18px Custom-Font-Name}</style>";
+    NSString *webviewText = @"<style>body{margin:0px;background-color:transparent;font:16px/22px Custom-Font-Name}</style>";
     
     NSString *temp=[model objectForKey:@"concise"];
-    if([temp length]>56){
-        temp=[temp substringToIndex:56];
+    if([temp length]>80){
+        temp=[temp substringToIndex:80];
     }
     NSString *htmlString = [webviewText stringByAppendingFormat:@"%@......", temp];
     
@@ -162,7 +163,12 @@
     cell.backLabel.layer.borderColor = [UIColor grayColor].CGColor;
     cell.backLabel.layer.borderWidth = 0;
     
-    [cell setBackgroundColor:[Utiles colorWithHexString:[Utiles getConfigureInfoFrom:@"colorconfigure" andKey:@"NormalCellColor" inUserDomain:NO]]];
+    [cell.contentView setBackgroundColor:[Utiles colorWithHexString:[Utiles getConfigureInfoFrom:@"colorconfigure" andKey:@"NormalCellColor" inUserDomain:NO]]];
+    
+    UIButton *cellBt=[[[UIButton alloc] initWithFrame:CGRectMake(0,0,320,135)] autorelease];
+    cellBt.tag=indexPath.row;
+    [cellBt addTarget:self action:@selector(cellBtClicked:) forControlEvents:UIControlEventTouchUpInside];
+    [cell.contentView addSubview:cellBt];
     
     return cell;
     
@@ -170,6 +176,29 @@
 
 #pragma mark -
 #pragma mark General Methods
+
+-(void)cellBtClicked:(UIButton *)bt{
+    NSInteger row=bt.tag;
+    NSString *artId=[NSString stringWithFormat:@"%@",[[self.viewDataArr objectAtIndex:row] objectForKey:@"articleid"]];
+    GooGuuArticleViewController *articleViewController=[[GooGuuArticleViewController alloc] init];
+    articleViewController.articleTitle=[[self.viewDataArr objectAtIndex:row] objectForKey:@"title"];
+    articleViewController.articleId=artId;
+    articleViewController.sourceType=GooGuuView;
+    articleViewController.title=@"研究报告";
+    ArticleCommentViewController *articleCommentViewController=[[ArticleCommentViewController alloc] init];
+    articleCommentViewController.articleId=artId;
+    articleCommentViewController.title=@"评论";
+    articleCommentViewController.type=News;
+    MHTabBarController *container=[[MHTabBarController alloc] init];
+    NSArray *controllers=[NSArray arrayWithObjects:articleViewController,articleCommentViewController, nil];
+    container.viewControllers=controllers;
+    
+    [Utiles setConfigureInfoTo:@"googuuviewreadingmarks" forKey:[[self.viewDataArr objectAtIndex:row] objectForKey:@"title"] andContent:@"1"];
+    self.readingMarksDic=[Utiles getConfigureInfoFrom:@"googuuviewreadingmarks" andKey:nil inUserDomain:YES];
+    
+    container.hidesBottomBarWhenPushed=YES;
+    [self.navigationController pushViewController:container animated:YES];
+}
 
 -(void)setReadingMark:(ValueViewCell *)cell andTitle:(NSString *)title{
     

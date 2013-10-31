@@ -95,6 +95,7 @@
 -(void)initViewComponents{
     
     table=[[UITableView alloc] initWithFrame:CGRectMake(0,62,SCREEN_WIDTH,SCREEN_HEIGHT-160)];
+    table.separatorStyle=UITableViewCellSeparatorStyleNone;
     search=[[UISearchBar alloc] initWithFrame:CGRectMake(0,0,SCREEN_WIDTH,35)];
     if(!IOS7_OR_LATER){
         [[self.search.subviews objectAtIndex:0] removeFromSuperview];
@@ -237,7 +238,7 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 40.0;
+    return 82.0;
 }
 
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell  forRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -308,6 +309,10 @@
         }else if(outLook<0){
             cell.percentLabel.backgroundColor=[Utiles colorWithHexString:fallColor];
         }
+        
+        cell.backLabel.layer.cornerRadius=5.0;
+        cell.backLabel.layer.borderWidth=0;
+        cell.backLabel.backgroundColor=[UIColor whiteColor];
   
     }@catch (NSException *e) {
         NSLog(@"%@",e);

@@ -24,6 +24,7 @@
 // THE SOFTWARE.
 
 #import "AOTag.h"
+#import "DrawChartTool.h"
 
 #define tagFontSize         14.0f
 #define tagFontType         @"Heiti SC"
@@ -193,8 +194,13 @@ withCloseButtonColor:(UIColor *)closeColor
 
 - (CGSize)getTagSize
 {
-    CGSize tSize = [self.tTitle sizeWithAttributes:@{NSFontAttributeName:[UIFont fontWithName:tagFontType size:tagFontSize]}];
-    
+    DrawChartTool *tool=[[DrawChartTool alloc] init];
+    CGSize tSize;
+    if (IOS7_OR_LATER) {
+        tSize = [self.tTitle sizeWithAttributes:@{NSFontAttributeName:[UIFont fontWithName:tagFontType size:tagFontSize]}];
+    } else {
+        tSize = [tool getLabelSizeFromString:self.tTitle font:tagFontType fontSize:tagFontSize];
+    }
     return CGSizeMake( tSize.width + tagMargin, tagHeight);
 }
 
@@ -204,10 +210,21 @@ withCloseButtonColor:(UIColor *)closeColor
     
     self.layer.backgroundColor = [self.tBackgroundColor CGColor];
     
-    CGSize tSize = [self.tTitle sizeWithAttributes:@{NSFontAttributeName:[UIFont fontWithName:tagFontType size:tagFontSize]}];
+    DrawChartTool *tool=[[DrawChartTool alloc] init];
+    CGSize tSize;
+    if (IOS7_OR_LATER) {
+        tSize = [self.tTitle sizeWithAttributes:@{NSFontAttributeName:[UIFont fontWithName:tagFontType size:tagFontSize]}];
+    } else {
+        tSize=[tool getLabelSizeFromString:self.tTitle font:tagFontType fontSize:tagFontSize];
+    }
     
-    [self.tTitle drawInRect:CGRectMake(5, ([self getTagSize].height / 2.0f) - (tSize.height / 2.0f), tSize.width, tSize.height)
-             withAttributes:@{NSFontAttributeName:[UIFont fontWithName:tagFontType size:tagFontSize], NSForegroundColorAttributeName:self.tLabelColor}];
+    if (IOS7_OR_LATER) {
+        [self.tTitle drawInRect:CGRectMake(7, ([self getTagSize].height / 2.0f) - (tSize.height / 2.0f), tSize.width, tSize.height)
+                 withAttributes:@{NSFontAttributeName:[UIFont fontWithName:tagFontType size:tagFontSize], NSForegroundColorAttributeName:self.tLabelColor}];
+    }else{
+        [self.tTitle drawInRect:CGRectMake(7, ([self getTagSize].height / 2.0f) - (tSize.height / 2.0f), tSize.width, tSize.height) withFont:[UIFont fontWithName:tagFontType size:tagFontSize]];
+    }
+    
     
     UITapGestureRecognizer *recognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tagSelected:)];
     [recognizer setNumberOfTapsRequired:1];

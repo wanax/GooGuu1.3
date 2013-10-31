@@ -15,6 +15,7 @@
 @property (nonatomic,retain) IBOutlet UILabel *stockNameLabel;
 @property (nonatomic,retain) IBOutlet UIButton *concernBt;
 
+@property (strong, nonatomic) IBOutlet UILabel *backLabel;
 @property (strong, nonatomic) IBOutlet UILabel *belongLabel;
 @property (strong, nonatomic) IBOutlet UILabel *gPriceLabel;
 @property (strong, nonatomic) IBOutlet UILabel *priceLabel;

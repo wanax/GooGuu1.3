@@ -1054,15 +1054,100 @@ c00000000521F68AA00000000000002B9
 t1377790122
 s697
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/BPush.h
+c00000000525C34CE00000000000010A7
+t1381774542
+s4263
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/FUIAlertView.h
+c000000005268D91E0000000000000EBE
+t1382603038
+s3774
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/FUIButton.h
+c000000005268D91E00000000000001A6
+t1382603038
+s422
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/FUICellBackgroundView.h
+c000000005268D91E000000000000027D
+t1382603038
+s637
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h
+c000000005268D91E0000000000000282
+t1382603038
+s642
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/FUISwitch.h
+c000000005268D91E00000000000002FF
+t1382603038
+s767
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/FlatUIKit.h
+c000000005268D91E000000000000033E
+t1382603038
+s830
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/UIBarButtonItem+FlatUI.h
+c000000005268D91D0000000000000509
+t1382603037
+s1289
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/UIColor+FlatUI.h
+c000000005268D91D000000000000042C
+t1382603037
+s1068
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/UIFont+FlatUI.h
+c000000005268D91D0000000000000155
+t1382603037
+s341
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/UIImage+FlatUI.h
+c000000005268D91E00000000000003DD
+t1382603038
+s989
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/UINavigationBar+FlatUI.h
+c000000005268D91D0000000000000135
+t1382603037
+s309
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/UIProgressView+FlatUI.h
+c000000005268D91E000000000000016C
+t1382603038
+s364
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/UISlider+FlatUI.h
+c000000005268D91D00000000000002B2
+t1382603037
+s690
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/UIStepper+FlatUI.h
+c000000005268D91D00000000000001CB
+t1382603037
+s459
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/UITabBar+FlatUI.h
+c000000005268D91E0000000000000148
+t1382603038
+s328
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/UITableViewCell+FlatUI.h
+c000000005268D91E0000000000000224
+t1382603038
+s548
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.h
 c00000000525C34CE00000000000000E3
 t1381774542
 s227
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m
-c000000005268E0B0000000000000034F
-t1382604976
-s847
+c000000005271D3280000000000000352
+t1383191336
+s850
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/InjectionBundle-Info.plist
 c00000000525C34CE00000000000003CB
@@ -1075,11 +1160,11 @@ t1381774542
 s508
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator/InjectionBundle.bundle
-t1382604984
+t1383191339
 s136
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator/InjectionBundle.bundle.dSYM
-t1382432963
+t1382604984
 s102
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator/InjectionBundle.bundle/Info.plist
@@ -1087,17 +1172,22 @@ t1381774542
 s715
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator/InjectionBundle.bundle/InjectionBundle
-t1382604984
-s48668
+t1383191339
+s42780
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/InjectionBundle.build/Debug-iphonesimulator/InjectionBundle.build/Objects-normal/i386/BundleContents.o
-t1382604983
-s133332
+t1383191339
+s118500
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/InjectionBundle.build/Debug-iphonesimulator/InjectionBundle.build/Objects-normal/i386/InjectionBundle.LinkFileList
 c00000000525E34DE00000000000000A8
 t1381905630
 s168
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/AddCommentViewController.h
+c00000000525C34CE0000000000000279
+t1381774542
+s633
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/AnalyDetailViewController.h
 c00000000525C34CE0000000000000267
@@ -1124,6 +1214,11 @@ c00000000525C34CE00000000000003D8
 t1381774542
 s984
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/CommonlyMacros.h
+c000000005268CA840000000000000BE4
+t1382599300
+s3044
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/DailyStock2Cell.h
 c00000000525E33750000000000000184
 t1381905269
@@ -1133,6 +1228,11 @@ N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/DailyStockCell.h
 c00000000525C34CE000000000000039D
 t1381774542
 s925
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/EnumSummary.h
+c00000000526623850000000000000CEA
+t1382425477
+s3306
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/FinanPicCollectCell.h
 c00000000525FA299000000000000017D
@@ -1150,9 +1250,14 @@ t1382431682
 s7585
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.h
-c00000000525C34CE00000000000003D1
-t1381774542
-s977
+c000000005268E23F0000000000000424
+t1382605375
+s1060
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m
+c000000005269CDF4000000000000466E
+t1382665716
+s18030
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooNewsCell.h
 c000000005265F07C0000000000000339
@@ -1174,15 +1279,35 @@ c00000000525C34CE0000000000000123
 t1381774542
 s291
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/AFNetworking/AFHTTPClient.h
+c00000000525C34CE0000000000009528
+t1381774542
+s38184
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/AFNetworking/AFHTTPRequestOperation.h
+c00000000525C34CE0000000000001907
+t1381774542
+s6407
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/AFNetworking/AFImageRequestOperation.h
 c00000000525C34CE00000000000017D7
 t1381774542
 s6103
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/AFNetworking/AFURLConnectionOperation.h
+c00000000525C34CE00000000000052FE
+t1381774542
+s21246
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/AFNetworking/UIImageView+AFNetworking.h
 c00000000525C34CE000000000000152E
 t1381774542
 s5422
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/BaiduMobStat.h
+c00000000525C34CE0000000000000F4D
+t1381774542
+s3917
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CXPhotoBrowser/CXBrowserNavBarView.h
 c0000000052147F14000000000000013C
@@ -1219,6 +1344,11 @@ c0000000052147F14000000000000033D
 t1377074964
 s829
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTColor.h
+c00000000525C34CE000000000000040A
+t1381774542
+s1034
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CustomTableView.h
 c00000000525C34CE0000000000000169
 t1381774542
@@ -1234,10 +1364,25 @@ c00000000525C34CE000000000000096F
 t1381774542
 s2415
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/GGFullscreenImageViewController.h
+c00000000525C34CE0000000000000236
+t1381774542
+s566
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/JSONKit-master/JSONKit.h
+c00000000525C34CE0000000000002DBE
+t1381774542
+s11710
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/JavaScriptCore/WebKitAvailability.h
 c00000000525C34CE0000000000007FF3
 t1381774542
 s32755
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/MBProgressHUD.h
+c00000000525C34CE0000000000003629
+t1381774542
+s13865
 
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/MHTabBarController.h
 c00000000525C34CE00000000000008D1
@@ -1299,15 +1444,250 @@ c00000000525C34CE000000000000087F
 t1381774542
 s2175
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/Core/AGCommon.framework/Headers/CMErrorInfo.h
+c00000000523FED420000000000000475
+t1379921218
+s1141
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/Core/AGCommon.framework/Headers/ICMErrorInfo.h
+c00000000523FED4200000000000004C0
+t1379921218
+s1216
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/Core/ShareSDKCoreService.framework/Headers/ISSCAccount.h
+c000000005243B0A30000000000000D9C
+t1380167843
+s3484
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/Core/ShareSDKCoreService.framework/Headers/ISSCAttachment.h
+c000000005243B0A30000000000000575
+t1380167843
+s1397
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/Core/ShareSDKCoreService.framework/Headers/ISSCAuthSession.h
+c000000005243B0A300000000000003AC
+t1380167843
+s940
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/Core/ShareSDKCoreService.framework/Headers/ISSCDataObject.h
+c000000005243B0A3000000000000016F
+t1380167843
+s367
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/Core/ShareSDKCoreService.framework/Headers/ISSCOAuthParameters.h
+c000000005243B0A3000000000000074D
+t1380167843
+s1869
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/Core/ShareSDKCoreService.framework/Headers/ISSCOpenApp.h
+c000000005243B0A30000000000000222
+t1380167843
+s546
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/Core/ShareSDKCoreService.framework/Headers/ISSCParameters.h
+c000000005243B0A30000000000000A71
+t1380167843
+s2673
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/Core/ShareSDKCoreService.framework/Headers/ISSCRequest.h
+c000000005243B0A30000000000000CA0
+t1380167843
+s3232
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/Core/ShareSDKCoreService.framework/Headers/ISSCToken.h
+c000000005243B0A3000000000000024B
+t1380167843
+s587
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/Core/ShareSDKCoreService.framework/Headers/SSCKeyDef.h
+c000000005243B0A30000000000000315
+t1380167843
+s789
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/Core/ShareSDKCoreService.framework/Headers/SSCLocationCoordinate2D.h
+c000000005243B0A300000000000002FF
+t1380167843
+s767
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/Core/ShareSDKCoreService.framework/Headers/SSCNotificationDef.h
+c000000005243B0A3000000000000037B
+t1380167843
+s891
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/Core/ShareSDKCoreService.framework/Headers/SSCTypeDef.h
+c000000005243B0A30000000000000C19
+t1380167843
+s3097
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/Core/ShareSDKCoreService.framework/Headers/ShareSDKCoreService.h
+c000000005243B0A300000000000010EF
+t1380167843
+s4335
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/Extend/SDKExport/WXApi.h
+c000000005237C76D00000000000010D6
+t1379387245
+s4310
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/Extend/SDKExport/WXApiObject.h
+c00000000523E0D920000000000002A6A
+t1379798418
+s10858
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/ShareSDK.framework/Headers/ISSAuthController.h
+c000000005243B0DD00000000000007A9
+t1380167901
+s1961
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/ShareSDK.framework/Headers/ISSAuthOptions.h
+c000000005243B0DD0000000000000CDD
+t1380167901
+s3293
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/ShareSDK.framework/Headers/ISSContainer.h
+c000000005243B0DD000000000000075B
+t1380167901
+s1883
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/ShareSDK.framework/Headers/ISSContent.h
+c000000005243B0DD00000000000046B2
+t1380167901
+s18098
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/ShareSDK.framework/Headers/ISSCredential.h
+c000000005243B0DD0000000000000338
+t1380167901
+s824
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/ShareSDK.framework/Headers/ISSOAuth2Credential.h
+c000000005243B0DD00000000000002E0
+t1380167901
+s736
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/ShareSDK.framework/Headers/ISSOAuthCredential.h
+c000000005243B0DD00000000000002EC
+t1380167901
+s748
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/ShareSDK.framework/Headers/ISSPage.h
+c000000005243B0DD00000000000004AF
+t1380167901
+s1199
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/ShareSDK.framework/Headers/ISSShareActionSheet.h
+c000000005243B0DD0000000000000314
+t1380167901
+s788
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/ShareSDK.framework/Headers/ISSShareActionSheetItem.h
+c000000005243B0DD0000000000000285
+t1380167901
+s645
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/ShareSDK.framework/Headers/ISSShareOptions.h
+c000000005243B0DD00000000000014B9
+t1380167901
+s5305
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/ShareSDK.framework/Headers/ISSShareViewDelegate.h
+c000000005243B0DD000000000000065B
+t1380167901
+s1627
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/ShareSDK.framework/Headers/ISSStatusInfo.h
+c000000005243B0DD00000000000002E9
+t1380167901
+s745
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/ShareSDK.framework/Headers/ISSUserField.h
+c000000005243B0DD00000000000003DC
+t1380167901
+s988
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/ShareSDK.framework/Headers/ISSUserInfo.h
+c000000005243B0DD0000000000000A3F
+t1380167901
+s2623
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/ShareSDK.framework/Headers/ISSViewDelegate.h
+c000000005243B0DD000000000000056A
+t1380167901
+s1386
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/ShareSDK.framework/Headers/ISSiPadViewController.h
+c000000005243B0DD000000000000063B
+t1380167901
+s1595
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/ShareSDK.framework/Headers/NSArray+ShareSDK.h
+c000000005243B0DD0000000000000355
+t1380167901
+s853
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/ShareSDK.framework/Headers/SSInheritValue.h
+c000000005243B0DD00000000000004A0
+t1380167901
+s1184
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/ShareSDK.framework/Headers/ShareSDK.h
+c000000005243B0DD000000000000C751
+t1380167901
+s51025
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/ShareSDK.framework/Headers/ShareSDKDef.h
+c000000005243B0DD00000000000003DA
+t1380167901
+s986
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/ShareSDK.framework/Headers/ShareSDKEventHandlerDef.h
+c000000005243B0DD0000000000000AC9
+t1380167901
+s2761
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/ShareSDK_v2.5.1/ShareSDK.framework/Headers/ShareSDKTypeDef.h
+c000000005243B0DD000000000000190E
+t1380167901
+s6414
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/TSPopover/TSPopoverController.h
+c00000000525C34CE00000000000006C7
+t1381774542
+s1735
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/TSPopover/TSPopoverTouchesDelegate.h
+c00000000525C34CE0000000000000158
+t1381774542
+s344
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/Toast/Toast+UIView.h
 c00000000525C34CE0000000000000886
 t1381774542
 s2182
 
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/UIImageView+Addition.h
+c00000000525C34CE0000000000000101
+t1381774542
+s257
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/UIButton+BGColor.h
+c00000000525C34CE00000000000001AE
+t1381774542
+s430
+
 N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/UILabel+VerticalAlign.h
 c00000000525C34CE0000000000000149
 t1381774542
 s329
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Utiles.h
+c00000000525C34CE0000000000000ADE
+t1381774542
+s2782
+
+N/Users/xcode/wanax/oc/GooGuu1.2-master/估股/XYZAppDelegate.h
+c000000005268EA380000000000000497
+t1382607416
+s1175
 
 N/usr/lib/libSystem.B.dylib
 c00000000502A2B3D000000000000D2A0
@@ -1444,8 +1824,8 @@ t1382001948
 s5487068
 
 N/var/folders/2l/70p8mcj94kqds4th5mfxj5900000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/InjectionBundle-Prefix-evjyrfkrwhvddndtbertvfapqnbi/InjectionBundle-Prefix.pch.pch
-t1382604983
-s5691992
+t1383191296
+s5692460
 
 N/var/folders/2l/70p8mcj94kqds4th5mfxj5900000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/InjectionBundle-Prefix-fcgmscdrvkrkmzbrbbzdmshfuhyh/InjectionBundle-Prefix.pch.pch
 t1382432962
@@ -1457,7 +1837,7 @@ s5486808
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesce36eb351819b841^deff87361819b841^---0#1#1#--18"Check dependencies36"8CC62317-C077-4FA7-BE7C-9522B236EE24-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies2de9ecaa0a22b841^41d39eab0a22b841^---0#1#1#--18"Check dependencies36"58094970-AD5D-4AF7-99D4-C3EE528E5A90-
 
 CCompileC build/InjectionBundle.build/Debug-iphonesimulator/InjectionBundle.build/Objects-normal/i386/BundleContents.o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/iOSInjectionProject/BundleContents.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s403517151.497900
@@ -1482,8 +1862,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compil
 b939E15FF-BC36-4D22-AA3D-791B2B534A95
 
 CCompileC build/InjectionBundle.build/Debug-iphonesimulator/InjectionBundle.build/Objects-normal/i386/BundleContents.o /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s404297783.103825
-e404297783.518577
+s404884139.631044
+e404884139.777981
 r1
 xCompileC
 xbuild/InjectionBundle.build/Debug-iphonesimulator/InjectionBundle.build/Objects-normal/i386/BundleContents.o
@@ -1496,119 +1876,98 @@ d/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m
 d/Applications/Injection Plugin.app/Contents/Resources/BundleInjection.h
 d/Applications/Injection Plugin.app/Contents/Resources/BundleInterface.h
 d/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m
-d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CXPhotoBrowser/CXPhotoBrowser.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CXPhotoBrowser/CXPhoto.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CXPhotoBrowser/CXPhotoProtocol.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CXPhotoBrowser/CXPhotoLoadingView.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CXPhotoBrowser/CXPhotoLoadingViewProtocol.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CXPhotoBrowser/CXBrowserNavBarView.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CXPhotoBrowser/CXBrowserToolBarView.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/DemoPhoto.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/ArticleCommentViewController.m
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/ArticleCommentViewController.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/EGORefreshTableHeaderView.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/ArticleCommentModel.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/UserCell.h
 d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/MHTabBarController.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/SDWebImage/UIImageView+WebCache.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/SDWebImage/SDWebImageCompat.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/SDWebImage/SDWebImageManager.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/SDWebImage/SDWebImageOperation.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/SDWebImage/SDWebImageDownloader.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/SDWebImage/SDImageCache.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/UIImageView+Addition.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/GGFullscreenImageViewController.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/UIButton+BGColor.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/AFNetworking/UIImageView+AFNetworking.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/AFNetworking/AFImageRequestOperation.h
 d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/AddCommentViewController.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/ComFieldViewController.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/FlatUIKit.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/FUIAlertView.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/FUIButton.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/FUICellBackgroundView.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/FUISwitch.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/UIBarButtonItem+FlatUI.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/UIColor+FlatUI.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/UIFont+FlatUI.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/UIImage+FlatUI.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/UINavigationBar+FlatUI.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/UIProgressView+FlatUI.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/UIStepper+FlatUI.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/UISlider+FlatUI.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/UITabBar+FlatUI.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/FlatUIKit/UITableViewCell+FlatUI.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/PrettyKit/PrettyKit.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/PrettyKit/PrettyNavigationBar.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/PrettyKit/PrettyTabBar.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/PrettyKit/Cells/PrettyTableViewCell.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/PrettyKit/Cells/PrettyCustomViewTableViewCell.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/PrettyKit/Cells/PrettyGridTableViewCell.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/PrettyKit/Cells/PrettySegmentedControlTableViewCell.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/PrettyKit/PrettyShadowPlainTableview.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/PrettyKit/PrettyDrawing.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/PrettyKit/PrettyToolbar.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/AnalyDetailViewController.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/DrawChartTool.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CorePlot-CocoaTouch.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTAnimation.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTAnimationOperation.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTDefinitions.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTAnimationPeriod.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTAnnotation.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTAnnotationHostLayer.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTLayer.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTResponder.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTPlatformSpecificDefines.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTAxis.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTTextStyle.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTAxisLabel.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTAxisSet.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTAxisTitle.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTBarPlot.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTPlot.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTNumericDataType.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTBorderedLayer.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTCalendarFormatter.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTColorSpace.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTConstraints.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTExceptions.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTFill.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTGradient.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTGraph.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTGraphHostingView.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTImage.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTLayerAnnotation.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTLegend.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTLegendEntry.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTLimitBand.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTLineCap.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTLineStyle.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTMutableLineStyle.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTMutableNumericData.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTNumericData.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTMutableNumericData+TypeConversion.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTMutablePlotRange.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTPlotRange.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTMutableShadow.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTShadow.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTMutableTextStyle.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTNumericData+TypeConversion.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTPieChart.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTPlatformSpecificFunctions.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTPlatformSpecificCategories.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTPathExtensions.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTPlotArea.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTPlotAreaFrame.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTPlotSpace.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTPlotSpaceAnnotation.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTPlotSymbol.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTRangePlot.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTScatterPlot.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTTextLayer.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTTheme.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTTimeFormatter.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTTradingRangePlot.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTUtilities.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTXYAxis.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTXYAxisSet.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTXYGraph.h
+d/Users/xcode/wanax/oc/GooGuu1.2-master/估股/Plugs/CorePlotHeaders/CPTXYPlotSpace.h
 oIn file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:
-oIn file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:
-oIn file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:23:
-o../Pods/BuildHeaders/FlatUIKit/FUIAlertView.h:47:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
-o@property(nonatomic) NSMutableArray *buttons;
-o^
-o../Pods/BuildHeaders/FlatUIKit/FUIAlertView.h:47:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-oIn file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:
-oIn file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:
-oIn file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:24:
-o../Pods/BuildHeaders/FlatUIKit/FUIButton.h:13:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
-o@property(nonatomic, readwrite) UIColor *buttonColor;
-o^
-o../Pods/BuildHeaders/FlatUIKit/FUIButton.h:13:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-o../Pods/BuildHeaders/FlatUIKit/FUIButton.h:14:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
-o@property(nonatomic, readwrite) UIColor *shadowColor;
-o^
-o../Pods/BuildHeaders/FlatUIKit/FUIButton.h:14:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-oIn file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:
-oIn file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:
-oIn file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:26:
-o../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:13:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
-o@property(nonatomic, readwrite) UIColor *selectedColor;
-o^
-o../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:13:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-o../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:14:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
-o@property(nonatomic, readwrite) UIColor *deselectedColor;
-o^
-o../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:14:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-o../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:15:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
-o@property(nonatomic, readwrite) UIColor *dividerColor;
-o^
-o../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:15:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-o../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:17:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
-o@property(nonatomic, readwrite) UIFont *selectedFont;
-o^
-o../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:17:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-o../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:18:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
-o@property(nonatomic, readwrite) UIFont *deselectedFont;
-o^
-o../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:18:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-o../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:19:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
-o@property(nonatomic, readwrite) UIColor *selectedFontColor;
-o^
-o../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:19:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-o../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:20:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
-o@property(nonatomic, readwrite) UIColor *deselectedFontColor;
-o^
-o../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:20:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-oIn file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:
-oIn file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:
-oIn file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:27:
-o../Pods/BuildHeaders/FlatUIKit/FUISwitch.h:14:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
-o@property(nonatomic, readwrite) UIColor *onBackgroundColor;
-o^
-o../Pods/BuildHeaders/FlatUIKit/FUISwitch.h:14:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-o../Pods/BuildHeaders/FlatUIKit/FUISwitch.h:15:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
-o@property(nonatomic, readwrite) UIColor *offBackgroundColor;
-o^
-o../Pods/BuildHeaders/FlatUIKit/FUISwitch.h:15:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-o../Pods/BuildHeaders/FlatUIKit/FUISwitch.h:16:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
-o@property(nonatomic, readwrite) UIColor *onColor;
-o^
-o../Pods/BuildHeaders/FlatUIKit/FUISwitch.h:16:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-o../Pods/BuildHeaders/FlatUIKit/FUISwitch.h:17:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
-o@property(nonatomic, readwrite) UIColor *offColor;
-o^
-o../Pods/BuildHeaders/FlatUIKit/FUISwitch.h:17:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-o../Pods/BuildHeaders/FlatUIKit/FUISwitch.h:18:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
-o@property(nonatomic, readwrite) UIColor *highlightedColor;
-o^
-o../Pods/BuildHeaders/FlatUIKit/FUISwitch.h:18:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-o30 warnings generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m202"CompileC build/InjectionBundle.build/Debug-iphonesimulator/InjectionBundle.build/Objects-normal/i386/BundleContents.o BundleContents.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler58ca1a371819b841^2bbf84371819b841^-7001"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:23:../Pods/BuildHeaders/FlatUIKit/FUIAlertView.h:47:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]@property(nonatomic) NSMutableArray *buttons;^../Pods/BuildHeaders/FlatUIKit/FUIAlertView.h:47:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:24:../Pods/BuildHeaders/FlatUIKit/FUIButton.h:13:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]@property(nonatomic, readwrite) UIColor *buttonColor;^../Pods/BuildHeaders/FlatUIKit/FUIButton.h:13:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]../Pods/BuildHeaders/FlatUIKit/FUIButton.h:14:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]@property(nonatomic, readwrite) UIColor *shadowColor;^../Pods/BuildHeaders/FlatUIKit/FUIButton.h:14:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:26:../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:13:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]@property(nonatomic, readwrite) UIColor *selectedColor;^../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:13:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:14:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]@property(nonatomic, readwrite) UIColor *deselectedColor;^../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:14:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:15:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]@property(nonatomic, readwrite) UIColor *dividerColor;^../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:15:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:17:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]@property(nonatomic, readwrite) UIFont *selectedFont;^../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:17:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:18:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]@property(nonatomic, readwrite) UIFont *deselectedFont;^../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:18:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:19:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]@property(nonatomic, readwrite) UIColor *selectedFontColor;^../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:19:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:20:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]@property(nonatomic, readwrite) UIColor *deselectedFontColor;^../Pods/BuildHeaders/FlatUIKit/FUISegmentedControl.h:20:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:27:../Pods/BuildHeaders/FlatUIKit/FUISwitch.h:14:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]@property(nonatomic, readwrite) UIColor *onBackgroundColor;^../Pods/BuildHeaders/FlatUIKit/FUISwitch.h:14:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]../Pods/BuildHeaders/FlatUIKit/FUISwitch.h:15:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]@property(nonatomic, readwrite) UIColor *offBackgroundColor;^../Pods/BuildHeaders/FlatUIKit/FUISwitch.h:15:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]../Pods/BuildHeaders/FlatUIKit/FUISwitch.h:16:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]@property(nonatomic, readwrite) UIColor *onColor;^../Pods/BuildHeaders/FlatUIKit/FUISwitch.h:16:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]../Pods/BuildHeaders/FlatUIKit/FUISwitch.h:17:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]@property(nonatomic, readwrite) UIColor *offColor;^../Pods/BuildHeaders/FlatUIKit/FUISwitch.h:17:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]../Pods/BuildHeaders/FlatUIKit/FUISwitch.h:18:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]@property(nonatomic, readwrite) UIColor *highlightedColor;^../Pods/BuildHeaders/FlatUIKit/FUISwitch.h:18:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]30 warn30(36%IDEClangDiagnosticActivityLogMessage2@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:23:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^22#8#22#8#399#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@96"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUIAlertView.h0000000000000000^46#0#46#0#1929#0#14"Semantic Issue--2@69"Default property attribute 'assign' not appropriate for non-GC object-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:23:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^22#8#22#8#399#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@96"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUIAlertView.h0000000000000000^46#0#46#0#1929#0#14"Semantic Issue--2@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:24:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^23#8#23#8#424#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUIButton.h0000000000000000^12#0#12#0#200#0#14"Semantic Issue--2@69"Default property attribute 'assign' not appropriate for non-GC object-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:24:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^23#8#23#8#424#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUIButton.h0000000000000000^12#0#12#0#200#0#14"Semantic Issue--2@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:24:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^23#8#23#8#424#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUIButton.h0000000000000000^13#0#13#0#254#0#14"Semantic Issue--2@69"Default property attribute 'assign' not appropriate for non-GC object-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:24:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^23#8#23#8#424#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUIButton.h0000000000000000^13#0#13#0#254#0#14"Semantic Issue--2@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:26:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^25#8#25#8#480#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUISegmentedControl.h0000000000000000^12#0#12#0#179#0#14"Semantic Issue--2@69"Default property attribute 'assign' not appropriate for non-GC object-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:26:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^25#8#25#8#480#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUISegmentedControl.h0000000000000000^12#0#12#0#179#0#14"Semantic Issue--2@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:26:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^25#8#25#8#480#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUISegmentedControl.h0000000000000000^13#0#13#0#235#0#14"Semantic Issue--2@69"Default property attribute 'assign' not appropriate for non-GC object-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:26:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^25#8#25#8#480#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUISegmentedControl.h0000000000000000^13#0#13#0#235#0#14"Semantic Issue--2@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:26:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^25#8#25#8#480#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUISegmentedControl.h0000000000000000^14#0#14#0#293#0#14"Semantic Issue--2@69"Default property attribute 'assign' not appropriate for non-GC object-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:26:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^25#8#25#8#480#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUISegmentedControl.h0000000000000000^14#0#14#0#293#0#14"Semantic Issue--2@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:26:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^25#8#25#8#480#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUISegmentedControl.h0000000000000000^16#0#16#0#402#0#14"Semantic Issue--2@69"Default property attribute 'assign' not appropriate for non-GC object-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:26:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^25#8#25#8#480#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUISegmentedControl.h0000000000000000^16#0#16#0#402#0#14"Semantic Issue--2@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:26:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^25#8#25#8#480#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUISegmentedControl.h0000000000000000^17#0#17#0#456#0#14"Semantic Issue--2@69"Default property attribute 'assign' not appropriate for non-GC object-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:26:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^25#8#25#8#480#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUISegmentedControl.h0000000000000000^17#0#17#0#456#0#14"Semantic Issue--2@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:26:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^25#8#25#8#480#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUISegmentedControl.h0000000000000000^18#0#18#0#512#0#14"Semantic Issue--2@69"Default property attribute 'assign' not appropriate for non-GC object-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:26:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^25#8#25#8#480#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUISegmentedControl.h0000000000000000^18#0#18#0#512#0#14"Semantic Issue--2@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:26:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^25#8#25#8#480#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUISegmentedControl.h0000000000000000^19#0#19#0#572#0#14"Semantic Issue--2@69"Default property attribute 'assign' not appropriate for non-GC object-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:26:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^25#8#25#8#480#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUISegmentedControl.h0000000000000000^19#0#19#0#572#0#14"Semantic Issue--2@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:27:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^26#8#26#8#512#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUISwitch.h0000000000000000^13#0#13#0#243#0#14"Semantic Issue--2@69"Default property attribute 'assign' not appropriate for non-GC object-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:27:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^26#8#26#8#512#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUISwitch.h0000000000000000^13#0#13#0#243#0#14"Semantic Issue--2@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:27:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^26#8#26#8#512#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUISwitch.h0000000000000000^14#0#14#0#303#0#14"Semantic Issue--2@69"Default property attribute 'assign' not appropriate for non-GC object-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:27:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^26#8#26#8#512#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUISwitch.h0000000000000000^14#0#14#0#303#0#14"Semantic Issue--2@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:27:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^26#8#26#8#512#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUISwitch.h0000000000000000^15#0#15#0#364#0#14"Semantic Issue--2@69"Default property attribute 'assign' not appropriate for non-GC object-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:27:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^26#8#26#8#512#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUISwitch.h0000000000000000^15#0#15#0#364#0#14"Semantic Issue--2@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:27:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^26#8#26#8#512#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUISwitch.h0000000000000000^16#0#16#0#414#0#14"Semantic Issue--2@69"Default property attribute 'assign' not appropriate for non-GC object-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:27:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^26#8#26#8#512#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUISwitch.h0000000000000000^16#0#16#0#414#0#14"Semantic Issue--2@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:27:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^26#8#26#8#512#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUISwitch.h0000000000000000^17#0#17#0#465#0#14"Semantic Issue--2@69"Default property attribute 'assign' not appropriate for non-GC object-404297783#18446744073709551615#0#3(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/估股/GooGuuArticleViewController.m:22:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@103"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/GooGuuArticleViewController.m0000000000000000^21#8#21#8#569#0#21"Apple LLVM 5.0 Notice--2@68"In file included from ../Pods/BuildHeaders/FlatUIKit/FlatUIKit.h:27:-404297783#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FlatUIKit.h0000000000000000^26#8#26#8#512#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/FlatUIKit/Classes/ios/FUISwitch.h0000000000000000^17#0#17#0#465#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^13074"CompileC build/InjectionBundle.build/Debug-iphonesimulator/InjectionBundle.build/Objects-normal/i386/BundleContents.o BundleContents.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/InjectionBundle.build/Debug-iphonesimulator/InjectionBundle.build/InjectionBundle-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/InjectionBundle.build/Debug-iphonesimulator/InjectionBundle.build/InjectionBundle-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/InjectionBundle.build/Debug-iphonesimulator/InjectionBundle.build/InjectionBundle-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/InjectionBundle.build/Debug-iphonesimulator/InjectionBundle.build/InjectionBundle-project-headers.hmap -iquote.. -I/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator/include -I.. -I../Build -I../googuu.xcworkspace -I../iOSInjectionProject -I../Pods -I../Test -I../估股 -I../googuu.xcworkspace/xcuserdata -I../Pods/BuildHeaders -I../Pods/FlatUIKit -I../Pods/Headers -I../Pods/HPLTagCloudGenerator -I../Pods/KKProgressTimer -I../Pods/Local\ Podspecs -I../Pods/PonyDebugger -I../Pods/SocketRocket -I../估股/BarIcon -I../估股/Images -I../估股/NibFile -I../估股/Plugs -I../googuu.xcworkspace/xcuserdata/xcode.xcuserdatad -I../Pods/BuildHeaders/FlatUIKit -I../Pods/BuildHeaders/HPLTagCloudGenerator -I../Pods/BuildHeaders/KKProgressTimer -I../Pods/BuildHeaders/PonyDebugger -I../Pods/BuildHeaders/SocketRocket -I../Pods/FlatUIKit/Classes -I../Pods/FlatUIKit/Resources -I../Pods/Headers/FlatUIKit -I../Pods/Headers/HPLTagCloudGenerator -I../Pods/Headers/KKProgressTimer -I../Pods/Headers/PonyDebugger -I../Pods/Headers/SocketRocket -I../Pods/KKProgressTimer/KKProgressTimer -I../Pods/PonyDebugger/ObjC -I../Pods/SocketRocket/SocketRocket -I../估股/Images/FinToolsIcon -I../估股/NibFile/iPad -I../估股/Plugs/ActivityView -I../估股/Plugs/Additional -I../估股/Plugs/AFNetworking -I../估股/Plugs/ASIHttpRequest -I../估股/Plugs/Classes -I../估股/Plugs/CorePlotHeaders -I../估股/Plugs/CXPhotoBrowser -I../估股/Plugs/EGOImageLoading -I../估股/Plugs/GCDiscreetNotificationView -I../估股/Plugs/IQKeyBoardManager -I../估股/Plugs/JavaScriptCore -I../估股/Plugs/JSONKit-master -I../估股/Plugs/MZFormSheetController -I../估股/Plugs/opensource -I../估股/Plugs/PrettyKit -I../估股/Plugs/SDWebImage -I../估股/Plugs/ShareSDK_v2.5.1 -I../估股/Plugs/src -I../估股/Plugs/SVPullToRefresh -I../估股/Plugs/Toast -I../估股/Plugs/TouchJSON -I../估股/Plugs/TSPopover -I../估股/Plugs/Vurig\ Calendar -I../googuu.xcworkspace/xcuserdata/xcode.xcuserdatad/xcdebugger -I../Pods/FlatUIKit/Classes/ios -I../Pods/PonyDebugger/ObjC/DerivedSources -I../Pods/PonyDebugger/ObjC/PonyDebugger -I../估股/Plugs/ActivityView/SVProgressHUD.bundle -I../估股/Plugs/ASIHttpRequest/ASIWebPageRequest -I../估股/Plugs/ASIHttpRequest/External -I../估股/Plugs/EGOImageLoading/Demo -I../估股/Plugs/PrettyKit/Cells -I../估股/Plugs/ShareSDK_v2.5.1/Connection -I../估股/Plugs/ShareSDK_v2.5.1/Core -I../估股/Plugs/ShareSDK_v2.5.1/Extend -I../估股/Plugs/ShareSDK_v2.5.1/UI -I../估股/Plugs/src/EGOImageLoading -I../估股/Plugs/TouchJSON/Experimental -I../估股/Plugs/TouchJSON/Extensions -I../估股/Plugs/TouchJSON/JSON -I../估股/Plugs/ASIHttpRequest/External/Reachability -I../估股/Plugs/ShareSDK_v2.5.1/Connection/InstapaperResource.bundle -I../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle -I../估股/Plugs/ShareSDK_v2.5.1/Extend/GooglePlusSDK -I../估股/Plugs/ShareSDK_v2.5.1/Extend/libWeiboSDK -I../估股/Plugs/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework -I../估股/Plugs/ShareSDK_v2.5.1/Extend/RenRenSDK -I../估股/Plugs/ShareSDK_v2.5.1/Extend/SDKExport -I../估股/Plugs/ShareSDK_v2.5.1/Extend/TencentOpenApi_IOS_Bundle.bundle -I../估股/Plugs/ShareSDK_v2.5.1/Extend/TencentWeiboSSO -I../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadDefaultShareViewUI.bundle -I../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadSimpleShareViewUI.bundle -I../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneDefaultShareViewUI.bundle -I../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneSimpleShareViewUI.bundle -I../估股/Plugs/src/EGOImageLoading/Demo -I../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/ActionSheet -I../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/AuthView -I../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/Common -I../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/Common_Landscape -I../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/Icon -I../估股/Plugs/ShareSDK_v2.5.1/Extend/GooglePlusSDK/GooglePlus.bundle -I../估股/Plugs/ShareSDK_v2.5.1/Extend/libWeiboSDK/WeiboSDK.bundle -I../估股/Plugs/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework/Resources -I../估股/Plugs/ShareSDK_v2.5.1/Extend/RenRenSDK/RennSDK.bundle -I../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadDefaultShareViewUI.bundle/PublishEx_iPad -I../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadDefaultShareViewUI.bundle/RefreshHeader -I../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadSimpleShareViewUI.bundle/Publish_iPad -I../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneDefaultShareViewUI.bundle/PublishEx -I../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneDefaultShareViewUI.bundle/RefreshHeader -I../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneSimpleShareViewUI.bundle/Publish -I../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneSimpleShareViewUI.bundle/Publish_Landscape -I../估股/Plugs/ShareSDK_v2.5.1/Extend/libWeiboSDK/WeiboSDK.bundle/images -I../估股/Plugs/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework/Resources/PinterestSDKResources.bundle -I../估股/Plugs/ShareSDK_v2.5.1/Extend/RenRenSDK/RennSDK.bundle/images -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/libxml2 -I/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/InjectionBundle.build/Debug-iphonesimulator/InjectionBundle.build/DerivedSources/i386 -I/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/InjectionBundle.build/Debug-iphonesimulator/InjectionBundle.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator -F.. -F../Build -F../googuu.xcworkspace -F../iOSInjectionProject -F../Pods -F../Test -F../估股 -F../googuu.xcworkspace/xcuserdata -F../Pods/BuildHeaders -F../Pods/FlatUIKit -F../Pods/Headers -F../Pods/HPLTagCloudGenerator -F../Pods/KKProgressTimer -F../Pods/Local\ Podspecs -F../Pods/PonyDebugger -F../Pods/SocketRocket -F../估股/BarIcon -F../估股/Images -F../估股/NibFile -F../估股/Plugs -F../googuu.xcworkspace/xcuserdata/xcode.xcuserdatad -F../Pods/BuildHeaders/FlatUIKit -F../Pods/BuildHeaders/HPLTagCloudGenerator -F../Pods/BuildHeaders/KKProgressTimer -F../Pods/BuildHeaders/PonyDebugger -F../Pods/BuildHeaders/SocketRocket -F../Pods/FlatUIKit/Classes -F../Pods/FlatUIKit/Resources -F../Pods/Headers/FlatUIKit -F../Pods/Headers/HPLTagCloudGenerator -F../Pods/Headers/KKProgressTimer -F../Pods/Headers/PonyDebugger -F../Pods/Headers/SocketRocket -F../Pods/KKProgressTimer/KKProgressTimer -F../Pods/PonyDebugger/ObjC -F../Pods/SocketRocket/SocketRocket -F../估股/Images/FinToolsIcon -F../估股/NibFile/iPad -F../估股/Plugs/ActivityView -F../估股/Plugs/Additional -F../估股/Plugs/AFNetworking -F../估股/Plugs/ASIHttpRequest -F../估股/Plugs/Classes -F../估股/Plugs/CorePlotHeaders -F../估股/Plugs/CXPhotoBrowser -F../估股/Plugs/EGOImageLoading -F../估股/Plugs/GCDiscreetNotificationView -F../估股/Plugs/IQKeyBoardManager -F../估股/Plugs/JavaScriptCore -F../估股/Plugs/JSONKit-master -F../估股/Plugs/MZFormSheetController -F../估股/Plugs/opensource -F../估股/Plugs/PrettyKit -F../估股/Plugs/SDWebImage -F../估股/Plugs/ShareSDK_v2.5.1 -F../估股/Plugs/src -F../估股/Plugs/SVPullToRefresh -F../估股/Plugs/Toast -F../估股/Plugs/TouchJSON -F../估股/Plugs/TSPopover -F../估股/Plugs/Vurig\ Calendar -F../googuu.xcworkspace/xcuserdata/xcode.xcuserdatad/xcdebugger -F../Pods/FlatUIKit/Classes/ios -F../Pods/PonyDebugger/ObjC/DerivedSources -F../Pods/PonyDebugger/ObjC/PonyDebugger -F../估股/Plugs/ActivityView/SVProgressHUD.bundle -F../估股/Plugs/ASIHttpRequest/ASIWebPageRequest -F../估股/Plugs/ASIHttpRequest/External -F../估股/Plugs/EGOImageLoading/Demo -F../估股/Plugs/PrettyKit/Cells -F../估股/Plugs/ShareSDK_v2.5.1/Connection -F../估股/Plugs/ShareSDK_v2.5.1/Core -F../估股/Plugs/ShareSDK_v2.5.1/Extend -F../估股/Plugs/ShareSDK_v2.5.1/UI -F../估股/Plugs/src/EGOImageLoading -F../估股/Plugs/TouchJSON/Experimental -F../估股/Plugs/TouchJSON/Extensions -F../估股/Plugs/TouchJSON/JSON -F../估股/Plugs/ASIHttpRequest/External/Reachability -F../估股/Plugs/ShareSDK_v2.5.1/Connection/InstapaperResource.bundle -F../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle -F../估股/Plugs/ShareSDK_v2.5.1/Extend/GooglePlusSDK -F../估股/Plugs/ShareSDK_v2.5.1/Extend/libWeiboSDK -F../估股/Plugs/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework -F../估股/Plugs/ShareSDK_v2.5.1/Extend/RenRenSDK -F../估股/Plugs/ShareSDK_v2.5.1/Extend/SDKExport -F../估股/Plugs/ShareSDK_v2.5.1/Extend/TencentOpenApi_IOS_Bundle.bundle -F../估股/Plugs/ShareSDK_v2.5.1/Extend/TencentWeiboSSO -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadDefaultShareViewUI.bundle -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadSimpleShareViewUI.bundle -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneDefaultShareViewUI.bundle -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneSimpleShareViewUI.bundle -F../估股/Plugs/src/EGOImageLoading/Demo -F../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/ActionSheet -F../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/AuthView -F../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/Common -F../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/Common_Landscape -F../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/Icon -F../估股/Plugs/ShareSDK_v2.5.1/Extend/GooglePlusSDK/GooglePlus.bundle -F../估股/Plugs/ShareSDK_v2.5.1/Extend/libWeiboSDK/WeiboSDK.bundle -F../估股/Plugs/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework/Resources -F../估股/Plugs/ShareSDK_v2.5.1/Extend/RenRenSDK/RennSDK.bundle -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadDefaultShareViewUI.bundle/PublishEx_iPad -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadDefaultShareViewUI.bundle/RefreshHeader -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadSimpleShareViewUI.bundle/Publish_iPad -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneDefaultShareViewUI.bundle/PublishEx -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneDefaultShareViewUI.bundle/RefreshHeader -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneSimpleShareViewUI.bundle/Publish -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneSimpleShareViewUI.bundle/Publish_Landscape -F../估股/Plugs/ShareSDK_v2.5.1/Extend/libWeiboSDK/WeiboSDK.bundle/images -F../估股/Plugs/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework/Resources/PinterestSDKResources.bundle -F../估股/Plugs/ShareSDK_v2.5.1/Extend/RenRenSDK/RennSDK.bundle/images -include /var/folders/2l/70p8mcj94kqds4th5mfxj5900000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/InjectionBundle-Prefix-evjyrfkrwhvddndtbertvfapqnbi/InjectionBundle-Prefix.pch -MMD -MT dependencies 36"921CF19C-D2E2-4FE1-BC36-FDB5E5A669B0-
-bC23D59C8-6993-46DE-A4D0-1BF2CDFF46BD
+o/Users/xcode/wanax/oc/GooGuu1.2-master/估股/ArticleCommentViewController.m:241:13: warning: unused variable 'font' [-Wunused-variable]
+o    UIFont *font =[UIFont fontWithName:@"Heiti SC" size:12.0];
+o            ^
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m202"CompileC build/InjectionBundle.build/Debug-iphonesimulator/InjectionBundle.build/Objects-normal/i386/BundleContents.o BundleContents.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler53eba1ab0a22b841^d026c7ab0a22b841^-337"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:/Users/xcode/wanax/oc/GooGuu1.2-master/估股/ArticleCommentViewController.m:241:13: warning: unused variable 'font' [-Wunused-variable]    UIFont *font =[UIFont fontWithName:@"Heiti SC" size:12.0];            ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@22"Unused variable 'font'-404884139#18446744073709551615#0#1(2@101"In file included from /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m:21:-404884139#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^20#8#20#8#387#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@104"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/%E4%BC%B0%E8%82%A1/ArticleCommentViewController.m0000000000000000^240#12#240#12#9129#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@91"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/BundleContents.m0000000000000000^13074"CompileC build/InjectionBundle.build/Debug-iphonesimulator/InjectionBundle.build/Objects-normal/i386/BundleContents.o BundleContents.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/InjectionBundle.build/Debug-iphonesimulator/InjectionBundle.build/InjectionBundle-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/InjectionBundle.build/Debug-iphonesimulator/InjectionBundle.build/InjectionBundle-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/InjectionBundle.build/Debug-iphonesimulator/InjectionBundle.build/InjectionBundle-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/InjectionBundle.build/Debug-iphonesimulator/InjectionBundle.build/InjectionBundle-project-headers.hmap -iquote.. -I/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator/include -I.. -I../Build -I../googuu.xcworkspace -I../iOSInjectionProject -I../Pods -I../Test -I../估股 -I../googuu.xcworkspace/xcuserdata -I../Pods/BuildHeaders -I../Pods/FlatUIKit -I../Pods/Headers -I../Pods/HPLTagCloudGenerator -I../Pods/KKProgressTimer -I../Pods/Local\ Podspecs -I../Pods/PonyDebugger -I../Pods/SocketRocket -I../估股/BarIcon -I../估股/Images -I../估股/NibFile -I../估股/Plugs -I../googuu.xcworkspace/xcuserdata/xcode.xcuserdatad -I../Pods/BuildHeaders/FlatUIKit -I../Pods/BuildHeaders/HPLTagCloudGenerator -I../Pods/BuildHeaders/KKProgressTimer -I../Pods/BuildHeaders/PonyDebugger -I../Pods/BuildHeaders/SocketRocket -I../Pods/FlatUIKit/Classes -I../Pods/FlatUIKit/Resources -I../Pods/Headers/FlatUIKit -I../Pods/Headers/HPLTagCloudGenerator -I../Pods/Headers/KKProgressTimer -I../Pods/Headers/PonyDebugger -I../Pods/Headers/SocketRocket -I../Pods/KKProgressTimer/KKProgressTimer -I../Pods/PonyDebugger/ObjC -I../Pods/SocketRocket/SocketRocket -I../估股/Images/FinToolsIcon -I../估股/NibFile/iPad -I../估股/Plugs/ActivityView -I../估股/Plugs/Additional -I../估股/Plugs/AFNetworking -I../估股/Plugs/ASIHttpRequest -I../估股/Plugs/Classes -I../估股/Plugs/CorePlotHeaders -I../估股/Plugs/CXPhotoBrowser -I../估股/Plugs/EGOImageLoading -I../估股/Plugs/GCDiscreetNotificationView -I../估股/Plugs/IQKeyBoardManager -I../估股/Plugs/JavaScriptCore -I../估股/Plugs/JSONKit-master -I../估股/Plugs/MZFormSheetController -I../估股/Plugs/opensource -I../估股/Plugs/PrettyKit -I../估股/Plugs/SDWebImage -I../估股/Plugs/ShareSDK_v2.5.1 -I../估股/Plugs/src -I../估股/Plugs/SVPullToRefresh -I../估股/Plugs/Toast -I../估股/Plugs/TouchJSON -I../估股/Plugs/TSPopover -I../估股/Plugs/Vurig\ Calendar -I../googuu.xcworkspace/xcuserdata/xcode.xcuserdatad/xcdebugger -I../Pods/FlatUIKit/Classes/ios -I../Pods/PonyDebugger/ObjC/DerivedSources -I../Pods/PonyDebugger/ObjC/PonyDebugger -I../估股/Plugs/ActivityView/SVProgressHUD.bundle -I../估股/Plugs/ASIHttpRequest/ASIWebPageRequest -I../估股/Plugs/ASIHttpRequest/External -I../估股/Plugs/EGOImageLoading/Demo -I../估股/Plugs/PrettyKit/Cells -I../估股/Plugs/ShareSDK_v2.5.1/Connection -I../估股/Plugs/ShareSDK_v2.5.1/Core -I../估股/Plugs/ShareSDK_v2.5.1/Extend -I../估股/Plugs/ShareSDK_v2.5.1/UI -I../估股/Plugs/src/EGOImageLoading -I../估股/Plugs/TouchJSON/Experimental -I../估股/Plugs/TouchJSON/Extensions -I../估股/Plugs/TouchJSON/JSON -I../估股/Plugs/ASIHttpRequest/External/Reachability -I../估股/Plugs/ShareSDK_v2.5.1/Connection/InstapaperResource.bundle -I../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle -I../估股/Plugs/ShareSDK_v2.5.1/Extend/GooglePlusSDK -I../估股/Plugs/ShareSDK_v2.5.1/Extend/libWeiboSDK -I../估股/Plugs/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework -I../估股/Plugs/ShareSDK_v2.5.1/Extend/RenRenSDK -I../估股/Plugs/ShareSDK_v2.5.1/Extend/SDKExport -I../估股/Plugs/ShareSDK_v2.5.1/Extend/TencentOpenApi_IOS_Bundle.bundle -I../估股/Plugs/ShareSDK_v2.5.1/Extend/TencentWeiboSSO -I../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadDefaultShareViewUI.bundle -I../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadSimpleShareViewUI.bundle -I../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneDefaultShareViewUI.bundle -I../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneSimpleShareViewUI.bundle -I../估股/Plugs/src/EGOImageLoading/Demo -I../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/ActionSheet -I../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/AuthView -I../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/Common -I../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/Common_Landscape -I../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/Icon -I../估股/Plugs/ShareSDK_v2.5.1/Extend/GooglePlusSDK/GooglePlus.bundle -I../估股/Plugs/ShareSDK_v2.5.1/Extend/libWeiboSDK/WeiboSDK.bundle -I../估股/Plugs/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework/Resources -I../估股/Plugs/ShareSDK_v2.5.1/Extend/RenRenSDK/RennSDK.bundle -I../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadDefaultShareViewUI.bundle/PublishEx_iPad -I../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadDefaultShareViewUI.bundle/RefreshHeader -I../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadSimpleShareViewUI.bundle/Publish_iPad -I../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneDefaultShareViewUI.bundle/PublishEx -I../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneDefaultShareViewUI.bundle/RefreshHeader -I../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneSimpleShareViewUI.bundle/Publish -I../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneSimpleShareViewUI.bundle/Publish_Landscape -I../估股/Plugs/ShareSDK_v2.5.1/Extend/libWeiboSDK/WeiboSDK.bundle/images -I../估股/Plugs/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework/Resources/PinterestSDKResources.bundle -I../估股/Plugs/ShareSDK_v2.5.1/Extend/RenRenSDK/RennSDK.bundle/images -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/include/libxml2 -I/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/InjectionBundle.build/Debug-iphonesimulator/InjectionBundle.build/DerivedSources/i386 -I/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/InjectionBundle.build/Debug-iphonesimulator/InjectionBundle.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator -F.. -F../Build -F../googuu.xcworkspace -F../iOSInjectionProject -F../Pods -F../Test -F../估股 -F../googuu.xcworkspace/xcuserdata -F../Pods/BuildHeaders -F../Pods/FlatUIKit -F../Pods/Headers -F../Pods/HPLTagCloudGenerator -F../Pods/KKProgressTimer -F../Pods/Local\ Podspecs -F../Pods/PonyDebugger -F../Pods/SocketRocket -F../估股/BarIcon -F../估股/Images -F../估股/NibFile -F../估股/Plugs -F../googuu.xcworkspace/xcuserdata/xcode.xcuserdatad -F../Pods/BuildHeaders/FlatUIKit -F../Pods/BuildHeaders/HPLTagCloudGenerator -F../Pods/BuildHeaders/KKProgressTimer -F../Pods/BuildHeaders/PonyDebugger -F../Pods/BuildHeaders/SocketRocket -F../Pods/FlatUIKit/Classes -F../Pods/FlatUIKit/Resources -F../Pods/Headers/FlatUIKit -F../Pods/Headers/HPLTagCloudGenerator -F../Pods/Headers/KKProgressTimer -F../Pods/Headers/PonyDebugger -F../Pods/Headers/SocketRocket -F../Pods/KKProgressTimer/KKProgressTimer -F../Pods/PonyDebugger/ObjC -F../Pods/SocketRocket/SocketRocket -F../估股/Images/FinToolsIcon -F../估股/NibFile/iPad -F../估股/Plugs/ActivityView -F../估股/Plugs/Additional -F../估股/Plugs/AFNetworking -F../估股/Plugs/ASIHttpRequest -F../估股/Plugs/Classes -F../估股/Plugs/CorePlotHeaders -F../估股/Plugs/CXPhotoBrowser -F../估股/Plugs/EGOImageLoading -F../估股/Plugs/GCDiscreetNotificationView -F../估股/Plugs/IQKeyBoardManager -F../估股/Plugs/JavaScriptCore -F../估股/Plugs/JSONKit-master -F../估股/Plugs/MZFormSheetController -F../估股/Plugs/opensource -F../估股/Plugs/PrettyKit -F../估股/Plugs/SDWebImage -F../估股/Plugs/ShareSDK_v2.5.1 -F../估股/Plugs/src -F../估股/Plugs/SVPullToRefresh -F../估股/Plugs/Toast -F../估股/Plugs/TouchJSON -F../估股/Plugs/TSPopover -F../估股/Plugs/Vurig\ Calendar -F../googuu.xcworkspace/xcuserdata/xcode.xcuserdatad/xcdebugger -F../Pods/FlatUIKit/Classes/ios -F../Pods/PonyDebugger/ObjC/DerivedSources -F../Pods/PonyDebugger/ObjC/PonyDebugger -F../估股/Plugs/ActivityView/SVProgressHUD.bundle -F../估股/Plugs/ASIHttpRequest/ASIWebPageRequest -F../估股/Plugs/ASIHttpRequest/External -F../估股/Plugs/EGOImageLoading/Demo -F../估股/Plugs/PrettyKit/Cells -F../估股/Plugs/ShareSDK_v2.5.1/Connection -F../估股/Plugs/ShareSDK_v2.5.1/Core -F../估股/Plugs/ShareSDK_v2.5.1/Extend -F../估股/Plugs/ShareSDK_v2.5.1/UI -F../估股/Plugs/src/EGOImageLoading -F../估股/Plugs/TouchJSON/Experimental -F../估股/Plugs/TouchJSON/Extensions -F../估股/Plugs/TouchJSON/JSON -F../估股/Plugs/ASIHttpRequest/External/Reachability -F../估股/Plugs/ShareSDK_v2.5.1/Connection/InstapaperResource.bundle -F../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle -F../估股/Plugs/ShareSDK_v2.5.1/Extend/GooglePlusSDK -F../估股/Plugs/ShareSDK_v2.5.1/Extend/libWeiboSDK -F../估股/Plugs/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework -F../估股/Plugs/ShareSDK_v2.5.1/Extend/RenRenSDK -F../估股/Plugs/ShareSDK_v2.5.1/Extend/SDKExport -F../估股/Plugs/ShareSDK_v2.5.1/Extend/TencentOpenApi_IOS_Bundle.bundle -F../估股/Plugs/ShareSDK_v2.5.1/Extend/TencentWeiboSSO -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadDefaultShareViewUI.bundle -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadSimpleShareViewUI.bundle -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneDefaultShareViewUI.bundle -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneSimpleShareViewUI.bundle -F../估股/Plugs/src/EGOImageLoading/Demo -F../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/ActionSheet -F../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/AuthView -F../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/Common -F../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/Common_Landscape -F../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/Icon -F../估股/Plugs/ShareSDK_v2.5.1/Extend/GooglePlusSDK/GooglePlus.bundle -F../估股/Plugs/ShareSDK_v2.5.1/Extend/libWeiboSDK/WeiboSDK.bundle -F../估股/Plugs/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework/Resources -F../估股/Plugs/ShareSDK_v2.5.1/Extend/RenRenSDK/RennSDK.bundle -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadDefaultShareViewUI.bundle/PublishEx_iPad -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadDefaultShareViewUI.bundle/RefreshHeader -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadSimpleShareViewUI.bundle/Publish_iPad -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneDefaultShareViewUI.bundle/PublishEx -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneDefaultShareViewUI.bundle/RefreshHeader -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneSimpleShareViewUI.bundle/Publish -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneSimpleShareViewUI.bundle/Publish_Landscape -F../估股/Plugs/ShareSDK_v2.5.1/Extend/libWeiboSDK/WeiboSDK.bundle/images -F../估股/Plugs/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework/Resources/PinterestSDKResources.bundle -F../估股/Plugs/ShareSDK_v2.5.1/Extend/RenRenSDK/RennSDK.bundle/images -include /var/folders/2l/70p8mcj94kqds4th5mfxj5900000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/SharedPrecompiledHeaders/InjectionBundle-Prefix-evjyrfkrwhvddndtbertvfapqnbi/InjectionBundle-Prefix.pch -MMD -MT dependencies 36"C05B8E5C-0AFB-4F61-9BEB-9E27431F57D6-
+b439C8488-9A62-4E01-8DA6-ACFBA8190E72
 
 CGenerateDSYMFile /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/iOSInjectionProject/build/Debug-iphonesimulator/InjectionBundle.bundle.dSYM /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/iOSInjectionProject/build/Debug-iphonesimulator/InjectionBundle.bundle/InjectionBundle
 s403517152.370404
@@ -1621,14 +1980,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection154"Genera
 b939E15FF-BC36-4D22-AA3D-791B2B534A95
 
 CGenerateDSYMFile /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator/InjectionBundle.bundle.dSYM /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator/InjectionBundle.bundle/InjectionBundle
-s404297784.410164
-e404297784.556135
+s404884139.862373
+e404884139.886088
 r1
 xGenerateDSYMFile
 x/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator/InjectionBundle.bundle.dSYM
 x/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator/InjectionBundle.bundle/InjectionBundle
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Generate /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator/InjectionBundle.bundle.dSYM139"GenerateDSYMFile build/Debug-iphonesimulator/InjectionBundle.bundle.dSYM build/Debug-iphonesimulator/InjectionBundle.bundle/InjectionBundle711b69381819b841^b75f8e381819b841^---0#0#1#-19%DVTDocumentLocation2@131"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator/InjectionBundle.bundle.dSYM/0000000000000000^796"GenerateDSYMFile build/Debug-iphonesimulator/InjectionBundle.bundle.dSYM build/Debug-iphonesimulator/InjectionBundle.bundle/InjectionBundle    cd /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator/InjectionBundle.bundle/InjectionBundle -o /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator/InjectionBundle.bundle.dSYM36"ECE8863F-3FE3-458A-AFF8-1F2293C657D7-
-bC23D59C8-6993-46DE-A4D0-1BF2CDFF46BD
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Generate /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator/InjectionBundle.bundle.dSYM139"GenerateDSYMFile build/Debug-iphonesimulator/InjectionBundle.bundle.dSYM build/Debug-iphonesimulator/InjectionBundle.bundle/InjectionBundlec2dedcab0a22b841^dcd6e2ab0a22b841^---0#0#1#-19%DVTDocumentLocation2@131"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator/InjectionBundle.bundle.dSYM/0000000000000000^796"GenerateDSYMFile build/Debug-iphonesimulator/InjectionBundle.bundle.dSYM build/Debug-iphonesimulator/InjectionBundle.bundle/InjectionBundle    cd /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator/InjectionBundle.bundle/InjectionBundle -o /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator/InjectionBundle.bundle.dSYM36"C8EA2858-BA5E-41DA-9B1D-165334129CDA-
+b439C8488-9A62-4E01-8DA6-ACFBA8190E72
 
 CLd /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/iOSInjectionProject/build/Debug-iphonesimulator/InjectionBundle.bundle/InjectionBundle normal i386
 s403517151.857006
@@ -1697,8 +2056,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection161"Link /
 b939E15FF-BC36-4D22-AA3D-791B2B534A95
 
 CLd /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator/InjectionBundle.bundle/InjectionBundle normal i386
-s404297783.528261
-e404297784.394239
+s404884139.787229
+e404884139.853209
 r1
 xLd
 x/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator/InjectionBundle.bundle/InjectionBundle
@@ -1715,6 +2074,7 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/D
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
 d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
@@ -1737,7 +2097,6 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/D
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
 d/usr/lib/libSystem.B.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 d/usr/lib/system/libcache.dylib
 d/usr/lib/system/libcommonCrypto.dylib
 d/usr/lib/system/libcompiler_rt.dylib
@@ -1760,8 +2119,8 @@ d/usr/lib/system/libsystem_sandbox.dylib
 d/usr/lib/system/libunc.dylib
 d/usr/lib/system/libunwind.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Link /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator/InjectionBundle.bundle/InjectionBundle81"Ld build/Debug-iphonesimulator/InjectionBundle.bundle/InjectionBundle normal i3863d6387371819b841^e1ee64381819b841^---0#0#1#--6229"Ld build/Debug-iphonesimulator/InjectionBundle.bundle/InjectionBundle normal i386    cd /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator -F/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator -F.. -F../Build -F../googuu.xcworkspace -F../iOSInjectionProject -F../Pods -F../Test -F../估股 -F../googuu.xcworkspace/xcuserdata -F../Pods/BuildHeaders -F../Pods/FlatUIKit -F../Pods/Headers -F../Pods/HPLTagCloudGenerator -F../Pods/KKProgressTimer -F../Pods/Local\ Podspecs -F../Pods/PonyDebugger -F../Pods/SocketRocket -F../估股/BarIcon -F../估股/Images -F../估股/NibFile -F../估股/Plugs -F../googuu.xcworkspace/xcuserdata/xcode.xcuserdatad -F../Pods/BuildHeaders/FlatUIKit -F../Pods/BuildHeaders/HPLTagCloudGenerator -F../Pods/BuildHeaders/KKProgressTimer -F../Pods/BuildHeaders/PonyDebugger -F../Pods/BuildHeaders/SocketRocket -F../Pods/FlatUIKit/Classes -F../Pods/FlatUIKit/Resources -F../Pods/Headers/FlatUIKit -F../Pods/Headers/HPLTagCloudGenerator -F../Pods/Headers/KKProgressTimer -F../Pods/Headers/PonyDebugger -F../Pods/Headers/SocketRocket -F../Pods/KKProgressTimer/KKProgressTimer -F../Pods/PonyDebugger/ObjC -F../Pods/SocketRocket/SocketRocket -F../估股/Images/FinToolsIcon -F../估股/NibFile/iPad -F../估股/Plugs/ActivityView -F../估股/Plugs/Additional -F../估股/Plugs/AFNetworking -F../估股/Plugs/ASIHttpRequest -F../估股/Plugs/Classes -F../估股/Plugs/CorePlotHeaders -F../估股/Plugs/CXPhotoBrowser -F../估股/Plugs/EGOImageLoading -F../估股/Plugs/GCDiscreetNotificationView -F../估股/Plugs/IQKeyBoardManager -F../估股/Plugs/JavaScriptCore -F../估股/Plugs/JSONKit-master -F../估股/Plugs/MZFormSheetController -F../估股/Plugs/opensource -F../估股/Plugs/PrettyKit -F../估股/Plugs/SDWebImage -F../估股/Plugs/ShareSDK_v2.5.1 -F../估股/Plugs/src -F../估股/Plugs/SVPullToRefresh -F../估股/Plugs/Toast -F../估股/Plugs/TouchJSON -F../估股/Plugs/TSPopover -F../估股/Plugs/Vurig\ Calendar -F../googuu.xcworkspace/xcuserdata/xcode.xcuserdatad/xcdebugger -F../Pods/FlatUIKit/Classes/ios -F../Pods/PonyDebugger/ObjC/DerivedSources -F../Pods/PonyDebugger/ObjC/PonyDebugger -F../估股/Plugs/ActivityView/SVProgressHUD.bundle -F../估股/Plugs/ASIHttpRequest/ASIWebPageRequest -F../估股/Plugs/ASIHttpRequest/External -F../估股/Plugs/EGOImageLoading/Demo -F../估股/Plugs/PrettyKit/Cells -F../估股/Plugs/ShareSDK_v2.5.1/Connection -F../估股/Plugs/ShareSDK_v2.5.1/Core -F../估股/Plugs/ShareSDK_v2.5.1/Extend -F../估股/Plugs/ShareSDK_v2.5.1/UI -F../估股/Plugs/src/EGOImageLoading -F../估股/Plugs/TouchJSON/Experimental -F../估股/Plugs/TouchJSON/Extensions -F../估股/Plugs/TouchJSON/JSON -F../估股/Plugs/ASIHttpRequest/External/Reachability -F../估股/Plugs/ShareSDK_v2.5.1/Connection/InstapaperResource.bundle -F../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle -F../估股/Plugs/ShareSDK_v2.5.1/Extend/GooglePlusSDK -F../估股/Plugs/ShareSDK_v2.5.1/Extend/libWeiboSDK -F../估股/Plugs/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework -F../估股/Plugs/ShareSDK_v2.5.1/Extend/RenRenSDK -F../估股/Plugs/ShareSDK_v2.5.1/Extend/SDKExport -F../估股/Plugs/ShareSDK_v2.5.1/Extend/TencentOpenApi_IOS_Bundle.bundle -F../估股/Plugs/ShareSDK_v2.5.1/Extend/TencentWeiboSSO -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadDefaultShareViewUI.bundle -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadSimpleShareViewUI.bundle -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneDefaultShareViewUI.bundle -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneSimpleShareViewUI.bundle -F../估股/Plugs/src/EGOImageLoading/Demo -F../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/ActionSheet -F../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/AuthView -F../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/Common -F../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/Common_Landscape -F../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/Icon -F../估股/Plugs/ShareSDK_v2.5.1/Extend/GooglePlusSDK/GooglePlus.bundle -F../估股/Plugs/ShareSDK_v2.5.1/Extend/libWeiboSDK/WeiboSDK.bundle -F../估股/Plugs/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework/Resources -F../估股/Plugs/ShareSDK_v2.5.1/Extend/RenRenSDK/RennSDK.bundle -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadDefaultShareViewUI.bundle/PublishEx_iPad -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadDefaultShareViewUI.bundle/RefreshHeader -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadSimpleShareViewUI.bundle/Publish_iPad -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneDefaultShareViewUI.bundle/PublishEx -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneDefaultShareViewUI.bundle/RefreshHeader -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneSimpleShareViewUI.bundle/Publish -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneSimpleShareViewUI.bundle/Publish_Landscape -F../估股/Plugs/ShareSDK_v2.5.1/Extend/libWeiboSDK/WeiboSDK.bundle/images -F../估股/Plugs/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework/Resources/PinterestSDKResources.bundle -F../估股/Plugs/ShareSDK_v2.5.1/Extend/RenRenSDK/RennSDK.bundle/images -filelist /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/InjectionBundle.build/Debug-iphonesimulator/InjectionBundle.build/Objects-normal/i386/InjectionBundle.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -undefined dynamic_lookup -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.1 -framework UIKit -framework QuartzCore -framework OpenGLES -framework Foundation -framework CoreGraphics -Xlinker -dependency_info -Xlinker /Users/x36"59BFB93C-A497-44A7-AC7D-6A662BB796D5-
-bC23D59C8-6993-46DE-A4D0-1BF2CDFF46BD
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Link /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator/InjectionBundle.bundle/InjectionBundle81"Ld build/Debug-iphonesimulator/InjectionBundle.bundle/InjectionBundle normal i38640a6c9ab0a22b841^1a6cdaab0a22b841^---0#0#1#--6229"Ld build/Debug-iphonesimulator/InjectionBundle.bundle/InjectionBundle normal i386    cd /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator -F/Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/Debug-iphonesimulator -F.. -F../Build -F../googuu.xcworkspace -F../iOSInjectionProject -F../Pods -F../Test -F../估股 -F../googuu.xcworkspace/xcuserdata -F../Pods/BuildHeaders -F../Pods/FlatUIKit -F../Pods/Headers -F../Pods/HPLTagCloudGenerator -F../Pods/KKProgressTimer -F../Pods/Local\ Podspecs -F../Pods/PonyDebugger -F../Pods/SocketRocket -F../估股/BarIcon -F../估股/Images -F../估股/NibFile -F../估股/Plugs -F../googuu.xcworkspace/xcuserdata/xcode.xcuserdatad -F../Pods/BuildHeaders/FlatUIKit -F../Pods/BuildHeaders/HPLTagCloudGenerator -F../Pods/BuildHeaders/KKProgressTimer -F../Pods/BuildHeaders/PonyDebugger -F../Pods/BuildHeaders/SocketRocket -F../Pods/FlatUIKit/Classes -F../Pods/FlatUIKit/Resources -F../Pods/Headers/FlatUIKit -F../Pods/Headers/HPLTagCloudGenerator -F../Pods/Headers/KKProgressTimer -F../Pods/Headers/PonyDebugger -F../Pods/Headers/SocketRocket -F../Pods/KKProgressTimer/KKProgressTimer -F../Pods/PonyDebugger/ObjC -F../Pods/SocketRocket/SocketRocket -F../估股/Images/FinToolsIcon -F../估股/NibFile/iPad -F../估股/Plugs/ActivityView -F../估股/Plugs/Additional -F../估股/Plugs/AFNetworking -F../估股/Plugs/ASIHttpRequest -F../估股/Plugs/Classes -F../估股/Plugs/CorePlotHeaders -F../估股/Plugs/CXPhotoBrowser -F../估股/Plugs/EGOImageLoading -F../估股/Plugs/GCDiscreetNotificationView -F../估股/Plugs/IQKeyBoardManager -F../估股/Plugs/JavaScriptCore -F../估股/Plugs/JSONKit-master -F../估股/Plugs/MZFormSheetController -F../估股/Plugs/opensource -F../估股/Plugs/PrettyKit -F../估股/Plugs/SDWebImage -F../估股/Plugs/ShareSDK_v2.5.1 -F../估股/Plugs/src -F../估股/Plugs/SVPullToRefresh -F../估股/Plugs/Toast -F../估股/Plugs/TouchJSON -F../估股/Plugs/TSPopover -F../估股/Plugs/Vurig\ Calendar -F../googuu.xcworkspace/xcuserdata/xcode.xcuserdatad/xcdebugger -F../Pods/FlatUIKit/Classes/ios -F../Pods/PonyDebugger/ObjC/DerivedSources -F../Pods/PonyDebugger/ObjC/PonyDebugger -F../估股/Plugs/ActivityView/SVProgressHUD.bundle -F../估股/Plugs/ASIHttpRequest/ASIWebPageRequest -F../估股/Plugs/ASIHttpRequest/External -F../估股/Plugs/EGOImageLoading/Demo -F../估股/Plugs/PrettyKit/Cells -F../估股/Plugs/ShareSDK_v2.5.1/Connection -F../估股/Plugs/ShareSDK_v2.5.1/Core -F../估股/Plugs/ShareSDK_v2.5.1/Extend -F../估股/Plugs/ShareSDK_v2.5.1/UI -F../估股/Plugs/src/EGOImageLoading -F../估股/Plugs/TouchJSON/Experimental -F../估股/Plugs/TouchJSON/Extensions -F../估股/Plugs/TouchJSON/JSON -F../估股/Plugs/ASIHttpRequest/External/Reachability -F../估股/Plugs/ShareSDK_v2.5.1/Connection/InstapaperResource.bundle -F../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle -F../估股/Plugs/ShareSDK_v2.5.1/Extend/GooglePlusSDK -F../估股/Plugs/ShareSDK_v2.5.1/Extend/libWeiboSDK -F../估股/Plugs/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework -F../估股/Plugs/ShareSDK_v2.5.1/Extend/RenRenSDK -F../估股/Plugs/ShareSDK_v2.5.1/Extend/SDKExport -F../估股/Plugs/ShareSDK_v2.5.1/Extend/TencentOpenApi_IOS_Bundle.bundle -F../估股/Plugs/ShareSDK_v2.5.1/Extend/TencentWeiboSSO -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadDefaultShareViewUI.bundle -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadSimpleShareViewUI.bundle -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneDefaultShareViewUI.bundle -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneSimpleShareViewUI.bundle -F../估股/Plugs/src/EGOImageLoading/Demo -F../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/ActionSheet -F../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/AuthView -F../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/Common -F../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/Common_Landscape -F../估股/Plugs/ShareSDK_v2.5.1/Core/Resource.bundle/Icon -F../估股/Plugs/ShareSDK_v2.5.1/Extend/GooglePlusSDK/GooglePlus.bundle -F../估股/Plugs/ShareSDK_v2.5.1/Extend/libWeiboSDK/WeiboSDK.bundle -F../估股/Plugs/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework/Resources -F../估股/Plugs/ShareSDK_v2.5.1/Extend/RenRenSDK/RennSDK.bundle -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadDefaultShareViewUI.bundle/PublishEx_iPad -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadDefaultShareViewUI.bundle/RefreshHeader -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPadSimpleShareViewUI.bundle/Publish_iPad -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneDefaultShareViewUI.bundle/PublishEx -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneDefaultShareViewUI.bundle/RefreshHeader -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneSimpleShareViewUI.bundle/Publish -F../估股/Plugs/ShareSDK_v2.5.1/UI/ShareSDKiPhoneSimpleShareViewUI.bundle/Publish_Landscape -F../估股/Plugs/ShareSDK_v2.5.1/Extend/libWeiboSDK/WeiboSDK.bundle/images -F../估股/Plugs/ShareSDK_v2.5.1/Extend/Pinterest.embeddedframework/Resources/PinterestSDKResources.bundle -F../估股/Plugs/ShareSDK_v2.5.1/Extend/RenRenSDK/RennSDK.bundle/images -filelist /Users/xcode/wanax/oc/GooGuu1.2-master/iOSInjectionProject/build/InjectionBundle.build/Debug-iphonesimulator/InjectionBundle.build/Objects-normal/i386/InjectionBundle.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -undefined dynamic_lookup -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.1 -framework UIKit -framework QuartzCore -framework OpenGLES -framework Foundation -framework CoreGraphics -Xlinker -dependency_info -Xlinker /Users/x36"D8545EDB-62CA-4F47-923E-A20B5976770E-
+b439C8488-9A62-4E01-8DA6-ACFBA8190E72
 
 CProcessInfoPlistFile /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/iOSInjectionProject/build/Debug-iphonesimulator/InjectionBundle.bundle/Info.plist /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/iOSInjectionProject/InjectionBundle-Info.plist
 s402982338.939164
