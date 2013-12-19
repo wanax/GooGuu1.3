@@ -88,7 +88,7 @@
         self.articleId=[[temp lastObject] objectForKey:@"articleid"];
         [self.cusTable reloadData];
         [_refreshHeaderView egoRefreshScrollViewDataSourceDidFinishedLoading:self.cusTable];
-        
+        [self.cusTable.infiniteScrollingView stopAnimating];
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         
     }];

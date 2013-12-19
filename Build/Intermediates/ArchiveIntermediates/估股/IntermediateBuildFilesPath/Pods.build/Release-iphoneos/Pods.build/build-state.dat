@@ -1,197 +1,0 @@
-TPods
-v6
-r1
-cCheck dependencies
-cSymLink /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/BuildProductsPath/Release-iphoneos/libPods.a /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a
-cCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/libPods.a normal armv7
-cLibtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a normal armv7s
-cCreateUniversalBinary /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a normal armv7\ armv7s
-cSetOwnerAndGroup xcode:staff /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a
-cSetMode u+w,go-w,a+rX /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
-c00000000521BCCE10000000000000110
-t1377553633
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
-c000000005244EEB6000000000000036B
-t1380249270
-s875
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
-c000000005244EEB7000000000000019E
-t1380249271
-s414
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000005244EEBB0000000000A8EAD0
-t1380249275
-s11070160
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/BuildProductsPath/Release-iphoneos/libPods-FlatUIKit.a
-c000000005272061F00000000001BC970
-t1383204383
-s1821040
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/BuildProductsPath/Release-iphoneos/libPods-HPLTagCloudGenerator.a
-c000000005272061E0000000000020DC8
-t1383204382
-s134600
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/BuildProductsPath/Release-iphoneos/libPods-KKProgressTimer.a
-c000000005272061E0000000000022248
-t1383204382
-s139848
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/BuildProductsPath/Release-iphoneos/libPods-PonyDebugger.a
-c000000005272062400000000003AFE08
-t1383204388
-s3866120
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/BuildProductsPath/Release-iphoneos/libPods-SocketRocket.a
-c000000005272061E0000000000062D70
-t1383204382
-s404848
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/BuildProductsPath/Release-iphoneos/libPods.a
-t2
-s0
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o
-t1383204389
-s3364
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods.LinkFileList
-c000000005272062400000000000000BB
-t1383204388
-s187
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/libPods.a
-t1383204389
-s3186512
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o
-t1383204389
-s3364
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods.LinkFileList
-c000000005272062400000000000000BC
-t1383204388
-s188
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a
-t1383204389
-s3185944
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a
-t2
-s0
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m
-c000000005268D91F0000000000000070
-t1382603039
-s112
-
-CBuild AST from /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies1b9df7a43d22b841^6e89f8a43d22b841^---0#1#1#--18"Check dependencies36"ECDD038E-9C98-4D9B-8FBB-F19C0C957227-
-
-CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s404897188.985691
-e404897189.114067
-r1
-xCompileC
-x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o
-x/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m277"CompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o Pods-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler2a72fca43d22b841^8e3b1da53d22b841^---0#0#1#-19%DVTDocumentLocation2@72"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m0000000000000000^4102"CompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o Pods-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Pods-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Pods-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Pods-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Pods-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/BuildProductsPath/Release-iphoneos/include -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods/Headers/FlatUIKit -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods/Headers/HPLTagCloudGenerator -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods/Headers/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/BuildProductsPath/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.d --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.dia -c /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphone36"756FA382-7D70-43B1-B001-635AF32E7987-
-b98B8EB15-847B-4EAF-AAD3-1E4126E1E34D
-
-CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s404897188.985686
-e404897189.114066
-r1
-xCompileC
-x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o
-x/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m279"CompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o Pods-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler6d72fca43d22b841^37341da53d22b841^---0#0#1#-19%DVTDocumentLocation2@72"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m0000000000000000^4109"CompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o Pods-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Pods-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Pods-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Pods-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Pods-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/BuildProductsPath/Release-iphoneos/include -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods/Headers/FlatUIKit -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods/Headers/HPLTagCloudGenerator -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods/Headers/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/DerivedSources/armv7s -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/BuildProductsPath/Release-iphoneos -DNS_BLOCK_ASSERTIONS=1 -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.d --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.dia -c /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-dummy.m -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneo36"B304EA70-4DDA-488B-9232-F13763784256-
-b98B8EB15-847B-4EAF-AAD3-1E4126E1E34D
-
-CCreateUniversalBinary /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a normal armv7\ armv7s
-s404897189.354606
-e404897189.716116
-r1
-xCreateUniversalBinary
-x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a
-xnormal
-xarmv7 armv7s
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection167"Create universal binary /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a186"CreateUniversalBinary /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a normal armv7\ armv7s6ad95aa53d22b841^f354b7a53d22b841^---0#0#1#-19%DVTDocumentLocation2@171"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/%E4%BC%B0%E8%82%A1/IntermediateBuildFilesPath/UninstalledProducts/libPods.a00383865dcffdf42^962"CreateUniversalBinary /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a normal armv7\ armv7s    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    libtool -static /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/libPods.a /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a36"33DF2FE0-EB92-4B84-A872-361DCA80AC59-
-b98B8EB15-847B-4EAF-AAD3-1E4126E1E34D
-
-CLibtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/libPods.a normal armv7
-s404897189.133103
-e404897189.345669
-r1
-xLibtool
-x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/libPods.a
-xnormal
-xarmv7
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection204"Libtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/libPods.a normal armv7204"Libtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/libPods.a normal armv7583722a53d22b841^e17e58a53d22b841^---0#0#1#--1351"Libtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/libPods.a normal armv7    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/BuildProductsPath/Release-iphoneos -filelist /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7/Pods.LinkFileList -framework Foundation -lPods-FlatUIKit -lPods-HPLTagCloudGenerator -lPods-KKProgressTimer -lPods-PonyDebugger -lPods-SocketRocket -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/36"6B0305E8-DDDD-4E98-8EAB-1868C4946629-
-b98B8EB15-847B-4EAF-AAD3-1E4126E1E34D
-
-CLibtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a normal armv7s
-s404897189.133133
-e404897189.343037
-r1
-xLibtool
-x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a
-xnormal
-xarmv7s
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection206"Libtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a normal armv7s206"Libtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a normal armv7sac3722a53d22b841^ccd157a53d22b841^---0#0#1#--1356"Libtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a normal armv7s    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/BuildProductsPath/Release-iphoneos -filelist /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/armv7s/Pods.LinkFileList -framework Foundation -lPods-FlatUIKit -lPods-HPLTagCloudGenerator -lPods-KKProgressTimer -lPods-PonyDebugger -lPods-SocketRocket -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Pods.build/Objects-normal/a36"C20D3FD9-07D5-4504-B0CB-16FBA2C476B4-
-b98B8EB15-847B-4EAF-AAD3-1E4126E1E34D
-
-CSetMode u+w,go-w,a+rX /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a
-s404897189.741454
-e404897189.747320
-r1
-xSetMode
-xu+w,go-w,a+rX
-x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection165"SetMode u+w,go-w,a+rX /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a165"SetMode u+w,go-w,a+rX /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a8ee5bda53d22b841^a852bfa53d22b841^---0#0#1#-19%DVTDocumentLocation2@171"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/%E4%BC%B0%E8%82%A1/IntermediateBuildFilesPath/UninstalledProducts/libPods.a0000000000000000^582"SetMode u+w,go-w,a+rX /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /bin/chmod -RH u+w,go-w,a+rX /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a36"E50BE240-B983-46E7-9063-71C539433CA3-
-b98B8EB15-847B-4EAF-AAD3-1E4126E1E34D
-
-CSetOwnerAndGroup xcode:staff /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a
-s404897189.724710
-e404897189.733065
-r1
-xSetOwnerAndGroup
-xxcode:staff
-x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection172"SetOwnerAndGroup xcode:staff /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a172"SetOwnerAndGroup xcode:staff /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a629eb9a53d22b841^8baabba53d22b841^---0#0#1#-19%DVTDocumentLocation2@171"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/%E4%BC%B0%E8%82%A1/IntermediateBuildFilesPath/UninstalledProducts/libPods.a0000000000000000^592"SetOwnerAndGroup xcode:staff /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/sbin/chown -RH xcode:staff /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a36"C8EE7060-B662-4311-B7AD-DE8581F8543B-
-b98B8EB15-847B-4EAF-AAD3-1E4126E1E34D
-
-CSymLink /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/BuildProductsPath/Release-iphoneos/libPods.a /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a
-s404897188.972263
-e404897188.977748
-r1
-xSymLink
-x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/BuildProductsPath/Release-iphoneos/libPods.a
-x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Process /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/BuildProductsPath/Release-iphoneos/libPods.a283"SymLink /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/BuildProductsPath/Release-iphoneos/libPods.a /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a51f4f8a43d22b841^384efaa43d22b841^---0#0#1#--815"SymLink /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/BuildProductsPath/Release-iphoneos/libPods.a /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /bin/ln -sf /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/IntermediateBuildFilesPath/UninstalledProducts/libPods.a /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/ArchiveIntermediates/估股/BuildProductsPath/Release-iphoneos/libPods.a36"1BB391C1-E86B-4DC6-912A-79E65409028B-
-b98B8EB15-847B-4EAF-AAD3-1E4126E1E34D
-

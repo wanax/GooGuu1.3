@@ -129,85 +129,7 @@
         [Utiles showToastView:self.view withTitle:nil andContent:@"请先登录" duration:1.5];
     }
 }
--(void)addShare:(UIButton *)bt{
-    id<ISSContainer> container = [ShareSDK container];
-    
-    [container setIPhoneContainerWithViewController:self];
-    
-    //TODO: 3.使用customShareList构造shareList，项目的顺序也会反映在菜单顺序之中
-    NSArray *shareList = [ShareSDK customShareListWithType:
-                          SHARE_TYPE_NUMBER(ShareTypeWeixiSession),
-                          SHARE_TYPE_NUMBER(ShareTypeSinaWeibo),
-                          nil];
-    
 
-    NSString *contentString = @"欢迎来到估股网";
-    NSString *titleString   = @"估股";
-    NSString *urlString     = [NSString stringWithFormat:@"http://www.googuu.net/pages/content/view/%@.htm",articleId];
-    NSString *description   = @"估股-致力于向您推荐最优秀的股票信息";
-    
-    NSString *imagePath = [[NSBundle mainBundle] pathForResource:@"icon" ofType:@"png"];
-    //构造分享内容
-    id<ISSContent> publishContent = [ShareSDK content:contentString
-                                       defaultContent:@""
-                                                image:[ShareSDK imageWithPath:imagePath]
-                                                title:titleString
-                                                  url:urlString
-                                          description:description
-                                            mediaType:SSPublishContentMediaTypeNews];
-    //定制微信好友信息
-    [publishContent addWeixinSessionUnitWithType:INHERIT_VALUE
-                                         content:INHERIT_VALUE
-                                           title:@"欢迎来到估股网"
-                                             url:INHERIT_VALUE
-                                           image:INHERIT_VALUE
-                                    musicFileUrl:nil
-                                         extInfo:nil
-                                        fileData:nil
-                                    emoticonData:nil];
-    
-    XYZAppDelegate *delegate=Delegate;
-    id<ISSAuthOptions> authOptions = [ShareSDK authOptionsWithAutoAuth:YES
-                                                         allowCallback:NO
-                                                         authViewStyle:SSAuthViewStyleFullScreenPopup
-                                                          viewDelegate:nil
-                                               authManagerViewDelegate:delegate.viewDelegate];
-    //在授权页面中添加关注官方微博
-    [authOptions setFollowAccounts:[NSDictionary dictionaryWithObjectsAndKeys:
-                                    [ShareSDK userFieldWithType:SSUserFieldTypeName value:@"ShareSDK"],
-                                    SHARE_TYPE_NUMBER(ShareTypeSinaWeibo),
-                                    [ShareSDK userFieldWithType:SSUserFieldTypeName value:@"ShareSDK"],
-                                    SHARE_TYPE_NUMBER(ShareTypeTencentWeibo),
-                                    nil]];
-    
-    id<ISSShareOptions> shareOptions = [ShareSDK defaultShareOptionsWithTitle:@"内容分享"
-                                                              oneKeyShareList:nil
-                                                               qqButtonHidden:YES
-                                                        wxSessionButtonHidden:YES
-                                                       wxTimelineButtonHidden:YES
-                                                         showKeyboardOnAppear:NO
-                                                            shareViewDelegate:nil
-                                                          friendsViewDelegate:nil
-                                                        picViewerViewDelegate:nil];
-    
-    //弹出分享菜单
-    [ShareSDK showShareActionSheet:container
-                         shareList:shareList
-                           content:publishContent
-                     statusBarTips:YES
-                       authOptions:authOptions
-                      shareOptions:shareOptions
-                            result:^(ShareType type, SSPublishContentState state, id<ISSStatusInfo> statusInfo, id<ICMErrorInfo> error, BOOL end) {
-                                if (state == SSPublishContentStateSuccess)
-                                {
-                                    NSLog(@"分享成功");
-                                }
-                                else if (state == SSPublishContentStateFail)
-                                {
-                                    NSLog(@"分享失败,错误码:%d,错误描述:%@", [error errorCode], [error errorDescription]);
-                                }
-                            }];
-}
 -(void)comeIntoComBtClicked:(UIButton *)sender{
     ComFieldViewController *com=[[ComFieldViewController alloc] init];
     com.browseType=SearchStockList;
@@ -244,7 +166,11 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor greenSeaColor];
-    self.parentViewController.title=@"公司简报";
+    if (self.sourceType==GooGuuView) {
+        self.parentViewController.title=@"估值观点";
+    } else {
+        self.parentViewController.title=@"公司简报";
+    }
     [[SDImageCache sharedImageCache] clearDisk];
     [[SDImageCache sharedImageCache] clearMemory];
     self.browser = [[CXPhotoBrowser alloc] initWithDataSource:self delegate:self];
@@ -403,6 +329,86 @@
     if(change.x<-FINGERCHANGEDISTANCE){
         [(MHTabBarController *)self.parentViewController setSelectedIndex:1 animated:YES];
     }
+}
+
+-(void)addShare:(UIButton *)bt{
+    id<ISSContainer> container = [ShareSDK container];
+    
+    [container setIPhoneContainerWithViewController:self];
+    
+    //TODO: 3.使用customShareList构造shareList，项目的顺序也会反映在菜单顺序之中
+    NSArray *shareList = [ShareSDK customShareListWithType:
+                          SHARE_TYPE_NUMBER(ShareTypeWeixiSession),
+                          SHARE_TYPE_NUMBER(ShareTypeSinaWeibo),
+                          nil];
+    
+    
+    NSString *contentString = @"欢迎来到估股网";
+    NSString *titleString   = @"估股";
+    NSString *urlString     = [NSString stringWithFormat:@"http://www.googuu.net/pages/content/view/%@.htm",articleId];
+    NSString *description   = @"估股-致力于向您推荐最优秀的股票信息";
+    
+    NSString *imagePath = [[NSBundle mainBundle] pathForResource:@"icon" ofType:@"png"];
+    //构造分享内容
+    id<ISSContent> publishContent = [ShareSDK content:contentString
+                                       defaultContent:@""
+                                                image:[ShareSDK imageWithPath:imagePath]
+                                                title:titleString
+                                                  url:urlString
+                                          description:description
+                                            mediaType:SSPublishContentMediaTypeNews];
+    //定制微信好友信息
+    [publishContent addWeixinSessionUnitWithType:INHERIT_VALUE
+                                         content:INHERIT_VALUE
+                                           title:@"欢迎来到估股网"
+                                             url:INHERIT_VALUE
+                                           image:INHERIT_VALUE
+                                    musicFileUrl:nil
+                                         extInfo:nil
+                                        fileData:nil
+                                    emoticonData:nil];
+    
+    XYZAppDelegate *delegate=Delegate;
+    id<ISSAuthOptions> authOptions = [ShareSDK authOptionsWithAutoAuth:YES
+                                                         allowCallback:NO
+                                                         authViewStyle:SSAuthViewStyleFullScreenPopup
+                                                          viewDelegate:nil
+                                               authManagerViewDelegate:delegate.viewDelegate];
+    //在授权页面中添加关注官方微博
+    [authOptions setFollowAccounts:[NSDictionary dictionaryWithObjectsAndKeys:
+                                    [ShareSDK userFieldWithType:SSUserFieldTypeName value:@"ShareSDK"],
+                                    SHARE_TYPE_NUMBER(ShareTypeSinaWeibo),
+                                    [ShareSDK userFieldWithType:SSUserFieldTypeName value:@"ShareSDK"],
+                                    SHARE_TYPE_NUMBER(ShareTypeTencentWeibo),
+                                    nil]];
+    
+    id<ISSShareOptions> shareOptions = [ShareSDK defaultShareOptionsWithTitle:@"内容分享"
+                                                              oneKeyShareList:nil
+                                                               qqButtonHidden:YES
+                                                        wxSessionButtonHidden:YES
+                                                       wxTimelineButtonHidden:YES
+                                                         showKeyboardOnAppear:NO
+                                                            shareViewDelegate:nil
+                                                          friendsViewDelegate:nil
+                                                        picViewerViewDelegate:nil];
+    
+    //弹出分享菜单
+    [ShareSDK showShareActionSheet:container
+                         shareList:shareList
+                           content:publishContent
+                     statusBarTips:YES
+                       authOptions:authOptions
+                      shareOptions:shareOptions
+                            result:^(ShareType type, SSPublishContentState state, id<ISSStatusInfo> statusInfo, id<ICMErrorInfo> error, BOOL end) {
+                                if (state == SSPublishContentStateSuccess)
+                                {
+                                    NSLog(@"分享成功");
+                                }
+                                else if (state == SSPublishContentStateFail)
+                                {
+                                    NSLog(@"分享失败,错误码:%d,错误描述:%@", [error errorCode], [error errorDescription]);
+                                }
+                            }];
 }
 
 - (void)didReceiveMemoryWarning

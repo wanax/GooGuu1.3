@@ -554,7 +554,7 @@
 }
 
 - (BOOL)shouldAutorotate{
-
+    NSLog(@"%s",__FUNCTION__);
     return [self.chartViewController shouldAutorotate];
 }
 

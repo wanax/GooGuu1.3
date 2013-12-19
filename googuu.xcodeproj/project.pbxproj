@@ -252,6 +252,7 @@
 		AE368F3E179F85B4000AF7BD /* AnalyDetailContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE368F3D179F85B3000AF7BD /* AnalyDetailContainerViewController.m */; };
 		AE3ADC5717CC8BDD0015445A /* monthChoosenBt.png in Resources */ = {isa = PBXBuildFile; fileRef = AE3ADC5517CC8BDD0015445A /* monthChoosenBt.png */; };
 		AE3ADC5817CC8BDD0015445A /* reflashBt.png in Resources */ = {isa = PBXBuildFile; fileRef = AE3ADC5617CC8BDD0015445A /* reflashBt.png */; };
+		AE420AB118233A5A00DDE7C8 /* libBaiduMobStat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE420AB018233A5A00DDE7C8 /* libBaiduMobStat.a */; };
 		AE431B47180B9EAF00D3C831 /* CounterBankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE431B46180B9EAF00D3C831 /* CounterBankViewController.m */; };
 		AE45CA0217CF5157004387A1 /* grayDotLine.png in Resources */ = {isa = PBXBuildFile; fileRef = AE45CA0117CF5157004387A1 /* grayDotLine.png */; };
 		AE49F013180FF13300C4B79D /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE49F012180FF13300C4B79D /* Entitlements.plist */; };
@@ -292,7 +293,7 @@
 		AE6B973C17A119C800DBE0C6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6B973B17A119C800DBE0C6 /* CoreLocation.framework */; };
 		AE6C5EAB17B223560080988E /* DiscountRateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6C5EAA17B223560080988E /* DiscountRateViewController.m */; };
 		AE6C5EAD17B23A7E0080988E /* DiscountRateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE6C5EAC17B23A7E0080988E /* DiscountRateView.xib */; };
-		AE739A9C1822391200CF82C5 /* libBaiduMobStat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE739A9B1822391200CF82C5 /* libBaiduMobStat.a */; };
+		AE739A9C1822391200CF82C5 /* libBaiduMobStat1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE739A9B1822391200CF82C5 /* libBaiduMobStat1.a */; };
 		AE739A9F18223D8300CF82C5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AE739A9D18223D8200CF82C5 /* icon.png */; };
 		AE739AA018223D8300CF82C5 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE739A9E18223D8200CF82C5 /* icon@2x.png */; };
 		AE75B91017A211B30046901F /* userconfigure.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE75B90F17A211B30046901F /* userconfigure.plist */; };
@@ -925,6 +926,7 @@
 		AE368F3D179F85B3000AF7BD /* AnalyDetailContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyDetailContainerViewController.m; sourceTree = "<group>"; };
 		AE3ADC5517CC8BDD0015445A /* monthChoosenBt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monthChoosenBt.png; sourceTree = "<group>"; };
 		AE3ADC5617CC8BDD0015445A /* reflashBt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reflashBt.png; sourceTree = "<group>"; };
+		AE420AB018233A5A00DDE7C8 /* libBaiduMobStat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBaiduMobStat.a; sourceTree = "<group>"; };
 		AE431B45180B9EAF00D3C831 /* CounterBankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterBankViewController.h; sourceTree = "<group>"; };
 		AE431B46180B9EAF00D3C831 /* CounterBankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterBankViewController.m; sourceTree = "<group>"; };
 		AE45CA0117CF5157004387A1 /* grayDotLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayDotLine.png; sourceTree = "<group>"; };
@@ -983,7 +985,7 @@
 		AE6C5EA917B223560080988E /* DiscountRateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscountRateViewController.h; sourceTree = "<group>"; };
 		AE6C5EAA17B223560080988E /* DiscountRateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscountRateViewController.m; sourceTree = "<group>"; };
 		AE6C5EAC17B23A7E0080988E /* DiscountRateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscountRateView.xib; sourceTree = "<group>"; };
-		AE739A9B1822391200CF82C5 /* libBaiduMobStat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBaiduMobStat.a; sourceTree = "<group>"; };
+		AE739A9B1822391200CF82C5 /* libBaiduMobStat1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBaiduMobStat1.a; sourceTree = "<group>"; };
 		AE739A9D18223D8200CF82C5 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		AE739A9E18223D8200CF82C5 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		AE75B90F17A211B30046901F /* userconfigure.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = userconfigure.plist; sourceTree = "<group>"; };
@@ -1498,7 +1500,7 @@
 				AE13BE3417D87188005A313B /* libz.1.2.5.dylib in Frameworks */,
 				AE2E92D8179D07B30049B28E /* libicucore.dylib in Frameworks */,
 				AE13BE3217D8717C005A313B /* CoreTelephony.framework in Frameworks */,
-				AE739A9C1822391200CF82C5 /* libBaiduMobStat.a in Frameworks */,
+				AE739A9C1822391200CF82C5 /* libBaiduMobStat1.a in Frameworks */,
 				AED837DF180F908B00DB0A52 /* Accelerate.framework in Frameworks */,
 				AEB399E0181770760081BD05 /* TumblrConnection.framework in Frameworks */,
 				AEB399E1181770760081BD05 /* TwitterConnection.framework in Frameworks */,
@@ -1532,6 +1534,7 @@
 				AEB399FA181770770081BD05 /* ShareSDKiPhoneAppRecommendShareViewUI.framework in Frameworks */,
 				AEB399D5181770760081BD05 /* PocketConnection.framework in Frameworks */,
 				AEB399CD181770760081BD05 /* FlickrConnection.framework in Frameworks */,
+				AE420AB118233A5A00DDE7C8 /* libBaiduMobStat.a in Frameworks */,
 				AEB399F0181770760081BD05 /* RennSDK.framework in Frameworks */,
 				AEB399D9181770760081BD05 /* RenRenConnection.framework in Frameworks */,
 				AEFF335318078691003C4D78 /* libBPush.a in Frameworks */,
@@ -1902,7 +1905,8 @@
 		AE2E91A0179D061A0049B28E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AE739A9B1822391200CF82C5 /* libBaiduMobStat.a */,
+				AE420AB018233A5A00DDE7C8 /* libBaiduMobStat.a */,
+				AE739A9B1822391200CF82C5 /* libBaiduMobStat1.a */,
 				AEB399FF181771210081BD05 /* libsqlite3.dylib */,
 				AED837DE180F908B00DB0A52 /* Accelerate.framework */,
 				AEEA3CDE180F87B700BEAC48 /* XCTest.framework */,
@@ -4065,8 +4069,8 @@
 					"-lBaiduMobStat",
 				);
 				PRODUCT_NAME = googuu;
-				PROVISIONING_PROFILE = "0F290EA8-F069-4FEE-88A8-13919D6DD5F8";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0F290EA8-F069-4FEE-88A8-13919D6DD5F8";
+				PROVISIONING_PROFILE = "FB42EDB1-880A-4446-B3EC-B2CDBFB48CE6";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FB42EDB1-880A-4446-B3EC-B2CDBFB48CE6";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -4116,8 +4120,8 @@
 					"-lBaiduMobStat",
 				);
 				PRODUCT_NAME = googuu;
-				PROVISIONING_PROFILE = "0F290EA8-F069-4FEE-88A8-13919D6DD5F8";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0F290EA8-F069-4FEE-88A8-13919D6DD5F8";
+				PROVISIONING_PROFILE = "FB42EDB1-880A-4446-B3EC-B2CDBFB48CE6";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FB42EDB1-880A-4446-B3EC-B2CDBFB48CE6";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

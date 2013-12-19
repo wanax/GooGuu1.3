@@ -1009,11 +1009,13 @@ static NSString * COLUMNAR_DATALINE_IDENTIFIER =@"columnar_dataline_identifier";
 }
 
 -(NSUInteger)supportedInterfaceOrientations{
+    NSLog(@"%s",__FUNCTION__);
     return UIInterfaceOrientationMaskLandscapeRight;
 }
 
 - (BOOL)shouldAutorotate
 {
+    NSLog(@"%s",__FUNCTION__);
     return YES;
 }
 

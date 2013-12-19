@@ -131,7 +131,7 @@
 
 
 -(NSUInteger)supportedInterfaceOrientations{
-    
+    NSLog(@"%s",__FUNCTION__);
     if([[self childViewControllers] count]>0){
         return [[self.childViewControllers objectAtIndex:0] supportedInterfaceOrientations];
     }else{
@@ -141,6 +141,7 @@
 
 - (BOOL)shouldAutorotate
 {
+    NSLog(@"%s",__FUNCTION__);
     if([[self childViewControllers] count]>0){
         return [[self.childViewControllers objectAtIndex:0] shouldAutorotate];
     }else{

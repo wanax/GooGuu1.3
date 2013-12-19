@@ -174,7 +174,7 @@ static NSString * const UserCellIdentifier = @"UserCellIdentifier";
     NSString *stockCode=[NSString stringWithFormat:@"%@",[delegate.comInfo objectForKey:@"stockcode"]];
 
     NSDictionary *params=[NSDictionary dictionaryWithObjectsAndKeys:stockCode,@"stockcode", nil];
-    [Utiles postNetInfoWithPath:@"CompanyArticleURL" andParams:params besidesBlock:^(id obj){
+    [Utiles postNetInfoWithPath:@"CompanyCommentURL" andParams:params besidesBlock:^(id obj){
         if([obj JSONString].length>5){
             self.commentList=obj;
             [_refreshHeaderView egoRefreshScrollViewDataSourceDidFinishedLoading:self.table];

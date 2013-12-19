@@ -5,6 +5,7 @@
 //  Created by Xcode on 13-10-10.
 //  Copyright (c) 2013年 Xcode. All rights reserved.
 //
+//  2013-10-15 | Wanax | 金融工具Beta系数选择二级页面，选择具体Beta系数返回首页
 
 #import <UIKit/UIKit.h>
 

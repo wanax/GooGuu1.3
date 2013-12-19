@@ -169,11 +169,7 @@ static NSString * BAR_IDENTIFIER =@"bar_identifier";
 -(void)selectIndustry:(UIButton *)sender forEvent:(UIEvent*)event{
     
     sender.showsTouchWhenHighlighted=YES;
-	CQMFloatingController *floatingController = [CQMFloatingController sharedFloatingController];
-    //floatingController.frameSize=CGSizeMake(280,280);
 
-    
-    floatingController.frameColor=[Utiles colorWithHexString:@"#e26b17"];
     if(sender.tag==FinancialRatio){
         [self presentViewController:modelRatioViewController animated:YES completion:nil];
     }else if(sender.tag==FinancialChart){

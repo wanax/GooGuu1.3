@@ -142,7 +142,7 @@
     
     NSString *arId=[[self.arrList lastObject] objectForKey:@"articleid"];
     NSDictionary *params=[NSDictionary dictionaryWithObjectsAndKeys:arId,@"articleid", nil];
-    [Utiles getNetInfoWithPath:@"NewesAnalysereportURL" andParams:params besidesBlock:^(id resObj){
+    [Utiles getNetInfoWithPath:@"GooGuuNewsURL" andParams:params besidesBlock:^(id resObj){
 
         NSMutableArray *exNews=[resObj objectForKey:@"data"];
         NSMutableArray *temp=[NSMutableArray arrayWithArray:self.arrList];
@@ -162,7 +162,7 @@
 //网络获取数据
 - (void)getGooGuuNews{
  
-    [Utiles getNetInfoWithPath:@"NewesAnalysereportURL" andParams:nil besidesBlock:^(id news){
+    [Utiles getNetInfoWithPath:@"GooGuuNewsURL" andParams:nil besidesBlock:^(id news){
         
         self.arrList=[news objectForKey:@"data"];
         [self.customTableView reloadData];
@@ -468,29 +468,7 @@
         [self presentViewController:com animated:YES completion:nil];
         [tableView deselectRowAtIndexPath:indexPath animated:YES];
     }else if(indexPath.section==1){
-        XYZAppDelegate *delegate=[[UIApplication sharedApplication] delegate];
-        delegate.comInfo=[self.arrList objectAtIndex:indexPath.row];
-        NSString *artId=[NSString stringWithFormat:@"%@",[[self.arrList objectAtIndex:indexPath.row] objectForKey:@"articleid"]];
-        GooGuuArticleViewController *articleViewController=[[GooGuuArticleViewController alloc] init];
-        articleViewController.articleTitle=[[arrList objectAtIndex:indexPath.row] objectForKey:@"title"];
-        articleViewController.articleId=artId;
-        articleViewController.title=@"研究报告";
-        ArticleCommentViewController *articleCommentViewController=[[ArticleCommentViewController alloc] init];
-        articleCommentViewController.articleId=artId;
-        articleCommentViewController.title=@"评论";
-        articleCommentViewController.type=News;
-        container=[[MHTabBarController alloc] init];
-        NSArray *controllers=[NSArray arrayWithObjects:articleViewController,articleCommentViewController, nil];
-        container.viewControllers=controllers;
         
-        [Utiles setConfigureInfoTo:@"readingmarks" forKey:[[self.arrList objectAtIndex:indexPath.row] objectForKey:@"title"] andContent:@"1"];
-        self.readingMarksDic=[Utiles getConfigureInfoFrom:@"readingmarks" andKey:nil inUserDomain:YES];
-        container.hidesBottomBarWhenPushed=YES;
-        [self.navigationController pushViewController:container animated:YES];
-        
-        [tableView deselectRowAtIndexPath:indexPath animated:YES];
-        SAFE_RELEASE(articleViewController);
-        SAFE_RELEASE(articleCommentViewController);
     }
     
 }

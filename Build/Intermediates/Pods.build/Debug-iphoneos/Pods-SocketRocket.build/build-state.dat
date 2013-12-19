@@ -1,650 +1,0 @@
-TPods-SocketRocket
-v6
-r1
-cCheck dependencies
-cProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-fmyqbwbxzsdiswfvsjniabldxyzu/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-ckfapoopfyayptciekuchguiisas/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-dwzklawbmewhilbilxunhkmvikts/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/NSData+SRB64Additions.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/NSData+SRB64Additions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/Pods-SocketRocket-dummy.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/SRWebSocket.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/SRWebSocket.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/base64.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/base64.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods-SocketRocket.a normal armv7
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
-c00000000521BCCE10000000000000110
-t1377553633
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
-c000000005244EEB6000000000000036B
-t1380249270
-s875
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
-c000000005244EEB7000000000000019E
-t1380249271
-s414
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-c000000005244EEB80000000000632E40
-t1380249272
-s6499904
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000005244EEBB0000000000A8EAD0
-t1380249275
-s11070160
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Security.framework/Security
-c000000005244EEBE000000000017D8E0
-t1380249278
-s1562848
-
-N/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/NSData+SRB64Additions.o
-t1381302019
-s6768
-
-N/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/Pods-SocketRocket-dummy.o
-t1381302018
-s3556
-
-N/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/Pods-SocketRocket.LinkFileList
-c000000005254FF0000000000000002CD
-t1381302016
-s717
-
-N/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/SRWebSocket.o
-t1381302019
-s196120
-
-N/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/base64.o
-t1381302019
-s5652
-
-N/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-efiwfzijjcjljwbkluoebgjevuyn/Pods-SocketRocket-prefix.pch.pch
-t1381302018
-s5274452
-
-N/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-enhfgwzwzfillubleaapbpimhgej/Pods-SocketRocket-prefix.pch.pch
-t1381302016
-s83668
-
-N/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-gztynrmeflnpzsfvejfsyomdifdb/Pods-SocketRocket-prefix.pch.pch
-t1381302018
-s5284480
-
-N/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos/libPods-SocketRocket.a
-t1381302019
-s215504
-
-N/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Pods-SocketRocket-dummy.m
-c000000005247D4BC000000000000008A
-t1380439228
-s138
-
-N/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Pods-SocketRocket-prefix.pch
-c000000005247D4BC000000000000004D
-t1380439228
-s77
-
-N/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Pods-environment.h
-c000000005247D4BC0000000000000279
-t1380439228
-s633
-
-N/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/NSData+SRB64Additions.h
-c000000005247D4B900000000000002DE
-t1380439225
-s734
-
-N/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/NSData+SRB64Additions.m
-c000000005247D4B90000000000000484
-t1380439225
-s1156
-
-N/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/SRWebSocket.h
-c000000005247D4B90000000000000D87
-t1380439225
-s3463
-
-N/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/SRWebSocket.m
-c000000005247D4BA000000000000DB62
-t1380439226
-s56162
-
-N/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/base64.c
-c000000005247D4B90000000000002BFB
-t1380439225
-s11259
-
-N/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/base64.h
-c000000005247D4B90000000000000392
-t1380439225
-s914
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/NSData+SRB64Additions.o
-t1382605791
-s6676
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/Pods-SocketRocket-dummy.o
-t1382605791
-s3464
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/Pods-SocketRocket.LinkFileList
-c00000000525F48950000000000000251
-t1381976213
-s593
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/SRWebSocket.o
-t1382605792
-s195996
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/base64.o
-t1382605792
-s5560
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-cghsixywkpjlazbipcxazrofwpof/Pods-SocketRocket-prefix.pch.pch
-t1381976220
-s83836
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-ckfapoopfyayptciekuchguiisas/Pods-SocketRocket-prefix.pch.pch
-t1382605791
-s5275188
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-dwzklawbmewhilbilxunhkmvikts/Pods-SocketRocket-prefix.pch.pch
-t1382605791
-s84324
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-ebpylpfempqeuwgvkbvubxuuelmu/Pods-SocketRocket-prefix.pch.pch
-t1381976220
-s5274676
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-fmyqbwbxzsdiswfvsjniabldxyzu/Pods-SocketRocket-prefix.pch.pch
-t1382605791
-s5285212
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-gypejzonjodblvgpknjqchdhzxcv/Pods-SocketRocket-prefix.pch.pch
-t1381976220
-s5284700
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods-SocketRocket.a
-t1382605792
-s215104
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-dummy.m
-c000000005268D91F000000000000008A
-t1382603039
-s138
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-prefix.pch
-c000000005268D91F000000000000004D
-t1382603039
-s77
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-environment.h
-c000000005268D91F0000000000000502
-t1382603039
-s1282
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/NSData+SRB64Additions.h
-c00000000525C34CE00000000000002DE
-t1381774542
-s734
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/NSData+SRB64Additions.m
-c00000000525C34CE0000000000000484
-t1381774542
-s1156
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/SRWebSocket.h
-c00000000525C34CE0000000000000D87
-t1381774542
-s3463
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/SRWebSocket.m
-c00000000525C34CE000000000000DB62
-t1381774542
-s56162
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/base64.c
-c00000000525C34CE0000000000002BFB
-t1381774542
-s11259
-
-N/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/base64.h
-c00000000525C34CE0000000000000392
-t1381774542
-s914
-
-CBuild AST from /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Pods-SocketRocket-dummy.m
-r0
-
-CBuild AST from /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/NSData+SRB64Additions.m
-r0
-
-CBuild AST from /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/SRWebSocket.m
-r0
-
-CBuild AST from /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/base64.c
-r0
-
-CBuild AST from /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-dummy.m
-r0
-
-CBuild AST from /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/NSData+SRB64Additions.m
-r0
-
-CBuild AST from /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/SRWebSocket.m
-r0
-
-CBuild AST from /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/base64.c
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies46d202ed3622b841^cfbddfed3622b841^---0#1#1#--18"Check dependencies36"1D7D77D6-922B-4B47-BD0F-9BB49BC64A89-
-
-CCompileC /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/NSData+SRB64Additions.o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/NSData+SRB64Additions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s402994818.146701
-e402994819.050905
-r1
-xCompileC
-x/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/NSData+SRB64Additions.o
-x/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/NSData+SRB64Additions.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/NSData+SRB64Additions.m
-d/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/NSData+SRB64Additions.h
-d/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/base64.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Compile /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/NSData+SRB64Additions.m312"CompileC /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/NSData+SRB64Additions.o SocketRocket/SocketRocket/NSData+SRB64Additions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler10b125823605b841^0b080d833605b841^---0#0#1#-19%DVTDocumentLocation2@140"file://localhost/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/NSData+SRB64Additions.m0000000000000000^4476"CompileC /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/NSData+SRB64Additions.o SocketRocket/SocketRocket/NSData+SRB64Additions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos/include -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/BuildHeaders -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/BuildHeaders/SocketRocket -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources/armv7 -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-gztynrmeflnpzsfvejfsyomdifdb/Pods-SocketRocket-prefix.pch -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/NSData+SRB64Additions.d --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/NSData+SRB64Additions.dia -c /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/NSData+SRB64Additions.m -o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/NSData+SRB64Additions.o36"6C5BB687-595E-4F8B-B07B-A3C326A213D5-
-b6BB4DE5A-21AF-4350-A01D-2E43EAAEBD21
-
-CCompileC /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/Pods-SocketRocket-dummy.o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Pods-SocketRocket-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s402994818.146700
-e402994818.993217
-r1
-xCompileC
-x/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/Pods-SocketRocket-dummy.o
-x/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Pods-SocketRocket-dummy.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Pods-SocketRocket-dummy.m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Pods-SocketRocket-dummy.m290"CompileC /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/Pods-SocketRocket-dummy.o Pods-SocketRocket-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler4ab325823605b841^fe43fe823605b841^---0#0#1#-19%DVTDocumentLocation2@116"file://localhost/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Pods-SocketRocket-dummy.m0000000000000000^4402"CompileC /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/Pods-SocketRocket-dummy.o Pods-SocketRocket-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos/include -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/BuildHeaders -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/BuildHeaders/SocketRocket -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources/armv7 -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos -include /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-efiwfzijjcjljwbkluoebgjevuyn/Pods-SocketRocket-prefix.pch -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/Pods-SocketRocket-dummy.d --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/Pods-SocketRocket-dummy.dia -c /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Pods-SocketRocket-dummy.m -o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/Pods-SocketRocket-dummy.o36"6764AD82-E37B-4C1F-BB27-6EF0A20852A3-
-b6BB4DE5A-21AF-4350-A01D-2E43EAAEBD21
-
-CCompileC /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/SRWebSocket.o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/SRWebSocket.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s402994818.146704
-e402994819.159237
-r1
-xCompileC
-x/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/SRWebSocket.o
-x/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/SRWebSocket.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/SRWebSocket.m
-d/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/SRWebSocket.h
-d/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/base64.h
-d/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/NSData+SRB64Additions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/SRWebSocket.m292"CompileC /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/SRWebSocket.o SocketRocket/SocketRocket/SRWebSocket.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilereeb025823605b841^05c428833605b841^---0#0#1#-19%DVTDocumentLocation2@130"file://localhost/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/SRWebSocket.m0000000000000000^4416"CompileC /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/SRWebSocket.o SocketRocket/SocketRocket/SRWebSocket.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos/include -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/BuildHeaders -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/BuildHeaders/SocketRocket -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources/armv7 -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-gztynrmeflnpzsfvejfsyomdifdb/Pods-SocketRocket-prefix.pch -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/SRWebSocket.d --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/SRWebSocket.dia -c /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/SRWebSocket.m -o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/SRWebSocket.o36"A9B84E82-494B-4476-A09F-8B4741C75CE2-
-b6BB4DE5A-21AF-4350-A01D-2E43EAAEBD21
-
-CCompileC /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/base64.o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/base64.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
-s402994818.146918
-e402994819.057603
-r1
-xCompileC
-x/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/base64.o
-x/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/base64.c
-xnormal
-xarmv7
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/base64.c
-d/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/base64.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compile /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/base64.c272"CompileC /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/base64.o SocketRocket/SocketRocket/base64.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler63b925823605b841^66bf0e833605b841^---0#0#1#-19%DVTDocumentLocation2@125"file://localhost/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/base64.c0000000000000000^4173"CompileC /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/base64.o SocketRocket/SocketRocket/base64.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos/include -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/BuildHeaders -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/BuildHeaders/SocketRocket -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources/armv7 -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-enhfgwzwzfillubleaapbpimhgej/Pods-SocketRocket-prefix.pch -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/base64.d --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/base64.dia -c /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/base64.c -o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/base64.o36"4698C27E-99A3-4974-989B-DF82131A2A86-
-b6BB4DE5A-21AF-4350-A01D-2E43EAAEBD21
-
-CCompileC /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7s/NSData+SRB64Additions.o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/NSData+SRB64Additions.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7s/Pods-SocketRocket-dummy.o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Pods-SocketRocket-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7s/SRWebSocket.o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/SRWebSocket.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7s/base64.o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/SocketRocket/SocketRocket/base64.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/NSData+SRB64Additions.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/NSData+SRB64Additions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s404298591.827996
-e404298591.879680
-r1
-xCompileC
-x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/NSData+SRB64Additions.o
-x/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/NSData+SRB64Additions.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/NSData+SRB64Additions.m
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/NSData+SRB64Additions.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/base64.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/NSData+SRB64Additions.m281"CompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/NSData+SRB64Additions.o SocketRocket/SocketRocket/NSData+SRB64Additions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler8124d45f1b19b841^0150e15f1b19b841^---0#0#1#-19%DVTDocumentLocation2@109"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/NSData+SRB64Additions.m0000000000000000^4065"CompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/NSData+SRB64Additions.o SocketRocket/SocketRocket/NSData+SRB64Additions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/include -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/FlatUIKit -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/HPLTagCloudGenerator -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources/armv7 -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-fmyqbwbxzsdiswfvsjniabldxyzu/Pods-SocketRocket-prefix.pch -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/NSData+SRB64Additions.d --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/NSData+SRB64Additions.dia -c /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/NSData+SRB64Additions.m -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/NSData+SRB64Additions.o36"08048DDE-5375-4151-97E2-42CC37ECE9AD-
-b3C44D9C5-ACD0-41FD-8EF6-3E01282BC80B
-
-CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/Pods-SocketRocket-dummy.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s404298591.882272
-e404298591.932147
-r1
-xCompileC
-x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/Pods-SocketRocket-dummy.o
-x/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-dummy.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-dummy.m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-dummy.m259"CompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/Pods-SocketRocket-dummy.o Pods-SocketRocket-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler0804e25f1b19b841^9eb6ee5f1b19b841^---0#0#1#-19%DVTDocumentLocation2@85"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-dummy.m0000000000000000^3991"CompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/Pods-SocketRocket-dummy.o Pods-SocketRocket-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/include -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/FlatUIKit -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/HPLTagCloudGenerator -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources/armv7 -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos -include /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-ckfapoopfyayptciekuchguiisas/Pods-SocketRocket-prefix.pch -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/Pods-SocketRocket-dummy.d --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/Pods-SocketRocket-dummy.dia -c /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-dummy.m -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/Pods-SocketRocket-dummy.o36"1BF8D545-58F0-43E0-9304-E153EE741B19-
-b3C44D9C5-ACD0-41FD-8EF6-3E01282BC80B
-
-CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/SRWebSocket.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/SRWebSocket.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s404298591.959476
-e404298592.499450
-r1
-xCompileC
-x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/SRWebSocket.o
-x/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/SRWebSocket.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/SRWebSocket.m
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/SRWebSocket.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/base64.h
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/NSData+SRB64Additions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/SRWebSocket.m261"CompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/SRWebSocket.o SocketRocket/SocketRocket/SRWebSocket.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler09c6f55f1b19b841^27dc7f601b19b841^---0#0#1#-19%DVTDocumentLocation2@99"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/SRWebSocket.m0000000000000000^4005"CompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/SRWebSocket.o SocketRocket/SocketRocket/SRWebSocket.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/include -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/FlatUIKit -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/HPLTagCloudGenerator -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources/armv7 -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-fmyqbwbxzsdiswfvsjniabldxyzu/Pods-SocketRocket-prefix.pch -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/SRWebSocket.d --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/SRWebSocket.dia -c /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/SRWebSocket.m -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/SRWebSocket.o36"0BBFC35C-BD28-4EB9-A719-B7942EBC70E8-
-b3C44D9C5-ACD0-41FD-8EF6-3E01282BC80B
-
-CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/base64.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/base64.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
-s404298591.969754
-e404298592.249485
-r1
-xCompileC
-x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/base64.o
-x/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/base64.c
-xnormal
-xarmv7
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/base64.c
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/base64.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/base64.c241"CompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/base64.o SocketRocket/SocketRocket/base64.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler4568f85f1b19b841^40de3f601b19b841^---0#0#1#-19%DVTDocumentLocation2@94"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/base64.c0000000000000000^3762"CompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/base64.o SocketRocket/SocketRocket/base64.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/include -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/FlatUIKit -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/HPLTagCloudGenerator -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources/armv7 -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-dwzklawbmewhilbilxunhkmvikts/Pods-SocketRocket-prefix.pch -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/base64.d --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/base64.dia -c /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/base64.c -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/base64.o36"6E01C722-5C0D-46CE-B05E-6A2AD523E1AF-
-b3C44D9C5-ACD0-41FD-8EF6-3E01282BC80B
-
-CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7s/NSData+SRB64Additions.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/NSData+SRB64Additions.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7s/Pods-SocketRocket-dummy.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7s/SRWebSocket.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/SRWebSocket.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7s/base64.o /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/SocketRocket/SocketRocket/base64.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCreateUniversalBinary /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos/libPods-SocketRocket.a normal armv7\ armv7s
-r0
-
-CCreateUniversalBinary /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods-SocketRocket.a normal armv7\ armv7s
-r0
-
-CLibtool /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/libPods-SocketRocket.a normal armv7
-r0
-
-CLibtool /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7s/libPods-SocketRocket.a normal armv7s
-r0
-
-CLibtool /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos/libPods-SocketRocket.a normal armv7
-s402994819.168046
-e402994819.200621
-r1
-xLibtool
-x/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos/libPods-SocketRocket.a
-xnormal
-xarmv7
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection143"Libtool /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos/libPods-SocketRocket.a normal armv7143"Libtool /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos/libPods-SocketRocket.a normal armv744182b833605b841^c05c33833605b841^---0#0#1#--1187"Libtool /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos/libPods-SocketRocket.a normal armv7    cd /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos -filelist /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/Pods-SocketRocket.LinkFileList -framework CFNetwork -framework Foundation -framework Security -o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos/libPods-SocketRocket.a36"7B8469ED-3DA7-4D17-BD22-6D65CF5E26A7-
-b6BB4DE5A-21AF-4350-A01D-2E43EAAEBD21
-
-CLibtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/libPods-SocketRocket.a normal armv7
-r0
-
-CLibtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7s/libPods-SocketRocket.a normal armv7s
-r0
-
-CLibtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods-SocketRocket.a normal armv7
-s404298592.560022
-e404298592.571514
-r1
-xLibtool
-x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods-SocketRocket.a
-xnormal
-xarmv7
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Libtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods-SocketRocket.a normal armv7112"Libtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods-SocketRocket.a normal armv71c7a8f601b19b841^554f92601b19b841^---0#0#1#--1032"Libtool /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods-SocketRocket.a normal armv7    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos -filelist /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Objects-normal/armv7/Pods-SocketRocket.LinkFileList -framework CFNetwork -framework Foundation -framework Security -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/libPods-SocketRocket.a36"14BEBC2C-939D-4D82-988D-58F3E996D48B-
-b3C44D9C5-ACD0-41FD-8EF6-3E01282BC80B
-
-CProcessPCH /Users/xcode/Library/Developer/Xcode/DerivedData/googuu-amitkvaqxcylyoamxyheiolpbhrg/Index/PrecompiledHeaders/Pods-SocketRocket-prefix-aovbvtrlzwrmoxbfimpiutvgmpht_ast/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/xcode/Library/Developer/Xcode/DerivedData/googuu-amitkvaqxcylyoamxyheiolpbhrg/Index/PrecompiledHeaders/Pods-SocketRocket-prefix-bahqoovbmknitcfhvtmjmjzigsuq_ast/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/xcode/Library/Developer/Xcode/DerivedData/googuu-amitkvaqxcylyoamxyheiolpbhrg/Index/PrecompiledHeaders/Pods-SocketRocket-prefix-bgvuexazprqfseemjefgacheefho_ast/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/xcode/Library/Developer/Xcode/DerivedData/googuu-amitkvaqxcylyoamxyheiolpbhrg/Index/PrecompiledHeaders/Pods-SocketRocket-prefix-bnlyflujkprnbahdrmcrnscewhrz_ast/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/xcode/Library/Developer/Xcode/DerivedData/googuu-amitkvaqxcylyoamxyheiolpbhrg/Index/PrecompiledHeaders/Pods-SocketRocket-prefix-buevsaxbvrjseefcxvgxutrxnntq_ast/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/xcode/Library/Developer/Xcode/DerivedData/googuu-amitkvaqxcylyoamxyheiolpbhrg/Index/PrecompiledHeaders/Pods-SocketRocket-prefix-cwgahenxoqmsjqertxyjcmnonxqt_ast/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/xcode/Library/Developer/Xcode/DerivedData/googuu-amitkvaqxcylyoamxyheiolpbhrg/Index/PrecompiledHeaders/Pods-SocketRocket-prefix-frdvkbhhyaycsubxhcyxtwgipmqr_ast/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/xcode/Library/Developer/Xcode/DerivedData/googuu-amitkvaqxcylyoamxyheiolpbhrg/Index/PrecompiledHeaders/Pods-SocketRocket-prefix-goboctwhlvxaimdwbjifbzbsdhgf_ast/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/xcode/Library/Developer/Xcode/DerivedData/googuu-amitkvaqxcylyoamxyheiolpbhrg/Index/PrecompiledHeaders/Pods-SocketRocket-prefix-hkovxsydrsmrcchcvjfvblfblcak_ast/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7s c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/xcode/Library/Developer/Xcode/DerivedData/googuu-ezzgadksouqzyqbbvnfinsettayv/Index/PrecompiledHeaders/Pods-SocketRocket-prefix-bvogecyhvxqedtaedmnevltemgwx_ast/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/xcode/Library/Developer/Xcode/DerivedData/googuu-ezzgadksouqzyqbbvnfinsettayv/Index/PrecompiledHeaders/Pods-SocketRocket-prefix-clxvyzdceuwmvdcrwjbixfhyvaqv_ast/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/xcode/Library/Developer/Xcode/DerivedData/googuu-ezzgadksouqzyqbbvnfinsettayv/Index/PrecompiledHeaders/Pods-SocketRocket-prefix-cmpsyowhccpbapallxqfnbhcdnty_ast/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/xcode/Library/Developer/Xcode/DerivedData/googuu-ezzgadksouqzyqbbvnfinsettayv/Index/PrecompiledHeaders/Pods-SocketRocket-prefix-efeplwpejzjtwgcwnjugqiakvheq_ast/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7s c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/xcode/Library/Developer/Xcode/DerivedData/googuu-ezzgadksouqzyqbbvnfinsettayv/Index/PrecompiledHeaders/Pods-SocketRocket-prefix-epqjfomnztrybtbupcauvlwuedds_ast/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/xcode/Library/Developer/Xcode/DerivedData/googuu-ezzgadksouqzyqbbvnfinsettayv/Index/PrecompiledHeaders/Pods-SocketRocket-prefix-fcreelrmiyariyhcvrrnxwlgkpld_ast/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-bivegmqoydwlzpcqxvfbtgdetshy/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CProcessPCH /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-cmffqkjsfhlwumghvypibzefkvfz/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CProcessPCH /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-efiwfzijjcjljwbkluoebgjevuyn/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s402994816.358977
-e402994818.137937
-r1
-xProcessPCH
-x/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-efiwfzijjcjljwbkluoebgjevuyn/Pods-SocketRocket-prefix.pch.pch
-xPods-SocketRocket-prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Pods-SocketRocket-prefix.pch
-d/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Pods-environment.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Pods-SocketRocket-prefix.pch304"ProcessPCH /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-efiwfzijjcjljwbkluoebgjevuyn/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilera35c62803605b841^c55723823605b841^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Pods-SocketRocket-prefix.pch0000000000000000^4248"ProcessPCH /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-efiwfzijjcjljwbkluoebgjevuyn/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos/include -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/BuildHeaders -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/BuildHeaders/SocketRocket -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources/armv7 -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-efiwfzijjcjljwbkluoebgjevuyn/Pods-SocketRocket-prefix.pch.dia -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-efiwfzijjcjljwbkluoebgjevuyn/Pods-SocketRocket-prefix.pch.d -c /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Pods-SocketRocket-prefix.pch -o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-efiwfzijjcjljwbkluoebgjevuyn/Pods-SocketRocket-prefix.pch.pch36"E42BF994-D1FB-4578-B8BE-B775EDA78786-
-b6BB4DE5A-21AF-4350-A01D-2E43EAAEBD21
-
-CProcessPCH /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-enhfgwzwzfillubleaapbpimhgej/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
-s402994816.360413
-e402994816.841685
-r1
-xProcessPCH
-x/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-enhfgwzwzfillubleaapbpimhgej/Pods-SocketRocket-prefix.pch.pch
-xPods-SocketRocket-prefix.pch
-xnormal
-xarmv7
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Pods-SocketRocket-prefix.pch
-d/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Pods-environment.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Pods-SocketRocket-prefix.pch294"ProcessPCH /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-enhfgwzwzfillubleaapbpimhgej/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler685e62803605b841^0000d8803605b841^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Pods-SocketRocket-prefix.pch0000000000000000^4069"ProcessPCH /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-enhfgwzwzfillubleaapbpimhgej/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos/include -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/BuildHeaders -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/BuildHeaders/SocketRocket -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources/armv7 -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-enhfgwzwzfillubleaapbpimhgej/Pods-SocketRocket-prefix.pch.dia -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-enhfgwzwzfillubleaapbpimhgej/Pods-SocketRocket-prefix.pch.d -c /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Pods-SocketRocket-prefix.pch -o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-enhfgwzwzfillubleaapbpimhgej/Pods-SocketRocket-prefix.pch.pch36"67EA1DA2-4A00-43DA-A673-345260D60C39-
-b6BB4DE5A-21AF-4350-A01D-2E43EAAEBD21
-
-CProcessPCH /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-gcvrgjaztpqxkphfdogswzcyrxhw/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CProcessPCH /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-gztynrmeflnpzsfvejfsyomdifdb/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s402994816.357491
-e402994818.137867
-r1
-xProcessPCH
-x/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-gztynrmeflnpzsfvejfsyomdifdb/Pods-SocketRocket-prefix.pch.pch
-xPods-SocketRocket-prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Pods-SocketRocket-prefix.pch
-d/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Pods-environment.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Pods-SocketRocket-prefix.pch304"ProcessPCH /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-gztynrmeflnpzsfvejfsyomdifdb/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerf65c62803605b841^d74b23823605b841^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Pods-SocketRocket-prefix.pch0000000000000000^4282"ProcessPCH /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-gztynrmeflnpzsfvejfsyomdifdb/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos/include -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/BuildHeaders -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/BuildHeaders/SocketRocket -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources/armv7 -I/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-gztynrmeflnpzsfvejfsyomdifdb/Pods-SocketRocket-prefix.pch.dia -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-gztynrmeflnpzsfvejfsyomdifdb/Pods-SocketRocket-prefix.pch.d -c /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Pods/Pods-SocketRocket-prefix.pch -o /Users/xcode/wanax/oc/GooGuu-f5fb0263a822938a0d6a4aa39e2d5d738805387c/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-gztynrmeflnpzsfvejfsyomdifdb/Pods-SocketRocket-prefix.pch.pch36"0A584D84-E4B8-439D-93E4-6D6572B706A7-
-b6BB4DE5A-21AF-4350-A01D-2E43EAAEBD21
-
-CProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-cghsixywkpjlazbipcxazrofwpof/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
-s403669020.419922
-e403669020.495298
-r1
-xProcessPCH
-x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-cghsixywkpjlazbipcxazrofwpof/Pods-SocketRocket-prefix.pch.pch
-xPods-SocketRocket-prefix.pch
-xnormal
-xarmv7
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-prefix.pch
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-environment.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Pods-SocketRocket-prefix.pch263"ProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-cghsixywkpjlazbipcxazrofwpof/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler0b996b1c800fb841^92cc7e1c800fb841^---0#0#1#-19%DVTDocumentLocation2@88"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-prefix.pch0000000000000000^3625"ProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-cghsixywkpjlazbipcxazrofwpof/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/include -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/HPLTagCloudGenerator -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources/armv7 -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-cghsixywkpjlazbipcxazrofwpof/Pods-SocketRocket-prefix.pch.dia -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-cghsixywkpjlazbipcxazrofwpof/Pods-SocketRocket-prefix.pch.d -c /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-prefix.pch -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-cghsixywkpjlazbipcxazrofwpof/Pods-SocketRocket-prefix.pch.pch36"FB9FE13C-6719-45CB-BB4D-6F9FE08BBA06-
-b8A232D8D-3B2A-4904-8B1C-192E7C349580
-
-CProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-ckfapoopfyayptciekuchguiisas/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s404298590.722161
-e404298591.310303
-r1
-xProcessPCH
-x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-ckfapoopfyayptciekuchguiisas/Pods-SocketRocket-prefix.pch.pch
-xPods-SocketRocket-prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-prefix.pch
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-environment.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Pods-SocketRocket-prefix.pch273"ProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-ckfapoopfyayptciekuchguiisas/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler9300b95e1b19b841^9b704f5f1b19b841^---0#0#1#-19%DVTDocumentLocation2@88"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-prefix.pch0000000000000000^3868"ProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-ckfapoopfyayptciekuchguiisas/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/include -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/FlatUIKit -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/HPLTagCloudGenerator -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources/armv7 -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-ckfapoopfyayptciekuchguiisas/Pods-SocketRocket-prefix.pch.dia -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-ckfapoopfyayptciekuchguiisas/Pods-SocketRocket-prefix.pch.d -c /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-prefix.pch -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-ckfapoopfyayptciekuchguiisas/Pods-SocketRocket-prefix.pch.pch36"3E5554F9-892C-42C7-9D0F-1C9CFDA33FC1-
-b3C44D9C5-ACD0-41FD-8EF6-3E01282BC80B
-
-CProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-dwzklawbmewhilbilxunhkmvikts/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
-s404298591.537977
-e404298591.661235
-r1
-xProcessPCH
-x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-dwzklawbmewhilbilxunhkmvikts/Pods-SocketRocket-prefix.pch.pch
-xPods-SocketRocket-prefix.pch
-xnormal
-xarmv7
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-prefix.pch
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-environment.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Pods-SocketRocket-prefix.pch263"ProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-dwzklawbmewhilbilxunhkmvikts/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler0edc895f1b19b841^dc63a95f1b19b841^---0#0#1#-19%DVTDocumentLocation2@88"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-prefix.pch0000000000000000^3689"ProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-dwzklawbmewhilbilxunhkmvikts/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/include -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/FlatUIKit -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/HPLTagCloudGenerator -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources/armv7 -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-dwzklawbmewhilbilxunhkmvikts/Pods-SocketRocket-prefix.pch.dia -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-dwzklawbmewhilbilxunhkmvikts/Pods-SocketRocket-prefix.pch.d -c /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-prefix.pch -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-dwzklawbmewhilbilxunhkmvikts/Pods-SocketRocket-prefix.pch.pch36"96D98435-8F7C-4C5C-979D-948C8416B0BC-
-b3C44D9C5-ACD0-41FD-8EF6-3E01282BC80B
-
-CProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-ebpylpfempqeuwgvkbvubxuuelmu/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s403669020.418585
-e403669021.078680
-r1
-xProcessPCH
-x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-ebpylpfempqeuwgvkbvubxuuelmu/Pods-SocketRocket-prefix.pch.pch
-xPods-SocketRocket-prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-prefix.pch
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-environment.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Pods-SocketRocket-prefix.pch273"ProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-ebpylpfempqeuwgvkbvubxuuelmu/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler78466b1c800fb841^b727141d800fb841^---0#0#1#-19%DVTDocumentLocation2@88"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-prefix.pch0000000000000000^3804"ProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-ebpylpfempqeuwgvkbvubxuuelmu/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/include -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/HPLTagCloudGenerator -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources/armv7 -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-ebpylpfempqeuwgvkbvubxuuelmu/Pods-SocketRocket-prefix.pch.dia -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-ebpylpfempqeuwgvkbvubxuuelmu/Pods-SocketRocket-prefix.pch.d -c /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-prefix.pch -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-ebpylpfempqeuwgvkbvubxuuelmu/Pods-SocketRocket-prefix.pch.pch36"AD151965-9E30-4C04-BCE0-CAFC8308E7C2-
-b8A232D8D-3B2A-4904-8B1C-192E7C349580
-
-CProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-emvrnqxagwivrufrxygoawsjaqsf/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-fjkmgznerlysuvdokxozipuakdew/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-fmyqbwbxzsdiswfvsjniabldxyzu/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s404298590.579003
-e404298591.660750
-r1
-xProcessPCH
-x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-fmyqbwbxzsdiswfvsjniabldxyzu/Pods-SocketRocket-prefix.pch.pch
-xPods-SocketRocket-prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-prefix.pch
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-environment.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Pods-SocketRocket-prefix.pch273"ProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-fmyqbwbxzsdiswfvsjniabldxyzu/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler0360945e1b19b841^b726a95f1b19b841^---0#0#1#-19%DVTDocumentLocation2@88"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-prefix.pch0000000000000000^3902"ProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-fmyqbwbxzsdiswfvsjniabldxyzu/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/include -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/FlatUIKit -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/HPLTagCloudGenerator -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources/armv7 -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-fmyqbwbxzsdiswfvsjniabldxyzu/Pods-SocketRocket-prefix.pch.dia -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-fmyqbwbxzsdiswfvsjniabldxyzu/Pods-SocketRocket-prefix.pch.d -c /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-prefix.pch -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-fmyqbwbxzsdiswfvsjniabldxyzu/Pods-SocketRocket-prefix.pch.pch36"3AA0051B-8B71-4B0F-98A2-50AAD5C49F89-
-b3C44D9C5-ACD0-41FD-8EF6-3E01282BC80B
-
-CProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-girpqjbyicplkecdvjevhdilkrmi/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-gypejzonjodblvgpknjqchdhzxcv/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s403669019.411411
-e403669020.416991
-r1
-xProcessPCH
-x/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-gypejzonjodblvgpknjqchdhzxcv/Pods-SocketRocket-prefix.pch.pch
-xPods-SocketRocket-prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-prefix.pch
-d/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-environment.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Pods-SocketRocket-prefix.pch273"ProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-gypejzonjodblvgpknjqchdhzxcv/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler4a7d691b800fb841^c9cb6a1c800fb841^---0#0#1#-19%DVTDocumentLocation2@88"file://localhost/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-prefix.pch0000000000000000^3838"ProcessPCH /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-gypejzonjodblvgpknjqchdhzxcv/Pods-SocketRocket-prefix.pch.pch Pods-SocketRocket-prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xcode/wanax/oc/GooGuu1.2-master/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-generated-files.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-own-target-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-all-target-headers.hmap -iquote /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/Pods-SocketRocket-project-headers.hmap -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos/include -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/BuildHeaders/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/HPLTagCloudGenerator -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/KKProgressTimer -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/PonyDebugger -I/Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Headers/SocketRocket -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources/armv7 -I/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-SocketRocket.build/DerivedSources -F/Users/xcode/wanax/oc/GooGuu1.2-master/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 --serialize-diagnostics /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-gypejzonjodblvgpknjqchdhzxcv/Pods-SocketRocket-prefix.pch.dia -MMD -MT dependencies -MF /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-gypejzonjodblvgpknjqchdhzxcv/Pods-SocketRocket-prefix.pch.d -c /Users/xcode/wanax/oc/GooGuu1.2-master/Pods/Pods-SocketRocket-prefix.pch -o /Users/xcode/wanax/oc/GooGuu1.2-master/Build/Intermediates/PrecompiledHeaders/Pods-SocketRocket-prefix-gypejzonjodblvgpknjqchdhzxcv/Pods-SocketRocket-prefix.pch.pch36"3836BDC0-9290-4BE4-9ED5-EC64677715B9-
-b8A232D8D-3B2A-4904-8B1C-192E7C349580
-

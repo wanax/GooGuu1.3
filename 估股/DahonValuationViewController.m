@@ -103,6 +103,7 @@ static NSString * HISTORY_DATALINE_IDENTIFIER =@"history_dataline_identifier";
 }
 
 -(void)initDahonViewComponents{
+    NSLog(@"%s",__FUNCTION__);
     DrawChartTool *tool=[[DrawChartTool alloc] init];
     tool.standIn=self;
     UIImageView *topBar=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"dragChartBar"]];
@@ -676,13 +677,13 @@ static NSString * HISTORY_DATALINE_IDENTIFIER =@"history_dataline_identifier";
     }
 }
 -(NSUInteger)supportedInterfaceOrientations{
-    
+    NSLog(@"%s",__FUNCTION__);
     return UIInterfaceOrientationMaskLandscapeRight;
 }
 
 - (BOOL)shouldAutorotate
 {
-    
+    NSLog(@"%s",__FUNCTION__);
     return YES;
 }
 

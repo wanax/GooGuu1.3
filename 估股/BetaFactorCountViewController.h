@@ -5,6 +5,7 @@
 //  Created by Xcode on 13-10-10.
 //  Copyright (c) 2013年 Xcode. All rights reserved.
 //
+//  2013-10-15 | Wanax | 金融工具 Beta 系数选择一级页面，对行业进行选择
 
 #import <UIKit/UIKit.h>
 #import "ChoseBetaFactorViewController.h"
